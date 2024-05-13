@@ -1,0 +1,404 @@
+{
+  "stagePackages": [
+    {
+      "StageIndex": 1,
+      "DiaValue": 300,
+      "GoldValue": 10000,
+      "RandomScrollValue": 10,
+      "GoldKeyValue": 3,
+      "ProductCostValue": 2800
+    },
+    {
+      "StageIndex": 2,
+      "DiaValue": 400,
+      "GoldValue": 20000,
+      "RandomScrollValue": 15,
+      "GoldKeyValue": 4,
+      "ProductCostValue": 4100
+    },
+    {
+      "StageIndex": 3,
+      "DiaValue": 400,
+      "GoldValue": 30000,
+      "RandomScrollValue": 25,
+      "GoldKeyValue": 4,
+      "ProductCostValue": 3800
+    },
+    {
+      "StageIndex": 4,
+      "DiaValue": 500,
+      "GoldValue": 60000,
+      "RandomScrollValue": 50,
+      "GoldKeyValue": 6,
+      "ProductCostValue": 6500
+    },
+    {
+      "StageIndex": 5,
+      "DiaValue": 500,
+      "GoldValue": 70000,
+      "RandomScrollValue": 60,
+      "GoldKeyValue": 6,
+      "ProductCostValue": 6500
+    },
+    {
+      "StageIndex": 6,
+      "DiaValue": 720,
+      "GoldValue": 90000,
+      "RandomScrollValue": 70,
+      "GoldKeyValue": 8,
+      "ProductCostValue": 9000
+    },
+    {
+      "StageIndex": 7,
+      "DiaValue": 720,
+      "GoldValue": 100000,
+      "RandomScrollValue": 80,
+      "GoldKeyValue": 8,
+      "ProductCostValue": 9000
+    },
+    {
+      "StageIndex": 8,
+      "DiaValue": 960,
+      "GoldValue": 140000,
+      "RandomScrollValue": 100,
+      "GoldKeyValue": 10,
+      "ProductCostValue": 13000
+    },
+    {
+      "StageIndex": 9,
+      "DiaValue": 960,
+      "GoldValue": 150000,
+      "RandomScrollValue": 110,
+      "GoldKeyValue": 10,
+      "ProductCostValue": 13000
+    },
+    {
+      "StageIndex": 10,
+      "DiaValue": 1200,
+      "GoldValue": 160000,
+      "RandomScrollValue": 120,
+      "GoldKeyValue": 15,
+      "ProductCostValue": 17000
+    },
+    {
+      "StageIndex": 11,
+      "DiaValue": 1200,
+      "GoldValue": 170000,
+      "RandomScrollValue": 130,
+      "GoldKeyValue": 15,
+      "ProductCostValue": 17000
+    },
+    {
+      "StageIndex": 12,
+      "DiaValue": 1200,
+      "GoldValue": 180000,
+      "RandomScrollValue": 140,
+      "GoldKeyValue": 15,
+      "ProductCostValue": 17000
+    },
+    {
+      "StageIndex": 13,
+      "DiaValue": 1360,
+      "GoldValue": 190000,
+      "RandomScrollValue": 150,
+      "GoldKeyValue": 20,
+      "ProductCostValue": 19000
+    },
+    {
+      "StageIndex": 14,
+      "DiaValue": 1360,
+      "GoldValue": 200000,
+      "RandomScrollValue": 160,
+      "GoldKeyValue": 20,
+      "ProductCostValue": 19000
+    },
+    {
+      "StageIndex": 15,
+      "DiaValue": 1360,
+      "GoldValue": 210000,
+      "RandomScrollValue": 170,
+      "GoldKeyValue": 20,
+      "ProductCostValue": 19000
+    },
+    {
+      "StageIndex": 16,
+      "DiaValue": 1760,
+      "GoldValue": 300000,
+      "RandomScrollValue": 200,
+      "GoldKeyValue": 30,
+      "ProductCostValue": 25000
+    },
+    {
+      "StageIndex": 17,
+      "DiaValue": 1760,
+      "GoldValue": 320000,
+      "RandomScrollValue": 220,
+      "GoldKeyValue": 30,
+      "ProductCostValue": 27000
+    },
+    {
+      "StageIndex": 18,
+      "DiaValue": 1760,
+      "GoldValue": 340000,
+      "RandomScrollValue": 240,
+      "GoldKeyValue": 30,
+      "ProductCostValue": 27000
+    },
+    {
+      "StageIndex": 19,
+      "DiaValue": 1760,
+      "GoldValue": 360000,
+      "RandomScrollValue": 260,
+      "GoldKeyValue": 30,
+      "ProductCostValue": 27000
+    },
+    {
+      "StageIndex": 20,
+      "DiaValue": 1760,
+      "GoldValue": 380000,
+      "RandomScrollValue": 280,
+      "GoldKeyValue": 30,
+      "ProductCostValue": 27000
+    },
+    {
+      "StageIndex": 21,
+      "DiaValue": 2560,
+      "GoldValue": 400000,
+      "RandomScrollValue": 300,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 22,
+      "DiaValue": 2560,
+      "GoldValue": 420000,
+      "RandomScrollValue": 320,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 23,
+      "DiaValue": 2560,
+      "GoldValue": 440000,
+      "RandomScrollValue": 340,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 24,
+      "DiaValue": 2560,
+      "GoldValue": 460000,
+      "RandomScrollValue": 360,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 25,
+      "DiaValue": 2560,
+      "GoldValue": 480000,
+      "RandomScrollValue": 380,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 26,
+      "DiaValue": 2560,
+      "GoldValue": 500000,
+      "RandomScrollValue": 400,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 27,
+      "DiaValue": 2560,
+      "GoldValue": 520000,
+      "RandomScrollValue": 420,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 28,
+      "DiaValue": 2560,
+      "GoldValue": 540000,
+      "RandomScrollValue": 440,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 29,
+      "DiaValue": 2560,
+      "GoldValue": 560000,
+      "RandomScrollValue": 460,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 30,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 31,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 32,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 33,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 34,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 35,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 36,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 37,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 38,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 39,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 40,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 41,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 42,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 43,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 44,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 45,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 46,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 47,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 48,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 49,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    },
+    {
+      "StageIndex": 50,
+      "DiaValue": 2560,
+      "GoldValue": 580000,
+      "RandomScrollValue": 480,
+      "GoldKeyValue": 40,
+      "ProductCostValue": 40000
+    }
+  ]
+}

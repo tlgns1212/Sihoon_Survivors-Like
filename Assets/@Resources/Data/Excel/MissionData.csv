@@ -1,0 +1,11 @@
+﻿MissionId,MissionType,DescriptionTextID,MissionTarget,MissionTargetValue,ClearRewardItmeId,RewardValue
+80001,Daily,스테이지 입장,StageEnter,1,50002,50
+80002,Daily,장비 레벨업,EquipmentLevelUp,1,50002,50
+80003,Daily,장비 합성,EquipmentMerge,1,50002,50
+80004,Daily,장비 상자 오픈,GachaOpen,1,50002,50
+80005,Daily,정찰 보상 습득,OfflineRewardGet,1,50002,50
+80006,Daily,몬스터 처치 20000회,MonsterKill,20000,50002,50
+80007,Daily,몬스터 처치 50000회,MonsterKill,50000,50002,50
+80008,Daily,엘리트 처치 10회,EliteMonsterKill,10,50002,50
+80009,Daily,스테이지 클리어 2회,StageClear ,2,50002,100
+80010,Daily,광고 시청 3회,ADWatchIng,3,50002,100

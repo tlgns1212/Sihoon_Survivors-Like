@@ -1,0 +1,454 @@
+{
+  "battles": [
+    {
+      "PassLevel": 1,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50001,
+      "EpicRewardItemValue": 200000
+    },
+    {
+      "PassLevel": 2,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "PassLevel": 3,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50101,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 4,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50102,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 5,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50103,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 6,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50104,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 7,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50105,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 8,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50106,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 9,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50202,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 10,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50203,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 11,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50301,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 12,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50302,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 13,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50303,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 14,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50304,
+      "EpicRewardItemValue": 15
+    },
+    {
+      "PassLevel": 15,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50305,
+      "EpicRewardItemValue": 5
+    },
+    {
+      "PassLevel": 16,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50306,
+      "EpicRewardItemValue": 1
+    },
+    {
+      "PassLevel": 17,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50001,
+      "EpicRewardItemValue": 200000
+    },
+    {
+      "PassLevel": 18,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "PassLevel": 19,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50101,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 20,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50102,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 21,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50103,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 22,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50104,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 23,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50105,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 24,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50106,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 25,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50202,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 26,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50203,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 27,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50301,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 28,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50302,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 29,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50303,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 30,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50304,
+      "EpicRewardItemValue": 15
+    },
+    {
+      "PassLevel": 31,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50305,
+      "EpicRewardItemValue": 5
+    },
+    {
+      "PassLevel": 32,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50306,
+      "EpicRewardItemValue": 1
+    },
+    {
+      "PassLevel": 33,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50001,
+      "EpicRewardItemValue": 200000
+    },
+    {
+      "PassLevel": 34,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "PassLevel": 35,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50101,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 36,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50102,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 37,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50103,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 38,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50104,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 39,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50105,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 40,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50106,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 41,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50202,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 42,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50203,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 43,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50301,
+      "EpicRewardItemValue": 30
+    },
+    {
+      "PassLevel": 44,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50302,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 45,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50303,
+      "EpicRewardItemValue": 10
+    },
+    {
+      "PassLevel": 46,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50304,
+      "EpicRewardItemValue": 15
+    },
+    {
+      "PassLevel": 47,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50305,
+      "EpicRewardItemValue": 5
+    },
+    {
+      "PassLevel": 48,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50306,
+      "EpicRewardItemValue": 1
+    },
+    {
+      "PassLevel": 49,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50306,
+      "EpicRewardItemValue": 1
+    },
+    {
+      "PassLevel": 50,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 300,
+      "EpicRewardItemId": 50306,
+      "EpicRewardItemValue": 1
+    }
+  ]
+}

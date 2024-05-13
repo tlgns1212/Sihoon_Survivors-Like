@@ -1,0 +1,60 @@
+{
+  "DropItems": [
+    {
+      "DataId": 60001,
+      "DropItemType": 0,
+      "NameTextID": "포션",
+      "DescriptionTextID": "Potion",
+      "SpriteName": "Potion_Icon.sprite"
+    },
+    {
+      "DataId": 60002,
+      "DropItemType": 0,
+      "NameTextID": "하이포션",
+      "DescriptionTextID": "High Potion",
+      "SpriteName": "Potion_High_Icon.sprite"
+    },
+    {
+      "DataId": 60003,
+      "DropItemType": 0,
+      "NameTextID": "풀포션",
+      "DescriptionTextID": "Full Potion",
+      "SpriteName": "Potion_Full_Icon.sprite"
+    },
+    {
+      "DataId": 60004,
+      "DropItemType": 1,
+      "NameTextID": "자석",
+      "DescriptionTextID": "Magnet",
+      "SpriteName": "Magnet_Icon.sprite"
+    },
+    {
+      "DataId": 60005,
+      "DropItemType": 2,
+      "NameTextID": "일반 상자",
+      "DescriptionTextID": "Common Box",
+      "SpriteName": "CommonBox_Icon.sprite"
+    },
+    {
+      "DataId": 60006,
+      "DropItemType": 2,
+      "NameTextID": "레어 상자",
+      "DescriptionTextID": "Rare Box",
+      "SpriteName": "RareBox_Icon.sprite"
+    },
+    {
+      "DataId": 60007,
+      "DropItemType": 2,
+      "NameTextID": "에픽 상자",
+      "DescriptionTextID": "Epic Box",
+      "SpriteName": "EpicBox_Icon.sprite"
+    },
+    {
+      "DataId": 60008,
+      "DropItemType": 3,
+      "NameTextID": "폭탄",
+      "DescriptionTextID": "Bomb",
+      "SpriteName": "Bomb_Icon.sprite"
+    }
+  ]
+}

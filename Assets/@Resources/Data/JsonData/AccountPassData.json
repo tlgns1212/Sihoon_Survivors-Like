@@ -1,0 +1,454 @@
+{
+  "accounts": [
+    {
+      "AccountLevel": 1,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 2,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 3,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 4,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 5,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 6,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 7,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 8,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 9,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 10,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 11,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 12,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 13,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 14,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 15,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 16,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 17,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 18,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 19,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 20,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 21,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 22,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 23,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 24,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 25,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 26,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 27,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 28,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 29,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 30,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 31,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 32,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 33,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 34,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 35,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 36,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 37,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 38,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 39,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 40,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 41,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 42,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 43,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 44,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 45,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 46,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 47,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 48,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 49,
+      "FreeRewardItemId": 50001,
+      "FreeRewardItemValue": 10000,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    },
+    {
+      "AccountLevel": 50,
+      "FreeRewardItemId": 50002,
+      "FreeRewardItemValue": 100,
+      "RareRewardItemId": 50002,
+      "RareRewardItemValue": 500,
+      "EpicRewardItemId": 50002,
+      "EpicRewardItemValue": 1000
+    }
+  ]
+}

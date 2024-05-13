@@ -1,0 +1,354 @@
+{
+  "offlines": [
+    {
+      "StageIndex": 1,
+      "Reward_Gold": 3000,
+      "Reward_Exp": 1200,
+      "FastReward_Scroll": 1,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 2,
+      "Reward_Gold": 3300,
+      "Reward_Exp": 1320,
+      "FastReward_Scroll": 1,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 3,
+      "Reward_Gold": 3600,
+      "Reward_Exp": 1440,
+      "FastReward_Scroll": 1,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 4,
+      "Reward_Gold": 3900,
+      "Reward_Exp": 1560,
+      "FastReward_Scroll": 1,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 5,
+      "Reward_Gold": 4200,
+      "Reward_Exp": 1680,
+      "FastReward_Scroll": 1,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 6,
+      "Reward_Gold": 4500,
+      "Reward_Exp": 1800,
+      "FastReward_Scroll": 2,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 7,
+      "Reward_Gold": 4800,
+      "Reward_Exp": 1920,
+      "FastReward_Scroll": 2,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 8,
+      "Reward_Gold": 5100,
+      "Reward_Exp": 2040,
+      "FastReward_Scroll": 2,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 9,
+      "Reward_Gold": 5400,
+      "Reward_Exp": 2160,
+      "FastReward_Scroll": 2,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 10,
+      "Reward_Gold": 5700,
+      "Reward_Exp": 2280,
+      "FastReward_Scroll": 2,
+      "FastReward_Box": 1
+    },
+    {
+      "StageIndex": 11,
+      "Reward_Gold": 6000,
+      "Reward_Exp": 2400,
+      "FastReward_Scroll": 3,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 12,
+      "Reward_Gold": 6300,
+      "Reward_Exp": 2520,
+      "FastReward_Scroll": 3,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 13,
+      "Reward_Gold": 6600,
+      "Reward_Exp": 2640,
+      "FastReward_Scroll": 3,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 14,
+      "Reward_Gold": 6900,
+      "Reward_Exp": 2760,
+      "FastReward_Scroll": 3,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 15,
+      "Reward_Gold": 7200,
+      "Reward_Exp": 2880,
+      "FastReward_Scroll": 3,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 16,
+      "Reward_Gold": 7500,
+      "Reward_Exp": 3000,
+      "FastReward_Scroll": 4,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 17,
+      "Reward_Gold": 7800,
+      "Reward_Exp": 3120,
+      "FastReward_Scroll": 4,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 18,
+      "Reward_Gold": 8100,
+      "Reward_Exp": 3240,
+      "FastReward_Scroll": 4,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 19,
+      "Reward_Gold": 8400,
+      "Reward_Exp": 3360,
+      "FastReward_Scroll": 4,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 20,
+      "Reward_Gold": 8700,
+      "Reward_Exp": 3480,
+      "FastReward_Scroll": 4,
+      "FastReward_Box": 2
+    },
+    {
+      "StageIndex": 21,
+      "Reward_Gold": 9000,
+      "Reward_Exp": 3600,
+      "FastReward_Scroll": 5,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 22,
+      "Reward_Gold": 9300,
+      "Reward_Exp": 3720,
+      "FastReward_Scroll": 5,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 23,
+      "Reward_Gold": 9600,
+      "Reward_Exp": 3840,
+      "FastReward_Scroll": 5,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 24,
+      "Reward_Gold": 9900,
+      "Reward_Exp": 3960,
+      "FastReward_Scroll": 5,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 25,
+      "Reward_Gold": 10200,
+      "Reward_Exp": 4080,
+      "FastReward_Scroll": 5,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 26,
+      "Reward_Gold": 10500,
+      "Reward_Exp": 4200,
+      "FastReward_Scroll": 6,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 27,
+      "Reward_Gold": 10800,
+      "Reward_Exp": 4320,
+      "FastReward_Scroll": 6,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 28,
+      "Reward_Gold": 11100,
+      "Reward_Exp": 4440,
+      "FastReward_Scroll": 6,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 29,
+      "Reward_Gold": 11400,
+      "Reward_Exp": 4560,
+      "FastReward_Scroll": 6,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 30,
+      "Reward_Gold": 11700,
+      "Reward_Exp": 4680,
+      "FastReward_Scroll": 6,
+      "FastReward_Box": 3
+    },
+    {
+      "StageIndex": 31,
+      "Reward_Gold": 12000,
+      "Reward_Exp": 4800,
+      "FastReward_Scroll": 7,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 32,
+      "Reward_Gold": 12300,
+      "Reward_Exp": 4920,
+      "FastReward_Scroll": 7,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 33,
+      "Reward_Gold": 12600,
+      "Reward_Exp": 5040,
+      "FastReward_Scroll": 7,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 34,
+      "Reward_Gold": 12900,
+      "Reward_Exp": 5160,
+      "FastReward_Scroll": 7,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 35,
+      "Reward_Gold": 13200,
+      "Reward_Exp": 5280,
+      "FastReward_Scroll": 7,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 36,
+      "Reward_Gold": 13500,
+      "Reward_Exp": 5400,
+      "FastReward_Scroll": 8,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 37,
+      "Reward_Gold": 13800,
+      "Reward_Exp": 5520,
+      "FastReward_Scroll": 8,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 38,
+      "Reward_Gold": 14100,
+      "Reward_Exp": 5640,
+      "FastReward_Scroll": 8,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 39,
+      "Reward_Gold": 14400,
+      "Reward_Exp": 5760,
+      "FastReward_Scroll": 8,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 40,
+      "Reward_Gold": 14700,
+      "Reward_Exp": 5880,
+      "FastReward_Scroll": 8,
+      "FastReward_Box": 4
+    },
+    {
+      "StageIndex": 41,
+      "Reward_Gold": 15000,
+      "Reward_Exp": 6000,
+      "FastReward_Scroll": 9,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 42,
+      "Reward_Gold": 15300,
+      "Reward_Exp": 6120,
+      "FastReward_Scroll": 9,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 43,
+      "Reward_Gold": 15600,
+      "Reward_Exp": 6240,
+      "FastReward_Scroll": 9,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 44,
+      "Reward_Gold": 15900,
+      "Reward_Exp": 6360,
+      "FastReward_Scroll": 9,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 45,
+      "Reward_Gold": 16200,
+      "Reward_Exp": 6480,
+      "FastReward_Scroll": 9,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 46,
+      "Reward_Gold": 16500,
+      "Reward_Exp": 6600,
+      "FastReward_Scroll": 10,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 47,
+      "Reward_Gold": 16800,
+      "Reward_Exp": 6720,
+      "FastReward_Scroll": 10,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 48,
+      "Reward_Gold": 17100,
+      "Reward_Exp": 6840,
+      "FastReward_Scroll": 10,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 49,
+      "Reward_Gold": 17400,
+      "Reward_Exp": 6960,
+      "FastReward_Scroll": 10,
+      "FastReward_Box": 5
+    },
+    {
+      "StageIndex": 50,
+      "Reward_Gold": 17700,
+      "Reward_Exp": 7080,
+      "FastReward_Scroll": 10,
+      "FastReward_Box": 5
+    }
+  ]
+}

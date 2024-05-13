@@ -1,0 +1,254 @@
+﻿AchievementID,DescriptionTextID,MissionTarget,MissionTargetValue,ClearRewardItmeId,RewardValue
+90001,누적 로그인 1일,Login,1,50002,10
+90002,누적 로그인 5일,Login,5,50002,50
+90003,누적 로그인 10일,Login,10,50002,100
+90004,누적 로그인 15일,Login,15,50002,150
+90005,누적 로그인 20일,Login,20,50002,200
+90006,누적 로그인 30일,Login,30,50002,300
+90007,누적 로그인 40일,Login,40,50002,400
+90008,누적 로그인 50일,Login,50,50002,500
+90009,누적 로그인 60일,Login,60,50002,600
+90010,누적 로그인 70일,Login,70,50002,700
+90011,누적 로그인 80일,Login,80,50002,800
+90012,누적 로그인 90일,Login,90,50002,900
+90013,누적 로그인 100일,Login,100,50002,1000
+90014,누적 로그인 150일,Login,150,50002,1500
+90015,누적 로그인 200일,Login,200,50002,2000
+90016,누적 로그인 250일,Login,250,50002,2500
+90017,누적 로그인 300일,Login,300,50002,3000
+90018,누적 로그인 350일,Login,350,50002,3500
+90019,누적 로그인 400일,Login,400,50002,4000
+90020,누적 로그인 450일,Login,450,50002,4500
+90021,누적 로그인 500일,Login,500,50002,5000
+90022,누적 로그인 700일,Login,700,50002,7000
+90023,누적 로그인 1000일,Login,1000,50002,10000
+90101,1 스테이지 클리어,StageClear ,1,50002,50
+90102,5 스테이지 클리어,StageClear ,5,50002,250
+90103,10 스테이지 클리어,StageClear ,10,50002,500
+90104,15 스테이지 클리어,StageClear ,15,50002,750
+90105,20 스테이지 클리어,StageClear ,20,50002,1000
+90106,25 스테이지 클리어,StageClear ,25,50002,1250
+90107,30 스테이지 클리어,StageClear ,30,50002,1500
+90108,35 스테이지 클리어,StageClear ,35,50002,1750
+90109,40 스테이지 클리어,StageClear ,40,50002,2000
+90110,45 스테이지 클리어,StageClear ,45,50002,2250
+90111,50 스테이지 클리어,StageClear ,50,50002,2500
+90201,일반 장비 상자 오픈 1회,CommonGachaOpen,1,50002,50
+90202,일반 장비 상자 오픈 10회,CommonGachaOpen,10,50002,100
+90203,일반 장비 상자 오픈 50회,CommonGachaOpen,50,50002,300
+90204,일반 장비 상자 오픈 100회,CommonGachaOpen,100,50002,500
+90205,일반 장비 상자 오픈 200회,CommonGachaOpen,200,50002,500
+90206,일반 장비 상자 오픈 300회,CommonGachaOpen,300,50002,500
+90207,일반 장비 상자 오픈 400회,CommonGachaOpen,400,50002,500
+90208,일반 장비 상자 오픈 500회,CommonGachaOpen,500,50002,500
+90209,일반 장비 상자 오픈 600회,CommonGachaOpen,600,50002,500
+90210,일반 장비 상자 오픈 700회,CommonGachaOpen,700,50002,500
+90211,일반 장비 상자 오픈 800회,CommonGachaOpen,800,50002,500
+90212,일반 장비 상자 오픈 900회,CommonGachaOpen,900,50002,500
+90213,일반 장비 상자 오픈 1000회,CommonGachaOpen,1000,50002,500
+90301,고급 장비 상자 오픈 1회,CommonGachaOpen,1,50002,50
+90302,고급 장비 상자 오픈 10회,CommonGachaOpen,10,50002,100
+90303,고급 장비 상자 오픈 50회,CommonGachaOpen,50,50002,300
+90304,고급 장비 상자 오픈 100회,CommonGachaOpen,100,50002,500
+90305,고급 장비 상자 오픈 200회,CommonGachaOpen,200,50002,500
+90306,고급 장비 상자 오픈 300회,CommonGachaOpen,300,50002,500
+90307,고급 장비 상자 오픈 400회,CommonGachaOpen,400,50002,500
+90308,고급 장비 상자 오픈 500회,CommonGachaOpen,500,50002,500
+90309,고급 장비 상자 오픈 600회,CommonGachaOpen,600,50002,500
+90310,고급 장비 상자 오픈 700회,CommonGachaOpen,700,50002,500
+90311,고급 장비 상자 오픈 800회,CommonGachaOpen,800,50002,500
+90312,고급 장비 상자 오픈 900회,CommonGachaOpen,900,50002,500
+90313,고급 장비 상자 오픈 1000회,CommonGachaOpen,1000,50002,500
+90314,고급 장비 상자 오픈 2000회,AdvancedGachaOpen,2000,50002,1000
+90315,고급 장비 상자 오픈 3000회,AdvancedGachaOpen,3000,50002,1000
+90316,고급 장비 상자 오픈 4000회,AdvancedGachaOpen,4000,50002,1000
+90317,고급 장비 상자 오픈 5000회,AdvancedGachaOpen,5000,50002,1000
+90318,고급 장비 상자 오픈 6000회,AdvancedGachaOpen,6000,50002,1000
+90319,고급 장비 상자 오픈 7000회,AdvancedGachaOpen,7000,50002,1000
+90320,고급 장비 상자 오픈 8000회,AdvancedGachaOpen,8000,50002,1000
+90321,고급 장비 상자 오픈 9000회,AdvancedGachaOpen,9000,50002,1000
+90322,고급 장비 상자 오픈 10000회,AdvancedGachaOpen,10000,50002,1000
+90323,고급 장비 상자 오픈 20000회,AdvancedGachaOpen,20000,50002,2000
+90324,고급 장비 상자 오픈 30000회,AdvancedGachaOpen,30000,50002,2000
+90325,고급 장비 상자 오픈 40000회,AdvancedGachaOpen,40000,50002,2000
+90326,고급 장비 상자 오픈 50000회,AdvancedGachaOpen,50000,50002,2000
+90327,고급 장비 상자 오픈 60000회,AdvancedGachaOpen,60000,50002,2000
+90328,고급 장비 상자 오픈 70000회,AdvancedGachaOpen,70000,50002,2000
+90329,고급 장비 상자 오픈 80000회,AdvancedGachaOpen,80000,50002,2000
+90330,고급 장비 상자 오픈 90000회,AdvancedGachaOpen,90000,50002,2000
+90331,고급 장비 상자 오픈 100000회,AdvancedGachaOpen,100000,50002,2000
+90401,정찰 1회,OfflineRewardGet,1,50002,30
+90402,정찰 5회,OfflineRewardGet,5,50002,30
+90403,정찰 10회,OfflineRewardGet,10,50002,30
+90404,정찰 15회,OfflineRewardGet,15,50002,30
+90405,정찰 20회,OfflineRewardGet,20,50002,30
+90406,정찰 25회,OfflineRewardGet,25,50002,30
+90407,정찰 30회,OfflineRewardGet,30,50002,30
+90408,정찰 35회,OfflineRewardGet,35,50002,30
+90409,정찰 40회,OfflineRewardGet,40,50002,30
+90410,정찰 45회,OfflineRewardGet,45,50002,30
+90411,정찰 50회,OfflineRewardGet,50,50002,30
+90412,정찰 55회,OfflineRewardGet,55,50002,30
+90413,정찰 60회,OfflineRewardGet,60,50002,30
+90414,정찰 65회,OfflineRewardGet,65,50002,30
+90415,정찰 70회,OfflineRewardGet,70,50002,30
+90416,정찰 75회,OfflineRewardGet,75,50002,30
+90417,정찰 80회,OfflineRewardGet,80,50002,30
+90418,정찰 85회,OfflineRewardGet,85,50002,30
+90419,정찰 90회,OfflineRewardGet,90,50002,30
+90420,정찰 95회,OfflineRewardGet,95,50002,30
+90421,정찰 100회,OfflineRewardGet,100,50002,30
+90422,정찰 200회,OfflineRewardGet,200,50002,60
+90423,정찰 300회,OfflineRewardGet,300,50002,60
+90424,정찰 400회,OfflineRewardGet,400,50002,60
+90425,정찰 500회,OfflineRewardGet,500,50002,60
+90426,정찰 600회,OfflineRewardGet,600,50002,60
+90427,정찰 700회,OfflineRewardGet,700,50002,60
+90428,정찰 800회,OfflineRewardGet,800,50002,60
+90429,정찰 900회,OfflineRewardGet,900,50002,60
+90430,정찰 1000회,OfflineRewardGet,1000,50002,60
+90501,빠른 정찰 1회,FastOfflineRewardGet,1,50002,50
+90502,빠른 정찰 5회,FastOfflineRewardGet,5,50002,50
+90503,빠른 정찰 10회,FastOfflineRewardGet,10,50002,50
+90504,빠른 정찰 15회,FastOfflineRewardGet,15,50002,50
+90505,빠른 정찰 20회,FastOfflineRewardGet,20,50002,50
+90506,빠른 정찰 25회,FastOfflineRewardGet,25,50002,50
+90507,빠른 정찰 30회,FastOfflineRewardGet,30,50002,50
+90508,빠른 정찰 35회,FastOfflineRewardGet,35,50002,50
+90509,빠른 정찰 40회,FastOfflineRewardGet,40,50002,50
+90510,빠른 정찰 45회,FastOfflineRewardGet,45,50002,50
+90511,빠른 정찰 50회,FastOfflineRewardGet,50,50002,50
+90512,빠른 정찰 55회,FastOfflineRewardGet,55,50002,50
+90513,빠른 정찰 60회,FastOfflineRewardGet,60,50002,50
+90514,빠른 정찰 65회,FastOfflineRewardGet,65,50002,50
+90515,빠른 정찰 70회,FastOfflineRewardGet,70,50002,50
+90516,빠른 정찰 75회,FastOfflineRewardGet,75,50002,50
+90517,빠른 정찰 80회,FastOfflineRewardGet,80,50002,50
+90518,빠른 정찰 85회,FastOfflineRewardGet,85,50002,50
+90519,빠른 정찰 90회,FastOfflineRewardGet,90,50002,50
+90520,빠른 정찰 95회,FastOfflineRewardGet,95,50002,50
+90521,빠른 정찰 100회,FastOfflineRewardGet,100,50002,100
+90522,빠른 정찰 200회,FastOfflineRewardGet,200,50002,100
+90523,빠른 정찰 300회,FastOfflineRewardGet,300,50002,100
+90524,빠른 정찰 400회,FastOfflineRewardGet,400,50002,100
+90525,빠른 정찰 500회,FastOfflineRewardGet,500,50002,100
+90526,빠른 정찰 600회,FastOfflineRewardGet,600,50002,100
+90527,빠른 정찰 700회,FastOfflineRewardGet,700,50002,100
+90528,빠른 정찰 800회,FastOfflineRewardGet,800,50002,100
+90529,빠른 정찰 900회,FastOfflineRewardGet,900,50002,100
+90530,빠른 정찰 1000회,FastOfflineRewardGet,1000,50002,100
+90601,몬스터 처치 100회,MonsterKill,100,50002,10
+90602,몬스터 처치 500회,MonsterKill,500,50002,10
+90603,몬스터 처치 1000회,MonsterKill,1000,50002,10
+90604,몬스터 처치 2000회,MonsterKill,2000,50002,10
+90605,몬스터 처치 3000회,MonsterKill,3000,50002,10
+90606,몬스터 처치 4000회,MonsterKill,4000,50002,10
+90607,몬스터 처치 5000회,MonsterKill,5000,50002,10
+90608,몬스터 처치 6000회,MonsterKill,6000,50002,10
+90609,몬스터 처치 7000회,MonsterKill,7000,50002,10
+90610,몬스터 처치 8000회,MonsterKill,8000,50002,10
+90611,몬스터 처치 9000회,MonsterKill,9000,50002,10
+90612,몬스터 처치 10000회,MonsterKill,10000,50002,10
+90613,몬스터 처치 20000회,MonsterKill,20000,50002,50
+90614,몬스터 처치 30000회,MonsterKill,30000,50002,50
+90615,몬스터 처치 40000회,MonsterKill,40000,50002,50
+90616,몬스터 처치 50000회,MonsterKill,50000,50002,50
+90617,몬스터 처치 60000회,MonsterKill,60000,50002,50
+90618,몬스터 처치 70000회,MonsterKill,70000,50002,50
+90619,몬스터 처치 80000회,MonsterKill,80000,50002,50
+90620,몬스터 처치 90000회,MonsterKill,90000,50002,50
+90621,몬스터 처치 100000회,MonsterKill,100000,50002,50
+90622,몬스터 처치 200000회,MonsterKill,200000,50002,100
+90623,몬스터 처치 300000회,MonsterKill,300000,50002,100
+90624,몬스터 처치 400000회,MonsterKill,400000,50002,100
+90625,몬스터 처치 500000회,MonsterKill,500000,50002,100
+90626,몬스터 처치 600000회,MonsterKill,600000,50002,100
+90627,몬스터 처치 700000회,MonsterKill,700000,50002,100
+90628,몬스터 처치 800000회,MonsterKill,800000,50002,100
+90629,몬스터 처치 900000회,MonsterKill,900000,50002,100
+90630,몬스터 처치 1000000회,MonsterKill,1000000,50002,100
+90631,몬스터 처치 2000000회,MonsterKill,2000000,50002,500
+90632,몬스터 처치 3000000회,MonsterKill,3000000,50002,500
+90633,몬스터 처치 4000000회,MonsterKill,4000000,50002,500
+90634,몬스터 처치 5000000회,MonsterKill,5000000,50002,500
+90635,몬스터 처치 6000000회,MonsterKill,6000000,50002,500
+90636,몬스터 처치 7000000회,MonsterKill,7000000,50002,500
+90637,몬스터 처치 8000000회,MonsterKill,8000000,50002,500
+90638,몬스터 처치 9000000회,MonsterKill,9000000,50002,500
+90639,몬스터 처치 10000000회,MonsterKill,10000000,50002,500
+90701,엘리트 처치 1회,EliteMonsterKill,1,50002,50
+90702,엘리트 처치 10회,EliteMonsterKill,10,50002,50
+90703,엘리트 처치 20회,EliteMonsterKill,20,50002,50
+90704,엘리트 처치 30회,EliteMonsterKill,30,50002,50
+90705,엘리트 처치 40회,EliteMonsterKill,40,50002,50
+90706,엘리트 처치 50회,EliteMonsterKill,50,50002,50
+90707,엘리트 처치 60회,EliteMonsterKill,60,50002,50
+90708,엘리트 처치 70회,EliteMonsterKill,70,50002,50
+90709,엘리트 처치 80회,EliteMonsterKill,80,50002,50
+90710,엘리트 처치 90회,EliteMonsterKill,90,50002,50
+90711,엘리트 처치 100회,EliteMonsterKill,100,50002,50
+90712,엘리트 처치 200회,EliteMonsterKill,200,50002,100
+90713,엘리트 처치 300회,EliteMonsterKill,300,50002,100
+90714,엘리트 처치 400회,EliteMonsterKill,400,50002,100
+90715,엘리트 처치 500회,EliteMonsterKill,500,50002,100
+90716,엘리트 처치 600회,EliteMonsterKill,600,50002,100
+90717,엘리트 처치 700회,EliteMonsterKill,700,50002,100
+90718,엘리트 처치 800회,EliteMonsterKill,800,50002,100
+90719,엘리트 처치 900회,EliteMonsterKill,900,50002,100
+90720,엘리트 처치 1000회,EliteMonsterKill,1000,50002,100
+90721,엘리트 처치 2000회,EliteMonsterKill,2000,50002,300
+90722,엘리트 처치 3000회,EliteMonsterKill,3000,50002,300
+90723,엘리트 처치 4000회,EliteMonsterKill,4000,50002,300
+90724,엘리트 처치 5000회,EliteMonsterKill,5000,50002,300
+90725,엘리트 처치 6000회,EliteMonsterKill,6000,50002,300
+90726,엘리트 처치 7000회,EliteMonsterKill,7000,50002,300
+90727,엘리트 처치 8000회,EliteMonsterKill,8000,50002,300
+90728,엘리트 처치 9000회,EliteMonsterKill,9000,50002,300
+90729,엘리트 처치 10000회,EliteMonsterKill,10000,50002,300
+90730,엘리트 처치 20000회,EliteMonsterKill,20000,50002,500
+90731,엘리트 처치 30000회,EliteMonsterKill,30000,50002,500
+90732,엘리트 처치 40000회,EliteMonsterKill,40000,50002,500
+90733,엘리트 처치 50000회,EliteMonsterKill,50000,50002,500
+90734,엘리트 처치 60000회,EliteMonsterKill,60000,50002,500
+90735,엘리트 처치 70000회,EliteMonsterKill,70000,50002,500
+90736,엘리트 처치 80000회,EliteMonsterKill,80000,50002,500
+90737,엘리트 처치 90000회,EliteMonsterKill,90000,50002,500
+90738,엘리트 처치 100000회,EliteMonsterKill,100000,50002,500
+90801,보스 처치 1회,BossKill,1,50002,100
+90802,보스 처치 10회,BossKill,10,50002,100
+90803,보스 처치 20회,BossKill,20,50002,100
+90804,보스 처치 30회,BossKill,30,50002,100
+90805,보스 처치 40회,BossKill,40,50002,100
+90806,보스 처치 50회,BossKill,50,50002,100
+90807,보스 처치 60회,BossKill,60,50002,100
+90808,보스 처치 70회,BossKill,70,50002,100
+90809,보스 처치 80회,BossKill,80,50002,100
+90810,보스 처치 90회,BossKill,90,50002,100
+90811,보스 처치 100회,BossKill,100,50002,100
+90812,보스 처치 200회,BossKill,200,50002,300
+90813,보스 처치 300회,BossKill,300,50002,300
+90814,보스 처치 400회,BossKill,400,50002,300
+90815,보스 처치 500회,BossKill,500,50002,300
+90816,보스 처치 600회,BossKill,600,50002,300
+90817,보스 처치 700회,BossKill,700,50002,300
+90818,보스 처치 800회,BossKill,800,50002,300
+90819,보스 처치 900회,BossKill,900,50002,300
+90820,보스 처치 1000회,BossKill,1000,50002,300
+90821,보스 처치 2000회,BossKill,2000,50002,500
+90822,보스 처치 3000회,BossKill,3000,50002,500
+90823,보스 처치 4000회,BossKill,4000,50002,500
+90824,보스 처치 5000회,BossKill,5000,50002,500
+90825,보스 처치 6000회,BossKill,6000,50002,500
+90826,보스 처치 7000회,BossKill,7000,50002,500
+90827,보스 처치 8000회,BossKill,8000,50002,500
+90828,보스 처치 9000회,BossKill,9000,50002,500
+90829,보스 처치 10000회,BossKill,10000,50002,500
+90830,보스 처치 20000회,BossKill,20000,50002,1000
+90831,보스 처치 30000회,BossKill,30000,50002,1000
+90832,보스 처치 40000회,BossKill,40000,50002,1000
+90833,보스 처치 50000회,BossKill,50000,50002,1000
+90834,보스 처치 60000회,BossKill,60000,50002,1000
+90835,보스 처치 70000회,BossKill,70000,50002,1000
+90836,보스 처치 80000회,BossKill,80000,50002,1000
+90837,보스 처치 90000회,BossKill,90000,50002,1000
+90838,보스 처치 100000회,BossKill,100000,50002,1000

@@ -1,0 +1,466 @@
+{
+  "dailys": [
+    {
+      "Index": 1,
+      "BuyItemId": 50301,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 2,
+      "BuyItemId": 50301,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 3,
+      "BuyItemId": 50301,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 4,
+      "BuyItemId": 50301,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 5,
+      "BuyItemId": 50301,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 6,
+      "BuyItemId": 50301,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 7,
+      "BuyItemId": 50101,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 8,
+      "BuyItemId": 50101,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 9,
+      "BuyItemId": 50101,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 10,
+      "BuyItemId": 50101,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 11,
+      "BuyItemId": 50101,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 12,
+      "BuyItemId": 50101,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 13,
+      "BuyItemId": 50102,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 14,
+      "BuyItemId": 50102,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 15,
+      "BuyItemId": 50102,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 16,
+      "BuyItemId": 50102,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 17,
+      "BuyItemId": 50102,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 18,
+      "BuyItemId": 50102,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 19,
+      "BuyItemId": 50103,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 20,
+      "BuyItemId": 50103,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 21,
+      "BuyItemId": 50103,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 22,
+      "BuyItemId": 50103,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 23,
+      "BuyItemId": 50103,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 24,
+      "BuyItemId": 50103,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 25,
+      "BuyItemId": 50104,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 26,
+      "BuyItemId": 50104,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 27,
+      "BuyItemId": 50104,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 28,
+      "BuyItemId": 50104,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 29,
+      "BuyItemId": 50104,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 30,
+      "BuyItemId": 50104,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 31,
+      "BuyItemId": 50105,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 32,
+      "BuyItemId": 50105,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 33,
+      "BuyItemId": 50105,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 34,
+      "BuyItemId": 50105,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 35,
+      "BuyItemId": 50105,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 36,
+      "BuyItemId": 50105,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 37,
+      "BuyItemId": 50106,
+      "CostItemId": 50001,
+      "CostValue": 50000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 38,
+      "BuyItemId": 50106,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 39,
+      "BuyItemId": 50106,
+      "CostItemId": 50001,
+      "CostValue": 37500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 40,
+      "BuyItemId": 50106,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 41,
+      "BuyItemId": 50106,
+      "CostItemId": 50001,
+      "CostValue": 25000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 42,
+      "BuyItemId": 50106,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 43,
+      "BuyItemId": 50302,
+      "CostItemId": 50001,
+      "CostValue": 500000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 44,
+      "BuyItemId": 50302,
+      "CostItemId": 50002,
+      "CostValue": 300,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 45,
+      "BuyItemId": 50302,
+      "CostItemId": 50001,
+      "CostValue": 375000,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 46,
+      "BuyItemId": 50302,
+      "CostItemId": 50002,
+      "CostValue": 225,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 47,
+      "BuyItemId": 50302,
+      "CostItemId": 50001,
+      "CostValue": 250000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 48,
+      "BuyItemId": 50302,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 49,
+      "BuyItemId": 50303,
+      "CostItemId": 50001,
+      "CostValue": 150000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 50,
+      "BuyItemId": 50303,
+      "CostItemId": 50002,
+      "CostValue": 200,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 51,
+      "BuyItemId": 50303,
+      "CostItemId": 50001,
+      "CostValue": 112500,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 52,
+      "BuyItemId": 50303,
+      "CostItemId": 50002,
+      "CostValue": 150,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 53,
+      "BuyItemId": 50303,
+      "CostItemId": 50001,
+      "CostValue": 75000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 54,
+      "BuyItemId": 50303,
+      "CostItemId": 50002,
+      "CostValue": 100,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 55,
+      "BuyItemId": 50304,
+      "CostItemId": 50001,
+      "CostValue": 200000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 56,
+      "BuyItemId": 50304,
+      "CostItemId": 50002,
+      "CostValue": 250,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 57,
+      "BuyItemId": 50304,
+      "CostItemId": 50001,
+      "CostValue": 150000,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 58,
+      "BuyItemId": 50304,
+      "CostItemId": 50002,
+      "CostValue": 187,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 59,
+      "BuyItemId": 50304,
+      "CostItemId": 50001,
+      "CostValue": 100000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 60,
+      "BuyItemId": 50304,
+      "CostItemId": 50002,
+      "CostValue": 125,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 61,
+      "BuyItemId": 50305,
+      "CostItemId": 50001,
+      "CostValue": 300000,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 62,
+      "BuyItemId": 50305,
+      "CostItemId": 50002,
+      "CostValue": 280,
+      "DiscountValue": 0.0
+    },
+    {
+      "Index": 63,
+      "BuyItemId": 50305,
+      "CostItemId": 50001,
+      "CostValue": 225000,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 64,
+      "BuyItemId": 50305,
+      "CostItemId": 50002,
+      "CostValue": 210,
+      "DiscountValue": 0.25
+    },
+    {
+      "Index": 65,
+      "BuyItemId": 50305,
+      "CostItemId": 50001,
+      "CostValue": 150000,
+      "DiscountValue": 0.5
+    },
+    {
+      "Index": 66,
+      "BuyItemId": 50305,
+      "CostItemId": 50002,
+      "CostValue": 140,
+      "DiscountValue": 0.5
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿ID,MaterialType,MaterialGrade,NameTextID,DescriptionTextID,SpriteName
+50001,Gold,Epic,골드,장비를 강화할 때 사용,Gold_Icon.sprite
+50002,Dia,Epic,다이아,상점에서 물품을 구매할 때 사용,Dia_Icon.sprite
+50003,Stamina,Epic,스테미나,스테이지 입장 시 사용,Stamina_Icon.sprite
+50004,Exp,Rare,Exp,캐릭터의 경험치,Exp_Icon.sprite
+50101,WeaponScroll,Common,무기 강화 스크롤,무기를 강화할 때 사용,Scroll_Weapon_Icon.sprite
+50102,GlovesScroll,Common,장갑 강화 스크롤,장갑을 강화할 때 사용,Scroll_Gloves_Icon.sprite
+50103,RingScroll,Common,반지 강화 스크롤,반지를 강화할 때 사용,Scroll_Ring_Icon.sprite
+50104,BeltScroll,Common,벨트 강화 스크롤,벨트를 강화할 때 사용,Scroll_Belt_Icon.sprite
+50105,ArmorScroll,Common,아머 강화 스크롤,아머를 강화할 때 사용,Scroll_Armor_Icon.sprite
+50106,BootsScroll,Common,부츠 강화 스크롤,부츠를 강화할 때 사용,Scroll_Boots_Icon.sprite
+50201,BronzeKey,Common,부활권,캐릭터를 부활 시 소모,Clover_Icon.sprite
+50202,SilverKey,Rare,실버 키,일반 장비 상자를 오픈 시 사용,Key_Silver_Icon.sprite
+50203,GoldKey,Epic,골드 키,상급 장비 상자를 오픈 시 사용,Key_Gold_Icon.sprite
+50301,RandomScroll,Common,랜덤 스크롤,랜덤한 강화 스크롤로 교환,Scroll_Random_Icon.sprite
+50302,AllRandomEquipmentBox,Common,All 랜덤 장비 상자,랜덤한 장비를 얻을 수 있는 상자,EqptBoxAllRandom_Icon.sprite
+50303,CommonEquipmentBox,Common,일반 장비 상자,일반 등급의 장비를 얻을 수 있는 상자,EqptBox_Icon.sprite
+50304,UncommonEquipmentBox,Uncommon,고급 장비 상자,고급 등급의 장비를 얻을 수 있는 상자,EqptBox_Icon.sprite
+50305,RareEquipmentBox,Rare,희귀 장비 상자,희귀 등급의 장비를 얻을 수 있는 상자,EqptBox_Icon.sprite
+50306,EpicEquipmentBox,Epic,에픽 장비 상자,에픽 등급의 장비를 얻을 수 있는 상자,EqptBox_Icon.sprite
+50307,LegendaryEquipmentBox,Legendary,레전드 장비 상자,레전드 등급의 장비를 얻을 수 있는 상자,EqptBox_Icon.sprite
+50401,WeaponEnchantStone,Epic,무기 강화석,무기를 합성할 때 사용,EnchantStoneWeapon_Icon.sprite
+50402,WeaponEnchantStone,Legendary,무기 강화석,무기를 합성할 때 사용,EnchantStoneWeapon_Icon.sprite
+50403,GlovesEnchantStone,Epic,글러브 강화석,장갑을 합성할 때 사용,EnchantStoneGloves_Icon.sprite
+50404,GlovesEnchantStone,Legendary,글러브 강화석,장갑을 합성할 때 사용,EnchantStoneGloves_Icon.sprite
+50405,RingEnchantStone,Epic,반지 강화석,반지를 합성할 때 사용,EnchantStoneRing_Icon.sprite
+50406,RingEnchantStone,Legendary,방지 강화석,반지를 합성할 때 사용,EnchantStoneRing_Icon.sprite
+50407,BeltEnchantStone,Epic,벨트 강화석,벨트를 합성할 때 사용,EnchantStoneBelt_Icon.sprite
+50408,BeltEnchantStone,Legendary,벨트 강화석,벨트를 합성할 때 사용,EnchantStoneBelt_Icon.sprite
+50409,ArmorEnchantStone,Epic,아머 강화석,아머를 합성할 때 사용,EnchantStoneArmor_Icon.sprite
+50410,ArmorEnchantStone,Legendary,아머 강화석,아머를 합성할 때 사용,EnchantStoneArmor_Icon.sprite
+50411,BootsEnchantStone,Epic,부츠 강화석,부츠를 합성할 때 사용,EnchantStoneBoots_Icon.sprite
+50412,BootsEnchantStone,Legendary,부츠 강화석,부츠를 합성할 때 사용,EnchantStoneBoots_Icon.sprite

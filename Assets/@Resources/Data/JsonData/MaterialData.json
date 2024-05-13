@@ -1,0 +1,260 @@
+{
+  "Materials": [
+    {
+      "DataId": 50001,
+      "MaterialType": 0,
+      "MaterialGrade": 3,
+      "NameTextID": "골드",
+      "DescriptionTextID": "장비를 강화할 때 사용",
+      "SpriteName": "Gold_Icon.sprite"
+    },
+    {
+      "DataId": 50002,
+      "MaterialType": 1,
+      "MaterialGrade": 3,
+      "NameTextID": "다이아",
+      "DescriptionTextID": "상점에서 물품을 구매할 때 사용",
+      "SpriteName": "Dia_Icon.sprite"
+    },
+    {
+      "DataId": 50003,
+      "MaterialType": 2,
+      "MaterialGrade": 3,
+      "NameTextID": "스테미나",
+      "DescriptionTextID": "스테이지 입장 시 사용",
+      "SpriteName": "Stamina_Icon.sprite"
+    },
+    {
+      "DataId": 50004,
+      "MaterialType": 3,
+      "MaterialGrade": 2,
+      "NameTextID": "Exp",
+      "DescriptionTextID": "캐릭터의 경험치",
+      "SpriteName": "Exp_Icon.sprite"
+    },
+    {
+      "DataId": 50101,
+      "MaterialType": 4,
+      "MaterialGrade": 0,
+      "NameTextID": "무기 강화 스크롤",
+      "DescriptionTextID": "무기를 강화할 때 사용",
+      "SpriteName": "Scroll_Weapon_Icon.sprite"
+    },
+    {
+      "DataId": 50102,
+      "MaterialType": 5,
+      "MaterialGrade": 0,
+      "NameTextID": "장갑 강화 스크롤",
+      "DescriptionTextID": "장갑을 강화할 때 사용",
+      "SpriteName": "Scroll_Gloves_Icon.sprite"
+    },
+    {
+      "DataId": 50103,
+      "MaterialType": 6,
+      "MaterialGrade": 0,
+      "NameTextID": "반지 강화 스크롤",
+      "DescriptionTextID": "반지를 강화할 때 사용",
+      "SpriteName": "Scroll_Ring_Icon.sprite"
+    },
+    {
+      "DataId": 50104,
+      "MaterialType": 7,
+      "MaterialGrade": 0,
+      "NameTextID": "벨트 강화 스크롤",
+      "DescriptionTextID": "벨트를 강화할 때 사용",
+      "SpriteName": "Scroll_Belt_Icon.sprite"
+    },
+    {
+      "DataId": 50105,
+      "MaterialType": 8,
+      "MaterialGrade": 0,
+      "NameTextID": "아머 강화 스크롤",
+      "DescriptionTextID": "아머를 강화할 때 사용",
+      "SpriteName": "Scroll_Armor_Icon.sprite"
+    },
+    {
+      "DataId": 50106,
+      "MaterialType": 9,
+      "MaterialGrade": 0,
+      "NameTextID": "부츠 강화 스크롤",
+      "DescriptionTextID": "부츠를 강화할 때 사용",
+      "SpriteName": "Scroll_Boots_Icon.sprite"
+    },
+    {
+      "DataId": 50201,
+      "MaterialType": 10,
+      "MaterialGrade": 0,
+      "NameTextID": "부활권",
+      "DescriptionTextID": "캐릭터를 부활 시 소모",
+      "SpriteName": "Clover_Icon.sprite"
+    },
+    {
+      "DataId": 50202,
+      "MaterialType": 11,
+      "MaterialGrade": 2,
+      "NameTextID": "실버 키",
+      "DescriptionTextID": "일반 장비 상자를 오픈 시 사용",
+      "SpriteName": "Key_Silver_Icon.sprite"
+    },
+    {
+      "DataId": 50203,
+      "MaterialType": 12,
+      "MaterialGrade": 3,
+      "NameTextID": "골드 키",
+      "DescriptionTextID": "상급 장비 상자를 오픈 시 사용",
+      "SpriteName": "Key_Gold_Icon.sprite"
+    },
+    {
+      "DataId": 50301,
+      "MaterialType": 13,
+      "MaterialGrade": 0,
+      "NameTextID": "랜덤 스크롤",
+      "DescriptionTextID": "랜덤한 강화 스크롤로 교환",
+      "SpriteName": "Scroll_Random_Icon.sprite"
+    },
+    {
+      "DataId": 50302,
+      "MaterialType": 14,
+      "MaterialGrade": 0,
+      "NameTextID": "All 랜덤 장비 상자",
+      "DescriptionTextID": "랜덤한 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBoxAllRandom_Icon.sprite"
+    },
+    {
+      "DataId": 50303,
+      "MaterialType": 16,
+      "MaterialGrade": 0,
+      "NameTextID": "일반 장비 상자",
+      "DescriptionTextID": "일반 등급의 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "DataId": 50304,
+      "MaterialType": 17,
+      "MaterialGrade": 1,
+      "NameTextID": "고급 장비 상자",
+      "DescriptionTextID": "고급 등급의 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "DataId": 50305,
+      "MaterialType": 18,
+      "MaterialGrade": 2,
+      "NameTextID": "희귀 장비 상자",
+      "DescriptionTextID": "희귀 등급의 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "DataId": 50306,
+      "MaterialType": 19,
+      "MaterialGrade": 3,
+      "NameTextID": "에픽 장비 상자",
+      "DescriptionTextID": "에픽 등급의 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "DataId": 50307,
+      "MaterialType": 20,
+      "MaterialGrade": 6,
+      "NameTextID": "레전드 장비 상자",
+      "DescriptionTextID": "레전드 등급의 장비를 얻을 수 있는 상자",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "DataId": 50401,
+      "MaterialType": 21,
+      "MaterialGrade": 3,
+      "NameTextID": "무기 강화석",
+      "DescriptionTextID": "무기를 합성할 때 사용",
+      "SpriteName": "EnchantStoneWeapon_Icon.sprite"
+    },
+    {
+      "DataId": 50402,
+      "MaterialType": 21,
+      "MaterialGrade": 6,
+      "NameTextID": "무기 강화석",
+      "DescriptionTextID": "무기를 합성할 때 사용",
+      "SpriteName": "EnchantStoneWeapon_Icon.sprite"
+    },
+    {
+      "DataId": 50403,
+      "MaterialType": 22,
+      "MaterialGrade": 3,
+      "NameTextID": "글러브 강화석",
+      "DescriptionTextID": "장갑을 합성할 때 사용",
+      "SpriteName": "EnchantStoneGloves_Icon.sprite"
+    },
+    {
+      "DataId": 50404,
+      "MaterialType": 22,
+      "MaterialGrade": 6,
+      "NameTextID": "글러브 강화석",
+      "DescriptionTextID": "장갑을 합성할 때 사용",
+      "SpriteName": "EnchantStoneGloves_Icon.sprite"
+    },
+    {
+      "DataId": 50405,
+      "MaterialType": 23,
+      "MaterialGrade": 3,
+      "NameTextID": "반지 강화석",
+      "DescriptionTextID": "반지를 합성할 때 사용",
+      "SpriteName": "EnchantStoneRing_Icon.sprite"
+    },
+    {
+      "DataId": 50406,
+      "MaterialType": 23,
+      "MaterialGrade": 6,
+      "NameTextID": "방지 강화석",
+      "DescriptionTextID": "반지를 합성할 때 사용",
+      "SpriteName": "EnchantStoneRing_Icon.sprite"
+    },
+    {
+      "DataId": 50407,
+      "MaterialType": 24,
+      "MaterialGrade": 3,
+      "NameTextID": "벨트 강화석",
+      "DescriptionTextID": "벨트를 합성할 때 사용",
+      "SpriteName": "EnchantStoneBelt_Icon.sprite"
+    },
+    {
+      "DataId": 50408,
+      "MaterialType": 24,
+      "MaterialGrade": 6,
+      "NameTextID": "벨트 강화석",
+      "DescriptionTextID": "벨트를 합성할 때 사용",
+      "SpriteName": "EnchantStoneBelt_Icon.sprite"
+    },
+    {
+      "DataId": 50409,
+      "MaterialType": 25,
+      "MaterialGrade": 3,
+      "NameTextID": "아머 강화석",
+      "DescriptionTextID": "아머를 합성할 때 사용",
+      "SpriteName": "EnchantStoneArmor_Icon.sprite"
+    },
+    {
+      "DataId": 50410,
+      "MaterialType": 25,
+      "MaterialGrade": 6,
+      "NameTextID": "아머 강화석",
+      "DescriptionTextID": "아머를 합성할 때 사용",
+      "SpriteName": "EnchantStoneArmor_Icon.sprite"
+    },
+    {
+      "DataId": 50411,
+      "MaterialType": 26,
+      "MaterialGrade": 3,
+      "NameTextID": "부츠 강화석",
+      "DescriptionTextID": "부츠를 합성할 때 사용",
+      "SpriteName": "EnchantStoneBoots_Icon.sprite"
+    },
+    {
+      "DataId": 50412,
+      "MaterialType": 26,
+      "MaterialGrade": 6,
+      "NameTextID": "부츠 강화석",
+      "DescriptionTextID": "부츠를 합성할 때 사용",
+      "SpriteName": "EnchantStoneBoots_Icon.sprite"
+    }
+  ]
+}

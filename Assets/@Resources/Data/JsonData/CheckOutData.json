@@ -1,0 +1,69 @@
+{
+  "checkouts": [
+    {
+      "Day": 1,
+      "RewardItemId": 50002,
+      "MissionTarRewardItemValuegetValue": 100
+    },
+    {
+      "Day": 2,
+      "RewardItemId": 50202,
+      "MissionTarRewardItemValuegetValue": 3
+    },
+    {
+      "Day": 3,
+      "RewardItemId": 50002,
+      "MissionTarRewardItemValuegetValue": 200
+    },
+    {
+      "Day": 4,
+      "RewardItemId": 50202,
+      "MissionTarRewardItemValuegetValue": 3
+    },
+    {
+      "Day": 5,
+      "RewardItemId": 50002,
+      "MissionTarRewardItemValuegetValue": 300
+    },
+    {
+      "Day": 6,
+      "RewardItemId": 50203,
+      "MissionTarRewardItemValuegetValue": 3
+    },
+    {
+      "Day": 7,
+      "RewardItemId": 50002,
+      "MissionTarRewardItemValuegetValue": 400
+    },
+    {
+      "Day": 8,
+      "RewardItemId": 50203,
+      "MissionTarRewardItemValuegetValue": 3
+    },
+    {
+      "Day": 9,
+      "RewardItemId": 50002,
+      "MissionTarRewardItemValuegetValue": 500
+    },
+    {
+      "Day": 10,
+      "RewardItemId": 50203,
+      "MissionTarRewardItemValuegetValue": 3
+    },
+    {
+      "Day": 15,
+      "RewardItemId": 50306,
+      "MissionTarRewardItemValuegetValue": 1
+    },
+    {
+      "Day": 20,
+      "RewardItemId": 50306,
+      "MissionTarRewardItemValuegetValue": 2
+    },
+    {
+      "Day": 30,
+      "RewardItemId": 50306,
+      "MissionTarRewardItemValuegetValue": 3
+    }
+  ]
+}

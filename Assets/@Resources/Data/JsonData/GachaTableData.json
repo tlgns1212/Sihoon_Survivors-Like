@@ -1,0 +1,1853 @@
+{
+  "GachaTable": [
+    {
+      "Type": 0,
+      "GachaRateTable": []
+    },
+    {
+      "Type": 1,
+      "GachaRateTable": [
+        {
+          "EquipmentID": "N00101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50101",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50201",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50301",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50401",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50501",
+          "GachaRate": 0.020666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50102",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50202",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50302",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50402",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50502",
+          "GachaRate": 0.006,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50104",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50204",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50304",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50404",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50504",
+          "GachaRate": 0.001666,
+          "EquipGrade": 4
+        }
+      ]
+    },
+    {
+      "Type": 2,
+      "GachaRateTable": [
+        {
+          "EquipmentID": "N00101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50101",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50201",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50301",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50401",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50501",
+          "GachaRate": 0.018333,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50104",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50204",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50304",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50404",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50504",
+          "GachaRate": 0.003333,
+          "EquipGrade": 4
+        }
+      ]
+    },
+    {
+      "Type": 3,
+      "GachaRateTable": [
+        {
+          "EquipmentID": "N00101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N10501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N20501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N30501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N40501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50101",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50201",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50301",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50401",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N50501",
+          "GachaRate": 0.016666,
+          "EquipGrade": 1
+        },
+        {
+          "EquipmentID": "N00102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N10502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N20502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N30502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N40502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50102",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50202",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50302",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50402",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N50502",
+          "GachaRate": 0.006666,
+          "EquipGrade": 2
+        },
+        {
+          "EquipmentID": "N00103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N10503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N20503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N30503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N40503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50103",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50203",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50303",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50403",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N50503",
+          "GachaRate": 0.005,
+          "EquipGrade": 3
+        },
+        {
+          "EquipmentID": "N00104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N00504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N10504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N20504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N30504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N40504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50104",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50204",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50304",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50404",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "N50504",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S00101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S10101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S20101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S30101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S40101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        },
+        {
+          "EquipmentID": "S50101",
+          "GachaRate": 0.004166,
+          "EquipGrade": 4
+        }
+      ]
+    }
+  ]
+}

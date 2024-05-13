@@ -1,0 +1,9 @@
+﻿DataId,DropItemType,NameTextID,DescriptionTextID,SpriteName
+60001,Potion,포션,Potion,Potion_Icon.sprite
+60002,Potion,하이포션,High Potion,Potion_High_Icon.sprite
+60003,Potion,풀포션,Full Potion,Potion_Full_Icon.sprite
+60004,Magnet,자석,Magnet,Magnet_Icon.sprite
+60005,DropBox,일반 상자,Common Box,CommonBox_Icon.sprite
+60006,DropBox,레어 상자,Rare Box,RareBox_Icon.sprite
+60007,DropBox,에픽 상자,Epic Box,EpicBox_Icon.sprite
+60008,Bomb,폭탄,Bomb,Bomb_Icon.sprite

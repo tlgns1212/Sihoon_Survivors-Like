@@ -1,0 +1,301 @@
+﻿DataId,GachaRarity,EquipmentType,EquipmentGrade,NameTextID,DescriptionTextID,SpriteName,Grade_Hp,Grade_UpHp,Grade_Atk,Grade_UpAtk,Grade_MaxLevel,UncommonGradeSkill,RareGradeSkill,EpicGradeSkill,LegendaryGradeSkill,BasicSkill,MergeEquipmentType1,MergeEquipment1,MergeEquipmentType2,MergeEquipment2,MergedItemCode,LevelupMaterialID,DowngradeEquipmentCode,DowngradeMaterialCode,DowngradeMaterialCount
+N00101,Normal,Weapon,Common,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,13,3,10,20601,20602,31101,31102,10101,ItemCode,N00101,ItemCode,N00101,N00102,50101,,,
+N00102,Normal,Weapon,Uncommon,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,26,4,20,20601,20602,31101,31102,10101,ItemCode,N00102,ItemCode,N00102,N00103,50101,,,
+N00103,Normal,Weapon,Rare,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,39,5,30,20601,20602,31101,31102,10101,ItemCode,N00103,ItemCode,N00103,N00104,50101,,,
+N00104,Normal,Weapon,Epic,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,65,9,40,20601,20602,31101,31102,10101,Grade,Epic,None,None,N00105,50101,,,
+N00105,Normal,Weapon,Epic1,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,78,10,50,20601,20602,31101,31102,10101,Grade,Epic,None,None,N00106,50101,N00104,N00104,1
+N00106,Normal,Weapon,Epic2,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,91,11,60,20601,20602,31101,31102,10101,ItemCode,N00104,ItemCode,N00104,N00107,50101,N00104,N00104,2
+N00107,Normal,Weapon,Legendary,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,172,13,70,20601,20602,31101,31102,10101,Grade,Legendary,None,None,N00108,50101,,,
+N00108,Normal,Weapon,Legendary1,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,200,15,80,20601,20602,31101,31102,10101,Grade,Legendary,None,None,N00109,50101,N00107,N00107,1
+N00109,Normal,Weapon,Legendary2,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,229,17,90,20601,20602,31101,31102,10101,Grade,Legendary,None,None,N00110,50101,N00107,N00107,2
+N00110,Normal,Weapon,Legendary3,리커브 보우,사냥꾼들이 많이 사용하는 활,Weapon_01.sprite,0,0,257,19,100,20601,20602,31101,31102,10101,None,None,None,None,None,50101,N00107,N00107,3
+N00201,Normal,Weapon,Common,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,13,3,10,20601,20602,31301,31302,10121,ItemCode,N00201,ItemCode,N00201,N00202,50101,,,
+N00202,Normal,Weapon,Uncommon,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,26,4,20,20601,20602,31301,31302,10121,ItemCode,N00202,ItemCode,N00202,N00203,50101,,,
+N00203,Normal,Weapon,Rare,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,39,5,30,20601,20602,31301,31302,10121,ItemCode,N00203,ItemCode,N00203,N00204,50101,,,
+N00204,Normal,Weapon,Epic,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,65,9,40,20601,20602,31301,31302,10121,Grade,Epic,None,None,N00205,50101,,,
+N00205,Normal,Weapon,Epic1,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,78,10,50,20601,20602,31301,31302,10121,Grade,Epic,None,None,N00206,50101,N00204,N00204,1
+N00206,Normal,Weapon,Epic2,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,91,11,60,20601,20602,31301,31302,10121,ItemCode,N00204,ItemCode,N00204,N00207,50101,N00204,N00204,2
+N00207,Normal,Weapon,Legendary,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,172,13,70,20601,20602,31301,31302,10121,Grade,Legendary,None,None,N00208,50101,,,
+N00208,Normal,Weapon,Legendary1,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,200,15,80,20601,20602,31301,31302,10121,Grade,Legendary,None,None,N00209,50101,N00207,N00207,1
+N00209,Normal,Weapon,Legendary2,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,229,17,90,20601,20602,31301,31302,10121,Grade,Legendary,None,None,N00210,50101,N00207,N00207,2
+N00210,Normal,Weapon,Legendary3,매직 스태프,마법사들이 많이 사용하는 스태프,Weapon_02.sprite,0,0,257,19,100,20601,20602,31301,31302,10121,None,None,None,None,None,50101,N00207,N00207,3
+N00301,Normal,Weapon,Common,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,13,3,10,20601,20602,31201,31202,10111,ItemCode,N00301,ItemCode,N00301,N00302,50101,,,
+N00302,Normal,Weapon,Uncommon,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,26,4,20,20601,20602,31201,31202,10111,ItemCode,N00302,ItemCode,N00302,N00303,50101,,,
+N00303,Normal,Weapon,Rare,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,39,5,30,20601,20602,31201,31202,10111,ItemCode,N00303,ItemCode,N00303,N00304,50101,,,
+N00304,Normal,Weapon,Epic,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,65,9,40,20601,20602,31201,31202,10111,Grade,Epic,None,None,N00305,50101,,,
+N00305,Normal,Weapon,Epic1,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,78,10,50,20601,20602,31201,31202,10111,Grade,Epic,None,None,N00306,50101,N00304,N00304,1
+N00306,Normal,Weapon,Epic2,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,91,11,60,20601,20602,31201,31202,10111,ItemCode,N00304,ItemCode,N00304,N00307,50101,N00304,N00304,2
+N00307,Normal,Weapon,Legendary,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,172,13,70,20601,20602,31201,31202,10111,Grade,Legendary,None,None,N00308,50101,,,
+N00308,Normal,Weapon,Legendary1,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,200,15,80,20601,20602,31201,31202,10111,Grade,Legendary,None,None,N00309,50101,N00307,N00307,1
+N00309,Normal,Weapon,Legendary2,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,229,17,90,20601,20602,31201,31202,10111,Grade,Legendary,None,None,N00310,50101,N00307,N00307,2
+N00310,Normal,Weapon,Legendary3,배틀 엑스,전사들이 많이 사용 하는 도끼,Weapon_03.sprite,0,0,257,19,100,20601,20602,31201,31202,10111,None,None,None,None,None,50101,N00307,N00307,3
+N00401,Normal,Weapon,Common,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,13,3,10,20601,20602,31001,31002,10091,ItemCode,N00401,ItemCode,N00401,N00402,50101,,,
+N00402,Normal,Weapon,Uncommon,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,26,4,20,20601,20602,31001,31002,10091,ItemCode,N00402,ItemCode,N00402,N00403,50101,,,
+N00403,Normal,Weapon,Rare,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,39,5,30,20601,20602,31001,31002,10091,ItemCode,N00403,ItemCode,N00403,N00404,50101,,,
+N00404,Normal,Weapon,Epic,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,65,9,40,20601,20602,31001,31002,10091,Grade,Epic,None,None,N00405,50101,,,
+N00405,Normal,Weapon,Epic1,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,78,10,50,20601,20602,31001,31002,10091,Grade,Epic,None,None,N00406,50101,N00404,N00404,1
+N00406,Normal,Weapon,Epic2,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,91,11,60,20601,20602,31001,31002,10091,ItemCode,N00404,ItemCode,N00404,N00407,50101,N00404,N00404,2
+N00407,Normal,Weapon,Legendary,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,172,13,70,20601,20602,31001,31002,10091,Grade,Legendary,None,None,N00408,50101,,,
+N00408,Normal,Weapon,Legendary1,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,200,15,80,20601,20602,31001,31002,10091,Grade,Legendary,None,None,N00409,50101,N00407,N00407,1
+N00409,Normal,Weapon,Legendary2,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,229,17,90,20601,20602,31001,31002,10091,Grade,Legendary,None,None,N00410,50101,N00407,N00407,2
+N00410,Normal,Weapon,Legendary3,수리검,암살자들이 많이 사용하는 투척무기,Weapon_04.sprite,0,0,257,19,100,20601,20602,31001,31002,10091,None,None,None,None,None,50101,N00407,N00407,3
+N00501,Normal,Weapon,Common,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,13,3,10,20601,20602,30801,30802,10071,ItemCode,N00501,ItemCode,N00501,N00502,50101,,,
+N00502,Normal,Weapon,Uncommon,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,26,4,20,20601,20602,30801,30802,10071,ItemCode,N00502,ItemCode,N00502,N00503,50101,,,
+N00503,Normal,Weapon,Rare,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,39,5,30,20601,20602,30801,30802,10071,ItemCode,N00503,ItemCode,N00503,N00504,50101,,,
+N00504,Normal,Weapon,Epic,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,65,9,40,20601,20602,30801,30802,10071,Grade,Epic,None,None,N00505,50101,,,
+N00505,Normal,Weapon,Epic1,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,78,10,50,20601,20602,30801,30802,10071,Grade,Epic,None,None,N00506,50101,N00504,N00504,1
+N00506,Normal,Weapon,Epic2,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,91,11,60,20601,20602,30801,30802,10071,ItemCode,N00504,ItemCode,N00504,N00507,50101,N00504,N00504,2
+N00507,Normal,Weapon,Legendary,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,172,13,70,20601,20602,30801,30802,10071,Grade,Legendary,None,None,N00508,50101,,,
+N00508,Normal,Weapon,Legendary1,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,200,15,80,20601,20602,30801,30802,10071,Grade,Legendary,None,None,N00509,50101,N00507,N00507,1
+N00509,Normal,Weapon,Legendary2,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,229,17,90,20601,20602,30801,30802,10071,Grade,Legendary,None,None,N00510,50101,N00507,N00507,2
+N00510,Normal,Weapon,Legendary3,에고소드,어떤 기사가 사용했다던 검,Weapon_05.sprite,0,0,257,19,100,20601,20602,30801,30802,10071,None,None,None,None,None,50101,N00507,N00507,3
+N10101,Normal,Gloves,Common,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,10,2,10,20601,20602,20103,20104,,ItemCode,N10101,ItemCode,N10101,N10102,50102,,,
+N10102,Normal,Gloves,Uncommon,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,21,3,20,20601,20602,20103,20104,,ItemCode,N10102,ItemCode,N10102,N10103,50102,,,
+N10103,Normal,Gloves,Rare,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,31,4,30,20601,20602,20103,20104,,ItemCode,N10103,ItemCode,N10103,N10104,50102,,,
+N10104,Normal,Gloves,Epic,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,52,6,40,20601,20602,20103,20104,,Grade,Epic,None,None,N10105,50102,,,
+N10105,Normal,Gloves,Epic1,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,62,7,50,20601,20602,20103,20104,,Grade,Epic,None,None,N10106,50102,N10104,N10104,1
+N10106,Normal,Gloves,Epic2,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,73,8,60,20601,20602,20103,20104,,ItemCode,N10104,ItemCode,N10104,N10107,50102,N10104,N10104,2
+N10107,Normal,Gloves,Legendary,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,138,10,70,20601,20602,20103,20104,,Grade,Legendary,None,None,N10108,50102,,,
+N10108,Normal,Gloves,Legendary1,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,160,11,80,20601,20602,20103,20104,,Grade,Legendary,None,None,N10109,50102,N10107,N10107,1
+N10109,Normal,Gloves,Legendary2,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,183,12,90,20601,20602,20103,20104,,Grade,Legendary,None,None,N10110,50102,N10107,N10107,2
+N10110,Normal,Gloves,Legendary3,헌터 글러브,사냥꾼들이 많이 사용하는 글러브,Gloves_01.sprite,0,0,205,14,100,20601,20602,20103,20104,,None,None,None,None,None,50102,N10107,N10107,3
+N10201,Normal,Gloves,Common,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,10,2,10,20601,20602,20303,20304,,ItemCode,N10201,ItemCode,N10201,N10202,50102,,,
+N10202,Normal,Gloves,Uncommon,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,21,3,20,20601,20602,20303,20304,,ItemCode,N10202,ItemCode,N10202,N10203,50102,,,
+N10203,Normal,Gloves,Rare,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,31,4,30,20601,20602,20303,20304,,ItemCode,N10203,ItemCode,N10203,N10204,50102,,,
+N10204,Normal,Gloves,Epic,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,52,6,40,20601,20602,20303,20304,,Grade,Epic,None,None,N10205,50102,,,
+N10205,Normal,Gloves,Epic1,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,62,7,50,20601,20602,20303,20304,,Grade,Epic,None,None,N10206,50102,N10204,N10204,1
+N10206,Normal,Gloves,Epic2,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,73,8,60,20601,20602,20303,20304,,ItemCode,N10204,ItemCode,N10204,N10207,50102,N10204,N10204,2
+N10207,Normal,Gloves,Legendary,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,138,10,70,20601,20602,20303,20304,,Grade,Legendary,None,None,N10208,50102,,,
+N10208,Normal,Gloves,Legendary1,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,160,11,80,20601,20602,20303,20304,,Grade,Legendary,None,None,N10209,50102,N10207,N10207,1
+N10209,Normal,Gloves,Legendary2,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,183,12,90,20601,20602,20303,20304,,Grade,Legendary,None,None,N10210,50102,N10207,N10207,2
+N10210,Normal,Gloves,Legendary3,매직 글러브,매직 글러브Description,Gloves_02.sprite,0,0,205,14,100,20601,20602,20303,20304,,None,None,None,None,None,50102,N10207,N10207,3
+N10301,Normal,Gloves,Common,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,10,2,10,20601,20602,20403,20404,,ItemCode,N10301,ItemCode,N10301,N10302,50102,,,
+N10302,Normal,Gloves,Uncommon,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,21,3,20,20601,20602,20403,20404,,ItemCode,N10302,ItemCode,N10302,N10303,50102,,,
+N10303,Normal,Gloves,Rare,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,31,4,30,20601,20602,20403,20404,,ItemCode,N10303,ItemCode,N10303,N10304,50102,,,
+N10304,Normal,Gloves,Epic,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,52,6,40,20601,20602,20403,20404,,Grade,Epic,None,None,N10305,50102,,,
+N10305,Normal,Gloves,Epic1,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,62,7,50,20601,20602,20403,20404,,Grade,Epic,None,None,N10306,50102,N10304,N10304,1
+N10306,Normal,Gloves,Epic2,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,73,8,60,20601,20602,20403,20404,,ItemCode,N10304,ItemCode,N10304,N10307,50102,N10304,N10304,2
+N10307,Normal,Gloves,Legendary,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,138,10,70,20601,20602,20403,20404,,Grade,Legendary,None,None,N10308,50102,,,
+N10308,Normal,Gloves,Legendary1,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,160,11,80,20601,20602,20403,20404,,Grade,Legendary,None,None,N10309,50102,N10307,N10307,1
+N10309,Normal,Gloves,Legendary2,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,183,12,90,20601,20602,20403,20404,,Grade,Legendary,None,None,N10310,50102,N10307,N10307,2
+N10310,Normal,Gloves,Legendary3,크림슨 글러브,크림슨 글러브Description,Gloves_03.sprite,0,0,205,14,100,20601,20602,20403,20404,,None,None,None,None,None,50102,N10307,N10307,3
+N10401,Normal,Gloves,Common,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,10,2,10,20601,20602,21103,21104,,ItemCode,N10401,ItemCode,N10401,N10402,50102,,,
+N10402,Normal,Gloves,Uncommon,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,21,3,20,20601,20602,21103,21104,,ItemCode,N10402,ItemCode,N10402,N10403,50102,,,
+N10403,Normal,Gloves,Rare,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,31,4,30,20601,20602,21103,21104,,ItemCode,N10403,ItemCode,N10403,N10404,50102,,,
+N10404,Normal,Gloves,Epic,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,52,6,40,20601,20602,21103,21104,,Grade,Epic,None,None,N10405,50102,,,
+N10405,Normal,Gloves,Epic1,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,62,7,50,20601,20602,21103,21104,,Grade,Epic,None,None,N10406,50102,N10404,N10404,1
+N10406,Normal,Gloves,Epic2,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,73,8,60,20601,20602,21103,21104,,ItemCode,N10404,ItemCode,N10404,N10407,50102,N10404,N10404,2
+N10407,Normal,Gloves,Legendary,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,138,10,70,20601,20602,21103,21104,,Grade,Legendary,None,None,N10408,50102,,,
+N10408,Normal,Gloves,Legendary1,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,160,11,80,20601,20602,21103,21104,,Grade,Legendary,None,None,N10409,50102,N10407,N10407,1
+N10409,Normal,Gloves,Legendary2,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,183,12,90,20601,20602,21103,21104,,Grade,Legendary,None,None,N10410,50102,N10407,N10407,2
+N10410,Normal,Gloves,Legendary3,스컬 글러브,스컬 글러브Description,Gloves_04.sprite,0,0,205,14,100,20601,20602,21103,21104,,None,None,None,None,None,50102,N10407,N10407,3
+N10501,Normal,Gloves,Common,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,10,2,10,20601,20602,21302,21303,,ItemCode,N10501,ItemCode,N10501,N10502,50102,,,
+N10502,Normal,Gloves,Uncommon,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,21,3,20,20601,20602,21302,21303,,ItemCode,N10502,ItemCode,N10502,N10503,50102,,,
+N10503,Normal,Gloves,Rare,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,31,4,30,20601,20602,21302,21303,,ItemCode,N10503,ItemCode,N10503,N10504,50102,,,
+N10504,Normal,Gloves,Epic,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,52,6,40,20601,20602,21302,21303,,Grade,Epic,None,None,N10505,50102,,,
+N10505,Normal,Gloves,Epic1,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,62,7,50,20601,20602,21302,21303,,Grade,Epic,None,None,N10506,50102,N10504,N10504,1
+N10506,Normal,Gloves,Epic2,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,73,8,60,20601,20602,21302,21303,,ItemCode,N10504,ItemCode,N10504,N10507,50102,N10504,N10504,2
+N10507,Normal,Gloves,Legendary,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,138,10,70,20601,20602,21302,21303,,Grade,Legendary,None,None,N10508,50102,,,
+N10508,Normal,Gloves,Legendary1,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,160,11,80,20601,20602,21302,21303,,Grade,Legendary,None,None,N10509,50102,N10507,N10507,1
+N10509,Normal,Gloves,Legendary2,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,183,12,90,20601,20602,21302,21303,,Grade,Legendary,None,None,N10510,50102,N10507,N10507,2
+N10510,Normal,Gloves,Legendary3,가디언 글러브,가디언 글러브Description,Gloves_05.sprite,0,0,205,14,100,20601,20602,21302,21303,,None,None,None,None,None,50102,N10507,N10507,3
+N20101,Normal,Ring,Common,헌터 링,헌터 링Description,Ring_01.sprite,0,0,9,2,10,20601,20602,30201,30202,,ItemCode,N20101,ItemCode,N20101,N20102,50103,,,
+N20102,Normal,Ring,Uncommon,헌터 링,헌터 링Description,Ring_01.sprite,0,0,18,3,20,20601,20602,30201,30202,,ItemCode,N20102,ItemCode,N20102,N20103,50103,,,
+N20103,Normal,Ring,Rare,헌터 링,헌터 링Description,Ring_01.sprite,0,0,27,4,30,20601,20602,30201,30202,,ItemCode,N20103,ItemCode,N20103,N20104,50103,,,
+N20104,Normal,Ring,Epic,헌터 링,헌터 링Description,Ring_01.sprite,0,0,46,7,40,20601,20602,30201,30202,,Grade,Epic,None,None,N20105,50103,,,
+N20105,Normal,Ring,Epic1,헌터 링,헌터 링Description,Ring_01.sprite,0,0,55,8,50,20601,20602,30201,30202,,Grade,Epic,None,None,N20106,50103,N20104,N20104,1
+N20106,Normal,Ring,Epic2,헌터 링,헌터 링Description,Ring_01.sprite,0,0,64,10,60,20601,20602,30201,30202,,ItemCode,N20104,ItemCode,N20104,N20107,50103,N20104,N20104,2
+N20107,Normal,Ring,Legendary,헌터 링,헌터 링Description,Ring_01.sprite,0,0,120,11,70,20601,20602,30201,30202,,Grade,Legendary,None,None,N20108,50103,,,
+N20108,Normal,Ring,Legendary1,헌터 링,헌터 링Description,Ring_01.sprite,0,0,140,13,80,20601,20602,30201,30202,,Grade,Legendary,None,None,N20109,50103,N20107,N20107,1
+N20109,Normal,Ring,Legendary2,헌터 링,헌터 링Description,Ring_01.sprite,0,0,160,15,90,20601,20602,30201,30202,,Grade,Legendary,None,None,N20110,50103,N20107,N20107,2
+N20110,Normal,Ring,Legendary3,헌터 링,헌터 링Description,Ring_01.sprite,0,0,181,16,100,20601,20602,30201,30202,,None,None,None,None,None,50103,N20107,N20107,3
+N20201,Normal,Ring,Common,매직 링,매직 링Description,Ring_02.sprite,0,0,9,2,10,20601,20602,30501,30502,,ItemCode,N20201,ItemCode,N20201,N20202,50103,,,
+N20202,Normal,Ring,Uncommon,매직 링,매직 링Description,Ring_02.sprite,0,0,18,3,20,20601,20602,30501,30502,,ItemCode,N20202,ItemCode,N20202,N20203,50103,,,
+N20203,Normal,Ring,Rare,매직 링,매직 링Description,Ring_02.sprite,0,0,27,4,30,20601,20602,30501,30502,,ItemCode,N20203,ItemCode,N20203,N20204,50103,,,
+N20204,Normal,Ring,Epic,매직 링,매직 링Description,Ring_02.sprite,0,0,46,7,40,20601,20602,30501,30502,,Grade,Epic,None,None,N20205,50103,,,
+N20205,Normal,Ring,Epic1,매직 링,매직 링Description,Ring_02.sprite,0,0,55,8,50,20601,20602,30501,30502,,Grade,Epic,None,None,N20206,50103,N20204,N20204,1
+N20206,Normal,Ring,Epic2,매직 링,매직 링Description,Ring_02.sprite,0,0,64,10,60,20601,20602,30501,30502,,ItemCode,N20204,ItemCode,N20204,N20207,50103,N20204,N20204,2
+N20207,Normal,Ring,Legendary,매직 링,매직 링Description,Ring_02.sprite,0,0,120,11,70,20601,20602,30501,30502,,Grade,Legendary,None,None,N20208,50103,,,
+N20208,Normal,Ring,Legendary1,매직 링,매직 링Description,Ring_02.sprite,0,0,140,13,80,20601,20602,30501,30502,,Grade,Legendary,None,None,N20209,50103,N20207,N20207,1
+N20209,Normal,Ring,Legendary2,매직 링,매직 링Description,Ring_02.sprite,0,0,160,15,90,20601,20602,30501,30502,,Grade,Legendary,None,None,N20210,50103,N20207,N20207,2
+N20210,Normal,Ring,Legendary3,매직 링,매직 링Description,Ring_02.sprite,0,0,181,16,100,20601,20602,30501,30502,,None,None,None,None,None,50103,N20207,N20207,3
+N20301,Normal,Ring,Common,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,9,2,10,20601,20602,30401,30402,,ItemCode,N20301,ItemCode,N20301,N20302,50103,,,
+N20302,Normal,Ring,Uncommon,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,18,3,20,20601,20602,30401,30402,,ItemCode,N20302,ItemCode,N20302,N20303,50103,,,
+N20303,Normal,Ring,Rare,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,27,4,30,20601,20602,30401,30402,,ItemCode,N20303,ItemCode,N20303,N20304,50103,,,
+N20304,Normal,Ring,Epic,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,46,7,40,20601,20602,30401,30402,,Grade,Epic,None,None,N20305,50103,,,
+N20305,Normal,Ring,Epic1,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,55,8,50,20601,20602,30401,30402,,Grade,Epic,None,None,N20306,50103,N20304,N20304,1
+N20306,Normal,Ring,Epic2,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,64,10,60,20601,20602,30401,30402,,ItemCode,N20304,ItemCode,N20304,N20307,50103,N20304,N20304,2
+N20307,Normal,Ring,Legendary,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,120,11,70,20601,20602,30401,30402,,Grade,Legendary,None,None,N20308,50103,,,
+N20308,Normal,Ring,Legendary1,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,140,13,80,20601,20602,30401,30402,,Grade,Legendary,None,None,N20309,50103,N20307,N20307,1
+N20309,Normal,Ring,Legendary2,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,160,15,90,20601,20602,30401,30402,,Grade,Legendary,None,None,N20310,50103,N20307,N20307,2
+N20310,Normal,Ring,Legendary3,크림슨 링,크림슨 링Description,Ring_03.sprite,0,0,181,16,100,20601,20602,30401,30402,,None,None,None,None,None,50103,N20307,N20307,3
+N20401,Normal,Ring,Common,스컬 링,스컬 링Description,Ring_04.sprite,0,0,9,2,10,20601,20602,30301,30302,,ItemCode,N20401,ItemCode,N20401,N20402,50103,,,
+N20402,Normal,Ring,Uncommon,스컬 링,스컬 링Description,Ring_04.sprite,0,0,18,3,20,20601,20602,30301,30302,,ItemCode,N20402,ItemCode,N20402,N20403,50103,,,
+N20403,Normal,Ring,Rare,스컬 링,스컬 링Description,Ring_04.sprite,0,0,27,4,30,20601,20602,30301,30302,,ItemCode,N20403,ItemCode,N20403,N20404,50103,,,
+N20404,Normal,Ring,Epic,스컬 링,스컬 링Description,Ring_04.sprite,0,0,46,7,40,20601,20602,30301,30302,,Grade,Epic,None,None,N20405,50103,,,
+N20405,Normal,Ring,Epic1,스컬 링,스컬 링Description,Ring_04.sprite,0,0,55,8,50,20601,20602,30301,30302,,Grade,Epic,None,None,N20406,50103,N20404,N20404,1
+N20406,Normal,Ring,Epic2,스컬 링,스컬 링Description,Ring_04.sprite,0,0,64,10,60,20601,20602,30301,30302,,ItemCode,N20404,ItemCode,N20404,N20407,50103,N20404,N20404,2
+N20407,Normal,Ring,Legendary,스컬 링,스컬 링Description,Ring_04.sprite,0,0,120,11,70,20601,20602,30301,30302,,Grade,Legendary,None,None,N20408,50103,,,
+N20408,Normal,Ring,Legendary1,스컬 링,스컬 링Description,Ring_04.sprite,0,0,140,13,80,20601,20602,30301,30302,,Grade,Legendary,None,None,N20409,50103,N20407,N20407,1
+N20409,Normal,Ring,Legendary2,스컬 링,스컬 링Description,Ring_04.sprite,0,0,160,15,90,20601,20602,30301,30302,,Grade,Legendary,None,None,N20410,50103,N20407,N20407,2
+N20410,Normal,Ring,Legendary3,스컬 링,스컬 링Description,Ring_04.sprite,0,0,181,16,100,20601,20602,30301,30302,,None,None,None,None,None,50103,N20407,N20407,3
+N20501,Normal,Ring,Common,가디언 링,가디언 링Description,Ring_05.sprite,0,0,9,2,10,20601,20602,30601,30602,,ItemCode,N20501,ItemCode,N20501,N20502,50103,,,
+N20502,Normal,Ring,Uncommon,가디언 링,가디언 링Description,Ring_05.sprite,0,0,18,3,20,20601,20602,30601,30602,,ItemCode,N20502,ItemCode,N20502,N20503,50103,,,
+N20503,Normal,Ring,Rare,가디언 링,가디언 링Description,Ring_05.sprite,0,0,27,4,30,20601,20602,30601,30602,,ItemCode,N20503,ItemCode,N20503,N20504,50103,,,
+N20504,Normal,Ring,Epic,가디언 링,가디언 링Description,Ring_05.sprite,0,0,46,7,40,20601,20602,30601,30602,,Grade,Epic,None,None,N20505,50103,,,
+N20505,Normal,Ring,Epic1,가디언 링,가디언 링Description,Ring_05.sprite,0,0,55,8,50,20601,20602,30601,30602,,Grade,Epic,None,None,N20506,50103,N20504,N20504,1
+N20506,Normal,Ring,Epic2,가디언 링,가디언 링Description,Ring_05.sprite,0,0,64,10,60,20601,20602,30601,30602,,ItemCode,N20504,ItemCode,N20504,N20507,50103,N20504,N20504,2
+N20507,Normal,Ring,Legendary,가디언 링,가디언 링Description,Ring_05.sprite,0,0,120,11,70,20601,20602,30601,30602,,Grade,Legendary,None,None,N20508,50103,,,
+N20508,Normal,Ring,Legendary1,가디언 링,가디언 링Description,Ring_05.sprite,0,0,140,13,80,20601,20602,30601,30602,,Grade,Legendary,None,None,N20509,50103,N20507,N20507,1
+N20509,Normal,Ring,Legendary2,가디언 링,가디언 링Description,Ring_05.sprite,0,0,160,15,90,20601,20602,30601,30602,,Grade,Legendary,None,None,N20510,50103,N20507,N20507,2
+N20510,Normal,Ring,Legendary3,가디언 링,가디언 링Description,Ring_05.sprite,0,0,181,16,100,20601,20602,30601,30602,,None,None,None,None,None,50103,N20507,N20507,3
+N30101,Normal,Belt,Common,헌터 벨트,헌터 벨트Description,Belt_01.sprite,49,4,0,0,10,20201,20202,21602,21603,,ItemCode,N30101,ItemCode,N30101,N30102,50104,,,
+N30102,Normal,Belt,Uncommon,헌터 벨트,헌터 벨트Description,Belt_01.sprite,69,6,0,0,20,20201,20202,21602,21603,,ItemCode,N30102,ItemCode,N30102,N30103,50104,,,
+N30103,Normal,Belt,Rare,헌터 벨트,헌터 벨트Description,Belt_01.sprite,98,8,0,0,30,20201,20202,21602,21603,,ItemCode,N30103,ItemCode,N30103,N30104,50104,,,
+N30104,Normal,Belt,Epic,헌터 벨트,헌터 벨트Description,Belt_01.sprite,195,11,0,0,40,20201,20202,21602,21603,,Grade,Epic,None,None,N30105,50104,,,
+N30105,Normal,Belt,Epic1,헌터 벨트,헌터 벨트Description,Belt_01.sprite,215,15,0,0,50,20201,20202,21602,21603,,Grade,Epic,None,None,N30106,50104,N30104,N30104,1
+N30106,Normal,Belt,Epic2,헌터 벨트,헌터 벨트Description,Belt_01.sprite,268,16,0,0,60,20201,20202,21602,21603,,ItemCode,N30104,ItemCode,N30104,N30107,50104,N30104,N30104,2
+N30107,Normal,Belt,Legendary,헌터 벨트,헌터 벨트Description,Belt_01.sprite,322,19,0,0,70,20201,20202,21602,21603,,Grade,Legendary,None,None,N30108,50104,,,
+N30108,Normal,Belt,Legendary1,헌터 벨트,헌터 벨트Description,Belt_01.sprite,376,22,0,0,80,20201,20202,21602,21603,,Grade,Legendary,None,None,N30109,50104,N30107,N30107,1
+N30109,Normal,Belt,Legendary2,헌터 벨트,헌터 벨트Description,Belt_01.sprite,429,25,0,0,90,20201,20202,21602,21603,,Grade,Legendary,None,None,N30110,50104,N30107,N30107,2
+N30110,Normal,Belt,Legendary3,헌터 벨트,헌터 벨트Description,Belt_01.sprite,482,28,0,0,100,20201,20202,21602,21603,,None,None,None,None,None,50104,N30107,N30107,3
+N30201,Normal,Belt,Common,매직 벨트,매직 벨트Description,Belt_02.sprite,49,4,0,0,10,20201,20202,21402,21403,,ItemCode,N30201,ItemCode,N30201,N30202,50104,,,
+N30202,Normal,Belt,Uncommon,매직 벨트,매직 벨트Description,Belt_02.sprite,69,6,0,0,20,20201,20202,21402,21403,,ItemCode,N30202,ItemCode,N30202,N30203,50104,,,
+N30203,Normal,Belt,Rare,매직 벨트,매직 벨트Description,Belt_02.sprite,98,8,0,0,30,20201,20202,21402,21403,,ItemCode,N30203,ItemCode,N30203,N30204,50104,,,
+N30204,Normal,Belt,Epic,매직 벨트,매직 벨트Description,Belt_02.sprite,195,11,0,0,40,20201,20202,21402,21403,,Grade,Epic,None,None,N30205,50104,,,
+N30205,Normal,Belt,Epic1,매직 벨트,매직 벨트Description,Belt_02.sprite,215,15,0,0,50,20201,20202,21402,21403,,Grade,Epic,None,None,N30206,50104,N30204,N30204,1
+N30206,Normal,Belt,Epic2,매직 벨트,매직 벨트Description,Belt_02.sprite,268,16,0,0,60,20201,20202,21402,21403,,ItemCode,N30204,ItemCode,N30204,N30207,50104,N30204,N30204,2
+N30207,Normal,Belt,Legendary,매직 벨트,매직 벨트Description,Belt_02.sprite,322,19,0,0,70,20201,20202,21402,21403,,Grade,Legendary,None,None,N30208,50104,,,
+N30208,Normal,Belt,Legendary1,매직 벨트,매직 벨트Description,Belt_02.sprite,376,22,0,0,80,20201,20202,21402,21403,,Grade,Legendary,None,None,N30209,50104,N30207,N30207,1
+N30209,Normal,Belt,Legendary2,매직 벨트,매직 벨트Description,Belt_02.sprite,429,25,0,0,90,20201,20202,21402,21403,,Grade,Legendary,None,None,N30210,50104,N30207,N30207,2
+N30210,Normal,Belt,Legendary3,매직 벨트,매직 벨트Description,Belt_02.sprite,482,28,0,0,100,20201,20202,21402,21403,,None,None,None,None,None,50104,N30207,N30207,3
+N30301,Normal,Belt,Common,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,49,4,0,0,10,20201,20202,21702,21703,,ItemCode,N30301,ItemCode,N30301,N30302,50104,,,
+N30302,Normal,Belt,Uncommon,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,69,6,0,0,20,20201,20202,21702,21703,,ItemCode,N30302,ItemCode,N30302,N30303,50104,,,
+N30303,Normal,Belt,Rare,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,98,8,0,0,30,20201,20202,21702,21703,,ItemCode,N30303,ItemCode,N30303,N30304,50104,,,
+N30304,Normal,Belt,Epic,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,195,11,0,0,40,20201,20202,21702,21703,,Grade,Epic,None,None,N30305,50104,,,
+N30305,Normal,Belt,Epic1,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,215,15,0,0,50,20201,20202,21702,21703,,Grade,Epic,None,None,N30306,50104,N30304,N30304,1
+N30306,Normal,Belt,Epic2,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,268,16,0,0,60,20201,20202,21702,21703,,ItemCode,N30304,ItemCode,N30304,N30307,50104,N30304,N30304,2
+N30307,Normal,Belt,Legendary,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,322,19,0,0,70,20201,20202,21702,21703,,Grade,Legendary,None,None,N30308,50104,,,
+N30308,Normal,Belt,Legendary1,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,376,22,0,0,80,20201,20202,21702,21703,,Grade,Legendary,None,None,N30309,50104,N30307,N30307,1
+N30309,Normal,Belt,Legendary2,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,429,25,0,0,90,20201,20202,21702,21703,,Grade,Legendary,None,None,N30310,50104,N30307,N30307,2
+N30310,Normal,Belt,Legendary3,크림슨 벨트,크림슨 벨트Description,Belt_03.sprite,482,28,0,0,100,20201,20202,21702,21703,,None,None,None,None,None,50104,N30307,N30307,3
+N30401,Normal,Belt,Common,스컬 벨트,스컬 벨트Description,Belt_04.sprite,49,4,0,0,10,20201,20202,21802,21803,,ItemCode,N30401,ItemCode,N30401,N30402,50104,,,
+N30402,Normal,Belt,Uncommon,스컬 벨트,스컬 벨트Description,Belt_04.sprite,69,6,0,0,20,20201,20202,21802,21803,,ItemCode,N30402,ItemCode,N30402,N30403,50104,,,
+N30403,Normal,Belt,Rare,스컬 벨트,스컬 벨트Description,Belt_04.sprite,98,8,0,0,30,20201,20202,21802,21803,,ItemCode,N30403,ItemCode,N30403,N30404,50104,,,
+N30404,Normal,Belt,Epic,스컬 벨트,스컬 벨트Description,Belt_04.sprite,195,11,0,0,40,20201,20202,21802,21803,,Grade,Epic,None,None,N30405,50104,,,
+N30405,Normal,Belt,Epic1,스컬 벨트,스컬 벨트Description,Belt_04.sprite,215,15,0,0,50,20201,20202,21802,21803,,Grade,Epic,None,None,N30406,50104,N30404,N30404,1
+N30406,Normal,Belt,Epic2,스컬 벨트,스컬 벨트Description,Belt_04.sprite,268,16,0,0,60,20201,20202,21802,21803,,ItemCode,N30404,ItemCode,N30404,N30407,50104,N30404,N30404,2
+N30407,Normal,Belt,Legendary,스컬 벨트,스컬 벨트Description,Belt_04.sprite,322,19,0,0,70,20201,20202,21802,21803,,Grade,Legendary,None,None,N30408,50104,,,
+N30408,Normal,Belt,Legendary1,스컬 벨트,스컬 벨트Description,Belt_04.sprite,376,22,0,0,80,20201,20202,21802,21803,,Grade,Legendary,None,None,N30409,50104,N30407,N30407,1
+N30409,Normal,Belt,Legendary2,스컬 벨트,스컬 벨트Description,Belt_04.sprite,429,25,0,0,90,20201,20202,21802,21803,,Grade,Legendary,None,None,N30410,50104,N30407,N30407,2
+N30410,Normal,Belt,Legendary3,스컬 벨트,스컬 벨트Description,Belt_04.,482,28,0,0,100,20201,20202,21802,21803,,None,None,None,None,None,50104,N30407,N30407,3
+N30501,Normal,Belt,Common,가디언 벨트,가디언 벨트Description,Belt_05.sprite,49,4,0,0,10,20201,20202,21502,21503,,ItemCode,N30501,ItemCode,N30501,N30502,50104,,,
+N30502,Normal,Belt,Uncommon,가디언 벨트,가디언 벨트Description,Belt_05.sprite,69,6,0,0,20,20201,20202,21502,21503,,ItemCode,N30502,ItemCode,N30502,N30503,50104,,,
+N30503,Normal,Belt,Rare,가디언 벨트,가디언 벨트Description,Belt_05.sprite,98,8,0,0,30,20201,20202,21502,21503,,ItemCode,N30503,ItemCode,N30503,N30504,50104,,,
+N30504,Normal,Belt,Epic,가디언 벨트,가디언 벨트Description,Belt_05.sprite,195,11,0,0,40,20201,20202,21502,21503,,Grade,Epic,None,None,N30505,50104,,,
+N30505,Normal,Belt,Epic1,가디언 벨트,가디언 벨트Description,Belt_05.sprite,215,15,0,0,50,20201,20202,21502,21503,,Grade,Epic,None,None,N30506,50104,N30504,N30504,1
+N30506,Normal,Belt,Epic2,가디언 벨트,가디언 벨트Description,Belt_05.sprite,268,16,0,0,60,20201,20202,21502,21503,,ItemCode,N30504,ItemCode,N30504,N30507,50104,N30504,N30504,2
+N30507,Normal,Belt,Legendary,가디언 벨트,가디언 벨트Description,Belt_05.sprite,322,19,0,0,70,20201,20202,21502,21503,,Grade,Legendary,None,None,N30508,50104,,,
+N30508,Normal,Belt,Legendary1,가디언 벨트,가디언 벨트Description,Belt_05.sprite,376,22,0,0,80,20201,20202,21502,21503,,Grade,Legendary,None,None,N30509,50104,N30507,N30507,1
+N30509,Normal,Belt,Legendary2,가디언 벨트,가디언 벨트Description,Belt_05.sprite,429,25,0,0,90,20201,20202,21502,21503,,Grade,Legendary,None,None,N30510,50104,N30507,N30507,2
+N30510,Normal,Belt,Legendary3,가디언 벨트,가디언 벨트Description,Belt_05.sprite,482,28,0,0,100,20201,20202,21502,21503,,None,None,None,None,None,50104,N30507,N30507,3
+N40101,Normal,Armor,Common,헌터 아머,헌터 아머Description,Armor_01.sprite,65,5,0,0,10,20201,20202,21902,21903,,ItemCode,N40101,ItemCode,N40101,N40102,50105,,,
+N40102,Normal,Armor,Uncommon,헌터 아머,헌터 아머Description,Armor_01.sprite,91,8,0,0,20,20201,20202,21902,21903,,ItemCode,N40102,ItemCode,N40102,N40103,50105,,,
+N40103,Normal,Armor,Rare,헌터 아머,헌터 아머Description,Armor_01.sprite,130,10,0,0,30,20201,20202,21902,21903,,ItemCode,N40103,ItemCode,N40103,N40104,50105,,,
+N40104,Normal,Armor,Epic,헌터 아머,헌터 아머Description,Armor_01.sprite,260,15,0,0,40,20201,20202,21902,21903,,Grade,Epic,None,None,N40105,50105,,,
+N40105,Normal,Armor,Epic1,헌터 아머,헌터 아머Description,Armor_01.sprite,286,20,0,0,50,20201,20202,21902,21903,,Grade,Epic,None,None,N40106,50105,N40104,N40104,1
+N40106,Normal,Armor,Epic2,헌터 아머,헌터 아머Description,Armor_01.sprite,358,22,0,0,60,20201,20202,21902,21903,,ItemCode,N40104,ItemCode,N40104,N40107,50105,N40104,N40104,2
+N40107,Normal,Armor,Legendary,헌터 아머,헌터 아머Description,Armor_01.sprite,429,26,0,0,70,20201,20202,21902,21903,,Grade,Legendary,None,None,N40108,50105,,,
+N40108,Normal,Armor,Legendary1,헌터 아머,헌터 아머Description,Armor_01.sprite,501,30,0,0,80,20201,20202,21902,21903,,Grade,Legendary,None,None,N40109,50105,N40107,N40107,1
+N40109,Normal,Armor,Legendary2,헌터 아머,헌터 아머Description,Armor_01.sprite,572,34,0,0,90,20201,20202,21902,21903,,Grade,Legendary,None,None,N40110,50105,N40107,N40107,2
+N40110,Normal,Armor,Legendary3,헌터 아머,헌터 아머Description,Armor_01.sprite,644,38,0,0,100,20201,20202,21902,21903,,None,None,None,None,None,50105,N40107,N40107,3
+N40201,Normal,Armor,Common,매직 로브,매직 로브Description,Armor_02.sprite,65,5,0,0,10,20201,20202,22302,22303,,ItemCode,N40201,ItemCode,N40201,N40202,50105,,,
+N40202,Normal,Armor,Uncommon,매직 로브,매직 로브Description,Armor_02.sprite,91,8,0,0,20,20201,20202,22302,22303,,ItemCode,N40202,ItemCode,N40202,N40203,50105,,,
+N40203,Normal,Armor,Rare,매직 로브,매직 로브Description,Armor_02.sprite,130,10,0,0,30,20201,20202,22302,22303,,ItemCode,N40203,ItemCode,N40203,N40204,50105,,,
+N40204,Normal,Armor,Epic,매직 로브,매직 로브Description,Armor_02.sprite,260,15,0,0,40,20201,20202,22302,22303,,Grade,Epic,None,None,N40205,50105,,,
+N40205,Normal,Armor,Epic1,매직 로브,매직 로브Description,Armor_02.sprite,286,20,0,0,50,20201,20202,22302,22303,,Grade,Epic,None,None,N40206,50105,N40204,N40204,1
+N40206,Normal,Armor,Epic2,매직 로브,매직 로브Description,Armor_02.sprite,358,22,0,0,60,20201,20202,22302,22303,,ItemCode,N40204,ItemCode,N40204,N40207,50105,N40204,N40204,2
+N40207,Normal,Armor,Legendary,매직 로브,매직 로브Description,Armor_02.sprite,429,26,0,0,70,20201,20202,22302,22303,,Grade,Legendary,None,None,N40208,50105,,,
+N40208,Normal,Armor,Legendary1,매직 로브,매직 로브Description,Armor_02.sprite,501,30,0,0,80,20201,20202,22302,22303,,Grade,Legendary,None,None,N40209,50105,N40207,N40207,1
+N40209,Normal,Armor,Legendary2,매직 로브,매직 로브Description,Armor_02.sprite,572,34,0,0,90,20201,20202,22302,22303,,Grade,Legendary,None,None,N40210,50105,N40207,N40207,2
+N40210,Normal,Armor,Legendary3,매직 로브,매직 로브Description,Armor_02.sprite,644,38,0,0,100,20201,20202,22302,22303,,None,None,None,None,None,50105,N40207,N40207,3
+N40301,Normal,Armor,Common,크림슨 아머,크림슨 아머Description,Armor_03.sprite,65,5,0,0,10,20201,20202,22002,22003,,ItemCode,N40301,ItemCode,N40301,N40302,50105,,,
+N40302,Normal,Armor,Uncommon,크림슨 아머,크림슨 아머Description,Armor_03.sprite,91,8,0,0,20,20201,20202,22002,22003,,ItemCode,N40302,ItemCode,N40302,N40303,50105,,,
+N40303,Normal,Armor,Rare,크림슨 아머,크림슨 아머Description,Armor_03.sprite,130,10,0,0,30,20201,20202,22002,22003,,ItemCode,N40303,ItemCode,N40303,N40304,50105,,,
+N40304,Normal,Armor,Epic,크림슨 아머,크림슨 아머Description,Armor_03.sprite,260,15,0,0,40,20201,20202,22002,22003,,Grade,Epic,None,None,N40305,50105,,,
+N40305,Normal,Armor,Epic1,크림슨 아머,크림슨 아머Description,Armor_03.sprite,286,20,0,0,50,20201,20202,22002,22003,,Grade,Epic,None,None,N40306,50105,N40304,N40304,1
+N40306,Normal,Armor,Epic2,크림슨 아머,크림슨 아머Description,Armor_03.sprite,358,22,0,0,60,20201,20202,22002,22003,,ItemCode,N40304,ItemCode,N40304,N40307,50105,N40304,N40304,2
+N40307,Normal,Armor,Legendary,크림슨 아머,크림슨 아머Description,Armor_03.sprite,429,26,0,0,70,20201,20202,22002,22003,,Grade,Legendary,None,None,N40308,50105,,,
+N40308,Normal,Armor,Legendary1,크림슨 아머,크림슨 아머Description,Armor_03.sprite,501,30,0,0,80,20201,20202,22002,22003,,Grade,Legendary,None,None,N40309,50105,N40307,N40307,1
+N40309,Normal,Armor,Legendary2,크림슨 아머,크림슨 아머Description,Armor_03.sprite,572,34,0,0,90,20201,20202,22002,22003,,Grade,Legendary,None,None,N40310,50105,N40307,N40307,2
+N40310,Normal,Armor,Legendary3,크림슨 아머,크림슨 아머Description,Armor_03.sprite,644,38,0,0,100,20201,20202,22002,22003,,None,None,None,None,None,50105,N40307,N40307,3
+N40401,Normal,Armor,Common,스컬 아머,스컬 아머Description,Armor_04.sprite,65,5,0,0,10,20201,20202,22202,22203,,ItemCode,N40401,ItemCode,N40401,N40402,50105,,,
+N40402,Normal,Armor,Uncommon,스컬 아머,스컬 아머Description,Armor_04.sprite,91,8,0,0,20,20201,20202,22202,22203,,ItemCode,N40402,ItemCode,N40402,N40403,50105,,,
+N40403,Normal,Armor,Rare,스컬 아머,스컬 아머Description,Armor_04.sprite,130,10,0,0,30,20201,20202,22202,22203,,ItemCode,N40403,ItemCode,N40403,N40404,50105,,,
+N40404,Normal,Armor,Epic,스컬 아머,스컬 아머Description,Armor_04.sprite,260,15,0,0,40,20201,20202,22202,22203,,Grade,Epic,None,None,N40405,50105,,,
+N40405,Normal,Armor,Epic1,스컬 아머,스컬 아머Description,Armor_04.sprite,286,20,0,0,50,20201,20202,22202,22203,,Grade,Epic,None,None,N40406,50105,N40404,N40404,1
+N40406,Normal,Armor,Epic2,스컬 아머,스컬 아머Description,Armor_04.sprite,358,22,0,0,60,20201,20202,22202,22203,,ItemCode,N40404,ItemCode,N40404,N40407,50105,N40404,N40404,2
+N40407,Normal,Armor,Legendary,스컬 아머,스컬 아머Description,Armor_04.sprite,429,26,0,0,70,20201,20202,22202,22203,,Grade,Legendary,None,None,N40408,50105,,,
+N40408,Normal,Armor,Legendary1,스컬 아머,스컬 아머Description,Armor_04.sprite,501,30,0,0,80,20201,20202,22202,22203,,Grade,Legendary,None,None,N40409,50105,N40407,N40407,1
+N40409,Normal,Armor,Legendary2,스컬 아머,스컬 아머Description,Armor_04.sprite,572,34,0,0,90,20201,20202,22202,22203,,Grade,Legendary,None,None,N40410,50105,N40407,N40407,2
+N40410,Normal,Armor,Legendary3,스컬 아머,스컬 아머Description,Armor_04.sprite,644,38,0,0,100,20201,20202,22202,22203,,None,None,None,None,None,50105,N40407,N40407,3
+N40501,Normal,Armor,Common,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,65,5,0,0,10,20201,20202,22102,22103,,ItemCode,N40501,ItemCode,N40501,N40502,50105,,,
+N40502,Normal,Armor,Uncommon,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,91,8,0,0,20,20201,20202,22102,22103,,ItemCode,N40502,ItemCode,N40502,N40503,50105,,,
+N40503,Normal,Armor,Rare,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,130,10,0,0,30,20201,20202,22102,22103,,ItemCode,N40503,ItemCode,N40503,N40504,50105,,,
+N40504,Normal,Armor,Epic,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,260,15,0,0,40,20201,20202,22102,22103,,Grade,Epic,None,None,N40505,50105,,,
+N40505,Normal,Armor,Epic1,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,286,20,0,0,50,20201,20202,22102,22103,,Grade,Epic,None,None,N40506,50105,N40504,N40504,1
+N40506,Normal,Armor,Epic2,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,358,22,0,0,60,20201,20202,22102,22103,,ItemCode,N40504,ItemCode,N40504,N40507,50105,N40504,N40504,2
+N40507,Normal,Armor,Legendary,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,429,26,0,0,70,20201,20202,22102,22103,,Grade,Legendary,None,None,N40508,50105,,,
+N40508,Normal,Armor,Legendary1,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,501,30,0,0,80,20201,20202,22102,22103,,Grade,Legendary,None,None,N40509,50105,N40507,N40507,1
+N40509,Normal,Armor,Legendary2,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,572,34,0,0,90,20201,20202,22102,22103,,Grade,Legendary,None,None,N40510,50105,N40507,N40507,2
+N40510,Normal,Armor,Legendary3,가디언 플레이트,가디언 플레이트Description,Armor_05.sprite,644,38,0,0,100,20201,20202,22102,22103,,None,None,None,None,None,50105,N40507,N40507,3
+N50101,Normal,Boots,Common,헌터 부츠,헌터 부츠Description,Boots_01.sprite,49,4,0,0,10,20201,20202,20703,20704,,ItemCode,N50101,ItemCode,N50101,N50102,50106,,,
+N50102,Normal,Boots,Uncommon,헌터 부츠,헌터 부츠Description,Boots_01.sprite,69,6,0,0,20,20201,20202,20703,20704,,ItemCode,N50102,ItemCode,N50102,N50103,50106,,,
+N50103,Normal,Boots,Rare,헌터 부츠,헌터 부츠Description,Boots_01.sprite,98,8,0,0,30,20201,20202,20703,20704,,ItemCode,N50103,ItemCode,N50103,N50104,50106,,,
+N50104,Normal,Boots,Epic,헌터 부츠,헌터 부츠Description,Boots_01.sprite,195,11,0,0,40,20201,20202,20703,20704,,Grade,Epic,None,None,N50105,50106,,,
+N50105,Normal,Boots,Epic1,헌터 부츠,헌터 부츠Description,Boots_01.sprite,215,15,0,0,50,20201,20202,20703,20704,,Grade,Epic,None,None,N50106,50106,N50104,N50104,1
+N50106,Normal,Boots,Epic2,헌터 부츠,헌터 부츠Description,Boots_01.sprite,268,16,0,0,60,20201,20202,20703,20704,,ItemCode,N50104,ItemCode,N50104,N50107,50106,N50104,N50104,2
+N50107,Normal,Boots,Legendary,헌터 부츠,헌터 부츠Description,Boots_01.sprite,322,19,0,0,70,20201,20202,20703,20704,,Grade,Legendary,None,None,N50108,50106,,,
+N50108,Normal,Boots,Legendary1,헌터 부츠,헌터 부츠Description,Boots_01.sprite,376,22,0,0,80,20201,20202,20703,20704,,Grade,Legendary,None,None,N50109,50106,N50107,N50107,1
+N50109,Normal,Boots,Legendary2,헌터 부츠,헌터 부츠Description,Boots_01.sprite,429,25,0,0,90,20201,20202,20703,20704,,Grade,Legendary,None,None,N50110,50106,N50107,N50107,2
+N50110,Normal,Boots,Legendary3,헌터 부츠,헌터 부츠Description,Boots_01.sprite,482,28,0,0,100,20201,20202,20703,20704,,None,None,None,None,None,50106,N50107,N50107,3
+N50201,Normal,Boots,Common,매직 부츠,매직 부츠Description,Boots_02.sprite,49,4,0,0,10,20201,20202,21203,21204,,ItemCode,N50201,ItemCode,N50201,N50202,50106,,,
+N50202,Normal,Boots,Uncommon,매직 부츠,매직 부츠Description,Boots_02.sprite,69,6,0,0,20,20201,20202,21203,21204,,ItemCode,N50202,ItemCode,N50202,N50203,50106,,,
+N50203,Normal,Boots,Rare,매직 부츠,매직 부츠Description,Boots_02.sprite,98,8,0,0,30,20201,20202,21203,21204,,ItemCode,N50203,ItemCode,N50203,N50204,50106,,,
+N50204,Normal,Boots,Epic,매직 부츠,매직 부츠Description,Boots_02.sprite,195,11,0,0,40,20201,20202,21203,21204,,Grade,Epic,None,None,N50205,50106,,,
+N50205,Normal,Boots,Epic1,매직 부츠,매직 부츠Description,Boots_02.sprite,215,15,0,0,50,20201,20202,21203,21204,,Grade,Epic,None,None,N50206,50106,N50204,N50204,1
+N50206,Normal,Boots,Epic2,매직 부츠,매직 부츠Description,Boots_02.sprite,268,16,0,0,60,20201,20202,21203,21204,,ItemCode,N50204,ItemCode,N50204,N50207,50106,N50204,N50204,2
+N50207,Normal,Boots,Legendary,매직 부츠,매직 부츠Description,Boots_02.sprite,322,19,0,0,70,20201,20202,21203,21204,,Grade,Legendary,None,None,N50208,50106,,,
+N50208,Normal,Boots,Legendary1,매직 부츠,매직 부츠Description,Boots_02.sprite,376,22,0,0,80,20201,20202,21203,21204,,Grade,Legendary,None,None,N50209,50106,N50207,N50207,1
+N50209,Normal,Boots,Legendary2,매직 부츠,매직 부츠Description,Boots_02.sprite,429,25,0,0,90,20201,20202,21203,21204,,Grade,Legendary,None,None,N50210,50106,N50207,N50207,2
+N50210,Normal,Boots,Legendary3,매직 부츠,매직 부츠Description,Boots_02.sprite,482,28,0,0,100,20201,20202,21203,21204,,None,None,None,None,None,50106,N50207,N50207,3
+N50301,Normal,Boots,Common,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,49,4,0,0,10,20201,20202,20903,20904,,ItemCode,N50301,ItemCode,N50301,N50302,50106,,,
+N50302,Normal,Boots,Uncommon,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,69,6,0,0,20,20201,20202,20903,20904,,ItemCode,N50302,ItemCode,N50302,N50303,50106,,,
+N50303,Normal,Boots,Rare,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,98,8,0,0,30,20201,20202,20903,20904,,ItemCode,N50303,ItemCode,N50303,N50304,50106,,,
+N50304,Normal,Boots,Epic,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,195,11,0,0,40,20201,20202,20903,20904,,Grade,Epic,None,None,N50305,50106,,,
+N50305,Normal,Boots,Epic1,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,215,15,0,0,50,20201,20202,20903,20904,,Grade,Epic,None,None,N50306,50106,N50304,N50304,1
+N50306,Normal,Boots,Epic2,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,268,16,0,0,60,20201,20202,20903,20904,,ItemCode,N50304,ItemCode,N50304,N50307,50106,N50304,N50304,2
+N50307,Normal,Boots,Legendary,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,322,19,0,0,70,20201,20202,20903,20904,,Grade,Legendary,None,None,N50308,50106,,,
+N50308,Normal,Boots,Legendary1,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,376,22,0,0,80,20201,20202,20903,20904,,Grade,Legendary,None,None,N50309,50106,N50307,N50307,1
+N50309,Normal,Boots,Legendary2,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,429,25,0,0,90,20201,20202,20903,20904,,Grade,Legendary,None,None,N50310,50106,N50307,N50307,2
+N50310,Normal,Boots,Legendary3,크림슨 부츠,크림슨 부츠Description,Boots_03.sprite,482,28,0,0,100,20201,20202,20903,20904,,None,None,None,None,None,50106,N50307,N50307,3
+N50401,Normal,Boots,Common,스컬 부츠,스컬 부츠Description,Boots_04.sprite,49,4,0,0,10,20201,20202,21003,21004,,ItemCode,N50401,ItemCode,N50401,N50402,50106,,,
+N50402,Normal,Boots,Uncommon,스컬 부츠,스컬 부츠Description,Boots_04.sprite,69,6,0,0,20,20201,20202,21003,21004,,ItemCode,N50402,ItemCode,N50402,N50403,50106,,,
+N50403,Normal,Boots,Rare,스컬 부츠,스컬 부츠Description,Boots_04.sprite,98,8,0,0,30,20201,20202,21003,21004,,ItemCode,N50403,ItemCode,N50403,N50404,50106,,,
+N50404,Normal,Boots,Epic,스컬 부츠,스컬 부츠Description,Boots_04.sprite,195,11,0,0,40,20201,20202,21003,21004,,Grade,Epic,None,None,N50405,50106,,,
+N50405,Normal,Boots,Epic1,스컬 부츠,스컬 부츠Description,Boots_04.sprite,215,15,0,0,50,20201,20202,21003,21004,,Grade,Epic,None,None,N50406,50106,N50404,N50404,1
+N50406,Normal,Boots,Epic2,스컬 부츠,스컬 부츠Description,Boots_04.sprite,268,16,0,0,60,20201,20202,21003,21004,,ItemCode,N50404,ItemCode,N50404,N50407,50106,N50404,N50404,2
+N50407,Normal,Boots,Legendary,스컬 부츠,스컬 부츠Description,Boots_04.sprite,322,19,0,0,70,20201,20202,21003,21004,,Grade,Legendary,None,None,N50408,50106,,,
+N50408,Normal,Boots,Legendary1,스컬 부츠,스컬 부츠Description,Boots_04.sprite,376,22,0,0,80,20201,20202,21003,21004,,Grade,Legendary,None,None,N50409,50106,N50407,N50407,1
+N50409,Normal,Boots,Legendary2,스컬 부츠,스컬 부츠Description,Boots_04.sprite,429,25,0,0,90,20201,20202,21003,21004,,Grade,Legendary,None,None,N50410,50106,N50407,N50407,2
+N50410,Normal,Boots,Legendary3,스컬 부츠,스컬 부츠Description,Boots_04.sprite,482,28,0,0,100,20201,20202,21003,21004,,None,None,None,None,None,50106,N50407,N50407,3
+N50501,Normal,Boots,Common,가디언 부츠,가디언 부츠Description,Boots_05.sprite,49,4,0,0,10,20201,20202,20503,20504,,ItemCode,N50501,ItemCode,N50501,N50502,50106,,,
+N50502,Normal,Boots,Uncommon,가디언 부츠,가디언 부츠Description,Boots_05.sprite,69,6,0,0,20,20201,20202,20503,20504,,ItemCode,N50502,ItemCode,N50502,N50503,50106,,,
+N50503,Normal,Boots,Rare,가디언 부츠,가디언 부츠Description,Boots_05.sprite,98,8,0,0,30,20201,20202,20503,20504,,ItemCode,N50503,ItemCode,N50503,N50504,50106,,,
+N50504,Normal,Boots,Epic,가디언 부츠,가디언 부츠Description,Boots_05.sprite,195,11,0,0,40,20201,20202,20503,20504,,Grade,Epic,None,None,N50505,50106,,,
+N50505,Normal,Boots,Epic1,가디언 부츠,가디언 부츠Description,Boots_05.sprite,215,15,0,0,50,20201,20202,20503,20504,,Grade,Epic,None,None,N50506,50106,N50504,N50504,1
+N50506,Normal,Boots,Epic2,가디언 부츠,가디언 부츠Description,Boots_05.sprite,268,16,0,0,60,20201,20202,20503,20504,,ItemCode,N50504,ItemCode,N50504,N50507,50106,N50504,N50504,2
+N50507,Normal,Boots,Legendary,가디언 부츠,가디언 부츠Description,Boots_05.sprite,322,19,0,0,70,20201,20202,20503,20504,,Grade,Legendary,None,None,N50508,50106,,,
+N50508,Normal,Boots,Legendary1,가디언 부츠,가디언 부츠Description,Boots_05.sprite,376,22,0,0,80,20201,20202,20503,20504,,Grade,Legendary,None,None,N50509,50106,N50507,N50507,1
+N50509,Normal,Boots,Legendary2,가디언 부츠,가디언 부츠Description,Boots_05.sprite,429,25,0,0,90,20201,20202,20503,20504,,Grade,Legendary,None,None,N50510,50106,N50507,N50507,2
+N50510,Normal,Boots,Legendary3,가디언 부츠,가디언 부츠Description,Boots_05.sprite,482,28,0,0,100,20201,20202,20503,20504,,None,None,None,None,None,50106,N50507,N50507,3

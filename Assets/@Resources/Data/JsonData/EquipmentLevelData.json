@@ -1,0 +1,704 @@
+{
+  "levels": [
+    {
+      "Level": 1,
+      "UpgradeCost": 1000,
+      "UpgradeRequiredItems": 1
+    },
+    {
+      "Level": 2,
+      "UpgradeCost": 2000,
+      "UpgradeRequiredItems": 1
+    },
+    {
+      "Level": 3,
+      "UpgradeCost": 3000,
+      "UpgradeRequiredItems": 1
+    },
+    {
+      "Level": 4,
+      "UpgradeCost": 4000,
+      "UpgradeRequiredItems": 2
+    },
+    {
+      "Level": 5,
+      "UpgradeCost": 5000,
+      "UpgradeRequiredItems": 2
+    },
+    {
+      "Level": 6,
+      "UpgradeCost": 6000,
+      "UpgradeRequiredItems": 2
+    },
+    {
+      "Level": 7,
+      "UpgradeCost": 7000,
+      "UpgradeRequiredItems": 3
+    },
+    {
+      "Level": 8,
+      "UpgradeCost": 8000,
+      "UpgradeRequiredItems": 3
+    },
+    {
+      "Level": 9,
+      "UpgradeCost": 9000,
+      "UpgradeRequiredItems": 3
+    },
+    {
+      "Level": 10,
+      "UpgradeCost": 10000,
+      "UpgradeRequiredItems": 4
+    },
+    {
+      "Level": 11,
+      "UpgradeCost": 10000,
+      "UpgradeRequiredItems": 4
+    },
+    {
+      "Level": 12,
+      "UpgradeCost": 10000,
+      "UpgradeRequiredItems": 4
+    },
+    {
+      "Level": 13,
+      "UpgradeCost": 10000,
+      "UpgradeRequiredItems": 4
+    },
+    {
+      "Level": 14,
+      "UpgradeCost": 10000,
+      "UpgradeRequiredItems": 4
+    },
+    {
+      "Level": 15,
+      "UpgradeCost": 15000,
+      "UpgradeRequiredItems": 5
+    },
+    {
+      "Level": 16,
+      "UpgradeCost": 15000,
+      "UpgradeRequiredItems": 5
+    },
+    {
+      "Level": 17,
+      "UpgradeCost": 15000,
+      "UpgradeRequiredItems": 5
+    },
+    {
+      "Level": 18,
+      "UpgradeCost": 15000,
+      "UpgradeRequiredItems": 5
+    },
+    {
+      "Level": 19,
+      "UpgradeCost": 15000,
+      "UpgradeRequiredItems": 5
+    },
+    {
+      "Level": 20,
+      "UpgradeCost": 20000,
+      "UpgradeRequiredItems": 10
+    },
+    {
+      "Level": 21,
+      "UpgradeCost": 20000,
+      "UpgradeRequiredItems": 10
+    },
+    {
+      "Level": 22,
+      "UpgradeCost": 20000,
+      "UpgradeRequiredItems": 10
+    },
+    {
+      "Level": 23,
+      "UpgradeCost": 20000,
+      "UpgradeRequiredItems": 10
+    },
+    {
+      "Level": 24,
+      "UpgradeCost": 20000,
+      "UpgradeRequiredItems": 10
+    },
+    {
+      "Level": 25,
+      "UpgradeCost": 25000,
+      "UpgradeRequiredItems": 15
+    },
+    {
+      "Level": 26,
+      "UpgradeCost": 25000,
+      "UpgradeRequiredItems": 15
+    },
+    {
+      "Level": 27,
+      "UpgradeCost": 25000,
+      "UpgradeRequiredItems": 15
+    },
+    {
+      "Level": 28,
+      "UpgradeCost": 25000,
+      "UpgradeRequiredItems": 15
+    },
+    {
+      "Level": 29,
+      "UpgradeCost": 25000,
+      "UpgradeRequiredItems": 15
+    },
+    {
+      "Level": 30,
+      "UpgradeCost": 30000,
+      "UpgradeRequiredItems": 20
+    },
+    {
+      "Level": 31,
+      "UpgradeCost": 30000,
+      "UpgradeRequiredItems": 20
+    },
+    {
+      "Level": 32,
+      "UpgradeCost": 30000,
+      "UpgradeRequiredItems": 20
+    },
+    {
+      "Level": 33,
+      "UpgradeCost": 30000,
+      "UpgradeRequiredItems": 20
+    },
+    {
+      "Level": 34,
+      "UpgradeCost": 30000,
+      "UpgradeRequiredItems": 20
+    },
+    {
+      "Level": 35,
+      "UpgradeCost": 35000,
+      "UpgradeRequiredItems": 25
+    },
+    {
+      "Level": 36,
+      "UpgradeCost": 35000,
+      "UpgradeRequiredItems": 25
+    },
+    {
+      "Level": 37,
+      "UpgradeCost": 35000,
+      "UpgradeRequiredItems": 25
+    },
+    {
+      "Level": 38,
+      "UpgradeCost": 35000,
+      "UpgradeRequiredItems": 25
+    },
+    {
+      "Level": 39,
+      "UpgradeCost": 35000,
+      "UpgradeRequiredItems": 25
+    },
+    {
+      "Level": 40,
+      "UpgradeCost": 40000,
+      "UpgradeRequiredItems": 30
+    },
+    {
+      "Level": 41,
+      "UpgradeCost": 40000,
+      "UpgradeRequiredItems": 30
+    },
+    {
+      "Level": 42,
+      "UpgradeCost": 40000,
+      "UpgradeRequiredItems": 30
+    },
+    {
+      "Level": 43,
+      "UpgradeCost": 40000,
+      "UpgradeRequiredItems": 30
+    },
+    {
+      "Level": 44,
+      "UpgradeCost": 40000,
+      "UpgradeRequiredItems": 30
+    },
+    {
+      "Level": 45,
+      "UpgradeCost": 45000,
+      "UpgradeRequiredItems": 35
+    },
+    {
+      "Level": 46,
+      "UpgradeCost": 45000,
+      "UpgradeRequiredItems": 35
+    },
+    {
+      "Level": 47,
+      "UpgradeCost": 45000,
+      "UpgradeRequiredItems": 35
+    },
+    {
+      "Level": 48,
+      "UpgradeCost": 45000,
+      "UpgradeRequiredItems": 35
+    },
+    {
+      "Level": 49,
+      "UpgradeCost": 45000,
+      "UpgradeRequiredItems": 35
+    },
+    {
+      "Level": 50,
+      "UpgradeCost": 50000,
+      "UpgradeRequiredItems": 40
+    },
+    {
+      "Level": 51,
+      "UpgradeCost": 50000,
+      "UpgradeRequiredItems": 40
+    },
+    {
+      "Level": 52,
+      "UpgradeCost": 50000,
+      "UpgradeRequiredItems": 40
+    },
+    {
+      "Level": 53,
+      "UpgradeCost": 50000,
+      "UpgradeRequiredItems": 40
+    },
+    {
+      "Level": 54,
+      "UpgradeCost": 50000,
+      "UpgradeRequiredItems": 40
+    },
+    {
+      "Level": 55,
+      "UpgradeCost": 55000,
+      "UpgradeRequiredItems": 45
+    },
+    {
+      "Level": 56,
+      "UpgradeCost": 55000,
+      "UpgradeRequiredItems": 45
+    },
+    {
+      "Level": 57,
+      "UpgradeCost": 55000,
+      "UpgradeRequiredItems": 45
+    },
+    {
+      "Level": 58,
+      "UpgradeCost": 55000,
+      "UpgradeRequiredItems": 45
+    },
+    {
+      "Level": 59,
+      "UpgradeCost": 55000,
+      "UpgradeRequiredItems": 45
+    },
+    {
+      "Level": 60,
+      "UpgradeCost": 60000,
+      "UpgradeRequiredItems": 50
+    },
+    {
+      "Level": 61,
+      "UpgradeCost": 60000,
+      "UpgradeRequiredItems": 50
+    },
+    {
+      "Level": 62,
+      "UpgradeCost": 60000,
+      "UpgradeRequiredItems": 50
+    },
+    {
+      "Level": 63,
+      "UpgradeCost": 60000,
+      "UpgradeRequiredItems": 50
+    },
+    {
+      "Level": 64,
+      "UpgradeCost": 60000,
+      "UpgradeRequiredItems": 50
+    },
+    {
+      "Level": 65,
+      "UpgradeCost": 65000,
+      "UpgradeRequiredItems": 55
+    },
+    {
+      "Level": 66,
+      "UpgradeCost": 65000,
+      "UpgradeRequiredItems": 55
+    },
+    {
+      "Level": 67,
+      "UpgradeCost": 65000,
+      "UpgradeRequiredItems": 55
+    },
+    {
+      "Level": 68,
+      "UpgradeCost": 65000,
+      "UpgradeRequiredItems": 55
+    },
+    {
+      "Level": 69,
+      "UpgradeCost": 65000,
+      "UpgradeRequiredItems": 55
+    },
+    {
+      "Level": 70,
+      "UpgradeCost": 70000,
+      "UpgradeRequiredItems": 60
+    },
+    {
+      "Level": 71,
+      "UpgradeCost": 80000,
+      "UpgradeRequiredItems": 60
+    },
+    {
+      "Level": 72,
+      "UpgradeCost": 90000,
+      "UpgradeRequiredItems": 60
+    },
+    {
+      "Level": 73,
+      "UpgradeCost": 100000,
+      "UpgradeRequiredItems": 60
+    },
+    {
+      "Level": 74,
+      "UpgradeCost": 110000,
+      "UpgradeRequiredItems": 60
+    },
+    {
+      "Level": 75,
+      "UpgradeCost": 120000,
+      "UpgradeRequiredItems": 65
+    },
+    {
+      "Level": 76,
+      "UpgradeCost": 130000,
+      "UpgradeRequiredItems": 65
+    },
+    {
+      "Level": 77,
+      "UpgradeCost": 140000,
+      "UpgradeRequiredItems": 65
+    },
+    {
+      "Level": 78,
+      "UpgradeCost": 150000,
+      "UpgradeRequiredItems": 65
+    },
+    {
+      "Level": 79,
+      "UpgradeCost": 160000,
+      "UpgradeRequiredItems": 65
+    },
+    {
+      "Level": 80,
+      "UpgradeCost": 170000,
+      "UpgradeRequiredItems": 70
+    },
+    {
+      "Level": 81,
+      "UpgradeCost": 180000,
+      "UpgradeRequiredItems": 70
+    },
+    {
+      "Level": 82,
+      "UpgradeCost": 190000,
+      "UpgradeRequiredItems": 70
+    },
+    {
+      "Level": 83,
+      "UpgradeCost": 200000,
+      "UpgradeRequiredItems": 70
+    },
+    {
+      "Level": 84,
+      "UpgradeCost": 210000,
+      "UpgradeRequiredItems": 70
+    },
+    {
+      "Level": 85,
+      "UpgradeCost": 220000,
+      "UpgradeRequiredItems": 75
+    },
+    {
+      "Level": 86,
+      "UpgradeCost": 230000,
+      "UpgradeRequiredItems": 75
+    },
+    {
+      "Level": 87,
+      "UpgradeCost": 240000,
+      "UpgradeRequiredItems": 75
+    },
+    {
+      "Level": 88,
+      "UpgradeCost": 250000,
+      "UpgradeRequiredItems": 75
+    },
+    {
+      "Level": 89,
+      "UpgradeCost": 260000,
+      "UpgradeRequiredItems": 75
+    },
+    {
+      "Level": 90,
+      "UpgradeCost": 270000,
+      "UpgradeRequiredItems": 80
+    },
+    {
+      "Level": 91,
+      "UpgradeCost": 280000,
+      "UpgradeRequiredItems": 80
+    },
+    {
+      "Level": 92,
+      "UpgradeCost": 290000,
+      "UpgradeRequiredItems": 80
+    },
+    {
+      "Level": 93,
+      "UpgradeCost": 300000,
+      "UpgradeRequiredItems": 80
+    },
+    {
+      "Level": 94,
+      "UpgradeCost": 310000,
+      "UpgradeRequiredItems": 80
+    },
+    {
+      "Level": 95,
+      "UpgradeCost": 320000,
+      "UpgradeRequiredItems": 85
+    },
+    {
+      "Level": 96,
+      "UpgradeCost": 330000,
+      "UpgradeRequiredItems": 85
+    },
+    {
+      "Level": 97,
+      "UpgradeCost": 340000,
+      "UpgradeRequiredItems": 85
+    },
+    {
+      "Level": 98,
+      "UpgradeCost": 350000,
+      "UpgradeRequiredItems": 85
+    },
+    {
+      "Level": 99,
+      "UpgradeCost": 360000,
+      "UpgradeRequiredItems": 85
+    },
+    {
+      "Level": 100,
+      "UpgradeCost": 370000,
+      "UpgradeRequiredItems": 90
+    },
+    {
+      "Level": 101,
+      "UpgradeCost": 380000,
+      "UpgradeRequiredItems": 90
+    },
+    {
+      "Level": 102,
+      "UpgradeCost": 390000,
+      "UpgradeRequiredItems": 90
+    },
+    {
+      "Level": 103,
+      "UpgradeCost": 400000,
+      "UpgradeRequiredItems": 90
+    },
+    {
+      "Level": 104,
+      "UpgradeCost": 410000,
+      "UpgradeRequiredItems": 90
+    },
+    {
+      "Level": 105,
+      "UpgradeCost": 420000,
+      "UpgradeRequiredItems": 95
+    },
+    {
+      "Level": 106,
+      "UpgradeCost": 430000,
+      "UpgradeRequiredItems": 95
+    },
+    {
+      "Level": 107,
+      "UpgradeCost": 440000,
+      "UpgradeRequiredItems": 95
+    },
+    {
+      "Level": 108,
+      "UpgradeCost": 450000,
+      "UpgradeRequiredItems": 95
+    },
+    {
+      "Level": 109,
+      "UpgradeCost": 460000,
+      "UpgradeRequiredItems": 95
+    },
+    {
+      "Level": 110,
+      "UpgradeCost": 470000,
+      "UpgradeRequiredItems": 100
+    },
+    {
+      "Level": 111,
+      "UpgradeCost": 480000,
+      "UpgradeRequiredItems": 102
+    },
+    {
+      "Level": 112,
+      "UpgradeCost": 490000,
+      "UpgradeRequiredItems": 104
+    },
+    {
+      "Level": 113,
+      "UpgradeCost": 500000,
+      "UpgradeRequiredItems": 106
+    },
+    {
+      "Level": 114,
+      "UpgradeCost": 510000,
+      "UpgradeRequiredItems": 108
+    },
+    {
+      "Level": 115,
+      "UpgradeCost": 520000,
+      "UpgradeRequiredItems": 110
+    },
+    {
+      "Level": 116,
+      "UpgradeCost": 530000,
+      "UpgradeRequiredItems": 112
+    },
+    {
+      "Level": 117,
+      "UpgradeCost": 540000,
+      "UpgradeRequiredItems": 114
+    },
+    {
+      "Level": 118,
+      "UpgradeCost": 550000,
+      "UpgradeRequiredItems": 116
+    },
+    {
+      "Level": 119,
+      "UpgradeCost": 560000,
+      "UpgradeRequiredItems": 118
+    },
+    {
+      "Level": 120,
+      "UpgradeCost": 570000,
+      "UpgradeRequiredItems": 120
+    },
+    {
+      "Level": 121,
+      "UpgradeCost": 580000,
+      "UpgradeRequiredItems": 122
+    },
+    {
+      "Level": 122,
+      "UpgradeCost": 590000,
+      "UpgradeRequiredItems": 124
+    },
+    {
+      "Level": 123,
+      "UpgradeCost": 600000,
+      "UpgradeRequiredItems": 126
+    },
+    {
+      "Level": 124,
+      "UpgradeCost": 610000,
+      "UpgradeRequiredItems": 128
+    },
+    {
+      "Level": 125,
+      "UpgradeCost": 620000,
+      "UpgradeRequiredItems": 130
+    },
+    {
+      "Level": 126,
+      "UpgradeCost": 630000,
+      "UpgradeRequiredItems": 132
+    },
+    {
+      "Level": 127,
+      "UpgradeCost": 640000,
+      "UpgradeRequiredItems": 134
+    },
+    {
+      "Level": 128,
+      "UpgradeCost": 650000,
+      "UpgradeRequiredItems": 136
+    },
+    {
+      "Level": 129,
+      "UpgradeCost": 660000,
+      "UpgradeRequiredItems": 138
+    },
+    {
+      "Level": 130,
+      "UpgradeCost": 670000,
+      "UpgradeRequiredItems": 140
+    },
+    {
+      "Level": 131,
+      "UpgradeCost": 680000,
+      "UpgradeRequiredItems": 142
+    },
+    {
+      "Level": 132,
+      "UpgradeCost": 690000,
+      "UpgradeRequiredItems": 144
+    },
+    {
+      "Level": 133,
+      "UpgradeCost": 700000,
+      "UpgradeRequiredItems": 146
+    },
+    {
+      "Level": 134,
+      "UpgradeCost": 710000,
+      "UpgradeRequiredItems": 148
+    },
+    {
+      "Level": 135,
+      "UpgradeCost": 720000,
+      "UpgradeRequiredItems": 150
+    },
+    {
+      "Level": 136,
+      "UpgradeCost": 730000,
+      "UpgradeRequiredItems": 152
+    },
+    {
+      "Level": 137,
+      "UpgradeCost": 740000,
+      "UpgradeRequiredItems": 154
+    },
+    {
+      "Level": 138,
+      "UpgradeCost": 750000,
+      "UpgradeRequiredItems": 156
+    },
+    {
+      "Level": 139,
+      "UpgradeCost": 760000,
+      "UpgradeRequiredItems": 158
+    },
+    {
+      "Level": 140,
+      "UpgradeCost": 770000,
+      "UpgradeRequiredItems": 160
+    }
+  ]
+}
