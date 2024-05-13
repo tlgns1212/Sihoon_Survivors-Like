@@ -66,7 +66,7 @@ public class Define
         PoisonField = 10021,
         EletronicField = 10031,
         Meteor = 10041,
-        FrozenHeard = 10051,
+        FrozenHeart = 10051,
         WindCutter = 10061,
         EgoSword = 10071,
         ChainLightning = 10081,
