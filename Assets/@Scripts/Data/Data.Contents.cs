@@ -6,6 +6,29 @@ using static Define;
 
 namespace Data
 {
+    #region LevelData
+    [Serializable]
+    public class LevelData
+    {
+        public int Level;
+        public int TotalExp;
+        public int RequiredExp;
+    }
+    [Serializable]
+    public class LevelDataLoader : ILoader<int, LevelData>
+    {
+        public List<LevelData> levels = new List<LevelData>();
+
+        public Dictionary<int, LevelData> MakeDict()
+        {
+            Dictionary<int, LevelData> dict = new Dictionary<int, LevelData>();
+            foreach (LevelData level in levels)
+                dict.Add(level.Level, level);
+            return dict;
+        }
+    }
+    #endregion
+
     #region CreatureData
     [Serializable]
     public class CreatureData

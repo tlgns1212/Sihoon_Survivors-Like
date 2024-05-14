@@ -7,6 +7,31 @@ using static Util;
 public class Define
 {
 
+
+
+
+
+
+
+
+
+
+
+    public static int MAX_SKILL_LEVEL = 6;
+    public static int MAX_SKILL_COUNT = 6;
+
+    #region 가챠 확률
+    public static readonly float[] SUPPORTSKILL_GRADE_PROB = new float[]
+    {
+        0.4f,   // Common 확률
+        0.4f,   // Uncommon 확률
+        0.1f,   // Rare 확률
+        0.07f,  // Epic 확률
+        0.03f,  // Legend 확률
+    };
+
+    #endregion
+
     public enum Scene
     {
         Unknown,
