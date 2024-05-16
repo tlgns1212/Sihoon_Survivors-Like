@@ -16,9 +16,21 @@ public class Define
 
 
 
-
+    public static float POTION_COLLECT_DISTANCE = 2.6F;
+    public static float BOX_COLLECT_DISTANCE = 2.6f;
     public static int MAX_SKILL_LEVEL = 6;
     public static int MAX_SKILL_COUNT = 6;
+
+    #region 넉백 데이터
+    public static float KNOCKBACK_TIME = 0.1f; // 밀려나는 시간
+    public static float KNOCKBACK_SPEED = 10f; // 속도
+    public static float KNOCKBACK_COOLTIME = 0.5f;
+    #endregion
+
+    #region 스테이지 관련 데이터
+    public static readonly int STAGE_SOULCOUNT = 10;
+    public static readonly float STAGE_SOULDROP_RATE = 0.05f;
+    #endregion
 
     #region 가챠 확률
     public static readonly float[] SUPPORTSKILL_GRADE_PROB = new float[]
@@ -31,6 +43,32 @@ public class Define
     };
 
     #endregion
+
+    #region 보석 경험치 획득량
+    public const int SMALL_EXP_AMOUNT = 1;
+    public const int GREEN_EXP_AMOUNT = 2;
+    public const int BLUE_EXP_AMOUNT = 5;
+    public const int YELLOW_EXP_AMOUNT = 10;
+    #endregion
+
+    #region sortingOrder
+    public static readonly int UI_GAMESCENE_SORT_CLOSED = 321;
+    public static readonly int SOUL_SORT = 105;
+
+    // 소울이 이동중일 때 오더 변경
+    public static readonly int UI_GAMESCENE_SORT_OPEN = 323;
+    public static readonly int SOUL_SORT_GETITEM = 322;
+    #endregion
+
+    #region Enum
+
+    public enum DropItemType
+    {
+        Potion,
+        Magnet,
+        DropBox,
+        Bomb,
+    }
 
     public enum Scene
     {
@@ -81,6 +119,54 @@ public class Define
         DropBox,
         Magnet,
         Bomb,
+    }
+
+    public enum GachaRarity
+    {
+        Normal,
+        Special,
+    }
+
+    public enum EquipmentType
+    {
+        Weapon,
+        Gloves,
+        Ring,
+        Belt,
+        Armor,
+        Boots,
+    }
+
+    public enum EquipmentGrade
+    {
+        None,
+        Common,
+        UnCommon,
+        Rare,
+        Epic,
+        Epic1,
+        Epic2,
+        Legendary,
+        Legendary1,
+        Legendary2,
+        Legendary3,
+        Myth,
+        Myth1,
+        Myth2,
+        Myth3,
+    }
+
+    public enum EquipmentSortType
+    {
+        Level,
+        Grade,
+    }
+
+    public enum MergeEquipmentType
+    {
+        None,
+        ItemCode,
+        Grade,
     }
 
     public enum SkillType
@@ -168,6 +254,40 @@ public class Define
         Special,
     }
 
+    public enum MissionType
+    {
+        Complete,
+        Daily,
+        Weekly,
+        Monthly,
+    }
+
+    public enum MissionTarget
+    {
+        DailyComplete,
+        WeeklyComplete,
+        MonthlyComplete,
+        StageEnter,
+        StargeClear,
+        EquipmentLevelUp,
+        CommonGachaOpen,
+        AdvancedGachaOpen,
+        OfflineRewardGet,
+        FastOfflineRewardGet,
+        ShopProductBuy,
+        Login,
+        EquipmentMerge,
+        MonsterAttack,
+        MonsterKill,
+        EliteMonsterAttack,
+        EliteMonsterKill,
+        BossKill,
+        DailyShopBuy,
+        GachaOpen,
+        ADWatching,
+    }
+
+    #endregion
 }
 public static class EquipmentUIColors
 {

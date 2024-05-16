@@ -18,6 +18,7 @@ public class GameData
     public string UserName = "Sihoon Kim";
 
 
+    public List<Character> Characters = new List<Character>();
     public ContinueData ContinueInfo = new ContinueData();
 }
 
@@ -117,10 +118,49 @@ public class GameManager
 
     #endregion
 
+    #region Character
+    public Character CurrentCharacter
+    {
+        get { return _gameData.Characters.Find(c => c.isCurrentCharacter == true); }
+    }
+    #endregion
 
     #region Player
-    // public PlayerController Player { get; set; }
+    public PlayerController Player { get; set; }
+    Vector2 _moveDir;
+    public Vector2 MoveDir
+    {
+        get { return _moveDir; }
+        set
+        {
+            _moveDir = value;
+            OnMoveDirChanged?.Invoke(_moveDir);
+        }
+    }
     #endregion
+
+    #region Action
+    public event Action<Vector2> OnMoveDirChanged;
+    #endregion
+
+    #region InGame
+
+    public (int hp, int atk) GetCurrentCharacterStat()
+    {
+        int hpBonus = 0;
+        int atkBonus = 0;
+        // var (equipHpBonus, equipAtkBonus) = GetEquipmentBonus();
+
+        // Character ch = CurrentCharacter;
+
+        // hpBonus = (equipHpBonus);
+        // atkBonus = (equipAtkBonus);
+
+        return (hpBonus, atkBonus);
+    }
+
+    #endregion
+
 
     #region Save&Load
     string _path;

@@ -88,7 +88,7 @@ namespace Data
         public int NumBounce;
         public float BounceSpeed;
         public float BounceDist;
-        public int NumPenerations;
+        public int NumPenetrations;
         public int CastingEffect;
         public string HitSoundLabel;
         public float ProbCastingEffect;
@@ -195,6 +195,131 @@ namespace Data
             Dictionary<int, SupportSkillData> dict = new Dictionary<int, SupportSkillData>();
             foreach (SupportSkillData supportSkill in supportSkills)
                 dict.Add(supportSkill.DataId, supportSkill);
+            return dict;
+        }
+    }
+    #endregion
+
+    #region EquipmentData
+    [Serializable]
+    public class EquipmentData
+    {
+        public string DataId;
+        public Define.GachaRarity GachaRarity;
+        public Define.EquipmentType EquipmentType;
+        public Define.EquipmentGrade EquipmentGrade;
+        public string NameTextId;
+        public string DescriptionTextId;
+        public string SpriteName;
+        public string HpRegen;
+        public int MaxHpBonus;
+        public int MaxHpBonusPerUpgrade;
+        public int AtkDmgBonus;
+        public int AtkDmgBonusPerUpgrade;
+        public int MaxLevel;
+        public int UncommonGradeSkill;
+        public int RareGradeSkill;
+        public int EpicGradeSkill;
+        public int LegendaryGradeSkill;
+        public int BasicSkill;
+        public Define.MergeEquipmentType MergeEquipmentType1;
+        public string MergeEquipment1;
+        public Define.MergeEquipmentType MergeEquipmentType2;
+        public string MergeEquipment2;
+        public string MergedItemCode;
+        public int LevelupMaterialId;
+        public string DowngradeEquipmentCode;
+        public string DowngradeMaterialCode;
+        public int DowngradeMaterialCount;
+    }
+
+    [Serializable]
+    public class EquipmentDataLoader : ILoader<string, EquipmentData>
+    {
+        public List<EquipmentData> equipments = new List<EquipmentData>();
+
+        public Dictionary<string, EquipmentData> MakeDict()
+        {
+            Dictionary<string, EquipmentData> dict = new Dictionary<string, EquipmentData>();
+            foreach (EquipmentData equipment in equipments)
+                dict.Add(equipment.DataId, equipment);
+            return dict;
+        }
+    }
+    #endregion
+
+    #region EquipmentLevelData
+    [Serializable]
+    public class EquipmentLevelData
+    {
+        public int Level;
+        public int UpgradeCost;
+        public int UpgradeRequiredItems;
+    }
+    [Serializable]
+    public class EquipmentLevelDataLoader : ILoader<int, EquipmentLevelData>
+    {
+        public List<EquipmentLevelData> levels = new List<EquipmentLevelData>();
+
+        public Dictionary<int, EquipmentLevelData> MakeDict()
+        {
+            Dictionary<int, EquipmentLevelData> dict = new Dictionary<int, EquipmentLevelData>();
+            foreach (EquipmentLevelData level in levels)
+                dict.Add(level.Level, level);
+            return dict;
+        }
+    }
+    #endregion
+
+    #region DropItemData
+    [Serializable]
+    public class DropItemData
+    {
+        public int DataId;
+        public Define.DropItemType DropItemType;
+        public string NameTextId;
+        public string DescriptionTextId;
+        public string SpriteName;
+    }
+    [Serializable]
+    public class DropItemDataLoader : ILoader<int, DropItemData>
+    {
+        public List<DropItemData> dropItems = new List<DropItemData>();
+
+        public Dictionary<int, DropItemData> MakeDict()
+        {
+            Dictionary<int, DropItemData> dict = new Dictionary<int, DropItemData>();
+            foreach (DropItemData dropItem in dropItems)
+                dict.Add(dropItem.DataId, dropItem);
+            return dict;
+        }
+    }
+    #endregion
+
+    #region AchievementData
+    [Serializable]
+    public class AchievementData
+    {
+        public int AchievmentId;
+        public string DescriptionTextId;
+        public Define.MissionTarget MissionTarget;
+        public int MissionTargetValue;
+        public int ClearRewardItemId;
+        public int RewardValue;
+        public bool IsCompleted;
+        public bool IsRewarded;
+        public int ProgressValue;
+    }
+    [Serializable]
+    public class AchievementDataLoader : ILoader<int, AchievementData>
+    {
+        public List<AchievementData> achievements = new List<AchievementData>();
+
+        public Dictionary<int, AchievementData> MakeDict()
+        {
+            Dictionary<int, AchievementData> dict = new Dictionary<int, AchievementData>();
+            foreach (AchievementData achievement in achievements)
+                dict.Add(achievement.AchievmentId, achievement);
             return dict;
         }
     }

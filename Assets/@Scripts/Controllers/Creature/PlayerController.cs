@@ -164,11 +164,11 @@ public class PlayerController : CreatureController
                 LevelData currentLevel;
                 Managers.Data.LevelDataDic.TryGetValue(level, out currentLevel);
                 TotalExp = currentLevel.TotalExp;
-                // LevelUp(Level);
+                LevelUp(Level);
             }
 
             OnPlayerDataUpdated?.Invoke();
-            // OnPlayerDataUpdated();
+            // // OnPlayerDataUpdated();
         }
     }
     public float TotalExp
@@ -213,11 +213,368 @@ public class PlayerController : CreatureController
             OnPlayerDataUpdated?.Invoke();
         }
     }
+    public float SoulCount
+    {
+        get { return Managers.Game.ContinueInfo.SoulCount; }
+        set
+        {
+            Managers.Game.ContinueInfo.SoulCount = Mathf.Round(value);
+
+            OnPlayerDataUpdated?.Invoke();
+        }
+    }
+    public float ExpRatio
+    {
+        get
+        {
+            LevelData currentLevelData;
+            if (Managers.Data.LevelDataDic.TryGetValue(Level, out currentLevelData))
+            {
+                int currentLevelExp = currentLevelData.TotalExp;
+                int nextLevelExp = currentLevelExp;
+                int previousLevelExp = 0;
+
+                LevelData prevLevelData;
+                if (Managers.Data.LevelDataDic.TryGetValue(Level - 1, out prevLevelData))
+                {
+                    previousLevelExp = prevLevelData.TotalExp;
+                }
+
+                // 만렙이 아닌 경우
+                LevelData nextLevelData;
+                if (Managers.Data.LevelDataDic.TryGetValue(Level + 1, out nextLevelData))
+                {
+                    nextLevelExp = nextLevelData.TotalExp;
+                }
+
+                return (float)(Exp - previousLevelExp) / (currentLevelExp - previousLevelExp);
+            }
+
+            return 0f;
+        }
+    }
+    public float _ItemCollectDist { get; } = 4.0f;
+
     #endregion
 
+    public Vector2 MoveDir
+    {
+        get { return _moveDir; }
+        set { _moveDir = value.normalized; }
+    }
+    public Vector3 PlayerCenterPos { get { return Indicator.transform.position; } }
+    public Vector3 PlayerDirection { get { return (IndicatorSprite.transform.position - PlayerCenterPos).normalized; } }
 
+    private void OnDestroy()
+    {
+        if (Managers.Game != null)
+        {
+            Managers.Game.OnMoveDirChanged -= HandleOnMoveDirChanged;
+        }
+    }
+
+    private void Start()
+    {
+        StartCoroutine(CoSelfRecovery());
+        if (Managers.Game.ContinueInfo.isContinue == true)
+        {
+            LoadSkill();
+        }
+        else
+        {
+            InitSkill();
+        }
+    }
+
+    private void Update()
+    {
+        UpdatePlayerDirection();
+        MovePlayer();
+        CollectEnv();
+    }
+
+    public override bool Init()
+    {
+        base.Init();
+
+        ObjectType = Define.ObjectType.Player;
+
+        // event
+        Managers.Game.OnMoveDirChanged += HandleOnMoveDirChanged;
+
+        // camera
+        FindObjectOfType<CameraController>()._playerTransform = gameObject.transform;
+        transform.localScale = Vector3.one;
+        return true;
+    }
+
+    public override void InitSkill()
+    {
+        base.InitSkill();
+
+        // Equipment item;
+        // Managers.Game.EquippedEquipments.TryGetValue(Define.EquipmentType.Weapon, out item)
+        // {
+        //     // 베이스 스킬
+        //     Define.SkillType type = Util.GetSkillTypeFromInt(item.EquipmentData.BasicSkill);
+        //     if (type != Define.SkillType.None)
+        //     {
+        //         Skills.AddSkill(type, item.EquipmentData.BasicSkill);
+        //         Skills.LevelUpSkill(type);
+        //     }
+
+        //     Data.SupportSkillData uncommonSkill;
+        //     SupportSkillData rareSkill;
+        //     SupportSkillData epicSkill;
+        //     SupportSkillData legendSkill;
+        //     // 등급별 서포트 스킬
+        //     foreach (Equipment equip in Managers.Game.EquippedEquipments.Values)
+        //     {
+        //         switch (equip.EquipmentData.EquipmentGrade)
+        //         {
+        //             case Define.EquipmentGrade.UnCommon:
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(uncommonSkill);
+        //                 }
+        //                 break;
+        //             case Define.EquipmentGrade.Rare:
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(uncommonSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(rareSkill);
+        //                 }
+        //                 break;
+        //             case Define.EquipmentGrade.Epic:
+        //             case Define.EquipmentGrade.Epic1:
+        //             case Define.EquipmentGrade.Epic2:
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(uncommonSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(rareSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(epicSkill);
+        //                 }
+        //                 break;
+        //             case Define.EquipmentGrade.Legendary:
+        //             case Define.EquipmentGrade.Legendary1:
+        //             case Define.EquipmentGrade.Legendary2:
+        //             case Define.EquipmentGrade.Legendary3:
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(uncommonSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(rareSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(epicSkill);
+        //                 }
+        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.LegendaryGradeSkill, out legendSkill))
+        //                 {
+        //                     Skills.AddSupportSkill(legendSkill);
+        //                 }
+        //                 break;
+        //         }
+        //     }
+        // }
+    }
+
+    public override void InitCreatureStat(bool isFullHp = true)
+    {
+        // 현재 캐릭터의 Stat 가져오기
+        MaxHp = Managers.Game.CurrentCharacter.MaxHp;
+        Atk = Managers.Game.CurrentCharacter.Atk;
+        MoveSpeed = CreatureData.MoveSpeed * CreatureData.MoveSpeedRate;
+
+        // 장비 합산 데이터 다 가져오기
+        var (equip_hp, equip_attack) = Managers.Game.GetCurrentCharacterStat();
+        MaxHp += equip_hp;
+        Atk += equip_attack;
+
+        MaxHp *= MaxHpBonusRate;
+        Atk *= AttackRate;
+        Def *= DefRate;
+        MoveSpeed *= MoveSpeedRate;
+
+        if (isFullHp == true)
+        {
+            Hp = MaxHp;
+        }
+    }
+
+    public override void UpdatePlayerStat()
+    {
+        InitCreatureStat(false);
+
+        MaxHp *= MaxHpBonusRate;
+        Hp *= MaxHpBonusRate;
+        Atk *= AttackRate;
+        Def *= DefRate;
+        MoveSpeed *= MoveSpeedRate;
+    }
+
+    public override void OnDead()
+    {
+        OnPlayerDead?.Invoke();
+    }
+
+    void MovePlayer()
+    {
+        if (CreatureState == Define.CreatureState.OnDamaged)
+            return;
+
+        _rigidBody.velocity = Vector2.zero;
+
+        Vector3 dir = _moveDir * MoveSpeed * Time.deltaTime;
+        transform.position += dir;
+
+        if (dir != Vector3.zero)
+        {
+            Indicator.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(-dir.x, dir.y) * 180 / Mathf.PI);
+            OnPlayerMove?.Invoke();
+        }
+        else
+        {
+            _rigidBody.velocity = Vector2.zero;
+        }
+    }
+
+    void UpdatePlayerDirection()
+    {
+        if (_moveDir.x < 0)
+        {
+            CreatureSprite.flipX = false;
+        }
+        else
+        {
+            CreatureSprite.flipX = true;
+        }
+    }
+
+    void LevelUp(int level = 0)
+    {
+        if (Level > 1)
+        {
+            OnPlayerLevelUp?.Invoke();
+        }
+
+        Skills.OnPlayerLevelUpBonus();
+    }
+
+    void CollectEnv()
+    {
+        // List<DropItemController> items = Managers.Game.CurrentMap.Grid.GatherObjects(transform.position, _ItemCollectDist + 0.5f);
+
+        // foreach (DropItemController item in items)
+        // {
+        //     Vector3 dir = item.transform.position - transform.position;
+        //     switch (item.itemType)
+        //     {
+        //         case Define.ObjectType.DropBox:
+        //         case Define.ObjectType.Potion:
+        //         case Define.ObjectType.Magnet:
+        //         case Define.ObjectType.Bomb:
+        //             if (dir.sqrMagnitude <= item.CollectDist * item.CollectDist)
+        //             {
+        //                 item.GetItem();
+        //             }
+        //             break;
+        //         default:
+        //             float cd = item.CollectDist * CollectDistBonus;
+        //             if (dir.sqrMagnitude <= cd * cd)
+        //             {
+        //                 item.GetItem();
+        //             }
+        //             break;
+        //     }
+        // }
+    }
+
+    public override void Healing(float amount, bool isEffect = true)
+    {
+        if (amount == 0) return;
+        float res = ((MaxHp * amount) * HealBonusRate);
+        if (res == 0) return;
+
+        Hp = Hp + res;
+        // Managers.Object.ShowDamageFont(CenterPosition, 0, res, transform);
+        // if(isEffect){
+        //     Managers.Resource.Instantiate("HealEffect", transform);
+        // }
+    }
+
+    public void OnSafetyZoneExit(BaseController attacker)
+    {
+        float damage = MaxHp * 0.1f;
+        OnDamaged(attacker, null, damage);
+        CreatureSprite.color = new Color(1, 1, 1, 0.5f);
+        OnPlayerDamaged?.Invoke();
+    }
+
+    public void OnSafetyZoneEnter(BaseController attacker)
+    {
+        CreatureSprite.color = new Color(1, 1, 1, 1f);
+    }
+
+    public override void OnDamaged(BaseController attacker, SkillBase skill = null, float damage = 0)
+    {
+        float totalDamage = 0;
+        CreatureController creatureController = attacker as CreatureController;
+        if (creatureController != null)
+        {
+            // 몬스터와 닿았을 때
+            if (skill == null)
+            {
+                totalDamage = creatureController.Atk;
+            }
+            else    // 몬스터 스킬 맞았을때
+            {
+                totalDamage = creatureController.Atk + (creatureController.Atk * skill.SkillData.DamageMultiplier);
+            }
+        }
+        else
+        {
+            totalDamage = damage;
+        }
+
+        totalDamage *= 1 - DamageReduction;
+        // Managers.Game.CameraController.Shake();
+        base.OnDamaged(attacker, skill, damage);
+    }
+
+    public void OnKnockBack(Vector3 dir)
+    {
+        // // CreatureState = Define.CreatureState.KnockBack;
+        // // Rigidbody.velocity = Vector2.zero();
+        // // RigitBody.AddForce(dir * 3, ForceMode2D.Impulse);
+    }
+
+    void HandleOnMoveDirChanged(Vector2 dir)
+    {
+        _moveDir = dir;
+    }
 
     public override void OnDeathAnimationEnd()
     {
+    }
+
+    IEnumerator CoSelfRecovery()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            Healing(HpRegen, false);
+        }
     }
 }
