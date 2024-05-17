@@ -157,27 +157,27 @@ public class ProjectileController : SkillBase
 
     IEnumerator CoPhotonStrike()
     {
-        // List<MonsterController> target = Managers.Object.GetMonsterWithinCamera(1);
-        // while (true)
-        // {
-        //     _timer += Time.deltaTime;
-        //     if (_timer > 3 || target == null)
-        //     {
-        //         DestroyProjectile();
-        //         _timer = 0;
-        //         break;
-        //     }
+        List<MonsterController> target = Managers.Object.GetMonsterWithinCamera(1);
+        while (true)
+        {
+            _timer += Time.deltaTime;
+            if (_timer > 3 || target == null)
+            {
+                DestroyProjectile();
+                _timer = 0;
+                break;
+            }
 
-        //     if (target[0].IsValid() == false)
-        //         break;
+            if (target[0].IsValid() == false)
+                break;
 
-        //     Vector2 direction = (Vector2)target[0].CenterPosition - _rigid.position;
-        //     float rotateSpeed = Vector3.Cross(direction.normalized, transform.up).z;
-        //     _rigid.angularVelocity = -_rotateAmount * rotateSpeed;
-        //     _rigid.velocity = transform.up * Skill.SkillData.ProjSpeed;
+            Vector2 direction = (Vector2)target[0].CenterPosition - _rigid.position;
+            float rotateSpeed = Vector3.Cross(direction.normalized, transform.up).z;
+            _rigid.angularVelocity = -_rotateAmount * rotateSpeed;
+            _rigid.velocity = transform.up * Skill.SkillData.ProjSpeed;
 
-        yield return new WaitForFixedUpdate();
-        // }
+            yield return new WaitForFixedUpdate();
+        }
     }
 
     IEnumerator CoMeteor()
@@ -212,7 +212,7 @@ public class ProjectileController : SkillBase
                 string effectName = skill.Level == 6 ? "PoisonFieldEffect_Final" : "PoisonFieldEffect";
 
                 GameObject fireEffect = Managers.Resource.Instantiate(effectName, pooling: true);
-                // fireEffect.GetComponent<PoisonFieldEffect>().SetInfo(Managers.Game.Player, skill);
+                fireEffect.GetComponent<PoisonFieldEffect>().SetInfo(Managers.Game.Player, skill);
                 fireEffect.transform.position = _target;
                 DestroyProjectile();
             }
@@ -249,7 +249,7 @@ public class ProjectileController : SkillBase
 
     public void DestroyProjectile()
     {
-        // Managers.Object.Despawn(this);
+        Managers.Object.Despawn(this);
     }
 
     void ExplosionMeteor()
@@ -294,7 +294,7 @@ public class ProjectileController : SkillBase
     void BounceProjectile(CreatureController creature)
     {
         List<Transform> list = new List<Transform>();
-        // list = Managers.Object.GetFindMonsterInFanShape(creatureCenterPosition, _dir, 5.5f, 240);
+        list = Managers.Object.GetFindMonstersInFanShape(creature.CenterPosition, _dir, 5.5f, 240);
 
         List<Transform> sortedList = (from t in list
                                       orderby Vector3.Distance(t.position, transform.position) descending
@@ -314,25 +314,25 @@ public class ProjectileController : SkillBase
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        // FrozenHeart frozenHeart = other.transform.GetComponent<FrozenHeart>();
-        // if (frozenHeart != null)
-        // {
-        //     DestroyProjectile();
-        // }
+        FrozenHeart frozenHeart = other.transform.GetComponent<FrozenHeart>();
+        if (frozenHeart != null)
+        {
+            DestroyProjectile();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // MonsterSkill_01 monsterProj = GetComponent<MonsterSkill_01>();
+        MonsterSkill_01 monsterProj = GetComponent<MonsterSkill_01>();
 
-        // if (other.transform.parent != null && monsterProj != null)
-        // {
-        //     FrozenHeart frozenHeart = other.transform.parent.transform.GetComponent<FrozenHeart>();
-        //     if (frozenHeart != null)
-        //     {
-        //         DestroyProjectile();
-        //     }
-        // }
+        if (other.transform.parent != null && monsterProj != null)
+        {
+            FrozenHeart frozenHeart = other.transform.parent.transform.GetComponent<FrozenHeart>();
+            if (frozenHeart != null)
+            {
+                DestroyProjectile();
+            }
+        }
 
         CreatureController creature = other.transform.GetComponent<CreatureController>();
         if (creature.IsValid() == false) return;

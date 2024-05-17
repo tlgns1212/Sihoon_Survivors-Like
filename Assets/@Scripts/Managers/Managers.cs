@@ -57,7 +57,7 @@ public class Managers : MonoBehaviour
             s_instance._sound.Init();
             s_instance._time = go.AddComponent<TimeManager>();
 
-            // Ads.Init(); 
+            // Ads.Init();
 
         }
     }
@@ -68,7 +68,7 @@ public class Managers : MonoBehaviour
         Scene.Clear();
         UI.Clear();
         Pool.Clear();
-        // Object.Clear();
+        Object.Clear();
     }
 
 

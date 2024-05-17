@@ -1,4 +1,4 @@
-﻿AchievementID,DescriptionTextID,MissionTarget,MissionTargetValue,ClearRewardItmeId,RewardValue
+﻿AchievementId,DescriptionTextID,MissionTarget,MissionTargetValue,ClearRewardItmeId,RewardValue
 90001,누적 로그인 1일,Login,1,50002,10
 90002,누적 로그인 5일,Login,5,50002,50
 90003,누적 로그인 10일,Login,10,50002,100

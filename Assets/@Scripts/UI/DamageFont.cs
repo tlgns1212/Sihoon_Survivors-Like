@@ -47,12 +47,12 @@ public class DamageFont : MonoBehaviour
         //1. 크기가 0~ 110퍼 까지 커졌다가 100퍼까지 돌아간다
         //2. 서서히 사라진다
         transform.localScale = new Vector3(0, 0, 0);
-        
+
         seq.Append(transform.DOScale(1.3f, 0.3f).SetEase(Ease.InOutBounce))
             .Join(transform.DOMove(transform.position + Vector3.up, 0.3f).SetEase(Ease.Linear))
             .Append(transform.DOScale(1.0f, 0.3f).SetEase(Ease.InOutBounce))
             .Join(transform.GetComponent<TMP_Text>().DOFade(0, 0.3f).SetEase(Ease.InQuint))
-            //.Append(GetComponent<TextMeshPro>().DOFade(0, 1f).SetEase(Ease.InBounce))
+            // //.Append(GetComponent<TextMeshPro>().DOFade(0, 1f).SetEase(Ease.InBounce))
             .OnComplete(() =>
             {
                 Managers.Resource.Destroy(gameObject);

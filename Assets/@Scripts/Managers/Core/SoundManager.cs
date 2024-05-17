@@ -49,71 +49,71 @@ public class SoundManager
 
     public void Play(Define.Sound type, string key, float pitch = 1.0f)
     {
-        //     AudioSource audioSource = _audioSources[(int)type];
+        AudioSource audioSource = _audioSources[(int)type];
 
-        //     if (type == Define.Sound.Bgm)
-        //     {
-        //         LoadAudioClip(key, (audioClip) =>
-        //         {
-        //             if (audioSource.isPlaying)
-        //                 audioSource.Stop();
+        if (type == Define.Sound.Bgm)
+        {
+            LoadAudioClip(key, (audioClip) =>
+            {
+                if (audioSource.isPlaying)
+                    audioSource.Stop();
 
-        //             audioSource.clip = audioClip;
-        //             if (Managers.Game.BGMOn)
-        //                 audioSource.Play();
-        //         });
-        //     }
-        //     else if (type == Define.Sound.SubBgm)
-        //     {
-        //         LoadAudioClip(key, (audioClip) =>
-        //         {
-        //             if (audioSource.isPlaying)
-        //                 audioSource.Stop();
+                audioSource.clip = audioClip;
+                if (Managers.Game.BGMOn)
+                    audioSource.Play();
+            });
+        }
+        else if (type == Define.Sound.SubBgm)
+        {
+            LoadAudioClip(key, (audioClip) =>
+            {
+                if (audioSource.isPlaying)
+                    audioSource.Stop();
 
-        //             audioSource.clip = audioClip;
-        //             if (Managers.Game.EffectSoundOn)
-        //                 audioSource.Play();
-        //         });
-        //     }
-        //     else
-        //     {
-        //         LoadAudioClip(key, (audioClip) =>
-        //         {
-        //             audioSource.pitch = pitch;
-        //             if (Managers.Game.EffectSoundOn)
-        //                 audioSource.PlayOneShot(audioClip);
-        //         });
-        //     }
+                audioSource.clip = audioClip;
+                if (Managers.Game.EffectSoundOn)
+                    audioSource.Play();
+            });
+        }
+        else
+        {
+            LoadAudioClip(key, (audioClip) =>
+            {
+                audioSource.pitch = pitch;
+                if (Managers.Game.EffectSoundOn)
+                    audioSource.PlayOneShot(audioClip);
+            });
+        }
     }
 
     public void Play(Define.Sound type, AudioClip audioClip, float pitch = 1.0f)
     {
-        //     AudioSource audioSource = _audioSources[(int)type];
+        AudioSource audioSource = _audioSources[(int)type];
 
-        //     if (type == Define.Sound.Bgm)
-        //     {
-        //         if (audioSource.isPlaying)
-        //             audioSource.Stop();
+        if (type == Define.Sound.Bgm)
+        {
+            if (audioSource.isPlaying)
+                audioSource.Stop();
 
-        //         audioSource.clip = audioClip;
-        //         if (Managers.Game.BGMOn)
-        //             audioSource.Play();
-        //     }
-        //     else if (type == Define.Sound.SubBgm)
-        //     {
-        //         if (audioSource.isPlaying)
-        //             audioSource.Stop();
+            audioSource.clip = audioClip;
+            if (Managers.Game.BGMOn)
+                audioSource.Play();
+        }
+        else if (type == Define.Sound.SubBgm)
+        {
+            if (audioSource.isPlaying)
+                audioSource.Stop();
 
-        //         audioSource.clip = audioClip;
-        //         if (Managers.Game.EffectSoundOn)
-        //             audioSource.Play();
-        //     }
-        //     else
-        //     {
-        //         audioSource.pitch = pitch;
-        //         if (Managers.Game.EffectSoundOn)
-        //             audioSource.PlayOneShot(audioClip);
-        //     }
+            audioSource.clip = audioClip;
+            if (Managers.Game.EffectSoundOn)
+                audioSource.Play();
+        }
+        else
+        {
+            audioSource.pitch = pitch;
+            if (Managers.Game.EffectSoundOn)
+                audioSource.PlayOneShot(audioClip);
+        }
     }
 
     public void Stop(Define.Sound type)
@@ -124,12 +124,12 @@ public class SoundManager
 
     public void PlayButtonClick()
     {
-        // Play(Define.Sound.Effect, "Click_CommonButton");
+        Play(Define.Sound.Effect, "Click_CommonButton");
     }
 
     public void PlayPopupClose()
     {
-        // Play(Define.Sound.Effect, "PopupClose_Common");
+        Play(Define.Sound.Effect, "PopupClose_Common");
     }
     private void LoadAudioClip(string key, Action<AudioClip> callback)
     {
@@ -147,11 +147,11 @@ public class SoundManager
 
         callback?.Invoke(audioClip);
 
-        //Managers.Resource.LoadAsync<AudioClip>(key, (audioClip) =>
-        //{
-        //    if (!_audioClips.ContainsKey(key))
-        //        _audioClips.Add(key, audioClip);
-        //    callback?.Invoke(audioClip);
-        //});
+        // // Managers.Resource.LoadAsync<AudioClip>(key, (audioClip) =>
+        // // {
+        // //     if (!_audioClips.ContainsKey(key))
+        // //         _audioClips.Add(key, audioClip);
+        // //     callback?.Invoke(audioClip);
+        // // });
     }
 }

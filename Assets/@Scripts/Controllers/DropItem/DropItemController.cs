@@ -30,7 +30,7 @@ public class DropItemController : BaseController
     public virtual void GetItem()
     {
         GetComponent<SpriteRenderer>().sortingOrder = Define.SOUL_SORT_GETITEM;
-        // Managers.Game.CurrentMap.Grid.Remove(this);
+        Managers.Game.CurrentMap.Grid.Remove(this);
     }
 
     public virtual void CompleteGetItem() { }

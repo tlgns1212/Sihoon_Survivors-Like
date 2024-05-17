@@ -76,27 +76,29 @@ public abstract class CreatureController : BaseController
 
     public virtual void OnDamaged(BaseController attacker, SkillBase skill = null, float damage = 0)
     {
-        // bool isCritical = false;
-        // PlayerController player = attacker as PlayerController;
-        // if(player != null)
-        // {
-        //     // 크리티컬 적용
-        //     if(UnityEngine.Random.value <= player.CriRate)
-        //     {
-        //         damage = damage * player.CriDamage;
-        //         isCritical = true;
-        //     }
-        // }
+        bool isCritical = false;
+        PlayerController player = attacker as PlayerController;
+        if (player != null)
+        {
+            // 크리티컬 적용
+            if (UnityEngine.Random.value <= player.CriRate)
+            {
+                damage = damage * player.CriDamage;
+                isCritical = true;
+            }
+        }
 
-        // if(skill){
-        //     skill.TotalDamage += damage;
-        // }
-        // Hp -= damage;
-        // Managers.Object.ShowDamageFont(CenterPosition, damage, 0, transform, isCritical);
+        if (skill)
+        {
+            skill.TotalDamage += damage;
+        }
+        Hp -= damage;
+        Managers.Object.ShowDamageFont(CenterPosition, damage, 0, transform, isCritical);
 
-        // if(gameObject.IsValid() || this.IsValid()){
-        //     StartCoroutine(PlayDamagedAnimation());
-        // }
+        if (gameObject.IsValid() || this.IsValid())
+        {
+            StartCoroutine(PlayDamageAnimation());
+        }
     }
 
     public virtual void OnDead()
@@ -110,12 +112,12 @@ public abstract class CreatureController : BaseController
 
     public virtual void InitCreatureStat(bool isFullHp = true)
     {
-        // float waveRate = Managers.Game.CurrentWaveData.HpIncreaseRate;
-        // //보스, 플레이어 빼고 엘리트, 몬스터만
-        // MaxHp = (CreatureData.MaxHp + (CreatureData.MaxHpBonus * Managers.Game.CurrentStageData.StageLevel)) * (CreatureData.HpRate + waveRate);
-        // Atk = (CreatureData.Atk + (CreatureData.AtkBonus * Managers.Game.CurrentStageData.StageLevel)) * CreatureData.AtkRate;
-        // Hp = MaxHp;
-        // MoveSpeed = CreatureData.MoveSpeed * CreatureData.MoveSpeedRate;
+        float waveRate = Managers.Game.CurrentWaveData.HpIncreaseRate;
+        //보스, 플레이어 빼고 엘리트, 몬스터만
+        MaxHp = (CreatureData.MaxHp + (CreatureData.MaxHpBonus * Managers.Game.CurrentStageData.StageLevel)) * (CreatureData.HpRate + waveRate);
+        Atk = (CreatureData.Atk + (CreatureData.AtkBonus * Managers.Game.CurrentStageData.StageLevel)) * CreatureData.AtkRate;
+        Hp = MaxHp;
+        MoveSpeed = CreatureData.MoveSpeed * CreatureData.MoveSpeedRate;
     }
 
     public virtual void UpdatePlayerStat() { }
@@ -123,27 +125,26 @@ public abstract class CreatureController : BaseController
 
     public void SetInfo(int creatureId)
     {
-        // DataId = creatureId;
-        // Dictionary<int, Data.CreatureData> dict = Managers.Data.CreatureDict;
-        // CreatureData = dict[creatureId];
-        // InitCreatureStat();
-        // Sprite sprite = Managers.Resource.Load<Sprite>(CreatureData.IconLabel);
-        // CreatureSprite.sprite = sprite;
-        // // CreatureSprite.sprite = Managers.Resource.Load<Sprite>(CreatureData.IconLabel);
+        DataId = creatureId;
+        Dictionary<int, Data.CreatureData> dict = Managers.Data.CreatureDic;
+        CreatureData = dict[creatureId];
+        InitCreatureStat();
+        Sprite sprite = Managers.Resource.Load<Sprite>(CreatureData.IconLabel);
+        CreatureSprite.sprite = sprite;
 
-        // Init();
+        Init();
     }
 
     public void LoadSkill()
     {
-        // foreach (KeyValuePair<Define.SkillType, int> pair in Managers.Game.ContinueInfo.SavedBattleSkill.ToList())
-        // {
-        //     Skills.LoadSkill(pair.Key, pair.Value);
-        // }
-        // foreach (Data.SupportSkillData supportSkill in Managers.Game.ContinueInfo.SavedSupportSkill.ToList())
-        // {
-        //     Skills.AddSupportSkill(supportSkill, true);
-        // }
+        foreach (KeyValuePair<Define.SkillType, int> pair in Managers.Game.ContinueInfo.SavedBattleSkillDic.ToList())
+        {
+            Skills.LoadSkill(pair.Key, pair.Value);
+        }
+        foreach (Data.SupportSkillData supportSkill in Managers.Game.ContinueInfo.SavedSupportSkillList.ToList())
+        {
+            Skills.AddSupportSkill(supportSkill, true);
+        }
     }
 
     public virtual void InitSkill()
@@ -219,12 +220,12 @@ public abstract class CreatureController : BaseController
 
     public void Resurrection(float healRate, float moveSpeed = 0, float atkRate = 0)
     {
-        // Healing(healRate, false);
-        // Managers.Resource.Instantiate("Revival", transform);
-        // MoveSpeedRate += moveSpeed;
-        // AttackRate += atkRate;
-        // UpdatePlayerStat();
-        // Managers.Object.KillAllMonsters();
+        Healing(healRate, false);
+        Managers.Resource.Instantiate("Revival", transform);
+        MoveSpeedRate += moveSpeed;
+        AttackRate += atkRate;
+        UpdatePlayerStat();
+        Managers.Object.KillAllMonsters();
     }
 
 }

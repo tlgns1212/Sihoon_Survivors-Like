@@ -30,7 +30,7 @@ public class BombController : DropItemController
 
     public override void CompleteGetItem()
     {
-        // Managers.Object.KillAllMonsters();
-        // Managers.Object.Despawn(this);
+        Managers.Object.KillAllMonsters();
+        Managers.Object.Despawn(this);
     }
 }

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class MonsterController : CreatureController
 {
+    float _timer;
     Coroutine _coDotDamage;
     public event Action OnBossDead;
     public event Action<MonsterController> MonsterInfoUpdate;
@@ -54,27 +55,27 @@ public class MonsterController : CreatureController
     Vector3 _moveDir;
     void FixedUpdate()
     {
-        // PlayerController pc = Managers.Object.Player;
+        PlayerController pc = Managers.Object.Player;
 
-        // if (pc.IsValid() == false)
-        //     return;
+        if (pc.IsValid() == false)
+            return;
 
-        // _moveDir = pc.transform.position - transform.position;
-        // CreatureSprite.flipX = _moveDir.x > 0;
+        _moveDir = pc.transform.position - transform.position;
+        CreatureSprite.flipX = _moveDir.x > 0;
 
-        // if (CreatureState != Define.CreatureState.Moving)
-        //     return;
+        if (CreatureState != Define.CreatureState.Moving)
+            return;
 
-        // Vector3 newPos = transform.position + _moveDir.normalized * Time.deltaTime * MoveSpeed;
-        // _rigidBody.MovePosition(newPos);
+        Vector3 newPos = transform.position + _moveDir.normalized * Time.deltaTime * MoveSpeed;
+        _rigidBody.MovePosition(newPos);
 
-        // _timer += Time.deltaTime;
+        _timer += Time.deltaTime;
     }
 
     public void SetMonsterPosition()
     {
-        // Vector2 randCirclePos = Util.GenerateMonsterSpawnPosition(Managers.Game.Player.PlayerCenterPos);
-        // transform.position = randCirclePos;
+        Vector2 randCirclePos = Util.GenerateMonsterSpawnPosition(Managers.Game.Player.PlayerCenterPos);
+        transform.position = randCirclePos;
     }
 
     public override void UpdateAnimation()
@@ -102,33 +103,33 @@ public class MonsterController : CreatureController
     {
         base.OnDead();
 
-        // InvokeMonsterData();
+        InvokeMonsterData();
 
-        // Managers.Game.Player.KillCount++;
-        // Managers.Game.TotalMonsterKillCount++;
+        Managers.Game.Player.KillCount++;
+        Managers.Game.TotalMonsterKillCount++;
 
-        // // gem
-        // if (UnityEngine.Random.value >= Managers.Game.CurrentWaveIndex.nonDropRate)
-        // {
-        //     GemController gem = Managers.Object.Spawn<GemController>(transform.position);
-        //     gem.SetInfo(Managers.Game.GetGemInfo());
-        // }
+        // gem
+        if (UnityEngine.Random.value >= Managers.Game.CurrentWaveData.NonDropRate)
+        {
+            GemController gem = Managers.Object.Spawn<GemController>(transform.position);
+            gem.SetInfo(Managers.Game.GetGemInfo());
+        }
 
-        // // 영혼 획득량 확률
-        // if (UnityEngine.Random.value < Define.STAGE_SOULDROP_RATE)
-        // {
-        //     SoulController soul = Managers.Object.Spawn<SoulController>(transform.position);
-        // }
+        // 영혼 획득량 확률
+        if (UnityEngine.Random.value < Define.STAGE_SOULDROP_RATE)
+        {
+            SoulController soul = Managers.Object.Spawn<SoulController>(transform.position);
+        }
 
-        // Sequence seq = DOTween.Sequence();
-        // seq.Append(transform.DOScale(0f, 0.2f).SetEase(Ease.InOutBounce)).OnComplete(() =>
-        // {
-        //     StopAllCoroutines();
-        //     _coroutineKnockback = null;
-        //     _rigidBody.velocity = Vector2.zero;
-        //     OnBossDead?.Invoke();
-        //     Managers.Object.Despawn(this);
-        // });
+        Sequence seq = DOTween.Sequence();
+        seq.Append(transform.DOScale(0f, 0.2f).SetEase(Ease.InOutBounce)).OnComplete(() =>
+        {
+            StopAllCoroutines();
+            _coroutineKnockback = null;
+            _rigidBody.velocity = Vector2.zero;
+            OnBossDead?.Invoke();
+            Managers.Object.Despawn(this);
+        });
     }
 
     Coroutine _coroutineKnockback;
@@ -210,7 +211,7 @@ public class MonsterController : CreatureController
 
     public override void OnDeathAnimationEnd()
     {
-        // Managers.Object.Despawn(this);
+        Managers.Object.Despawn(this);
     }
 
     public void InvokeMonsterData()

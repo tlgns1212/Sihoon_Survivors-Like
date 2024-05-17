@@ -202,10 +202,10 @@ public class PlayerController : CreatureController
         set
         {
             Managers.Game.ContinueInfo.KillCount = value;
-            // if (Managers.Game.DicMission.TryGetValue(MissionTarget.MonsterKill, out MissionInfo mission))
-            // {
-            //     mission.Progress = value;
-            // }
+            if (Managers.Game.DicMission.TryGetValue(Define.MissionTarget.MonsterKill, out MissionInfo mission))
+            {
+                mission.Progress = value;
+            }
             if (Managers.Game.ContinueInfo.KillCount % 500 == 0)
             {
                 Skills.OnMonsterKillBonus();
@@ -312,82 +312,83 @@ public class PlayerController : CreatureController
     {
         base.InitSkill();
 
-        // Equipment item;
-        // Managers.Game.EquippedEquipments.TryGetValue(Define.EquipmentType.Weapon, out item)
-        // {
-        //     // 베이스 스킬
-        //     Define.SkillType type = Util.GetSkillTypeFromInt(item.EquipmentData.BasicSkill);
-        //     if (type != Define.SkillType.None)
-        //     {
-        //         Skills.AddSkill(type, item.EquipmentData.BasicSkill);
-        //         Skills.LevelUpSkill(type);
-        //     }
+        Equipment item;
+        Managers.Game.EquippedEquipments.TryGetValue(Define.EquipmentType.Weapon, out item);
+        if (item != null)
+        {
+            // 베이스 스킬
+            Define.SkillType type = Util.GetSkillTypeFromInt(item.EquipmentData.BasicSkill);
+            if (type != Define.SkillType.None)
+            {
+                Skills.AddSkill(type, item.EquipmentData.BasicSkill);
+                Skills.LevelUpSkill(type);
+            }
 
-        //     Data.SupportSkillData uncommonSkill;
-        //     SupportSkillData rareSkill;
-        //     SupportSkillData epicSkill;
-        //     SupportSkillData legendSkill;
-        //     // 등급별 서포트 스킬
-        //     foreach (Equipment equip in Managers.Game.EquippedEquipments.Values)
-        //     {
-        //         switch (equip.EquipmentData.EquipmentGrade)
-        //         {
-        //             case Define.EquipmentGrade.UnCommon:
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(uncommonSkill);
-        //                 }
-        //                 break;
-        //             case Define.EquipmentGrade.Rare:
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(uncommonSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(rareSkill);
-        //                 }
-        //                 break;
-        //             case Define.EquipmentGrade.Epic:
-        //             case Define.EquipmentGrade.Epic1:
-        //             case Define.EquipmentGrade.Epic2:
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(uncommonSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(rareSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(epicSkill);
-        //                 }
-        //                 break;
-        //             case Define.EquipmentGrade.Legendary:
-        //             case Define.EquipmentGrade.Legendary1:
-        //             case Define.EquipmentGrade.Legendary2:
-        //             case Define.EquipmentGrade.Legendary3:
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(uncommonSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(rareSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(epicSkill);
-        //                 }
-        //                 if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.LegendaryGradeSkill, out legendSkill))
-        //                 {
-        //                     Skills.AddSupportSkill(legendSkill);
-        //                 }
-        //                 break;
-        //         }
-        //     }
-        // }
+            Data.SupportSkillData uncommonSkill;
+            SupportSkillData rareSkill;
+            SupportSkillData epicSkill;
+            SupportSkillData legendSkill;
+            // 등급별 서포트 스킬
+            foreach (Equipment equip in Managers.Game.EquippedEquipments.Values)
+            {
+                switch (equip.EquipmentData.EquipmentGrade)
+                {
+                    case Define.EquipmentGrade.UnCommon:
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+                        {
+                            Skills.AddSupportSkill(uncommonSkill);
+                        }
+                        break;
+                    case Define.EquipmentGrade.Rare:
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+                        {
+                            Skills.AddSupportSkill(uncommonSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+                        {
+                            Skills.AddSupportSkill(rareSkill);
+                        }
+                        break;
+                    case Define.EquipmentGrade.Epic:
+                    case Define.EquipmentGrade.Epic1:
+                    case Define.EquipmentGrade.Epic2:
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+                        {
+                            Skills.AddSupportSkill(uncommonSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+                        {
+                            Skills.AddSupportSkill(rareSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
+                        {
+                            Skills.AddSupportSkill(epicSkill);
+                        }
+                        break;
+                    case Define.EquipmentGrade.Legendary:
+                    case Define.EquipmentGrade.Legendary1:
+                    case Define.EquipmentGrade.Legendary2:
+                    case Define.EquipmentGrade.Legendary3:
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
+                        {
+                            Skills.AddSupportSkill(uncommonSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.RareGradeSkill, out rareSkill))
+                        {
+                            Skills.AddSupportSkill(rareSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.EpicGradeSkill, out epicSkill))
+                        {
+                            Skills.AddSupportSkill(epicSkill);
+                        }
+                        if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.LegendaryGradeSkill, out legendSkill))
+                        {
+                            Skills.AddSupportSkill(legendSkill);
+                        }
+                        break;
+                }
+            }
+        }
     }
 
     public override void InitCreatureStat(bool isFullHp = true)
@@ -474,31 +475,31 @@ public class PlayerController : CreatureController
 
     void CollectEnv()
     {
-        // List<DropItemController> items = Managers.Game.CurrentMap.Grid.GatherObjects(transform.position, _ItemCollectDist + 0.5f);
+        List<DropItemController> items = Managers.Game.CurrentMap.Grid.GatherObjects(transform.position, _ItemCollectDist + 0.5f);
 
-        // foreach (DropItemController item in items)
-        // {
-        //     Vector3 dir = item.transform.position - transform.position;
-        //     switch (item.itemType)
-        //     {
-        //         case Define.ObjectType.DropBox:
-        //         case Define.ObjectType.Potion:
-        //         case Define.ObjectType.Magnet:
-        //         case Define.ObjectType.Bomb:
-        //             if (dir.sqrMagnitude <= item.CollectDist * item.CollectDist)
-        //             {
-        //                 item.GetItem();
-        //             }
-        //             break;
-        //         default:
-        //             float cd = item.CollectDist * CollectDistBonus;
-        //             if (dir.sqrMagnitude <= cd * cd)
-        //             {
-        //                 item.GetItem();
-        //             }
-        //             break;
-        //     }
-        // }
+        foreach (DropItemController item in items)
+        {
+            Vector3 dir = item.transform.position - transform.position;
+            switch (item.ItemType)
+            {
+                case Define.ObjectType.DropBox:
+                case Define.ObjectType.Potion:
+                case Define.ObjectType.Magnet:
+                case Define.ObjectType.Bomb:
+                    if (dir.sqrMagnitude <= item.CollectDist * item.CollectDist)
+                    {
+                        item.GetItem();
+                    }
+                    break;
+                default:
+                    float cd = item.CollectDist * CollectDistBonus;
+                    if (dir.sqrMagnitude <= cd * cd)
+                    {
+                        item.GetItem();
+                    }
+                    break;
+            }
+        }
     }
 
     public override void Healing(float amount, bool isEffect = true)
@@ -508,10 +509,11 @@ public class PlayerController : CreatureController
         if (res == 0) return;
 
         Hp = Hp + res;
-        // Managers.Object.ShowDamageFont(CenterPosition, 0, res, transform);
-        // if(isEffect){
-        //     Managers.Resource.Instantiate("HealEffect", transform);
-        // }
+        Managers.Object.ShowDamageFont(CenterPosition, 0, res, transform);
+        if (isEffect)
+        {
+            Managers.Resource.Instantiate("HealEffect", transform);
+        }
     }
 
     public void OnSafetyZoneExit(BaseController attacker)
@@ -549,8 +551,8 @@ public class PlayerController : CreatureController
         }
 
         totalDamage *= 1 - DamageReduction;
-        // Managers.Game.CameraController.Shake();
-        base.OnDamaged(attacker, skill, damage);
+        Managers.Game.CameraController.Shake();
+        base.OnDamaged(attacker, skill, totalDamage);
     }
 
     public void OnKnockBack(Vector3 dir)

@@ -137,7 +137,7 @@ public class SkillBook : MonoBehaviour
         // 1. 스킬 등록 없이 바로 끝내는 것들
         if (skill.SupportSkillName == SupportSkillName.Healing)
         {
-            // Managers.Game.Player.Healing(skill.HealRate);
+            Managers.Game.Player.Healing(skill.HealRate);
             return;
         }
 
@@ -198,21 +198,21 @@ public class SkillBook : MonoBehaviour
     {
         List<SupportSkillData> generalList = SupportSkills.Where(skill => skill.SupportSkillType == SupportSkillType.General).ToList();
 
-        // PlayerController player = Managers.Game.Player;
-        // player.CriRate += skill.CriRate;
-        // player.MaxHpBonusRate += skill.HpRate;
-        // player.ExpBonusRate += skill.ExpBonusRate;
-        // player.AttackRate += skill.AtkRate;
-        // player.DefRate += skill.DefRate;
-        // player.DamageReduction += skill.DamageReduction;
-        // player.SoulBonusRate += skill.SoulBonusRate;
-        // player.HealBonusRate += skill.HealBonusRate;
-        // player.MoveSpeedRate += skill.MoveSpeedRate;
-        // player.HpRegen += skill.HpRegen;
-        // player.CriDamage += skill.CriDmg;
-        // player.CollectDistBonus += skill.MagneticRange;
+        PlayerController player = Managers.Game.Player;
+        player.CriRate += skill.CriRate;
+        player.MaxHpBonusRate += skill.HpRate;
+        player.ExpBonusRate += skill.ExpBonusRate;
+        player.AttackRate += skill.AtkRate;
+        player.DefRate += skill.DefRate;
+        player.DamageReduction += skill.DamageReduction;
+        player.SoulBonusRate += skill.SoulBonusRate;
+        player.HealBonusRate += skill.HealBonusRate;
+        player.MoveSpeedRate += skill.MoveSpeedRate;
+        player.HpRegen += skill.HpRegen;
+        player.CriDamage += skill.CriDmg;
+        player.CollectDistBonus += skill.MagneticRange;
 
-        // player.UpdatePlayerStat();
+        player.UpdatePlayerStat();
     }
 
     public void OnPlayerLevelUpBonus()
@@ -236,14 +236,14 @@ public class SkillBook : MonoBehaviour
             reduceDamage += passive.DamageReduction;
         }
 
-        // PlayerController player = Managers.Game.Player;
-        // player.MoveSpeedRate += moveRate;
-        // player.AttackRate += atkRate;
-        // player.CriRate += criRate;
-        // player.CriDamage += criDmg;
-        // player.DamageReduction += reduceDamage;
+        PlayerController player = Managers.Game.Player;
+        player.MoveSpeedRate += moveRate;
+        player.AttackRate += atkRate;
+        player.CriRate += criRate;
+        player.CriDamage += criDmg;
+        player.DamageReduction += reduceDamage;
 
-        // player.UpdatePlayerStat();
+        player.UpdatePlayerStat();
     }
 
     public void OnMonsterKillBonus()
@@ -262,12 +262,12 @@ public class SkillBook : MonoBehaviour
             healAmount += passive.HealRate;
         }
 
-        // PlayerController player = Managers.Game.Player;
-        // player.DamageReduction += dmgReduction;
-        // player.AttackRate += atkRate;
+        PlayerController player = Managers.Game.Player;
+        player.DamageReduction += dmgReduction;
+        player.AttackRate += atkRate;
 
-        // player.UpdatePlayerStat();
-        // Managers.Game.Player.Healing(healAmount);
+        player.UpdatePlayerStat();
+        Managers.Game.Player.Healing(healAmount);
     }
 
     public void OnEliteDeadBonus()
@@ -285,102 +285,102 @@ public class SkillBook : MonoBehaviour
             expBonus += passive.ExpBonusRate;
         }
 
-        // PlayerController player = Managers.Game.Player;
-        // player.soulCount += soulCount;
-        // player.ExpBonusRate += expBonus;
+        PlayerController player = Managers.Game.Player;
+        player.SoulCount += soulCount;
+        player.ExpBonusRate += expBonus;
     }
     #endregion
 
     #region 스킬 가챠
     public SkillBase RecommendDropSkill()
     {
-        // List<SkillBase> skillList = Managers.Game.Player.Skills.SkillList.ToList();
-        // List<SkillBase> activeSkills = skillList.FindAll(skill => skill.IsLearnedSkill);
+        List<SkillBase> skillList = Managers.Game.Player.Skills.SkillList.ToList();
+        List<SkillBase> activeSkills = skillList.FindAll(skill => skill.IsLearnedSkill);
 
-        // List<SkillBase> recommendSkills = activeSkills.FindAll(s => s.Level < 5);
-        // recommendSkills.Shuffle();
-        // return recommendSkills[0];'
-        return null;
+        List<SkillBase> recommendSkills = activeSkills.FindAll(s => s.Level < 5);
+        recommendSkills.Shuffle();
+        return recommendSkills[0];
     }
 
     public List<SkillBase> RecommendSkills()
     {
-        // List<SkillBase> skillList = Managers.Game.Player.Skills.SkillList.ToList();
-        // List<SkillBase> activeSkills = skillList.FindAll(skill => skill.IsLearnedSkill);
+        List<SkillBase> skillList = Managers.Game.Player.Skills.SkillList.ToList();
+        List<SkillBase> activeSkills = skillList.FindAll(skill => skill.IsLearnedSkill);
 
-        // // 1. 이미 6개의 스킬을 배웠으면 배운 스킬 중 5렙 미만인 스킬을 추천
-        // if (activeSkills.Count == MAX_SKILL_COUNT)
-        // {
-        //     List<SkillBase> recommendSkills = activeSkills.FindAll(s => s.Level < MAX_SKILL_LEVEL);
-        //     recommendSkills.Shuffle();
-        //     return recommendSkills.Take(3).ToList();
-        // }
-        // else
-        // {
-        //     // 레벨이 5 미만인 스킬
-        //     List<SkillBase> recommendSkills = skillList.FindAll(s => s.Level < MAX_SKILL_LEVEL);
-        //     recommendSkills.Shuffle();
-        //     return recommendSkills.Take(3).ToList();
-        // }
-        return null;
+        // 1. 이미 6개의 스킬을 배웠으면 배운 스킬 중 5렙 미만인 스킬을 추천
+        if (activeSkills.Count == MAX_SKILL_COUNT)
+        {
+            List<SkillBase> recommendSkills = activeSkills.FindAll(s => s.Level < MAX_SKILL_LEVEL);
+            recommendSkills.Shuffle();
+            return recommendSkills.Take(3).ToList();
+        }
+        else
+        {
+            // 레벨이 5 미만인 스킬
+            List<SkillBase> recommendSkills = skillList.FindAll(s => s.Level < MAX_SKILL_LEVEL);
+            recommendSkills.Shuffle();
+            return recommendSkills.Take(3).ToList();
+        }
     }
 
     public List<SupportSkillData> RecommendSupportKills()
     {
-        // GameManager game = Managers.Game;
-        // game.SoulShopList.Clear();
+        GameManager game = Managers.Game;
+        game.SoulShopList.Clear();
 
-        // // 1. Lock된 스킬이 있는지 확인하고 추가하기
-        // foreach(SupportSkillData skill in LockedSupportSkills)
-        // {
-        //     skill.IsLocked = true;
-        //     game.SoulShopList.Add(skill);
-        // }
+        // 1. Lock된 스킬이 있는지 확인하고 추가하기
+        foreach (SupportSkillData skill in LockedSupportSkills)
+        {
+            skill.IsLocked = true;
+            game.SoulShopList.Add(skill);
+        }
 
-        // int recommendCount = 4 - game.SoulShopList.Count;
+        int recommendCount = 4 - game.SoulShopList.Count;
 
-        // for(int i = 0; i < recommendCount; i++){
-        //     // 1. 등급 가챠
-        //     SupportSkillGrade grade = GetRandomGrade();
-        //     // 2. 해당 등급 스킬 목록 가져오기
-        //     List<SupportSkillData> skills = GetSupportSkills(grade);
+        for (int i = 0; i < recommendCount; i++)
+        {
+            // 1. 등급 가챠
+            SupportSkillGrade grade = GetRandomGrade();
+            // 2. 해당 등급 스킬 목록 가져오기
+            List<SupportSkillData> skills = GetSupportSkills(grade);
 
-        //     if (skills.Count == 0){
-        //         game.SoulShopList.Add(skills[UnityEngine.Random.Range(0, skills.Count)]);
-        //     }
-        //     else{
-        //         AddRecommendSkills(grade);
-        //     }
-        // }
+            if (skills.Count == 0)
+            {
+                game.SoulShopList.Add(skills[UnityEngine.Random.Range(0, skills.Count)]);
+            }
+            else
+            {
+                AddRecommendSkills(grade);
+            }
+        }
 
-        // return game.SoulShopList;
-        return null;
+        return game.SoulShopList;
     }
 
     private List<SupportSkillData> GetSupportSkills(SupportSkillGrade grade)
     {
-        // return Managers.Data.SupportSkillDic.Values.Where(skill => skill.SupportSkillGrade == grade && skill.CheckRecommendationCondition()).ToList();
-        return null;
+        return Managers.Data.SupportSkillDic.Values.Where(skill => skill.SupportSkillGrade == grade && skill.CheckRecommendationCondition()).ToList();
     }
 
     // 재귀, 해당 등급의 카드를 다 뽑았으면 다음 등급의 카드를 뽑는다.
     void AddRecommendSkills(SupportSkillGrade grade)
     {
-        // if ((int)grade > Enum.GetValues(typeof(SupportSkillGrade)).Length)
-        //     return;
-        // List<SupportSkillData> commonSkills = new List<SupportSkillData>();
-        // SupportSkillGrade nextGrade = grade + 1;
+        if ((int)grade > Enum.GetValues(typeof(SupportSkillGrade)).Length)
+            return;
+        List<SupportSkillData> commonSkills = new List<SupportSkillData>();
+        SupportSkillGrade nextGrade = grade + 1;
 
-        // // 2. 해당 등급 스킬 목록 가져오기
-        // commonSkills = GetSupportSkills(nextGrade);
+        // 2. 해당 등급 스킬 목록 가져오기
+        commonSkills = GetSupportSkills(nextGrade);
 
-        // if(commonSkills.Count > 0)
-        // {
-        //     Managers.Game.SoulShopList.Add(commonSkills[UnityEngine.Random.Range(0, commonSkills.Count)]);
-        // }
-        // else{
-        //     AddRecommendSkills(nextGrade);
-        // }
+        if (commonSkills.Count > 0)
+        {
+            Managers.Game.SoulShopList.Add(commonSkills[UnityEngine.Random.Range(0, commonSkills.Count)]);
+        }
+        else
+        {
+            AddRecommendSkills(nextGrade);
+        }
     }
 
     public static SupportSkillGrade GetRandomGrade()
@@ -413,10 +413,10 @@ public class SkillBook : MonoBehaviour
         if (skill.IsPurchased)
             return false;
 
-        // if (SupportSkills.Count == 6)
-        // {
-        //     // 이미 배운 스킬만 나옴
-        // }
+        // // if (SupportSkills.Count == 6)
+        // // {
+        // //     // 이미 배운 스킬만 나옴
+        // // }
         return true;
     }
 

@@ -99,7 +99,7 @@ public class GemController : DropItemController
                 string soundName = Random.value > 0.5f ? "ExpGet_01" : "ExpGet_02";
                 Managers.Sound.Play(Define.Sound.Effect, soundName);
                 Managers.Game.Player.Exp += _gemInfo.ExpAmount * Managers.Game.Player.ExpBonusRate;
-                // Managers.Object.Despawn(this);
+                Managers.Object.Despawn(this);
                 yield break;
             }
 

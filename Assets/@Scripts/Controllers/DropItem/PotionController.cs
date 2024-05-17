@@ -31,12 +31,12 @@ public class PotionController : DropItemController
 
     public override void CompleteGetItem()
     {
-        // float healAmount = 30;
+        float healAmount = 30;
 
-        // if(Define.DicPotionAmount.TryGetValue(_dropItemData.DataId, out healAmount) == true)
-        // {
-        //     Managers.Game.Player.Healing(healAmount);
-        // }
-        // Managers.Object.Despawn(this);
+        if (Define.DicPotionAmount.TryGetValue(_dropItemData.DataId, out healAmount) == true)
+        {
+            Managers.Game.Player.Healing(healAmount);
+        }
+        Managers.Object.Despawn(this);
     }
 }

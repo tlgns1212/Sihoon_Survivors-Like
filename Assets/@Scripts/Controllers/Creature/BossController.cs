@@ -15,6 +15,7 @@ public class BossController : MonsterController
     {
         base.Init();
         ObjectType = Define.ObjectType.Boss;
+        // // SpriteRenderer = GetComponent<SpriteRenderer>();
         CreatureState = Define.CreatureState.Skill;
         transform.localScale = new Vector3(2f, 2f, 2f);
 
@@ -49,9 +50,35 @@ public class BossController : MonsterController
 
     public override void InitCreatureStat(bool isFullHp = true)
     {
-        // MaxHp = (CreatureData.MaxHp + (CreatureData.MaxHpBonus * Managers.Game.CurrentStageData.StageLevel)) * (CreatureData.HpRate + waveRate);
-        // Atk = (CreatureData.Atk + (CreatureData.AtkBonus * Managers.Game.CurrentStageData.StageLevel)) * CreatureData.AtkRate;
-        // Hp = MaxHp;
-        // MoveSpeed = CreatureData.MoveSpeed * CreatureData.MoveSpeedRate;
+        MaxHp = (CreatureData.MaxHp + (CreatureData.MaxHpBonus * Managers.Game.CurrentStageData.StageLevel)) * CreatureData.HpRate;
+        Atk = (CreatureData.Atk + (CreatureData.AtkBonus * Managers.Game.CurrentStageData.StageLevel)) * CreatureData.AtkRate;
+        Hp = MaxHp;
+        MoveSpeed = CreatureData.MoveSpeed * CreatureData.MoveSpeedRate;
     }
+
+
+    // // 쓸모 없어서 주석처리해놨음 필요할 때 쓸 것
+    // // public override void OnCollisionEnter2D(Collision2D collision)
+    // // {
+    // //     base.OnCollisionEnter2D(collision);
+
+    // //     PlayerController target = collision.gameObject.GetComponent<PlayerController>();
+
+    // //     if (target.IsValid() == false)
+    // //         return;
+    // //     if (this.IsValid() == false)
+    // //         return;
+    // // }
+
+    // // public override void OnCollisionExit2D(Collision2D collision)
+    // // {
+    // //     base.OnCollisionExit2D(collision);
+
+    // //     PlayerController target = collision.gameObject.GetComponent<PlayerController>();
+
+    // //     if (target.IsValid() == false)
+    // //         return;
+    // //     if (this.IsValid() == false)
+    // //         return;
+    // // }
 }

@@ -62,21 +62,21 @@ public class SkillBase : BaseController
             return SkillData;
         }
 
-        // foreach (SupportSkillData support in Managers.Game.Player.Skills.SupportSkills)
-        // {
-        //     if(SkillType.ToString() == support.SupportSkillName.ToString())
-        //     {
-        //         skillData.ProjectileSpacing += support.ProjectileSpacing;
-        //         skillData.Duration += support.Duration;
-        //         skillData.NumProjectiles += support.NumProjectiles;
-        //         skillData.AttackInterval += support.AttackInterval;
-        //         skillData.NumBounce += support.NumBounce;
-        //         skillData.ProjRange += support.ProjRange;
-        //         skillData.RotateSpeed += support.RotateSpeed;
-        //         skillData.ScaleMultiplier += support.ScaleMultiplier;
-        //         skillData.NumPenerations += support.NumPenerations;
-        //     }
-        // }
+        foreach (SupportSkillData support in Managers.Game.Player.Skills.SupportSkills)
+        {
+            if (SkillType.ToString() == support.SupportSkillName.ToString())
+            {
+                skillData.ProjectileSpacing += support.ProjectileSpacing;
+                skillData.Duration += support.Duration;
+                skillData.NumProjectiles += support.NumProjectiles;
+                skillData.AttackInterval += support.AttackInterval;
+                skillData.NumBounce += support.NumBounce;
+                skillData.ProjRange += support.ProjRange;
+                skillData.RotateSpeed += support.RotateSpeed;
+                skillData.ScaleMultiplier += support.ScaleMultiplier;
+                skillData.NumPenetrations += support.NumPenerations;
+            }
+        }
 
         SkillData = skillData;
         OnChangedSkillData();
@@ -100,8 +100,8 @@ public class SkillBase : BaseController
 
     protected virtual void GenerateProjectile(CreatureController owner, string prefabName, Vector3 startPos, Vector3 dir, Vector3 targetPos, SkillBase skill)
     {
-        // ProjectileController pc = Managers.Object.Spawn<ProjectileController>(startPos, prefabName: prefabName);
-        // pc.SetInfo(owner, startPos, dir, targetPos, skill);
+        ProjectileController pc = Managers.Object.Spawn<ProjectileController>(startPos, prefabName: prefabName);
+        pc.SetInfo(owner, startPos, dir, targetPos, skill);
     }
 
     protected void HitEvent(Collider2D collision)

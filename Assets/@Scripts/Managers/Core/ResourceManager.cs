@@ -19,7 +19,6 @@ public class ResourceManager
         }
 
         //스프라이트 로드할때 항상 .sprite가 붙어 있어야하는데 데이터시트에 .sprite가 붙어있지 않은 데이터가 많음
-        //임시로 붙임 -드래곤
         if (typeof(T) == typeof(Sprite))
         {
             key = key + ".sprite";

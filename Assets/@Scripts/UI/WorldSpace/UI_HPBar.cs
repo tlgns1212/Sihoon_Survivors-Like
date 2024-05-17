@@ -24,8 +24,8 @@ public class UI_HPBar : UI_Base
         //transform.position = Camera.main.WorldToScreenPoint(parent.position - Vector3.up * 1.2f);
         transform.rotation = Camera.main.transform.rotation;
 
-        // float ratio = Managers.Game.Player.Hp / (float)Managers.Game.Player.MaxHp;
-        // SetHpRatio(ratio);
+        float ratio = Managers.Game.Player.Hp / (float)Managers.Game.Player.MaxHp;
+        SetHpRatio(ratio);
     }
 
     public void SetHpRatio(float ratio)

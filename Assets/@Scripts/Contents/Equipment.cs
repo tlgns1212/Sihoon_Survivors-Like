@@ -18,7 +18,7 @@ public class Equipment
     }
     public bool IsOwned { get; set; } = false;
     public bool IsUpgradeable { get; set; } = false;
-    public bool IsConfirmed { get; set; } = false;  // 장비 획들을 했는지
+    public bool IsConfirmed { get; set; } = false;  // 장비 획득을 했는지
     public bool IsEquipmentSynthesizable { get; set; } = false; // 장비가 합성 가능한지
     public bool IsSelected { get; set; } = false;   // 합성 팝업에서 선택이 되어 있는지
     public bool IsUnavailable { get; set; } = false;    // 합성 팝업에서 선택이 불가능한지
@@ -60,7 +60,7 @@ public class Equipment
             receiveMaterial += Managers.Data.EquipLevelDataDic[Level].UpgradeRequiredItems;
         }
 
-        // Managers.Game.Gold += receiveGold;
+        Managers.Game.Gold += receiveGold;
         // // Managers.Game.Material += receiveMaterial;
 
         // 장비의 초기값 가져오기

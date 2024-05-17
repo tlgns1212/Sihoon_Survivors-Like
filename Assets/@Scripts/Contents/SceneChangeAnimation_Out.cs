@@ -12,7 +12,7 @@ public class SceneChangeAnimation_Out : UI_Popup
 
     private void Awake()
     {
-        _anim= GetComponent<Animator>();   
+        _anim = GetComponent<Animator>();
     }
 
     public void SetInfo(Define.Scene prevScene, Action callback)
@@ -20,12 +20,12 @@ public class SceneChangeAnimation_Out : UI_Popup
         transform.localScale = Vector3.one;
         _action = callback;
         _prevScene = prevScene;
-        //_anim.Play("LobbyToGame");
+        // //_anim.Play("LobbyToGame");
     }
 
     public void OnAnimationComplete()
     {
-        //if(_nextScene == Define.Scene.GameScene)
+        // //if(_nextScene == Define.Scene.GameScene)
         _action.Invoke();
     }
 }

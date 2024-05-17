@@ -6,9 +6,15 @@ using static Util;
 
 public class Define
 {
+    public static readonly Dictionary<Type, Array> _enumDict = new Dictionary<Type, Array>();
 
-
-
+    // 데이터 아이데이 따른 포션 회복량
+    public static readonly Dictionary<int, float> DicPotionAmount = new Dictionary<int, float>
+    {
+        {60001, 0.3f},  // 에픽 등급 랜덤 장비 상자
+        {60002, 0.5f},  // 골드
+        {60003, 0.1f},  // 랜덤 스크롤
+    };
 
 
 
@@ -18,6 +24,7 @@ public class Define
 
     public static float POTION_COLLECT_DISTANCE = 2.6F;
     public static float BOX_COLLECT_DISTANCE = 2.6f;
+    public static int STAMINA_RECHARGE_INTERVAL = 300;
     public static int MAX_SKILL_LEVEL = 6;
     public static int MAX_SKILL_COUNT = 6;
 
@@ -26,6 +33,31 @@ public class Define
     public static float KNOCKBACK_SPEED = 10f; // 속도
     public static float KNOCKBACK_COOLTIME = 0.5f;
     #endregion
+
+    #region 데이터 아이디
+    public static int ID_GOLD = 50001;
+    public static int ID_DIA = 50002;
+    public static int ID_STAMINA = 50003;
+    public static int ID_BRONZE_KEY = 50201;
+    public static int ID_SILVER_KEY = 50202;
+    public static int ID_GOLD_KEY = 50203;
+    public static int ID_RANDOM_SCROLL = 50301;
+    public static int ID_POTION = 60001;
+    public static int ID_MAGNET = 60004;
+    public static int ID_BOMB = 60008;
+
+    public static int ID_WEAPON_SCROLL = 50101;
+    public static int ID_GLOVES_SCROLL = 50102;
+    public static int ID_RING_SCROLL = 50103;
+    public static int ID_BELT_SCROLL = 50104;
+    public static int ID_ARMOR_SCROLL = 50105;
+    public static int ID_BOOTS_SCROLL = 50106;
+
+    public static string GOLD_SPRITE_NAME = "Gold_Icon";
+    #endregion
+
+    public static int MAX_STAMINA = 50;
+    public static int GAME_PER_STAMINA = 5;
 
     #region 스테이지 관련 데이터
     public static readonly int STAGE_SOULCOUNT = 10;
@@ -41,6 +73,40 @@ public class Define
         0.07f,  // Epic 확률
         0.03f,  // Legend 확률
     };
+    public static readonly float[] COMMON_GACHA_GRADE_PROB = new float[]
+    {
+        0f,
+        0.62f,   // Common 확률
+        0.18f,   // Uncommon 확률
+        0.15f,  // Rare 확률
+        0.05f,  // Epic 확률
+    };
+    public static readonly float[] ADVANCED_GACHA_GRADE_PROB = new float[]
+    {
+        0,
+        0.55f,   // Common 확률
+        0.2f,   // Uncommon 확률
+        0.15f,  // Rare 확률
+        0.1f,  // Epic 확률
+    };
+    public static readonly float[] PICKUP_GACHA_GRADE_PROB = new float[]
+    {
+        0,
+        0.55f,   // Common 확률
+        0.2f,   // Uncommon 확률
+        0.15f,  // Rare 확률
+        0.1f,  // Epic 확률
+    };
+    public static readonly float[] SOUL_SHOP_COST_PROB = new float[]
+    {
+        0,
+        45,   // Common 가격
+        55,   // Uncommon 가격
+        80,   // Rare 가격
+        160,  // Epic 가격
+        320,  // Legend 가격
+        80,  // 리롤 가격
+    };
 
     #endregion
 
@@ -49,6 +115,16 @@ public class Define
     public const int GREEN_EXP_AMOUNT = 2;
     public const int BLUE_EXP_AMOUNT = 5;
     public const int YELLOW_EXP_AMOUNT = 10;
+    #endregion
+
+    #region Default 장비/캐릭터 아이디
+    public const int CHARACTER_DEFAULT_ID = 201000;
+    public const string WEAPON_DEFAULT_ID = "N00301";
+    public const string GLOVES_DEFAULT_ID = "N10101";
+    public const string RING_DEFAULT_ID = "N20201";
+    public const string BELT_DEFAULT_ID = "N30101";
+    public const string ARMOR_DEFAULT_ID = "N40101";
+    public const string BOOTS_DEFAULT_ID = "N50101";
     #endregion
 
     #region sortingOrder
@@ -61,6 +137,51 @@ public class Define
     #endregion
 
     #region Enum
+
+    public enum MaterialType
+    {
+        Gold,
+        Dia,
+        Stamina,
+        Exp,
+        WeaponScroll,
+        GlovesScroll,
+        RingScroll,
+        BeltScroll,
+        ArmorScroll,
+        BootsScroll,
+        BronzeKey,
+        SilverKey,
+        GoldKey,
+        RandomScroll,
+        AllRandomEquipmentBox,
+        RandomEquipmentBox,
+        CommonEquipmentBox,
+        UncommonEquipmentBox,
+        RareEquipmentBox,
+        EpicEquipmentBox,
+        LegendaryEquipmentBox,
+        WeaponEnchantStone,
+        GlovesEnchantStone,
+        RingEnchantStone,
+        BeltEnchantStone,
+        ArmorEnchantStone,
+        BootsEnchantStone,
+    }
+
+    public enum MaterialGrade
+    {
+        Common,
+        Uncommon,
+        Rare,
+        Epic,
+        Epic1,
+        Epic2,
+        Legendary,
+        Legendary1,
+        Legendary2,
+        Legendary3,
+    }
 
     public enum DropItemType
     {
@@ -169,6 +290,20 @@ public class Define
         Grade,
     }
 
+    public enum WaveType
+    {
+        None,
+        RedZone,
+        Elite,
+        Boss
+    }
+
+    public enum JoystickType
+    {
+        Fixed,
+        Flexible
+    }
+
     public enum SkillType
     {
         None = 0,
@@ -195,6 +330,15 @@ public class Define
         CircleShot = 100601,
         ComboShot = 100701,
     }
+
+    public enum GachaType
+    {
+        None,
+        CommonGacha,
+        AdvancedGacha,
+        PickupGacha,
+    }
+
     public enum SupportSkillName
     {
         Critical,
@@ -268,7 +412,7 @@ public class Define
         WeeklyComplete,
         MonthlyComplete,
         StageEnter,
-        StargeClear,
+        StageClear,
         EquipmentLevelUp,
         CommonGachaOpen,
         AdvancedGachaOpen,

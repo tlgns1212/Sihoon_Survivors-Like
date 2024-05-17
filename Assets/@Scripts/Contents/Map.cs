@@ -25,7 +25,7 @@ public class Map : MonoBehaviour
 
     public void Init()
     {
-        // Managers.Game.CurrentMap = this;
+        Managers.Game.CurrentMap = this;
     }
 
     public void ChangeMapSize(float targetRate, float time = 120)

@@ -78,22 +78,22 @@ public static class Util
         // 원모양으로 생성
         Vector2 spawnPosition = characterPosition + new Vector2(xDist, yDist);
 
-        // // 맵 경계를 벗어나는 경우 타원 모양으로 생성
-        // float size = Managers.Game.CurrentMap.MapSize.x * 0.5f;
-        // if (Mathf.Abs(spawnPosition.x) > size || Mathf.Abs(spawnPosition.y) > size)
-        // {
-        //     float ellipseFactorX = Mathf.Lerp(1f, 0.5f, Mathf.Abs(characterPosition.x) / size);
-        //     float ellipseFactorY = Mathf.Lerp(1f, 0.5f, Mathf.Abs(characterPosition.y) / size);
+        // 맵 경계를 벗어나는 경우 타원 모양으로 생성
+        float size = Managers.Game.CurrentMap.MapSize.x * 0.5f;
+        if (Mathf.Abs(spawnPosition.x) > size || Mathf.Abs(spawnPosition.y) > size)
+        {
+            float ellipseFactorX = Mathf.Lerp(1f, 0.5f, Mathf.Abs(characterPosition.x) / size);
+            float ellipseFactorY = Mathf.Lerp(1f, 0.5f, Mathf.Abs(characterPosition.y) / size);
 
-        //     xDist *= ellipseFactorX;
-        //     yDist *= ellipseFactorY;
+            xDist *= ellipseFactorX;
+            yDist *= ellipseFactorY;
 
-        //     spawnPosition = Vector2.zero + new Vector2(xDist, yDist);
+            spawnPosition = Vector2.zero + new Vector2(xDist, yDist);
 
-        //     // 생성 위치를 맵 사이즈 범위 내로 조정
-        //     spawnPosition.x = Mathf.Clamp(spawnPosition.x, -size, size);
-        //     spawnPosition.y = Mathf.Clamp(spawnPosition.y, -size, size);
-        // }
+            // 생성 위치를 맵 사이즈 범위 내로 조정
+            spawnPosition.x = Mathf.Clamp(spawnPosition.x, -size, size);
+            spawnPosition.y = Mathf.Clamp(spawnPosition.y, -size, size);
+        }
 
         return spawnPosition;
     }
@@ -104,6 +104,21 @@ public static class Util
         ColorUtility.TryParseHtmlString("#" + color, out parsedColor);
 
         return parsedColor;
+    }
+
+    // Enum값 중 랜덤값 변환
+    public static T GetRandomEnumValue<T>() where T : struct, Enum
+    {
+        Type type = typeof(T);
+        if (!_enumDict.ContainsKey(type))
+        {
+            _enumDict[type] = Enum.GetValues(type);
+        }
+
+        Array values = _enumDict[type];
+
+        int index = Random.Range(0, values.Length);
+        return (T)values.GetValue(index);
     }
 
 

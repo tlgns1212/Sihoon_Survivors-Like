@@ -31,7 +31,7 @@ public class MagnetController : DropItemController
 
     public override void CompleteGetItem()
     {
-        // Managers.Object.CollectAllItems();
-        // Managers.Object.Despawn(this);
+        Managers.Object.CollectAllItems();
+        Managers.Object.Despawn(this);
     }
 }
