@@ -31,8 +31,7 @@ public class CameraController : MonoBehaviour
 
     void LateUpdate()
     {
-        // TODO : if statement
-        if (_playerTransform != null && _isShake == false)
+        if (_playerTransform != null && Managers.Game.CurrentMap != null && _isShake == false)
         {
             LimitCameraArea();
         }
@@ -42,7 +41,13 @@ public class CameraController : MonoBehaviour
     {
         transform.position = new Vector3(_playerTransform.position.x, _playerTransform.position.y, -10f);
 
-        // TODO : clamp
+        float limitX = Managers.Game.CurrentMap.MapSize.x * 0.5f - Width;
+        float clampX = Mathf.Clamp(transform.position.x, -limitX, limitX);
+
+        float limitY = Managers.Game.CurrentMap.MapSize.y * 0.5f - Width;
+        float clampY = Mathf.Clamp(transform.position.y, -limitY, limitY);
+
+        transform.position = new Vector3(clampX, clampY, -10f);
     }
 
     public void Shake()

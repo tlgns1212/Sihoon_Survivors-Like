@@ -14,7 +14,7 @@ public class Equipment
     public bool IsEquipped
     {
         get { return _isEquipped; }
-        set { IsEquipped = value; }
+        set { _isEquipped = value; }
     }
     public bool IsOwned { get; set; } = false;
     public bool IsUpgradeable { get; set; } = false;

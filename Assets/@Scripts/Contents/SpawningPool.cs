@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawningPools : MonoBehaviour
+public class SpawningPool : MonoBehaviour
 {
     public int MaxMonsterCount = 1000;
     Coroutine _coUpdateSpawningPool;

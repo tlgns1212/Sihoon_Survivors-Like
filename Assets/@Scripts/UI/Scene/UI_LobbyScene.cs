@@ -28,13 +28,13 @@ public class UI_LobbyScene : UI_Scene
         BindText(typeof(Texts));
 
         // 테스트용
-        GetButton((int)Buttons.StartButton).gameObject.BindEvent(() =>
-        {
-            Debug.Log("TestTEst");
-            if (isPreload)
-                Managers.Scene.LoadScene(Define.Scene.LobbyScene, transform);
-        });
+        GetButton((int)Buttons.StartButton).gameObject.BindEvent(OnClickStartButton);
         return true;
+    }
+
+    void Refresh()
+    {
+
     }
 
     private void Awake()
@@ -43,6 +43,34 @@ public class UI_LobbyScene : UI_Scene
     }
     private void Start()
     {
+    }
+
+    private void OnDestroy()
+    {
+        if (Managers.Game != null)
+        {
+            Managers.Game.OnResourcesChanged -= Refresh;
+        }
+    }
+
+    void OnClickStartButton()
+    {
+        Managers.Sound.PlayButtonClick();
+
+        Managers.Game.IsGameEnd = false;
+        if (Managers.Game.Stamina < Define.GAME_PER_STAMINA)
+        {
+            Debug.Log("Not Enough Stamina");
+            return;
+        }
+
+        Managers.Game.Stamina -= Define.GAME_PER_STAMINA;
+        if (Managers.Game.DicMission.TryGetValue(Define.MissionTarget.StageEnter, out MissionInfo mission))
+        {
+            mission.Progress++;
+        }
+
+        Managers.Scene.LoadScene(Define.Scene.GameScene, transform);
     }
 
 #if UNITY_EDITOR

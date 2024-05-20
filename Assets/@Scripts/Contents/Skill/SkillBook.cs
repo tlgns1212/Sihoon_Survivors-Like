@@ -323,7 +323,7 @@ public class SkillBook : MonoBehaviour
         }
     }
 
-    public List<SupportSkillData> RecommendSupportKills()
+    public List<SupportSkillData> RecommendSupportSkills()
     {
         GameManager game = Managers.Game;
         game.SoulShopList.Clear();

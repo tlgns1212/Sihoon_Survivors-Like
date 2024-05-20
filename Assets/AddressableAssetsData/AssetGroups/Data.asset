@@ -12,11 +12,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: Data
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: Data
   m_Data:
     m_SerializedData: []
   m_GUID: 9608d213783e47d4192592596af7a014
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 5a58fd5ec1fe4d542a8fa99322aba71a
+    m_Address: MaterialData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fee162826cf7d2145a59280f05fb26ba
+    m_Address: SupportSkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f465542105c0ba643bc6a3c11732b1a4
+    m_Address: StageData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b1cdacc5d056a14692ad7cfc3479975
+    m_Address: SkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d10674463d563e64a90720be3e20df8e
+    m_Address: CreatureData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 144e87a52deed8546a9b25667ba438dd
+    m_Address: LevelData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f720a3275e7d2f49b670415ca7ef77b
+    m_Address: EquipmentData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9daacea83a096d9449414fe91088dd84
+    m_Address: EquipmentLevelData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd94baa25784b9d40bc35b2346a9a9c8
+    m_Address: GachaTableData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 087a5d48c182cab448809bca6eb628d6
+    m_Address: AchievementData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b99dd13068e0a7489fcdc8651a26d91
+    m_Address: DropItemData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
   m_SchemaSet:

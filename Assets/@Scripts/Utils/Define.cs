@@ -62,6 +62,8 @@ public class Define
     #region 스테이지 관련 데이터
     public static readonly int STAGE_SOULCOUNT = 10;
     public static readonly float STAGE_SOULDROP_RATE = 0.05f;
+    public static readonly int BOSS_GEN_TIME = 5;   // 웨이브 시작 후 보스 젠
+    public static readonly float MAPSIZE_REDUCTION_VALUE = 0.9f;    // 웨이브 시작 시 줄어드는 맵 크기
     #endregion
 
     #region 가챠 확률
