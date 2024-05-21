@@ -135,16 +135,16 @@ public class UI_GameScene : UI_Scene
 
         GetButton((int)Buttons.PauseButton).gameObject.BindEvent(OnClickPauseButton);
         GetButton((int)Buttons.PauseButton).GetOrAddComponent<UI_ButtonAnimation>();
-        GetButton((int)Buttons.SoulShopButton).gameObject.BindEvent();
-        GetButton((int)Buttons.CardListResetButton).gameObject.BindEvent();
+        GetButton((int)Buttons.SoulShopButton).gameObject.BindEvent(OnClickSoulShopButton);
+        GetButton((int)Buttons.CardListResetButton).gameObject.BindEvent(OnClickCardListResetButton);
         GetButton((int)Buttons.CardListResetButton).GetOrAddComponent<UI_ButtonAnimation>();
-        GetButton((int)Buttons.SoulShopLeadButton).gameObject.BindEvent();
+        GetButton((int)Buttons.SoulShopLeadButton).gameObject.BindEvent(OnClickSoulShopButton);
         GetButton((int)Buttons.SoulShopLeadButton).GetOrAddComponent<UI_ButtonAnimation>();
-        GetButton((int)Buttons.SoulShopCloseButton).gameObject.BindEvent();
+        GetButton((int)Buttons.SoulShopCloseButton).gameObject.BindEvent(OnclickSoulShopCloseButton);
         GetButton((int)Buttons.SoulShopCloseButton).GetOrAddComponent<UI_ButtonAnimation>();
-        GetButton((int)Buttons.TotalDamageButton).gameObject.BindEvent();
+        GetButton((int)Buttons.TotalDamageButton).gameObject.BindEvent(OnClickTotalDamageButton);
         GetButton((int)Buttons.TotalDamageButton).GetOrAddComponent<UI_ButtonAnimation>();
-        GetButton((int)Buttons.SupportSkillListButton).gameObject.BindEvent();
+        GetButton((int)Buttons.SupportSkillListButton).gameObject.BindEvent(OnClickSupportSkillListButton);
         GetButton((int)Buttons.SupportSkillListButton).GetOrAddComponent<UI_ButtonAnimation>();
         GetButton((int)Buttons.SoulShopCloseButton).gameObject.SetActive(false);    // 영혼 상점 버튼 초기 상태
         GetButton((int)Buttons.SoulShopLeadButton).gameObject.SetActive(true);  // 영혼 상점 보튼 초기 상태
@@ -371,7 +371,7 @@ public class UI_GameScene : UI_Scene
 
         if (list.Count > 0)
         {
-            // Managers.UI.ShowPopupUI<UI_SkillSelectPopup>();
+            Managers.UI.ShowPopupUI<UI_SkillSelectPopup>();
         }
 
         GetObject((int)GameObjects.ExpSliderObject).GetComponent<Slider>().value = _game.Player.ExpRatio;
