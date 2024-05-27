@@ -669,8 +669,7 @@ public class GameManager
     {
         IsGameEnd = true;
         Player.StopAllCoroutines();
-        // TODO: UI
-        // Managers.UI.ShowPopupUI<UI_GameOverPopup>().SetInfo();
+        Managers.UI.ShowPopupUI<UI_GameOverPopup>().SetInfo();
     }
 
     public (int hp, int atk) GetCurrentCharacterStat()

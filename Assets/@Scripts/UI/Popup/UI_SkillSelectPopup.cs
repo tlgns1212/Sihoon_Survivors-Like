@@ -112,8 +112,8 @@ public class UI_SkillSelectPopup : UI_Popup
 
         foreach (SkillBase skill in list)
         {
-            // UI_SkillCardItem item = Managers.UI.MakeSubItem<UI_SkillCardItem>(container.transform);
-            // item.SetInfo();
+            UI_SkillCardItem item = Managers.UI.MakeSubItem<UI_SkillCardItem>(container.transform);
+            item.SetInfo(skill);
         }
     }
 

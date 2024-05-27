@@ -70,7 +70,7 @@ public class UI_GameScene : UI_Scene
     enum Buttons
     {
         PauseButton,
-        DevelopButton,
+        // // DevelopButton,
         SoulShopButton,
         CardListResetButton,
         SoulShopCloseButton,
@@ -86,7 +86,7 @@ public class UI_GameScene : UI_Scene
         SoulValueText,
         KillValueText,
         CharacterLevelValueText,
-        CardListResetText,
+        // // CardListResetText,
         ResetCostValueText,
         SupportSkillCountValueText,
 
@@ -129,9 +129,9 @@ public class UI_GameScene : UI_Scene
 
         #region Object Bind
         BindObject(typeof(GameObjects));
-        BindObject(typeof(Buttons));
-        BindObject(typeof(Texts));
-        BindObject(typeof(Images));
+        BindButton(typeof(Buttons));
+        BindText(typeof(Texts));
+        BindImage(typeof(Images));
 
         GetButton((int)Buttons.PauseButton).gameObject.BindEvent(OnClickPauseButton);
         GetButton((int)Buttons.PauseButton).GetOrAddComponent<UI_ButtonAnimation>();
@@ -503,7 +503,7 @@ public class UI_GameScene : UI_Scene
     void OnClickPauseButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_PausePopup>();
+        Managers.UI.ShowPopupUI<UI_PausePopup>();
     }
 
     void OnClickSoulShopButton()    // 영혼 상점 버튼
@@ -546,7 +546,7 @@ public class UI_GameScene : UI_Scene
     void OnClickTotalDamageButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_TotalDamagePopup>().SetInfo();
+        Managers.UI.ShowPopupUI<UI_TotalDamagePopup>().SetInfo();
     }
 
     void OnClickSupportSkillListButton()    // 서포트 스킬 리스트 버튼

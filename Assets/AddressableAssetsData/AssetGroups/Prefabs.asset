@@ -17,14 +17,26 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 3eec5d8d33fd2194c9d26f5676e90ee3
   m_SerializeEntries:
+  - m_GUID: b1fb732af79c9d84a98a089a5b1e686f
+    m_Address: SceneChangeAnimation_Out
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a636334d3d769a44da455f8d0424afb3
     m_Address: SceneChangeAnimation_In
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b1fb732af79c9d84a98a089a5b1e686f
-    m_Address: SceneChangeAnimation_Out
+  - m_GUID: 5c6f52f442394024bb32f4d8882b9fff
+    m_Address: EnergyBolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7279cd8cda6545747a7db0d02045475e
+    m_Address: EnergyBolt_Final
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

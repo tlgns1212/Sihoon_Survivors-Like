@@ -65,6 +65,22 @@ public abstract class CreatureController : BaseController
     public override bool Init()
     {
         base.Init();
+
+        Skills = gameObject.GetOrAddComponent<SkillBook>();
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _offset = GetComponent<Collider2D>();
+        ColliderRadius = GetComponent<CircleCollider2D>().radius;
+
+        CreatureSprite = GetComponent<SpriteRenderer>();
+        if (CreatureSprite == null)
+        {
+            CreatureSprite = Util.FindChild<SpriteRenderer>(gameObject);
+        }
+        Anim = GetComponent<Animator>();
+        if (Anim == null)
+        {
+            Anim = Util.FindChild<Animator>(gameObject);
+        }
         return true;
     }
 
@@ -154,6 +170,7 @@ public abstract class CreatureController : BaseController
             Define.SkillType type = Util.GetSkillTypeFromInt(skillId);
             if (type != Define.SkillType.None)
             {
+                Debug.Log($"InitSkill Type = {type}");
                 Skills.AddSkill(type, skillId);
             }
         }

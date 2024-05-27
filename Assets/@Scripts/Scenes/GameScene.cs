@@ -40,7 +40,7 @@ public class GameScene : BaseScene
         SceneType = Define.Scene.GameScene;
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         _game = Managers.Game;
-        // Managers.UI.ShowSceneUI<UI_Joystick>();
+        Managers.UI.ShowSceneUI<UI_Joystick>();
 
         if (_game.ContinueInfo.isContinue == true)
         {
@@ -62,9 +62,9 @@ public class GameScene : BaseScene
         // UI_GameScene만 따로 SortOrder를 줌 (영혼 획득 처리 때문에 렌더링 모드를 SreenSpace-Camera로 뒀기 때문이라고 함)
         _ui.GetComponent<Canvas>().sortingOrder = Define.UI_GAMESCENE_SORT_CLOSED;
 
-        // OnWaveStart = _ui.OnWaveStart;
-        // OnSecondChange = _ui.OnSecondChange;
-        // OnWaveEnd = _ui.OnWaveEnd;
+        OnWaveStart = _ui.OnWaveStart;
+        OnSecondChange = _ui.OnSecondChange;
+        OnWaveEnd = _ui.OnWaveEnd;
         Managers.Sound.Play(Define.Sound.Bgm, "Bgm_Game");
     }
 
@@ -160,8 +160,8 @@ public class GameScene : BaseScene
         for (int i = 0; i < _game.CurrentWaveData.EliteId.Count; i++)
         {
             elite = Managers.Object.Spawn<EliteController>(spawnPos, _game.CurrentWaveData.EliteId[i]);
-            // elite.MonsterInfoUpdate -= _ui.MonsterInfoUpdate;
-            // elite.MonsterInfoUpdate += _ui.MonsterInfoUpdate;
+            elite.MonsterInfoUpdate -= _ui.MonsterInfoUpdate;
+            elite.MonsterInfoUpdate += _ui.MonsterInfoUpdate;
         }
 
         yield break;
@@ -185,8 +185,8 @@ public class GameScene : BaseScene
             for (int i = 0; i < _game.CurrentWaveData.BossId.Count; i++)
             {
                 _boss = Managers.Object.Spawn<BossController>(spawnPos, _game.CurrentWaveData.BossId[i]);
-                // _boss.MonsterInfoUpdate -= _ui.MonsterInfoUpdate;
-                // _boss.MonsterInfoUpdate += _ui.MonsterInfoUpdate;
+                _boss.MonsterInfoUpdate -= _ui.MonsterInfoUpdate;
+                _boss.MonsterInfoUpdate += _ui.MonsterInfoUpdate;
                 _boss.OnBossDead -= OnBossDead;
                 _boss.OnBossDead += OnBossDead;
             }
