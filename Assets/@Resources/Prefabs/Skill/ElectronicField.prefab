@@ -19571,6 +19571,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 2987140381843971545}
   - component: {fileID: 5155970264761448746}
+  - component: {fileID: 2427194894853994199}
   m_Layer: 0
   m_Name: ElectronicField
   m_TagString: Untagged
@@ -19682,6 +19683,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2427194894853994199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737474736667385760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957ff743fb9b465498ded5ee9913cc80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skillData:
+    DataId: 0
+    Name: 
+    Description: 
+    PrefabLabel: 
+    IconLabel: 
+    SoundLabel: 
+    Category: 
+    CoolTime: 0
+    DamageMultiplier: 0
+    ProjectileSpacing: 0
+    Duration: 0
+    RecognitionRange: 0
+    NumProjectiles: 0
+    CastingSound: 
+    AngleBetweenProj: 0
+    AttackInterval: 0
+    NumBounce: 0
+    BounceSpeed: 0
+    BounceDist: 0
+    NumPenetrations: 0
+    CastingEffect: 0
+    HitSoundLabel: 
+    ProbCastingEffect: 0
+    HitEffect: 0
+    ProbHitEffect: 0
+    ProjRange: 0
+    MinCoverage: 0
+    MaxCoverage: 0
+    RotateSpeed: 0
+    ProjSpeed: 0
+    ScaleMultiplier: 0
+  _normalEffect: {fileID: 2084028576540243152}
+  _finalEffect: {fileID: 1256842171026499965}
 --- !u!1 &4129684173611737672
 GameObject:
   m_ObjectHideFlags: 0
