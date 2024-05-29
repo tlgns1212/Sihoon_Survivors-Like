@@ -32,7 +32,7 @@ public class SkillBase : BaseController
     #endregion
     #region SkillData
     [SerializeField]
-    public Data.SkillData _skillData;
+    private Data.SkillData _skillData;
     public Data.SkillData SkillData
     {
         get { return _skillData; }

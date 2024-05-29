@@ -33,13 +33,13 @@ public class UI_TitleScene : UI_Scene
     {
         if (base.Init() == false)
             return false;
-        // ¿ÀºêÁ§Æ® ¹ÙÀÎµù
+        // ì˜¤ë¸Œì íŠ¸ ë°”ì¸ë”©
         BindObject(typeof(GameObjects));
         BindButton(typeof(Buttons));
         BindText(typeof(Texts));
 
         GetObject((int)GameObjects.Slider).GetComponent<Slider>().value = 0;
-        // Å×½ºÆ®¿ë
+        // í…ŒìŠ¤íŠ¸ìš©
         GetButton((int)Buttons.StartButton).gameObject.BindEvent(() =>
         {
             if (isPreload)
