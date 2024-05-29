@@ -15,3 +15,6 @@
 
 ## Explorer
 - alt + f1 + 1
+
+## Auto Format
+- ctrl + alt + enter

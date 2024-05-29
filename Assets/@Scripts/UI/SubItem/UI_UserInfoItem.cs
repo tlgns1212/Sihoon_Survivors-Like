@@ -73,6 +73,7 @@ public class UI_UserInfoItem : UI_Base
     // {
     //     get { return _battlePopupUI; }
     // }
+
     private bool _isSelectedBattle = false;
     // private UI_ShopPopup _shopPopupUI;
     // public UI_ShopPopup ShopPopupUI
