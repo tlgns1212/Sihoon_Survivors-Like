@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UI_EvolvePopup : MonoBehaviour
+public class UI_EvolvePopup : UI_Popup
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool Init()
     {
-        
+        if (base.Init() == false)
+            return false;
+
+        Refresh();
+        return true;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetInfo()
     {
-        
+
+        Refresh();
+    }
+
+    void Refresh()
+    {
+
+
     }
 }

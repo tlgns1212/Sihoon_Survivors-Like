@@ -333,7 +333,7 @@ public class PlayerController : CreatureController
             {
                 switch (equip.EquipmentData.EquipmentGrade)
                 {
-                    case Define.EquipmentGrade.UnCommon:
+                    case Define.EquipmentGrade.Uncommon:
                         if (Managers.Data.SupportSkillDic.TryGetValue(equip.EquipmentData.UncommonGradeSkill, out uncommonSkill))
                         {
                             Skills.AddSupportSkill(uncommonSkill);

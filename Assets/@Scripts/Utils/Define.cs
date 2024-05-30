@@ -264,7 +264,7 @@ public class Define
     {
         None,
         Common,
-        UnCommon,
+        Uncommon,
         Rare,
         Epic,
         Epic1,
@@ -398,6 +398,13 @@ public class Define
         MonsterKill,
         EliteKill,
         Special,
+    }
+
+    public enum UI_ItemParentType
+    {
+        CharacterEquipmentGroup,
+        EquipInventoryGroup,
+        GachaResultPopup,
     }
 
     public enum MissionType

@@ -894,15 +894,15 @@ public class GameManager
         {
             return EquipmentGrade.Common;
         }
-        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.UnCommon])
+        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.Uncommon])
         {
-            return EquipmentGrade.UnCommon;
+            return EquipmentGrade.Uncommon;
         }
-        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.UnCommon] + prob[(int)EquipmentGrade.Rare])
+        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.Uncommon] + prob[(int)EquipmentGrade.Rare])
         {
             return EquipmentGrade.Rare;
         }
-        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.UnCommon] + prob[(int)EquipmentGrade.Rare] + prob[(int)EquipmentGrade.Epic])
+        else if (randomValue < prob[(int)EquipmentGrade.Common] + prob[(int)EquipmentGrade.Uncommon] + prob[(int)EquipmentGrade.Rare] + prob[(int)EquipmentGrade.Epic])
         {
             return EquipmentGrade.Epic;
         }

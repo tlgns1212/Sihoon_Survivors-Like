@@ -18,3 +18,7 @@
 
 ## Auto Format
 - ctrl + alt + enter
+
+## Collapse, Expand
+- ctrl + m + a
+- ctrl + m + x
