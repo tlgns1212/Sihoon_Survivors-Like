@@ -67,17 +67,17 @@ public class UI_LobbyScene : UI_Scene
     private UI_ShopPopup _shopPopupUI;
     private bool _isSelectedShop = false;
     private UI_ChallengePopup _challengePopupUI;
-    // private UI_MergePopup _mergePopupUI;
-    // public UI_MergePopup MergePopupUI
-    // {
-    //     get { return _mergePopupUI; }
-    // }
+    private UI_MergePopup _mergePopupUI;
+    public UI_MergePopup MergePopupUI
+    {
+        get { return _mergePopupUI; }
+    }
 
-    // private UI_EquipmentInfoPopup _equipmentInfoPopupUI;
-    // public UI_EquipmentInfoPopup EquipmentInfoPopupUI
-    // {
-    //     get { return _equipmentInfoPopupUI; }
-    // }
+    private UI_EquipmentInfoPopup _equipmentInfoPopupUI;
+    public UI_EquipmentInfoPopup EquipmentInfoPopupUI
+    {
+        get { return _equipmentInfoPopupUI; }
+    }
     //
     // private UI_EquipmentResetPopup _equipmentResetPopupUI;
     // public UI_EquipmentResetPopup EquipmentResetPopupUI
@@ -90,12 +90,12 @@ public class UI_LobbyScene : UI_Scene
     // {
     //     get { return _rewardPopupUI; }
     // }
-    //
-    // private UI_MergeResultPopup _mergeResultPopupUI;
-    // public UI_MergeResultPopup MergeResultPopupUI
-    // {
-    //     get { return _mergeResultPopupUI; }
-    // }
+    
+    private UI_MergeResultPopup _mergeResultPopupUI;
+    public UI_MergeResultPopup MergeResultPopupUI
+    {
+        get { return _mergeResultPopupUI; }
+    }
     
     public override bool Init()
     {

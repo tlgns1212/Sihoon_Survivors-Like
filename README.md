@@ -1,6 +1,10 @@
 # Sihoon_Survivors-Like
  
 
+- Regex.Match + 각종 정규표현식 (Epic => 0, Epic2 => 2)
+- 
+
+
 
 # 단축키
 ## 같은 단어 선택 관련
