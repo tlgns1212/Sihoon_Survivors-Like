@@ -2,6 +2,7 @@
  
 
 - Regex.Match + 각종 정규표현식 (Epic => 0, Epic2 => 2)
+- Timespan으로 시간 구함 시분초
 - 
 
 

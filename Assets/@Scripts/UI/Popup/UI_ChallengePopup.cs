@@ -2,16 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UI_ChallengePopup : MonoBehaviour
+public class UI_ChallengePopup : UI_Popup
 {
-    // Start is called before the first frame update
-    void Start()
+    #region Enum
+
+    enum Texts
+    {
+        UnlockInfoText,
+    }
+    #endregion
+
+    public override bool Init()
+    {
+        if (base.Init() == false)
+            return false;
+        
+        BindText(typeof(Texts));
+
+        Refresh();
+        return true;
+    }
+
+    public void SetInfo()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void Refresh()
     {
         
     }

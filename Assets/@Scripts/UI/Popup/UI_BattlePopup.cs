@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Data;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -128,32 +129,32 @@ public class UI_BattlePopup : UI_Popup
         GetObject((int)GameObjects.OfflineRewardButtonRedDotObject).SetActive(false);
         
         // // 버튼 기능
-        // GetButton((int)Buttons.GameStartButton).gameObject.BindEvent(OnClickGameStartButton);
-        // GetButton((int)Buttons.GameStartButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.StageSelectButton).gameObject.BindEvent(OnClickStageSelectButton);
-        // GetButton((int)Buttons.StageSelectButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.OfflineRewardButton).gameObject.BindEvent(OnClickOfflineRewardButton);
-        // GetButton((int)Buttons.OfflineRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.SettingButton).gameObject.BindEvent(OnClickSettingButton);
-        // GetButton((int)Buttons.SettingButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.MissionButton).gameObject.BindEvent(OnClickMissionButton);
-        // GetButton((int)Buttons.MissionButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.AchievementButton).gameObject.BindEvent(OnClickAchievementButton);
-        // GetButton((int)Buttons.AchievementButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.AttendanceCheckButton).gameObject.BindEvent(OnClickAttendanceCheckButton);
-        // GetButton((int)Buttons.AttendanceCheckButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.GameStartButton).gameObject.BindEvent(OnClickGameStartButton);
+        GetButton((int)Buttons.GameStartButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.StageSelectButton).gameObject.BindEvent(OnClickStageSelectButton);
+        GetButton((int)Buttons.StageSelectButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.OfflineRewardButton).gameObject.BindEvent(OnClickOfflineRewardButton);
+        GetButton((int)Buttons.OfflineRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.SettingButton).gameObject.BindEvent(OnClickSettingButton);
+        GetButton((int)Buttons.SettingButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.MissionButton).gameObject.BindEvent(OnClickMissionButton);
+        GetButton((int)Buttons.MissionButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.AchievementButton).gameObject.BindEvent(OnClickAchievementButton);
+        GetButton((int)Buttons.AchievementButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.AttendanceCheckButton).gameObject.BindEvent(OnClickAttendanceCheckButton);
+        GetButton((int)Buttons.AttendanceCheckButton).GetOrAddComponent<UI_ButtonAnimation>();
         
         // 생존 웨이브
         GetText((int)Texts.SurvivalWaveText).gameObject.SetActive(false);
         GetText((int)Texts.SurvivalWaveValueText).gameObject.SetActive(false);
         
         // // 스테이지 보상
-        // GetButton((int)Buttons.FirstClearRewardButton).gameObject.BindEvent(OnClickFirstClearRewardButton);
-        // GetButton((int)Buttons.FirstClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.SecondClearRewardButton).gameObject.BindEvent(OnClickSecondClearRewardButton);
-        // GetButton((int)Buttons.SecondClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
-        // GetButton((int)Buttons.ThirdClearRewardButton).gameObject.BindEvent(OnClickThirdClearRewardButton);
-        // GetButton((int)Buttons.ThirdClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.FirstClearRewardButton).gameObject.BindEvent(OnClickFirstClearRewardButton);
+        GetButton((int)Buttons.FirstClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.SecondClearRewardButton).gameObject.BindEvent(OnClickSecondClearRewardButton);
+        GetButton((int)Buttons.SecondClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.ThirdClearRewardButton).gameObject.BindEvent(OnClickThirdClearRewardButton);
+        GetButton((int)Buttons.ThirdClearRewardButton).GetOrAddComponent<UI_ButtonAnimation>();
 
         InitBoxes();
         Refresh();
@@ -250,13 +251,13 @@ public class UI_BattlePopup : UI_Popup
 
         if (PlayerPrefs.GetInt("ISFIRST") == 1)
         {
-            // Managers.UI.ShowPopupUI<UI_BeginnerSupportRewardPopup>();
+            Managers.UI.ShowPopupUI<UI_BeginnerSupportRewardPopup>();
             PlayerPrefs.SetInt("ISFIRST", 0);
         }
 
         if (Managers.Game.ContinueInfo.isContinue == true)
         {
-            // Managers.UI.ShowPopupUI<UI_BackToBattlePopup>();
+            Managers.UI.ShowPopupUI<UI_BackToBattlePopup>();
         }
         else
         {
@@ -462,6 +463,89 @@ public class UI_BattlePopup : UI_Popup
         // UI_CheckOutPopup popup = Managers.UI.ShowPopupUI<UI_CheckOutPopup>();
         // popup.SetInfo(Managers.Time.AttendanceDay);
     }
-    // TODO :여기부터하면됨, 여기까지함,
+
+    void OnClickFirstClearRewardButton()
+    {
+        Managers.Sound.PlayButtonClick();
+        if (_boxes[0].State != RewardBoxState.RedDot)
+            return;
+
+        if (Managers.Game.DicStageClearInfo.ContainsKey(_currentStageData.StageIndex))
+        {
+            Managers.Game.DicStageClearInfo[_currentStageData.StageIndex].isOpenFirstBox = true;
+            SetBoxState(0, RewardBoxState.Complete);
+
+            string[] spriteNames = new string[1];
+            int[] counts = new int[1];
+            int itemId = _currentStageData.FirstWaveClearRewardItemId;
+
+            if (Managers.Data.MaterialDic.TryGetValue(itemId, out MaterialData materialData))
+            {
+                spriteNames[0] = materialData.SpriteName;
+                counts[0] = _currentStageData.FirstWaveClearRewardItemValue;
+                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                // rewardPopup.gameObject.SetActive(true);
+                
+                Managers.Game.ExchangeMaterial(materialData, counts[0]);
+                // rewardPopup.SetInfo(spriteNames, counts);
+            }
+        }
+    }
+
+    void OnClickSecondClearRewardButton()
+    {
+        Managers.Sound.PlayButtonClick();
+        if (_boxes[1].State != RewardBoxState.RedDot)
+            return;
+
+        if (Managers.Game.DicStageClearInfo.ContainsKey(_currentStageData.StageIndex))
+        {
+            Managers.Game.DicStageClearInfo[_currentStageData.StageIndex].isOpenSecondBox = true;
+            SetBoxState(1, RewardBoxState.Complete);
+
+            string[] spriteNames = new string[1];
+            int[] counts = new int[1];
+            int itemId = _currentStageData.SecondWaveClearRewardItemId;
+
+            if (Managers.Data.MaterialDic.TryGetValue(itemId, out MaterialData materialData))
+            {
+                spriteNames[0] = materialData.SpriteName;
+                counts[0] = _currentStageData.SecondWaveClearRewardItemValue;
+                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                // rewardPopup.gameObject.SetActive(true);
+                
+                Managers.Game.ExchangeMaterial(materialData, counts[0]);
+                // rewardPopup.SetInfo(spriteNames, counts);
+            }
+        }
+    }
+    
+    void OnClickThirdClearRewardButton()
+    {
+        Managers.Sound.PlayButtonClick();
+        if (_boxes[2].State != RewardBoxState.RedDot)
+            return;
+
+        if (Managers.Game.DicStageClearInfo.ContainsKey(_currentStageData.StageIndex))
+        {
+            Managers.Game.DicStageClearInfo[_currentStageData.StageIndex].isOpenThirdBox = true;
+            SetBoxState(2, RewardBoxState.Complete);
+
+            string[] spriteNames = new string[1];
+            int[] counts = new int[1];
+            int itemId = _currentStageData.ThirdWaveClearRewardItemId;
+
+            if (Managers.Data.MaterialDic.TryGetValue(itemId, out MaterialData materialData))
+            {
+                spriteNames[0] = materialData.SpriteName;
+                counts[0] = _currentStageData.ThirdWaveClearRewardItemValue;
+                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                // rewardPopup.gameObject.SetActive(true);
+                
+                Managers.Game.ExchangeMaterial(materialData, counts[0]);
+                // rewardPopup.SetInfo(spriteNames, counts);
+            }
+        }
+    }
     
 }
