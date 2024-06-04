@@ -25,6 +25,8 @@ public class DataManager
     public Dictionary<Define.GachaType, GachaTableData> GachaTableDataDic { get; private set; } = new Dictionary<Define.GachaType, GachaTableData>();
     public Dictionary<int, AchievementData> AchievementDataDic { get; private set; } = new Dictionary<int, AchievementData>();
     public Dictionary<int, DropItemData> DropItemDataDic { get; private set; } = new Dictionary<int, DropItemData>();
+    public Dictionary<int, OfflineRewardData> OfflineRewardDataDic { get; private set; } = new Dictionary<int, OfflineRewardData>();
+    
 
 
 
@@ -41,6 +43,7 @@ public class DataManager
         GachaTableDataDic = LoadJson<Data.GachaTableDataLoader, Define.GachaType, Data.GachaTableData>("GachaTableData").MakeDict();
         AchievementDataDic = LoadJson<Data.AchievementDataLoader, int, Data.AchievementData>("AchievementData").MakeDict();
         DropItemDataDic = LoadJson<Data.DropItemDataLoader, int, Data.DropItemData>("DropItemData").MakeDict();
+        OfflineRewardDataDic = LoadJson<Data.OfflineRewardDataLoader, int, Data.OfflineRewardData>("OfflineRewardData").MakeDict();
     }
 
     Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
