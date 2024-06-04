@@ -103,8 +103,8 @@ public class UI_MergePopup : UI_Popup
     private Equipment _mergeEquipment2;
     private Define.EquipmentSortType _equipmentSortType;
 
-    private string sortText_Level = "Á¤·Ä : ·¹º§";
-    private string sortText_Grade = "Á¤·Ä : µî±Ş";
+    private string sortText_Level = "ì •ë ¬ : ë ˆë²¨";
+    private string sortText_Grade = "ì •ë ¬ : ë“±ê¸‰";
 
     private void Awake()
     {
@@ -148,7 +148,7 @@ public class UI_MergePopup : UI_Popup
         GetButton((int)Buttons.MergeAllButton).gameObject.BindEvent(OnClickMergeAllButton);
         GetButton((int)Buttons.MergeAllButton).GetOrAddComponent<UI_ButtonAnimation>();
         
-        // Á¤·Ä ±âÁØ (·¹º§ default)
+        // ì •ë ¬ ê¸°ì¤€ (ë ˆë²¨ default)
         _equipmentSortType = Define.EquipmentSortType.Level;
         GetText((int)Texts.SortButtonText).text = sortText_Level;
         
@@ -257,7 +257,7 @@ public class UI_MergePopup : UI_Popup
     {
         if (_equipment == null)
         {
-            // ÇÕ¼ºÇÒ ¾ÆÀÌÅÛ ºñ¾úÀ» ¶§
+            // í•©ì„±í•  ì•„ì´í…œ ë¹„ì—ˆì„ ë•Œ
             GetObject((int)GameObjects.SelectedEquipObject).SetActive(false);
             GetButton((int)Buttons.FirstCostButton).gameObject.SetActive(true);
             GetButton((int)Buttons.SecondCostButton).gameObject.SetActive(true);
@@ -308,7 +308,7 @@ public class UI_MergePopup : UI_Popup
             string gradeName = _equipment.EquipmentData.EquipmentGrade.ToString();
             int num = 0;
 
-            // Epic1 -> 1 ¸®ÅÏ Epic2 ->2 ¸®ÅÏ CommonÃ³·³ ¼ıÀÚ°¡ ¾øÀ¸¸é 0 ¸®ÅÏ
+            // Epic1 -> 1 ë¦¬í„´ Epic2 ->2 ë¦¬í„´ Commonì²˜ëŸ¼ ìˆ«ìê°€ ì—†ìœ¼ë©´ 0 ë¦¬í„´
             Match match = Regex.Match(gradeName, @"\d+$");
             if (match.Success)
                 num = int.Parse(match.Value);
@@ -339,13 +339,13 @@ public class UI_MergePopup : UI_Popup
         }
         else if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.None)
         {
-            // °­È­¼® ÇÑ°³
+            // ê°•í™”ì„ í•œê°œ
             GetButton((int)Buttons.FirstCostButton).gameObject.SetActive(true);
             GetButton((int)Buttons.SecondCostButton).gameObject.SetActive(false);
         }
         else
         {
-            // µÎ°³
+            // ë‘ê°œ
             GetButton((int)Buttons.FirstCostButton).gameObject.SetActive(true);
             GetButton((int)Buttons.SecondCostButton).gameObject.SetActive(true);
         }
@@ -489,7 +489,7 @@ public class UI_MergePopup : UI_Popup
 
     bool CheckEnableMergeButton()
     {
-        #region ÇÕ¼º °¡´É À¯¹« ÆÇ´Ü
+        #region í•©ì„± ê°€ëŠ¥ ìœ ë¬´ íŒë‹¨
 
         if (_equipment == null)
         {
@@ -524,7 +524,7 @@ public class UI_MergePopup : UI_Popup
         GetObject((int)GameObjects.MergeFinishEffect).SetActive(false);
         #endregion
 
-        #region ¿É¼Ç
+        #region ì˜µì…˜
 
         GetImage((int)Images.SelectedEquipImage).sprite = Managers.Resource.Load<Sprite>(_equipment.EquipmentData.SpriteName);
         string mergedItemId = _equipment.EquipmentData.MergedItemCode;
@@ -535,7 +535,7 @@ public class UI_MergePopup : UI_Popup
         GetText((int)Texts.BeforeLevelValueText).text = $"{Managers.Data.EquipDataDic[_equipment.EquipmentData.DataId].MaxLevel}";
         GetText((int)Texts.AfterLevelValueText).text = $"{Managers.Data.EquipDataDic[mergedItemId].MaxLevel}";
 
-        if (Managers.Data.EquipDataDic[mergedItemId].AtkDmgBonus != 0)  // ÀåºñÀÇ °ø°İ·ÂÀÌ 0ÀÌ ¾Æ´Ï¸é ¹«±âÀÓ
+        if (Managers.Data.EquipDataDic[mergedItemId].AtkDmgBonus != 0)  // ì¥ë¹„ì˜ ê³µê²©ë ¥ì´ 0ì´ ì•„ë‹ˆë©´ ë¬´ê¸°ì„
         {
             GetObject((int)GameObjects.ImproveAtk).SetActive(true);
             GetObject((int)GameObjects.ImproveHp).SetActive(false);
@@ -545,7 +545,7 @@ public class UI_MergePopup : UI_Popup
         }
         else
         {
-            // Ã¼·Â
+            // ì²´ë ¥
             GetObject((int)GameObjects.ImproveAtk).SetActive(false);
             GetObject((int)GameObjects.ImproveHp).SetActive(true);
 
@@ -553,7 +553,7 @@ public class UI_MergePopup : UI_Popup
             GetText((int)Texts.AfterHpValueText).text = $"{Managers.Data.EquipDataDic[mergedItemId].MaxLevel}";
         }
         
-        // µî±Şº°
+        // ë“±ê¸‰ë³„
         switch (Managers.Data.EquipDataDic[mergedItemId].EquipmentGrade)
         {
             case Define.EquipmentGrade.Uncommon:
@@ -564,8 +564,8 @@ public class UI_MergePopup : UI_Popup
                 int uncommonGradeSkillId = Managers.Data.EquipDataDic[mergedItemId].UncommonGradeSkill;
                 GetText((int)Texts.ImproveOptionValueText).text = $"+ {Managers.Data.SupportSkillDic[uncommonGradeSkillId].Description}";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "ÀÏ¹İ";
-                GetText((int)Texts.AfterGradeValueText).text = "°í±Ş";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì¼ë°˜";
+                GetText((int)Texts.AfterGradeValueText).text = "ê³ ê¸‰";
                 break;
             case Define.EquipmentGrade.Rare:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Rare;
@@ -575,8 +575,8 @@ public class UI_MergePopup : UI_Popup
                 int rareGradeSkillId = Managers.Data.EquipDataDic[mergedItemId].UncommonGradeSkill;
                 GetText((int)Texts.ImproveOptionValueText).text = $"+ {Managers.Data.SupportSkillDic[rareGradeSkillId].Description}";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "°í±Ş";
-                GetText((int)Texts.AfterGradeValueText).text = "Èñ±Í";
+                GetText((int)Texts.BeforeGradeValueText).text = "ê³ ê¸‰";
+                GetText((int)Texts.AfterGradeValueText).text = "í¬ê·€";
                 break;
             case Define.EquipmentGrade.Epic:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Epic;
@@ -586,8 +586,8 @@ public class UI_MergePopup : UI_Popup
                 int epicGradeSkillId = Managers.Data.EquipDataDic[mergedItemId].UncommonGradeSkill;
                 GetText((int)Texts.ImproveOptionValueText).text = $"+ {Managers.Data.SupportSkillDic[epicGradeSkillId].Description}";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "Èñ±Í";
-                GetText((int)Texts.AfterGradeValueText).text = "¿¡ÇÈ";
+                GetText((int)Texts.BeforeGradeValueText).text = "í¬ê·€";
+                GetText((int)Texts.AfterGradeValueText).text = "ì—í”½";
                 break;
             case Define.EquipmentGrade.Epic1:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Epic;
@@ -598,8 +598,8 @@ public class UI_MergePopup : UI_Popup
                 GetImage((int)Images.SelectedEquipEnforceBackgroundImage).color = EquipmentUIColors.EpicBg;
                 GetText((int)Texts.SelectedEquipEnforceValueText).text = "1";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "¿¡ÇÈ";
-                GetText((int)Texts.AfterGradeValueText).text = "¿¡ÇÈ 1";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì—í”½";
+                GetText((int)Texts.AfterGradeValueText).text = "ì—í”½ 1";
                 break;
             case Define.EquipmentGrade.Epic2:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Epic;
@@ -610,8 +610,8 @@ public class UI_MergePopup : UI_Popup
                 GetImage((int)Images.SelectedEquipEnforceBackgroundImage).color = EquipmentUIColors.EpicBg;
                 GetText((int)Texts.SelectedEquipEnforceValueText).text = "2";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "¿¡ÇÈ 1";
-                GetText((int)Texts.AfterGradeValueText).text = "¿¡ÇÈ 2";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì—í”½ 1";
+                GetText((int)Texts.AfterGradeValueText).text = "ì—í”½ 2";
                 break;
             case Define.EquipmentGrade.Legendary:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Legendary;
@@ -621,8 +621,8 @@ public class UI_MergePopup : UI_Popup
                 int legendaryGradeSkillId = Managers.Data.EquipDataDic[mergedItemId].UncommonGradeSkill;
                 GetText((int)Texts.ImproveOptionValueText).text = $"+ {Managers.Data.SupportSkillDic[legendaryGradeSkillId].Description}";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "¿¡ÇÈ 2";
-                GetText((int)Texts.AfterGradeValueText).text = "Àü¼³";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì—í”½ 2";
+                GetText((int)Texts.AfterGradeValueText).text = "ì „ì„¤";
                 break;
             case Define.EquipmentGrade.Legendary1:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Legendary;
@@ -633,8 +633,8 @@ public class UI_MergePopup : UI_Popup
                 GetImage((int)Images.SelectedEquipEnforceBackgroundImage).color = EquipmentUIColors.LegendaryBg;
                 GetText((int)Texts.SelectedEquipEnforceValueText).text = "1";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "Àü¼³";
-                GetText((int)Texts.AfterGradeValueText).text = "Àü¼³ 1";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì „ì„¤";
+                GetText((int)Texts.AfterGradeValueText).text = "ì „ì„¤ 1";
                 break;
             case Define.EquipmentGrade.Legendary2:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Legendary;
@@ -645,8 +645,8 @@ public class UI_MergePopup : UI_Popup
                 GetImage((int)Images.SelectedEquipEnforceBackgroundImage).color = EquipmentUIColors.LegendaryBg;
                 GetText((int)Texts.SelectedEquipEnforceValueText).text = "2";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "Àü¼³ 1";
-                GetText((int)Texts.AfterGradeValueText).text = "Àü¼³ 2";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì „ì„¤ 1";
+                GetText((int)Texts.AfterGradeValueText).text = "ì „ì„¤ 2";
                 break;
             case Define.EquipmentGrade.Legendary3:
                 GetImage((int)Images.SelectedEquipGradeBackgroundImage).color = EquipmentUIColors.Legendary;
@@ -657,8 +657,8 @@ public class UI_MergePopup : UI_Popup
                 GetImage((int)Images.SelectedEquipEnforceBackgroundImage).color = EquipmentUIColors.LegendaryBg;
                 GetText((int)Texts.SelectedEquipEnforceValueText).text = "3";
 
-                GetText((int)Texts.BeforeGradeValueText).text = "Àü¼³ 2";
-                GetText((int)Texts.AfterGradeValueText).text = "Àü¼³ 3";
+                GetText((int)Texts.BeforeGradeValueText).text = "ì „ì„¤ 2";
+                GetText((int)Texts.AfterGradeValueText).text = "ì „ì„¤ 3";
                 break;
             default:
                 break;
@@ -675,20 +675,20 @@ public class UI_MergePopup : UI_Popup
         
         GetObject((int)GameObjects.EquipInventoryScrollContentObject).DestroyChilds();
         
-        // Àåºñ ¸®½ºÆ® ÀÛ¼º
+        // ì¥ë¹„ ë¦¬ìŠ¤íŠ¸ ì‘ì„±
         foreach (Equipment inventoryEquipmentItem in Managers.Game.OwnedEquipments)
         {
             bool isSelected = false;
             bool isLock = false;
-            // Àåºñ »óÅÂ °áÁ¤ (¼±ÅÃµÊ or ¼±ÅÃºÒ°¡ or ¼±ÅÃ°¡´É)
+            // ì¥ë¹„ ìƒíƒœ ê²°ì • (ì„ íƒë¨ or ì„ íƒë¶ˆê°€ or ì„ íƒê°€ëŠ¥)
             if (_equipment != null)
             {
                 if (_equipment == inventoryEquipmentItem || _mergeEquipment1 == inventoryEquipmentItem || _mergeEquipment2 == inventoryEquipmentItem)
                 {
                     isSelected = true;
-                    continue;   // ¼±ÅÃµÈ Àåºñ´Â ¸®½ºÆ®¿¡¼­ Á¦¿Ü
+                    continue;   // ì„ íƒëœ ì¥ë¹„ëŠ” ë¦¬ìŠ¤íŠ¸ì—ì„œ ì œì™¸
                 }
-                else if (_mergeEquipment1 != null)  // 2°³ Àç·á°¡ ¸ğµÎ ÀÖ°Å³ª ÇÕ¼º ºÒ°¡´ÉÇÏ¸é Àá±İ
+                else if (_mergeEquipment1 != null)  // 2ê°œ ì¬ë£Œê°€ ëª¨ë‘ ìˆê±°ë‚˜ í•©ì„± ë¶ˆê°€ëŠ¥í•˜ë©´ ì ê¸ˆ
                 {
                     if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.None || _mergeEquipment2 != null)
                     {
@@ -702,16 +702,16 @@ public class UI_MergePopup : UI_Popup
                 }
                 else
                 {
-                    if (_equipment.EquipmentData.MergeEquipmentType1 != Define.MergeEquipmentType.None && _mergeEquipment1 == null) // 1¹ø Àç·á ÆÇ´Ü
+                    if (_equipment.EquipmentData.MergeEquipmentType1 != Define.MergeEquipmentType.None && _mergeEquipment1 == null) // 1ë²ˆ ì¬ë£Œ íŒë‹¨
                     {
-                        if (_equipment.EquipmentData.MergeEquipmentType1 == Define.MergeEquipmentType.ItemCode) // ÇÕ¼º Àç·á°¡ µ¿ÀÏ ¾ÆÀÌÅÛ ÀÏ¶§
+                        if (_equipment.EquipmentData.MergeEquipmentType1 == Define.MergeEquipmentType.ItemCode) // í•©ì„± ì¬ë£Œê°€ ë™ì¼ ì•„ì´í…œ ì¼ë•Œ
                         {
                             if (inventoryEquipmentItem.EquipmentData.DataId != _equipment.EquipmentData.MergeEquipment1)
                             {
                                 isLock = true;
                             }
                         }
-                        else if (_equipment.EquipmentData.MergeEquipmentType1 == Define.MergeEquipmentType.Grade)   // ÇÕ¼º Àç·á°¡ µ¿ÀÏ µî±ŞÀÏ¶§
+                        else if (_equipment.EquipmentData.MergeEquipmentType1 == Define.MergeEquipmentType.Grade)   // í•©ì„± ì¬ë£Œê°€ ë™ì¼ ë“±ê¸‰ì¼ë•Œ
                         {
                             if (inventoryEquipmentItem.EquipmentData.EquipmentGrade !=
                                 (Define.EquipmentGrade)Enum.Parse(typeof(Define.EquipmentGrade), _equipment.EquipmentData.MergeEquipment1))
@@ -721,16 +721,16 @@ public class UI_MergePopup : UI_Popup
                         }
                     }
                     
-                    if (_equipment.EquipmentData.MergeEquipmentType2 != Define.MergeEquipmentType.None && _mergeEquipment2 == null) // 2¹ø Àç·á ÆÇ´Ü
+                    if (_equipment.EquipmentData.MergeEquipmentType2 != Define.MergeEquipmentType.None && _mergeEquipment2 == null) // 2ë²ˆ ì¬ë£Œ íŒë‹¨
                     {
-                        if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.ItemCode) // ÇÕ¼º Àç·á°¡ µ¿ÀÏ ¾ÆÀÌÅÛ ÀÏ¶§
+                        if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.ItemCode) // í•©ì„± ì¬ë£Œê°€ ë™ì¼ ì•„ì´í…œ ì¼ë•Œ
                         {
                             if (inventoryEquipmentItem.EquipmentData.DataId != _equipment.EquipmentData.MergeEquipment2)
                             {
                                 isLock = true;
                             }
                         }
-                        else if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.Grade)   // ÇÕ¼º Àç·á°¡ µ¿ÀÏ µî±ŞÀÏ¶§
+                        else if (_equipment.EquipmentData.MergeEquipmentType2 == Define.MergeEquipmentType.Grade)   // í•©ì„± ì¬ë£Œê°€ ë™ì¼ ë“±ê¸‰ì¼ë•Œ
                         {
                             if (inventoryEquipmentItem.EquipmentData.EquipmentGrade !=
                                 (Define.EquipmentGrade)Enum.Parse(typeof(Define.EquipmentGrade), _equipment.EquipmentData.MergeEquipment2))
@@ -820,7 +820,7 @@ public class UI_MergePopup : UI_Popup
 
     IEnumerator CoMergeAll()
     {
-        // ÀÚµ¿ ÇÕ¼º ¹öÆ°
+        // ìë™ í•©ì„± ë²„íŠ¼
         Managers.Game.SortEquipment(_equipmentSortType);
 
         Equipment[] equipments = Managers.Game.OwnedEquipments.ToArray();

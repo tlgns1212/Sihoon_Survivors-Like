@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6cf69526e7cbb044cac5e6b766a55627
+  m_SerializeEntries:
+  - m_GUID: dc274b6b281f0444cb5d70115e472ac0
+    m_Address: Ring_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd0b01ffc214dc54498d54fd4f0797d2
+    m_Address: Stamina_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33cabd754ebfa0e44b154c6c80e8c3d0
+    m_Address: Dia_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 822043699b4857748b34c888f270e2e6
+    m_Address: Clover_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa44ac42bf6f73b41889ea40d1daaa8b
+    m_Address: Key_Gold_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ad5e7a0cca6e345a04a0967b0df763
+    m_Address: HealthPoint_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61c8ddbbfaeac964d844ab24fb45954f
+    m_Address: Boots_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2265cc6ca5cc64946aa7f53ee6cede1f
+    m_Address: Gloves_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 323fa31a8f516d046b91e9c8b1a243f0
+    m_Address: Belt_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 149857443c121b74fb4c131fb8a4cd8c
+    m_Address: AttackPoint_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96fd330c4ac8480469a21f4be9e313a2
+    m_Address: Weapon_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 679a532b29a4dba418dec40bdc6144b9
+    m_Address: Armor_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 306f69e51f578654cbc6f9ea7f99c207
+    m_Address: RareBox_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c92fcb33b3b8f4f469671e02476ca25a
+    m_Address: EpicBox_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a2afc5364ce38e41bf18c9b8d3b711b
+    m_Address: Key_Silver_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb12e58c44ad10e4cbace4f8f0724fbc
+    m_Address: Potion_High_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6904d33901a14d24fae9901ee3735e7c
+    m_Address: Potion_Full_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95307edb5fe16742b91b52994b08134
+    m_Address: CommonBox_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b36eba1c2242eb47b42a4b2426af2a7
+    m_Address: Potion_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd333fd68f5de6b4d8952e59d0426ce9
+    m_Address: Key_Bronze_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d872f097aff8040ac7d437e789c723
+    m_Address: Magnet_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6656ca71f8b9e43418dfc5b66f94cdb3
+    m_Address: Gold_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 624de92374b3ea74b90c83bea32381f8
+    m_Address: Scroll_Armor_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a1eeb44fa6b32648bd623892d7f6459
+    m_Address: EqptBox_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3da23aa8ea5b6f4da6090cbec285187
+    m_Address: Scroll_Belt_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f34cd131d794fe84d9e85ed78caac7f2
+    m_Address: Scroll_Ring_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34b9e2b2a9956e049a96486165e7f623
+    m_Address: Scroll_Boots_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fb3a176a3ad674aad3e26016eb27bc
+    m_Address: Scroll_Weapon_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c5139fd680a35b498eff67254358a59
+    m_Address: Scroll_Gloves_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf60ddaf80d8a7540990adc274b6add0
+    m_Address: EnchantStoneArmor_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 730e51d03dcf6bd42954e985faedcfe8
+    m_Address: EnchantStoneBoots_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9620ad1a2d60f8b4aaf4d1e97c7f2b6d
+    m_Address: EnchantStoneRing_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 197e8f67d19304649848ec9a92e5bc83
+    m_Address: EnchantStoneWeapon_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e2d5589f1b6a2241bfb85ed325c8c94
+    m_Address: Exp_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28910816cb514024d9ee6c2b03564560
+    m_Address: BlueGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f7215c89cea4c34f8b7af0044cfd972
+    m_Address: SmallGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8909945f1d8834a4b824d209b9231d92
+    m_Address: YellowGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 164f412a6f9641341acb99f8a5114db2
+    m_Address: EnchantStoneBelt_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddaa20ed9cbd1804aa348d183ea59a34
+    m_Address: EqptBoxAllRandom_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1efb21ecc3e676c418306d8fed3065e7
+    m_Address: GreenGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a443d729198eb474083eb676394ab805
+    m_Address: Scroll_Random_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be6301842301e3846b7c884411b8f120
+    m_Address: EnchantStoneGloves_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 448b256127b5d8844ac5b8f89bbb8835
+    m_Address: menu_boss_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b725605c34fe3d944a341bf5859d3132, type: 2}
+    - {fileID: 11400000, guid: b811b574f48a66c42bea3893e0612cc9, type: 2}

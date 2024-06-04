@@ -12,7 +12,7 @@ public class UI_EquipItem : UI_Popup
 
     enum GameObjects
     {
-        EquipItemRedDotObject,
+        EquipmentRedDotObject,
         NewTextObject,
         EquippedObject,
         SelectObject,
@@ -23,17 +23,17 @@ public class UI_EquipItem : UI_Popup
 
     enum Texts
     {
-        EquipItemLevelValueText,
+        EquipmentLevelValueText,
         EnforceValueText,
     }
 
     enum Images
     {
-        EquipItemGradeBackgroundImage,
-        EquipItemImage,
-        EquipItemEnforceBackgroundImage,
-        EquipItemTypeBackgroundImage,
-        EquipItemTypeImage,
+        EquipmentGradeBackgroundImage,
+        EquipmentImage,
+        EquipmentEnforceBackgroundImage,
+        EquipmentTypeBackgroundImage,
+        EquipmentTypeImage,
     }
     #endregion
 
@@ -60,7 +60,7 @@ public class UI_EquipItem : UI_Popup
         gameObject.BindEvent(null, OnDrag, Define.UIEvent.Drag);
         gameObject.BindEvent(null, OnBeginDrag, Define.UIEvent.BeginDrag);
         gameObject.BindEvent(null, OnEndDrag, Define.UIEvent.EndDrag);
-        gameObject.BindEvent(OnClickEquipItemButton);
+        gameObject.BindEvent(OnClickEquipmentButton);
 
         return true;
     }
@@ -73,36 +73,36 @@ public class UI_EquipItem : UI_Popup
         _parentType = parentType;
 
         #region 색상 변경
-        // EquipItemGradeBackgroundImage : 합성할 장비 등급의 테두리
-        // EquipItemEnforceBackgroundImage : 유일 +1 등급부터 활성화되고 등급에 따라 이미지 색깔 변경
+        // EquipmentGradeBackgroundImage : 합성할 장비 등급의 테두리
+        // EquipmentEnforceBackgroundImage : 유일 +1 등급부터 활성화되고 등급에 따라 이미지 색깔 변경
         switch (Equipment.EquipmentData.EquipmentGrade)
         {
             case Define.EquipmentGrade.Common:
-                GetImage((int)Images.EquipItemGradeBackgroundImage).color = EquipmentUIColors.Common;
-                GetImage((int)Images.EquipItemTypeBackgroundImage).color = EquipmentUIColors.Common;
+                GetImage((int)Images.EquipmentGradeBackgroundImage).color = EquipmentUIColors.Common;
+                GetImage((int)Images.EquipmentTypeBackgroundImage).color = EquipmentUIColors.Common;
                 break;
             case Define.EquipmentGrade.Uncommon:
-                GetImage((int)Images.EquipItemGradeBackgroundImage).color = EquipmentUIColors.Uncommon;
-                GetImage((int)Images.EquipItemTypeBackgroundImage).color = EquipmentUIColors.Uncommon;
+                GetImage((int)Images.EquipmentGradeBackgroundImage).color = EquipmentUIColors.Uncommon;
+                GetImage((int)Images.EquipmentTypeBackgroundImage).color = EquipmentUIColors.Uncommon;
                 break;
             case Define.EquipmentGrade.Rare:
-                GetImage((int)Images.EquipItemGradeBackgroundImage).color = EquipmentUIColors.Rare;
-                GetImage((int)Images.EquipItemTypeBackgroundImage).color = EquipmentUIColors.Rare;
+                GetImage((int)Images.EquipmentGradeBackgroundImage).color = EquipmentUIColors.Rare;
+                GetImage((int)Images.EquipmentTypeBackgroundImage).color = EquipmentUIColors.Rare;
                 break;
             case Define.EquipmentGrade.Epic:
             case Define.EquipmentGrade.Epic1:
             case Define.EquipmentGrade.Epic2:
-                GetImage((int)Images.EquipItemGradeBackgroundImage).color = EquipmentUIColors.Epic;
-                GetImage((int)Images.EquipItemEnforceBackgroundImage).color = EquipmentUIColors.EpicBg;
-                GetImage((int)Images.EquipItemTypeBackgroundImage).color = EquipmentUIColors.EpicBg;
+                GetImage((int)Images.EquipmentGradeBackgroundImage).color = EquipmentUIColors.Epic;
+                GetImage((int)Images.EquipmentEnforceBackgroundImage).color = EquipmentUIColors.EpicBg;
+                GetImage((int)Images.EquipmentTypeBackgroundImage).color = EquipmentUIColors.EpicBg;
                 break;
             case Define.EquipmentGrade.Legendary:
             case Define.EquipmentGrade.Legendary1:
             case Define.EquipmentGrade.Legendary2:
             case Define.EquipmentGrade.Legendary3:
-                GetImage((int)Images.EquipItemGradeBackgroundImage).color = EquipmentUIColors.Legendary;
-                GetImage((int)Images.EquipItemEnforceBackgroundImage).color = EquipmentUIColors.LegendaryBg;
-                GetImage((int)Images.EquipItemTypeBackgroundImage).color = EquipmentUIColors.LegendaryBg;
+                GetImage((int)Images.EquipmentGradeBackgroundImage).color = EquipmentUIColors.Legendary;
+                GetImage((int)Images.EquipmentEnforceBackgroundImage).color = EquipmentUIColors.LegendaryBg;
+                GetImage((int)Images.EquipmentTypeBackgroundImage).color = EquipmentUIColors.LegendaryBg;
                 break;
             case Define.EquipmentGrade.Myth:
             case Define.EquipmentGrade.Myth1:
@@ -127,25 +127,25 @@ public class UI_EquipItem : UI_Popup
         if (num == 0)
         {
             GetText((int)Texts.EnforceValueText).text = "";
-            GetImage((int)Images.EquipItemEnforceBackgroundImage).gameObject.SetActive(false);
+            GetImage((int)Images.EquipmentEnforceBackgroundImage).gameObject.SetActive(false);
         }
         else
         {
             GetText((int)Texts.EnforceValueText).text = num.ToString();
-            GetImage((int)Images.EquipItemEnforceBackgroundImage).gameObject.SetActive(true);
+            GetImage((int)Images.EquipmentEnforceBackgroundImage).gameObject.SetActive(true);
         }
         #endregion
         
-        // EquipItemImage : 장비의 아이콘
+        // EquipmentImage : 장비의 아이콘
         Sprite spr = Managers.Resource.Load<Sprite>(Equipment.EquipmentData.SpriteName);
-        GetImage((int)Images.EquipItemImage).sprite = spr;
-        // EquipItemTypeImage : 장비 타입 아이콘
+        GetImage((int)Images.EquipmentImage).sprite = spr;
+        // EquipmentTypeImage : 장비 타입 아이콘
         Sprite type = Managers.Resource.Load<Sprite>($"{Equipment.EquipmentData.EquipmentType}_Icon.sprite");
-        GetImage((int)Images.EquipItemTypeImage).sprite = type;
-        // EquipItemLevelValueText : 장비의 현재 레벨
-        GetText((int)Texts.EquipItemLevelValueText).text = $"Lv.{Equipment.Level}";
-        // EquipItemRedDotObject : 장비가 강화가 가능할 때 출력
-        GetObject((int)GameObjects.EquipItemRedDotObject).SetActive(Equipment.IsUpgradeable);
+        GetImage((int)Images.EquipmentTypeImage).sprite = type;
+        // EquipmentLevelValueText : 장비의 현재 레벨
+        GetText((int)Texts.EquipmentLevelValueText).text = $"Lv.{Equipment.Level}";
+        // EquipmentRedDotObject : 장비가 강화가 가능할 때 출력
+        GetObject((int)GameObjects.EquipmentRedDotObject).SetActive(Equipment.IsUpgradeable);
         // NewTextObject : 장비를 처음 습득했을 때 출력
         GetObject((int)GameObjects.NewTextObject).SetActive(!Equipment.IsConfirmed);
         // EquippedObject : 합성 팝업에서 착용 장비 표시용
@@ -169,7 +169,7 @@ public class UI_EquipItem : UI_Popup
         }
     }
 
-    void OnClickEquipItemButton()
+    void OnClickEquipmentButton()
     {
         Managers.Sound.PlayButtonClick();
         if (_isDrag) return;

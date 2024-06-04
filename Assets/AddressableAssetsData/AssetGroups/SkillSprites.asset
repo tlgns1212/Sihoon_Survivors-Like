@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SkillSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: SkillSprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5c07b461ce8b1c14da0857f57dc6012c
+  m_SerializeEntries:
+  - m_GUID: 3c7aad2d371db7d40b90f70a5f1ab9a7
+    m_Address: BattleSkillIcon_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97b6b4d9ee3bf7348a0b524a879c05d5
+    m_Address: BattleSkillIcon_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68bbf33ea7ddf214eb9039655850aa19
+    m_Address: BattleSkillIcon_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4a243951f764b646b63405fd60a08f3
+    m_Address: BattleSkillIcon_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6d577eeb37ddc74ba86a434980ea293
+    m_Address: BattleSkillIcon_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 703f5c0aac127f644a78a16163e8e6e1
+    m_Address: BattleSkillIcon_06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ebcb26b5d894d54c8edfa772ee86e05
+    m_Address: BattleSkillIcon_07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d39ed834b1c3df1479b07b11b581863b
+    m_Address: BattleSkillIcon_08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6cddf06dea9e474b9eb1fd97262aa5f
+    m_Address: BattleSkillIcon_09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01302b6fefa28a34699772d07195a369
+    m_Address: BattleSkillIcon_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40f0dfc566cb16f40b2584a80832344d
+    m_Address: BattleSkillIcon_11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 050828bf5e60b3246bb6d2928a7ae774
+    m_Address: BattleSkillIcon_12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89d86195121651f4192dc56ffa45c405
+    m_Address: BattleSkillIcon_13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92cea59e29daf76409fb7e069cb69672
+    m_Address: BattleSkillIcon_14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d99c199676754cf47ab79fc26ac5ade2
+    m_Address: GeneralSupportSkillIcon_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67c764b8dd701414498081e569077d13
+    m_Address: GeneralSupportSkillIcon_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00ada4e2e0fd21f46b4bbf4c41824361
+    m_Address: GeneralSupportSkillIcon_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18fd58ea28e29b140aae1f0b0c05cf17
+    m_Address: GeneralSupportSkillIcon_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5792c5eb87672134eab63a1dc9bfd175
+    m_Address: GeneralSupportSkillIcon_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 847f44bcf336a224eb6e0fe55a7dda8f
+    m_Address: GeneralSupportSkillIcon_06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec27661e796eadb4d8a1760a7cf6cdad
+    m_Address: GeneralSupportSkillIcon_07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df68ddb2d8352244ca464cb0281c3c34
+    m_Address: GeneralSupportSkillIcon_08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d01f19b09f25784db4911bca97d1304
+    m_Address: GeneralSupportSkillIcon_09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b28ea98f14f93084b9e1254e4fa33380
+    m_Address: GeneralSupportSkillIcon_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bb133e3ab4aeda42a11670b8656a451
+    m_Address: GeneralSupportSkillIcon_11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12ee87c8fcc076f4aa5b56b281fb7463
+    m_Address: GeneralSupportSkillIcon_12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1abfd1d36e0bc14469d268093da91c84
+    m_Address: GeneralSupportSkillIcon_13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98af0c2939942934dbde40d12a94f15b
+    m_Address: GeneralSupportSkillIcon_14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 974a399943a95e64587abc774682050a
+    m_Address: GeneralSupportSkillIcon_15.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca36fae242816ae4d97d9d4d181d46b0
+    m_Address: GeneralSupportSkillIcon_16.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a33b0a0ea219d3142b2e4b3113409b47
+    m_Address: GeneralSupportSkillIcon_17.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 518b96674a415ee45b7f9f2a27f55c92
+    m_Address: GeneralSupportSkillIcon_18.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3ed4ec9831b1f24cb44b63222701141
+    m_Address: GeneralSupportSkillIcon_19.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c09916be22bbaa4478d77100d76420f7
+    m_Address: GeneralSupportSkillIcon_20.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 168e7e387d3396741aece0528fc70890
+    m_Address: GeneralSupportSkillIcon_21.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4c48a8b114c0e0478984b6e0d467a14
+    m_Address: GeneralSupportSkillIcon_22.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fce1139af3afc48967875a90a63844
+    m_Address: GeneralSupportSkillIcon_23.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecb6c792e359aa64f9a9f52682b2560a
+    m_Address: SpecialSupportSkillIcon_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14da7cc07dcd1b6469a15ac45c84364e
+    m_Address: SpecialSupportSkillIcon_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 883c1f4c8898ada4ea5f2312847318a9
+    m_Address: SpecialSupportSkillIcon_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdc9c144e9d40194db5a04030221d630
+    m_Address: SpecialSupportSkillIcon_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fbefa1faa45c7b44afbdd39a63b485e
+    m_Address: SpecialSupportSkillIcon_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc4b6746b1deccd4eb4d3bb3373ccd05
+    m_Address: SpecialSupportSkillIcon_06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 847e755e7257f874fa55630e90b198e2
+    m_Address: SpecialSupportSkillIcon_07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5b7c486e882fb40a672e67dd97e945
+    m_Address: SpecialSupportSkillIcon_08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0b93e64b3c286c4baa2404a364d94ea
+    m_Address: SpecialSupportSkillIcon_09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fbb20847d9a9054fb13f6958f4e25c9
+    m_Address: SpecialSupportSkillIcon_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce427549f8d8578478374431c5b0f678
+    m_Address: SpecialSupportSkillIcon_11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f3f87c1e34289e4499a693c5da8f387
+    m_Address: SpecialSupportSkillIcon_12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb52d263ef8840e4385abef645ac6a20
+    m_Address: SpecialSupportSkillIcon_13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 817467e42dd94374c8ba0402b3f87db9
+    m_Address: SpecialSupportSkillIcon_14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a3af2027d1540a47a9ac85182610477, type: 2}
+    - {fileID: 11400000, guid: d4119c7d7eed2184aa214ba86df8d684, type: 2}

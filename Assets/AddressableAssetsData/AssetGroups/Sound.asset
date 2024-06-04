@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  m_GroupName: Sound
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dfdb3f250be813c4d94d9dc6d2035f6b
+  m_SerializeEntries:
+  - m_GUID: 6417ede2495ade147825df66bc128002
+    m_Address: ArrowShot_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 495996ff10bca1f49a796f5bc48074fa
+    m_Address: ArrowShot_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0696fb06457dca34a93918ed1dede83d
+    m_Address: ChainLightning_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31e24bc66bf50174596c7df20081cfe0
+    m_Address: ChainLightning_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 237f3aa9876fdfc4eb3042fb96452dc8
+    m_Address: EgoSword_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ba71eae8141e144e9cce5aa6a78e49a
+    m_Address: EgoSword_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f58d46072229c51409a2d6ee939b5393
+    m_Address: EletronicField_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b350d1796a9176d4395543789e5d6f38
+    m_Address: EletronicField_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 765e0c31cd8a76e408e7854688b60e5d
+    m_Address: EnergyBolt_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcee19381e9aab346bda07efc55d6fd6
+    m_Address: EnergyBolt_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1effc7adfd11a42a6a48cd51690976
+    m_Address: ExpGet_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b40f028a952489f45a721226f6ca8ba6
+    m_Address: ExpGet_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fbadd95a7fab4a46bd691b2ebeeae3c
+    m_Address: FrozenHeart_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8cfed8015efff0499fc90499ed2c994
+    m_Address: FrozenHeart_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45fceffa6f0921947a629fc5a62b72af
+    m_Address: IcicleArrow_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1166cd6786a0414396a8b0d5783f1d8
+    m_Address: IcicleArrow_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0159cdfba5ae65a48b69fb39b534e576
+    m_Address: Meteor_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83f4b6884e13c9c4aa442c6f4e422dd3
+    m_Address: Meteor_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19249e8f2d2115d42aba9125b478b8ad
+    m_Address: PhotonStrike_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22a1a7c141b55604bbe4151bf3c0a9f3
+    m_Address: PhotonStrike_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a41e4cae88d5fbf4d984a7f55356282e
+    m_Address: PoisonField_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e269a46e1cede114d929dee03020fc4b
+    m_Address: PoisonField_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeffcd6db24f2ab428ec1b720cee6791
+    m_Address: SavageSmash_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c228dbcff24c41d429f9fc5d36e1c7d8
+    m_Address: SavageSmash_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d5ca86d51b3e8146931e08490b8cc3c
+    m_Address: Shuriken_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 057eea93cb2acfb4e8c511f7f06b8f3f
+    m_Address: Shuriken_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e25c744dfa5b7fe49a22ab0cceed437f
+    m_Address: SoulGet_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 877f3f0ca07f06c42aaab7670245be2e
+    m_Address: StormBlade_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c9e6b873c6ce2f42bed2e4f8b036df5
+    m_Address: StormBlade_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09d7ad0683b5e23439d3ea1b6c25f914
+    m_Address: Windcutter_Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dc2b9102c202024aaabbadf27e94d40
+    m_Address: Windcutter_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 241b86e5b2d8553428cf62e063f2f605
+    m_Address: MonsterProjectile_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a78c902d5e2426419725dc610b1c527
+    m_Address: Bgm_Game
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ec1df1c29768c0458dc8bf46314a17f
+    m_Address: Bgm_Lobby
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8759c8ab95e6f244a0aa9d1658dcb24
+    m_Address: Click_CommonButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af1c048f2eb55194eaebfd00d79044da
+    m_Address: PopupClose_Common
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa82daa9c38549b41a4f9dce4ea0234c
+    m_Address: PopupOpen_Gameover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ee92680dd0ff3144a9d9a5d43e4fbc7
+    m_Address: PopupOpen_GameResult
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22979416622a53841b6e6e63ea43522d
+    m_Address: PopupOpen_Reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef9e836d30247c843967a1de916ce671
+    m_Address: PopupOpen_SkillSelect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45a2a4aa09713d349bc46497efec6c94
+    m_Address: PopupOpen_SoulShop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b115f538d10c8df4a8d7eb23ba6c6570
+    m_Address: Drop_Box
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3d70f298f011564ebe8d79f74f3ead6
+    m_Address: Equip_Equipment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3bfdaa3fa6bf0245ab121ef968041ae
+    m_Address: Levelup_Character
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a45ddcb513877bc42b9d59838ba24c9d
+    m_Address: Levelup_Equipment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73297f00f82d1174f86a0c825398712b
+    m_Address: Merge_Equipment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1b732406aebc48448b06df0032c98c2
+    m_Address: Result_CommonMerge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6214c4f37a85c24982169b36daf3a81
+    m_Address: Warning_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3e8332ec07e097499234ecbefeb6f9a
+    m_Address: Warning_Stage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 960a3c59a651b644f8fb5c704172d89b
+    m_Address: Warning_Wave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 442ca29c4d8483349ba417e74bc99edc, type: 2}
+    - {fileID: 11400000, guid: 24971899564c4874cbf756f16d38d9bd, type: 2}

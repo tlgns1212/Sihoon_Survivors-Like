@@ -107,6 +107,138 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29c819b60608d34419a53290b59ccea6
+    m_Address: UI_BackToBattlePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7303e6aea1402c94cbe4894b08a1af1c
+    m_Address: UI_BattlePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56637d0577b904f4b83d0f399ef436a9
+    m_Address: UI_BeginnerSupportRewardPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dde629b1bbcd514ea81201174490874
+    m_Address: UI_ChallengePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00bc98490e627fc4abb54cbd35bb86ee
+    m_Address: UI_EquipmentInfoPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba6a0b78c83b61c4da9d40ab23ca4d36
+    m_Address: UI_EquipmentPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ce72feaffd922a408e1519739be6c39
+    m_Address: UI_EquipmentResetPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1bb516c686e6b64086bdaf2db7a84e0
+    m_Address: UI_EvolvePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d67f5b7126af8d040af3a2a1279a4d87
+    m_Address: UI_GachaEquipmentInfoPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b590133aaf009646a8fc372fae2d125
+    m_Address: UI_GachaListPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50d2455ef03d95b45bf233c248566ac6
+    m_Address: UI_GachaResultsPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ec04bf08b5f5ef40b59ac115f496b3e
+    m_Address: UI_MergeAllResultPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9ef5f1021a9854458ef33f223816918
+    m_Address: UI_MergePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5e233ed354c49f40a0d99dfb13d430e
+    m_Address: UI_MergeResultPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17aebbd5d1528634091e4f917e071e93
+    m_Address: UI_RewardPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dffc788443b46784c9acb556b011a30f
+    m_Address: UI_ShopPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed2c17cdc2cad8a42bf18ec392041876
+    m_Address: UI_StaminaChargePopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 841e9bc4fff87434c9fd2143db9c64c8
+    m_Address: UI_MaterialItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ca7db730fe97954aa5f606d9b7b99ce
+    m_Address: UI_EquipItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36479f6d5d2637d4fb246590d6781fdb
+    m_Address: UI_GachaRateItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14f1568bbea446b44b85a4525599ec61
+    m_Address: UI_UserInfoItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5160ba26047eaf4dbea89b4aeed7749
+    m_Address: UI_MergeEquipItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
   m_SchemaSet:

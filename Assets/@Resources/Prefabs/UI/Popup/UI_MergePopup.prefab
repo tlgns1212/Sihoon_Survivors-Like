@@ -14209,7 +14209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5613974612694361441}
   m_Layer: 5
-  m_Name: SecondSelectEquipSelectObject
+  m_Name: SecondCostEquipSelectObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28148,7 +28148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051950763449400015}
   m_Layer: 5
-  m_Name: FirstSelectEquipSelectObject
+  m_Name: FirstCostEquipSelectObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

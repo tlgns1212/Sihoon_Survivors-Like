@@ -9,84 +9,25 @@ public class UI_UserInfoItem : UI_Base
 
     enum GameObjects
     {
-        EvolveToggleRedDotObject,
-        EquipmentToggleRedDotObject,
-        BattleToggleRedDotObject,
-        ShopToggleRedDotObject,
-        ChallengeToggleRedDotObject,
-        
-        MenuToggleGroup,
-        CheckEvolveImageObject,
-        CheckEquipmentImageObject,
-        CheckBattleImageObject,
-        CheckShopImageObject,
-        CheckChallengeImageObject,
+        // UserExpSliderObject,
     }
     enum Buttons
     {
-        // UserIconButton, // TODO : 유저 정보 팝업 만들어서 호출
+        StaminaButton,
+        DiaButton,
+        GoldButton,
     }
 
     enum Texts
     {
         // UserNameText,
-        // UserLevelText
-        EvolveToggleText,
-        EquipmentToggleText,
-        BattleToggleText,
-        ShopToggleText,
-        ChallengeToggleText,
+        // UserLevelText,
         StaminaValueText,
         DiaValueText,
         GoldValueText,
     }
-
-    enum Toggles
-    {
-        EvolveToggle,
-        EquipmentToggle,
-        BattleToggle,
-        ShopToggle,
-        ChallengeToggle,
-    }
-
-    enum Images
-    {
-        BackgroundImage,
-    }
     #endregion
 
-    // private UI_EvolvePopup _evolvePopupUI;
-    // public UI_EvolvePopup EvolvePopupUI
-    // {
-    //     get { return _evolvePopupUI; }
-    // }
-    private bool _isSelectedEvolve = false;
-    // private UI_EquipmentPopup _equipmentPopupUI;
-    // public UI_EquipmentPopup EquipmentPopupUI
-    // {
-    //     get { return _equipmentPopupUI; }
-    // }
-    private bool _isSelectedEquipment = false;
-    // private UI_BattlePopup _battlePopupUI;
-    // public UI_BattlePopup BattlePopupUI
-    // {
-    //     get { return _battlePopupUI; }
-    // }
-
-    private bool _isSelectedBattle = false;
-    // private UI_ShopPopup _shopPopupUI;
-    // public UI_ShopPopup ShopPopupUI
-    // {
-    //     get { return _shopPopupUI; }
-    // }
-    private bool _isSelectedShop = false;
-    // private UI_ChallengePopup _challengePopupUI;
-    // public UI_ChallengePopup ChallengePopupUI
-    // {
-    //     get { return _challengePopupUI; }
-    // }
-    private bool _isSelectedChallenge = false;
     public override bool Init()
     {
         if (base.Init() == false)
@@ -95,6 +36,14 @@ public class UI_UserInfoItem : UI_Base
         BindObject(typeof(GameObjects));
         BindButton(typeof(Buttons));
         BindText(typeof(Texts));
+        
+        GetButton((int)Buttons.StaminaButton).gameObject.BindEvent(OnClickStaminaButton);
+        GetButton((int)Buttons.StaminaButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.DiaButton).gameObject.BindEvent(OnClickDiaButton);
+        GetButton((int)Buttons.DiaButton).GetOrAddComponent<UI_ButtonAnimation>();
+        GetButton((int)Buttons.GoldButton).gameObject.BindEvent(OnClickGoldButton);
+        GetButton((int)Buttons.GoldButton).GetOrAddComponent<UI_ButtonAnimation>();
+        
         
 
         Refresh();
@@ -114,7 +63,7 @@ public class UI_UserInfoItem : UI_Base
     void OnClickStaminaButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_StaminaChargePopup>();
+        Managers.UI.ShowPopupUI<UI_StaminaChargePopup>();
     }
 
     void OnClickDiaButton()

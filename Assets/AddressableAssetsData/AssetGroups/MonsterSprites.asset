@@ -1,0 +1,619 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MonsterSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: MonsterSprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0e11990d8ec8af84ab3181be7c8d6f5f
+  m_SerializeEntries:
+  - m_GUID: d7c674c995c682f4db72bfd5a5ad35f9
+    m_Address: MonsterIcon_56.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc6ef906033979846b55a96cdf827ff0
+    m_Address: MonsterIcon_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 335b026a66864fa469f8f67faac2b96c
+    m_Address: MonsterIcon_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 099263129606adf409918a661abf017d
+    m_Address: MonsterIcon_75.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90fb3fed8c8959649915c0705a3ba163
+    m_Address: MonsterIcon_82.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72a75100cd4a69b4391309561f462544
+    m_Address: MonsterIcon_86.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46f348562d47aae41ab95862cbf421ee
+    m_Address: MonsterIcon_78.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71d6be7bff9803745b040efcc7276bcf
+    m_Address: MonsterIcon_91.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b95c6fc7925635f4299f6650375c1086
+    m_Address: MonsterIcon_50.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 306d22911d8dfa3468aceabd02ec1456
+    m_Address: MonsterIcon_88.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba120fa5c1a1baf499bad19b01ca6cb0
+    m_Address: MonsterIcon_25.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d741778f5771d4aba53a5c1b832896
+    m_Address: MonsterIcon_51.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97eb81241a7dd1d4485d84f4b9887e76
+    m_Address: MonsterIcon_93.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8878698a4dcbe87438ecae6579f5fa44
+    m_Address: MonsterIcon_62.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be29a256526a93340be807793740c0bd
+    m_Address: MonsterIcon_83.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f3b4084b40785742becf194427ac3d5
+    m_Address: MonsterIcon_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91ae5d4458a372a4fa794a6d2c3d61f5
+    m_Address: MonsterIcon_27.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9c2a92fa78508e43a65fb61ac419eea
+    m_Address: MonsterIcon_07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb33b7883566d074aae4bf4faf5ca4d1
+    m_Address: MonsterIcon_72.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebdcf07da4e4e8b4d871810b1368f941
+    m_Address: MonsterIcon_48.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7642caa9c5cfae498a93d2b58b8bcac
+    m_Address: MonsterIcon_37.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd91c7a7684237d4c9f99f51a8f8b7e9
+    m_Address: MonsterIcon_74.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98e3a4ff48f5e894e88cd285ec039afd
+    m_Address: MonsterIcon_70.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c42bf597670bf4489e987b967d74fa
+    m_Address: MonsterIcon_34.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31b6c714a4694e44aafef28354781e7b
+    m_Address: MonsterIcon_11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3b50196d14080c4dabfdc0b2fa4c189
+    m_Address: MonsterIcon_28.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2edee42e18b80c428d49e8a78df099c
+    m_Address: MonsterIcon_98.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 506684e5a7c69b842b87bde89294ed3c
+    m_Address: MonsterIcon_42.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6cc1aef80cc2bf4c9a9f74eb37cbb4d
+    m_Address: MonsterIcon_33.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ebadd0a50ff1874497254f6f21fbd5c
+    m_Address: MonsterIcon_87.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6594b3634f8f2a14abfa8e78bca81f9f
+    m_Address: MonsterIcon_23.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1a7ffd48cabbdc4b83c9ca46e21936b
+    m_Address: MonsterIcon_35.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ee8e865f9e0184081a8b3f7f9d0d84
+    m_Address: MonsterIcon_85.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82757ce4fe67c56438196f44c1603ce1
+    m_Address: MonsterIcon_76.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 583453de39177f94a94e4709129a204d
+    m_Address: MonsterIcon_84.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06cdca9a5a814a74eaa8bd2706e8e88f
+    m_Address: MonsterIcon_68.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90592a5bbc8e0e145aeb605ea276b5ba
+    m_Address: MonsterIcon_24.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f03e6854f53e79f4d97ee17cb6db8f94
+    m_Address: MonsterIcon_61.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29240f1c4cb9ba74e84b29af49d0438e
+    m_Address: MonsterIcon_39.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16ce5771fd47644dadcceab2cf1350f
+    m_Address: MonsterIcon_22.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cfa4aa9508a9ab4eb8ee2cfda19553e
+    m_Address: MonsterIcon_73.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04a6387e1e89a0541981c5b6ed703e71
+    m_Address: MonsterIcon_58.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4031495e74d54e4a95363e66400fe19
+    m_Address: MonsterIcon_06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbe39e9173e127541bcd9272358ad0d7
+    m_Address: MonsterIcon_63.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 167168d0ec7c68242ac6aa1bd151a76f
+    m_Address: MonsterIcon_59.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5778bfd78adef2e46a942536207ded6c
+    m_Address: MonsterIcon_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20875effcd539fa4db98fbe22301ae75
+    m_Address: MonsterIcon_52.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4277fd32dcebf684e8a80d06fc139167
+    m_Address: MonsterIcon_53.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b944dd9c99dcc749b6e586014f2d693
+    m_Address: MonsterIcon_40.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08d3b0c421272ad4d8831bd62455e4c8
+    m_Address: MonsterIcon_45.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af861eb8955268a42b60831907eb0e69
+    m_Address: MonsterIcon_17.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 233d6006d949dfd47b0bc87f5648201d
+    m_Address: MonsterIcon_46.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa794828bbc655438b51a2485645951
+    m_Address: MonsterIcon_77.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 148e9c3ac22b9064a84bda19fdf71d28
+    m_Address: MonsterIcon_49.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4a30a0c1aab86a4084e1166bf786766
+    m_Address: MonsterIcon_65.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baf55f262329c6d40a04f4320f1c8d65
+    m_Address: MonsterIcon_21.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deba8b831fef3dd46b888aa0b5f24d15
+    m_Address: MonsterIcon_08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5fe544e7ba6ede48944703a61a7fe88
+    m_Address: MonsterIcon_97.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c6f094463b4526469307cad1e2a6db9
+    m_Address: MonsterIcon_80.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 658083d830e12d34c9af0b277db4b999
+    m_Address: MonsterIcon_90.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16a7dcac4e7476d4297ac4b4ac5eacc7
+    m_Address: MonsterIcon_16.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b83b85b9ba9b304aaa9c5b9edb81a9c
+    m_Address: MonsterIcon_71.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 976f6e3c0b968e147a88e4d0c05e258c
+    m_Address: MonsterIcon_30.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b3050a77fb86634fbb8294d89f86635
+    m_Address: MonsterIcon_43.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3f71f08331e9d64cb86751b80052e5a
+    m_Address: MonsterIcon_44.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8326cbcba7456054790c06825e42552f
+    m_Address: MonsterIcon_79.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c7e30c2e6d01ac40849f4cff27e4c4b
+    m_Address: MonsterIcon_15.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2307d5f00f662814a87cad96d542e7b7
+    m_Address: MonsterIcon_12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 322e4aad068483c4e96259fae9ab7a57
+    m_Address: MonsterIcon_31.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5251c74de0d79740a23f0faee461b9e
+    m_Address: MonsterIcon_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fedcb0e89d7392f42813d213c401d252
+    m_Address: MonsterIcon_96.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89cfdb80723d90c4d821d89993b81063
+    m_Address: MonsterIcon_55.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e229eef367fe79345a0724c9ee2a53ff
+    m_Address: MonsterIcon_64.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2e10b32afe60ab4aa56d49ea2fe6f2a
+    m_Address: MonsterIcon_32.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29ad640859fb9b245aa9d02947501577
+    m_Address: MonsterIcon_67.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9802a6ffff460a140828d2226503f371
+    m_Address: MonsterIcon_99.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85921c6a5a688124b8f9e580484a9542
+    m_Address: MonsterIcon_92.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1700f8f3772967146ab2de0a7979541f
+    m_Address: MonsterIcon_20.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88fa1e3c73394734aa2af66202a5e9c0
+    m_Address: MonsterIcon_41.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d085f3b5be5c789408dc216950dc5c32
+    m_Address: MonsterIcon_14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aba65adc8c8bee34090aaf52f4b3bcf2
+    m_Address: MonsterIcon_94.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e148f407e78ca49811e67ba4df2540
+    m_Address: MonsterIcon_81.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc5729ea474ee2143957babbd9674f33
+    m_Address: MonsterIcon_89.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edabf49245e5a674a824b5b96b73096f
+    m_Address: MonsterIcon_60.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb080c67cd8f2e7468cdc6c820076602
+    m_Address: MonsterIcon_13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 225d4d6a781e99b4a99c240ed2535378
+    m_Address: MonsterIcon_54.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7d14f2d24da84a438f83d32a30de243
+    m_Address: MonsterIcon_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c119a56412cfab546a4bca003034b961
+    m_Address: MonsterIcon_69.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cef4c21d3b09d534cbc581c9a78959a5
+    m_Address: MonsterIcon_09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80553a788afba354387786e6ed621c11
+    m_Address: MonsterIcon_95.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 307ce21e157bfb346b36681a690bab68
+    m_Address: MonsterIcon_18.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a4220dd68bbd6458edd699962e52f2
+    m_Address: MonsterIcon_66.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0fe50f6348781248b24f5742af98bf5
+    m_Address: MonsterIcon_36.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb0966ef3a704104e96c89a303ed02e1
+    m_Address: MonsterIcon_57.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bef251d268970fc4585029b4b6d7945d
+    m_Address: MonsterIcon_47.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a25b65b6cb70b9a46bb6130f632cf00b
+    m_Address: MonsterIcon_38.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 607b6ef0de4216c42a129bec7c7690d9
+    m_Address: MonsterIcon_29.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f61cfa2a51dc2b34c9d4b9288bc36d64
+    m_Address: MonsterIcon_26.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 867924ef4454e0346a98549f97d3d771
+    m_Address: MonsterIcon_19.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2511b3f34c0bfa7458f3c68f8f1e44f7, type: 2}
+    - {fileID: 11400000, guid: de49ec581f069d142b9ca0c34f396051, type: 2}

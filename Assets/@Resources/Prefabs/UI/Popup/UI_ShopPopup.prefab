@@ -2891,9 +2891,9 @@ RectTransform:
   - {fileID: 334077229214858699}
   m_Father: {fileID: 5840814202223561742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 690, y: -200}
   m_SizeDelta: {x: 200, y: 266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &604331011326694963
@@ -7810,7 +7810,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 540, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139898724683592058
@@ -8305,7 +8305,7 @@ GameObject:
   - component: {fileID: 3002052756082977990}
   - component: {fileID: 9165548197882160213}
   m_Layer: 5
-  m_Name: ThirdDiaProductValueText
+  m_Name: ThirdDiaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9311,7 +9311,7 @@ GameObject:
   - component: {fileID: 2758381541884867087}
   - component: {fileID: 3017473547931352040}
   m_Layer: 5
-  m_Name: FirstDiaProductValueText
+  m_Name: FirstDiaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13374,7 +13374,7 @@ GameObject:
   - component: {fileID: 1395597227290788256}
   - component: {fileID: 6949439602528940412}
   m_Layer: 5
-  m_Name: OpenTenCostImage
+  m_Name: OpenOneCostImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14351,7 +14351,7 @@ GameObject:
   - component: {fileID: 9095285203177171099}
   - component: {fileID: 6452648741864086213}
   m_Layer: 5
-  m_Name: AdvancedGachaCostValueText
+  m_Name: CommonGachaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16470,7 +16470,7 @@ GameObject:
   - component: {fileID: 520199147270466484}
   - component: {fileID: 3651099647909655328}
   m_Layer: 5
-  m_Name: FifthDiaProductValueText
+  m_Name: FifthDiaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17428,9 +17428,9 @@ RectTransform:
   - {fileID: 6053341660132465830}
   m_Father: {fileID: 5840814202223561742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 290, y: -200}
   m_SizeDelta: {x: 200, y: 266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3606095690553880793
@@ -19106,7 +19106,7 @@ GameObject:
   - component: {fileID: 8063999824782077200}
   - component: {fileID: 3503544438782005781}
   m_Layer: 5
-  m_Name: DailyShopTitleText
+  m_Name: KeyShopTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21125,7 +21125,7 @@ GameObject:
   - component: {fileID: 9049356222503381293}
   - component: {fileID: 5328094054322697954}
   m_Layer: 5
-  m_Name: OpenTenButtonText
+  m_Name: OpenOneButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23956,7 +23956,7 @@ GameObject:
   - component: {fileID: 6656741663820186684}
   - component: {fileID: 5011371300536832635}
   m_Layer: 5
-  m_Name: AdvancedGachaCostValueText
+  m_Name: AdvancedGachaTenCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24484,9 +24484,9 @@ RectTransform:
   - {fileID: 3801125554477104290}
   m_Father: {fileID: 5840814202223561742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 490, y: -200}
   m_SizeDelta: {x: 200, y: 266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4857697845801105029
@@ -25988,7 +25988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 540, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5687552940248662647
@@ -26196,7 +26196,7 @@ RectTransform:
   m_Father: {fileID: 4421045987687449885}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.564, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -26373,7 +26373,7 @@ GameObject:
   - component: {fileID: 9185799569923416190}
   - component: {fileID: 8859409592658691584}
   m_Layer: 5
-  m_Name: FourthDiaProductValueText
+  m_Name: FourthDiaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28701,7 +28701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &9055685567877276985
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28964,7 +28964,7 @@ GameObject:
   - component: {fileID: 4152633203347037525}
   - component: {fileID: 4320104629678384380}
   m_Layer: 5
-  m_Name: OpenTenCostObject
+  m_Name: OpenOneCostObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29297,7 +29297,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 540, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9185555944765159891
@@ -30603,7 +30603,7 @@ GameObject:
   - component: {fileID: 3757890765177662200}
   - component: {fileID: 447193035915405979}
   m_Layer: 5
-  m_Name: OpenTenConstValueText
+  m_Name: OpenOneConstValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36437,7 +36437,7 @@ GameObject:
   - component: {fileID: 1650258887167894301}
   - component: {fileID: 702472151713204279}
   m_Layer: 5
-  m_Name: SecondDiaProductValueText
+  m_Name: SecondDiaCostValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44310,7 +44310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 540, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3831120865375338197
@@ -47781,7 +47781,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9100729226753454181}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
