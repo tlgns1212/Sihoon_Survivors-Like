@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 1727905098317186225}
   - component: {fileID: 5360269433481622498}
   - component: {fileID: 1923325711782257824}
+  - component: {fileID: 5187310124485835533}
   m_Layer: 5
   m_Name: UI_MergeResultPopup
   m_TagString: Untagged
@@ -726,6 +727,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5187310124485835533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984766992157842883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dcd066aa9661d4f8dede25d356a2ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2307213039893771731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 304.14502, y: -25}
+  m_AnchoredPosition: {x: 304.145, y: -25}
   m_SizeDelta: {x: 19.29, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2481690540940649150
@@ -1293,7 +1306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 319.86002, y: -25}
+  m_AnchoredPosition: {x: 319.86, y: -25}
   m_SizeDelta: {x: 19.29, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9080090542522570640

@@ -150,7 +150,7 @@ namespace Data
         public int NumProjectiles;  // 회당 공격횟수
         public float AttackInterval;    // 공격 간격
         public int NumBounce;   // 바운스 횟수
-        public int NumPenerations;  // 관통 횟수
+        public int NumPenetrations;  // 관통 횟수
         public float ProjRange; // 투사체 사거리
         public float RotateSpeed;   // 회전 속도
         public float ScaleMultiplier;
@@ -456,6 +456,32 @@ namespace Data
     }
     #endregion
 
+    #region MissionData
+    public class MissionData
+    {
+        public int MissionId;
+        public Define.MissionType MissionType;
+        public string DescriptionTextId;
+        public Define.MissionTarget MissionTarget;
+        public int MissionTargetValue;
+        public int ClearRewardItemId;
+        public int RewardValue;
+    }
+    [Serializable]
+    public class MissionDataLoader : ILoader<int, MissionData>
+    {
+        public List<MissionData> missions = new List<MissionData>();
+
+        public Dictionary<int, MissionData> MakeDict()
+        {
+            Dictionary<int, MissionData> dict = new Dictionary<int, MissionData>();
+            foreach (MissionData mission in missions)
+                dict.Add(mission.MissionId, mission);
+            return dict;
+        }
+    }
+    #endregion
+
     #region AchievementData
     [Serializable]
     public class AchievementData
@@ -481,6 +507,29 @@ namespace Data
             foreach (AchievementData achievement in achievements)
                 dict.Add(achievement.AchievementId, achievement);
 
+            return dict;
+        }
+    }
+    #endregion
+    
+    #region CheckOutData
+    [Serializable]
+    public class CheckOutData
+    {
+        public int Day;
+        public int RewardItemId;
+        public int MissionTarRewardItemValueGetValue;
+    }
+    [Serializable]
+    public class CheckOutDataLoader : ILoader<int, CheckOutData>
+    {
+        public List<CheckOutData> checkouts = new List<CheckOutData>();
+
+        public Dictionary<int, CheckOutData> MakeDict()
+        {
+            Dictionary<int, CheckOutData> dict = new Dictionary<int, CheckOutData>();
+            foreach (CheckOutData checkout in checkouts)
+                dict.Add(checkout.Day, checkout);
             return dict;
         }
     }

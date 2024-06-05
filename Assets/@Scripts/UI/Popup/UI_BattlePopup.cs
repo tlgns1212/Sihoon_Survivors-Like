@@ -406,7 +406,7 @@ public class UI_BattlePopup : UI_Popup
         Managers.Game.IsGameEnd = false;
         if (Managers.Game.Stamina < Define.GAME_PER_STAMINA)
         {
-            // Managers.UI.ShowPopupUI<UI_StaminaChargePopup>();
+            Managers.UI.ShowPopupUI<UI_StaminaChargePopup>();
             return;
         }
 
@@ -422,14 +422,14 @@ public class UI_BattlePopup : UI_Popup
     {
         Managers.Sound.PlayButtonClick();
 
-        // UI_StageSelectPopup stageSelectPopupUI = Managers.UI.ShowPopupUI<UI_StageSelectPopup>();
-        //
-        // stageSelectPopupUI.OnPopupClosed = () =>
-        // {
-        //     Refresh();
-        // };
-        // // TODO : 스테이지 저장 관련해서 처리한 후 최신 스테이지 불러오게 해야 함
-        // stageSelectPopupUI.SetInfo(Managers.Game.CurrentStageData);
+        UI_StageSelectPopup stageSelectPopupUI = Managers.UI.ShowPopupUI<UI_StageSelectPopup>();
+        
+        stageSelectPopupUI.OnPopupClosed = () =>
+        {
+            Refresh();
+        };
+        // TODO : 스테이지 저장 관련해서 처리한 후 최신 스테이지 불러오게 해야 함
+        stageSelectPopupUI.SetInfo(Managers.Game.CurrentStageData);
     }
 
     void OnClickOfflineRewardButton()
@@ -483,11 +483,11 @@ public class UI_BattlePopup : UI_Popup
             {
                 spriteNames[0] = materialData.SpriteName;
                 counts[0] = _currentStageData.FirstWaveClearRewardItemValue;
-                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-                // rewardPopup.gameObject.SetActive(true);
+                UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                rewardPopup.gameObject.SetActive(true);
                 
                 Managers.Game.ExchangeMaterial(materialData, counts[0]);
-                // rewardPopup.SetInfo(spriteNames, counts);
+                rewardPopup.SetInfo(spriteNames, counts);
             }
         }
     }
@@ -511,11 +511,11 @@ public class UI_BattlePopup : UI_Popup
             {
                 spriteNames[0] = materialData.SpriteName;
                 counts[0] = _currentStageData.SecondWaveClearRewardItemValue;
-                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-                // rewardPopup.gameObject.SetActive(true);
+                UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                rewardPopup.gameObject.SetActive(true);
                 
                 Managers.Game.ExchangeMaterial(materialData, counts[0]);
-                // rewardPopup.SetInfo(spriteNames, counts);
+                rewardPopup.SetInfo(spriteNames, counts);
             }
         }
     }
@@ -539,11 +539,11 @@ public class UI_BattlePopup : UI_Popup
             {
                 spriteNames[0] = materialData.SpriteName;
                 counts[0] = _currentStageData.ThirdWaveClearRewardItemValue;
-                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-                // rewardPopup.gameObject.SetActive(true);
+                UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                rewardPopup.gameObject.SetActive(true);
                 
                 Managers.Game.ExchangeMaterial(materialData, counts[0]);
-                // rewardPopup.SetInfo(spriteNames, counts);
+                rewardPopup.SetInfo(spriteNames, counts);
             }
         }
     }

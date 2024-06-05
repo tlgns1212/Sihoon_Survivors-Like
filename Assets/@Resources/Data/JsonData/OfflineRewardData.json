@@ -2,353 +2,353 @@
   "offlines": [
     {
       "StageIndex": 1,
-      "Reward_Gold": 3000,
-      "Reward_Exp": 1200,
-      "FastReward_Scroll": 1,
-      "FastReward_Box": 1
+      "RewardGold": 3000,
+      "RewardExp": 1200,
+      "FastRewardScroll": 1,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 2,
-      "Reward_Gold": 3300,
-      "Reward_Exp": 1320,
-      "FastReward_Scroll": 1,
-      "FastReward_Box": 1
+      "RewardGold": 3300,
+      "RewardExp": 1320,
+      "FastRewardScroll": 1,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 3,
-      "Reward_Gold": 3600,
-      "Reward_Exp": 1440,
-      "FastReward_Scroll": 1,
-      "FastReward_Box": 1
+      "RewardGold": 3600,
+      "RewardExp": 1440,
+      "FastRewardScroll": 1,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 4,
-      "Reward_Gold": 3900,
-      "Reward_Exp": 1560,
-      "FastReward_Scroll": 1,
-      "FastReward_Box": 1
+      "RewardGold": 3900,
+      "RewardExp": 1560,
+      "FastRewardScroll": 1,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 5,
-      "Reward_Gold": 4200,
-      "Reward_Exp": 1680,
-      "FastReward_Scroll": 1,
-      "FastReward_Box": 1
+      "RewardGold": 4200,
+      "RewardExp": 1680,
+      "FastRewardScroll": 1,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 6,
-      "Reward_Gold": 4500,
-      "Reward_Exp": 1800,
-      "FastReward_Scroll": 2,
-      "FastReward_Box": 1
+      "RewardGold": 4500,
+      "RewardExp": 1800,
+      "FastRewardScroll": 2,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 7,
-      "Reward_Gold": 4800,
-      "Reward_Exp": 1920,
-      "FastReward_Scroll": 2,
-      "FastReward_Box": 1
+      "RewardGold": 4800,
+      "RewardExp": 1920,
+      "FastRewardScroll": 2,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 8,
-      "Reward_Gold": 5100,
-      "Reward_Exp": 2040,
-      "FastReward_Scroll": 2,
-      "FastReward_Box": 1
+      "RewardGold": 5100,
+      "RewardExp": 2040,
+      "FastRewardScroll": 2,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 9,
-      "Reward_Gold": 5400,
-      "Reward_Exp": 2160,
-      "FastReward_Scroll": 2,
-      "FastReward_Box": 1
+      "RewardGold": 5400,
+      "RewardExp": 2160,
+      "FastRewardScroll": 2,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 10,
-      "Reward_Gold": 5700,
-      "Reward_Exp": 2280,
-      "FastReward_Scroll": 2,
-      "FastReward_Box": 1
+      "RewardGold": 5700,
+      "RewardExp": 2280,
+      "FastRewardScroll": 2,
+      "FastRewardBox": 1
     },
     {
       "StageIndex": 11,
-      "Reward_Gold": 6000,
-      "Reward_Exp": 2400,
-      "FastReward_Scroll": 3,
-      "FastReward_Box": 2
+      "RewardGold": 6000,
+      "RewardExp": 2400,
+      "FastRewardScroll": 3,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 12,
-      "Reward_Gold": 6300,
-      "Reward_Exp": 2520,
-      "FastReward_Scroll": 3,
-      "FastReward_Box": 2
+      "RewardGold": 6300,
+      "RewardExp": 2520,
+      "FastRewardScroll": 3,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 13,
-      "Reward_Gold": 6600,
-      "Reward_Exp": 2640,
-      "FastReward_Scroll": 3,
-      "FastReward_Box": 2
+      "RewardGold": 6600,
+      "RewardExp": 2640,
+      "FastRewardScroll": 3,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 14,
-      "Reward_Gold": 6900,
-      "Reward_Exp": 2760,
-      "FastReward_Scroll": 3,
-      "FastReward_Box": 2
+      "RewardGold": 6900,
+      "RewardExp": 2760,
+      "FastRewardScroll": 3,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 15,
-      "Reward_Gold": 7200,
-      "Reward_Exp": 2880,
-      "FastReward_Scroll": 3,
-      "FastReward_Box": 2
+      "RewardGold": 7200,
+      "RewardExp": 2880,
+      "FastRewardScroll": 3,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 16,
-      "Reward_Gold": 7500,
-      "Reward_Exp": 3000,
-      "FastReward_Scroll": 4,
-      "FastReward_Box": 2
+      "RewardGold": 7500,
+      "RewardExp": 3000,
+      "FastRewardScroll": 4,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 17,
-      "Reward_Gold": 7800,
-      "Reward_Exp": 3120,
-      "FastReward_Scroll": 4,
-      "FastReward_Box": 2
+      "RewardGold": 7800,
+      "RewardExp": 3120,
+      "FastRewardScroll": 4,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 18,
-      "Reward_Gold": 8100,
-      "Reward_Exp": 3240,
-      "FastReward_Scroll": 4,
-      "FastReward_Box": 2
+      "RewardGold": 8100,
+      "RewardExp": 3240,
+      "FastRewardScroll": 4,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 19,
-      "Reward_Gold": 8400,
-      "Reward_Exp": 3360,
-      "FastReward_Scroll": 4,
-      "FastReward_Box": 2
+      "RewardGold": 8400,
+      "RewardExp": 3360,
+      "FastRewardScroll": 4,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 20,
-      "Reward_Gold": 8700,
-      "Reward_Exp": 3480,
-      "FastReward_Scroll": 4,
-      "FastReward_Box": 2
+      "RewardGold": 8700,
+      "RewardExp": 3480,
+      "FastRewardScroll": 4,
+      "FastRewardBox": 2
     },
     {
       "StageIndex": 21,
-      "Reward_Gold": 9000,
-      "Reward_Exp": 3600,
-      "FastReward_Scroll": 5,
-      "FastReward_Box": 3
+      "RewardGold": 9000,
+      "RewardExp": 3600,
+      "FastRewardScroll": 5,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 22,
-      "Reward_Gold": 9300,
-      "Reward_Exp": 3720,
-      "FastReward_Scroll": 5,
-      "FastReward_Box": 3
+      "RewardGold": 9300,
+      "RewardExp": 3720,
+      "FastRewardScroll": 5,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 23,
-      "Reward_Gold": 9600,
-      "Reward_Exp": 3840,
-      "FastReward_Scroll": 5,
-      "FastReward_Box": 3
+      "RewardGold": 9600,
+      "RewardExp": 3840,
+      "FastRewardScroll": 5,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 24,
-      "Reward_Gold": 9900,
-      "Reward_Exp": 3960,
-      "FastReward_Scroll": 5,
-      "FastReward_Box": 3
+      "RewardGold": 9900,
+      "RewardExp": 3960,
+      "FastRewardScroll": 5,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 25,
-      "Reward_Gold": 10200,
-      "Reward_Exp": 4080,
-      "FastReward_Scroll": 5,
-      "FastReward_Box": 3
+      "RewardGold": 10200,
+      "RewardExp": 4080,
+      "FastRewardScroll": 5,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 26,
-      "Reward_Gold": 10500,
-      "Reward_Exp": 4200,
-      "FastReward_Scroll": 6,
-      "FastReward_Box": 3
+      "RewardGold": 10500,
+      "RewardExp": 4200,
+      "FastRewardScroll": 6,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 27,
-      "Reward_Gold": 10800,
-      "Reward_Exp": 4320,
-      "FastReward_Scroll": 6,
-      "FastReward_Box": 3
+      "RewardGold": 10800,
+      "RewardExp": 4320,
+      "FastRewardScroll": 6,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 28,
-      "Reward_Gold": 11100,
-      "Reward_Exp": 4440,
-      "FastReward_Scroll": 6,
-      "FastReward_Box": 3
+      "RewardGold": 11100,
+      "RewardExp": 4440,
+      "FastRewardScroll": 6,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 29,
-      "Reward_Gold": 11400,
-      "Reward_Exp": 4560,
-      "FastReward_Scroll": 6,
-      "FastReward_Box": 3
+      "RewardGold": 11400,
+      "RewardExp": 4560,
+      "FastRewardScroll": 6,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 30,
-      "Reward_Gold": 11700,
-      "Reward_Exp": 4680,
-      "FastReward_Scroll": 6,
-      "FastReward_Box": 3
+      "RewardGold": 11700,
+      "RewardExp": 4680,
+      "FastRewardScroll": 6,
+      "FastRewardBox": 3
     },
     {
       "StageIndex": 31,
-      "Reward_Gold": 12000,
-      "Reward_Exp": 4800,
-      "FastReward_Scroll": 7,
-      "FastReward_Box": 4
+      "RewardGold": 12000,
+      "RewardExp": 4800,
+      "FastRewardScroll": 7,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 32,
-      "Reward_Gold": 12300,
-      "Reward_Exp": 4920,
-      "FastReward_Scroll": 7,
-      "FastReward_Box": 4
+      "RewardGold": 12300,
+      "RewardExp": 4920,
+      "FastRewardScroll": 7,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 33,
-      "Reward_Gold": 12600,
-      "Reward_Exp": 5040,
-      "FastReward_Scroll": 7,
-      "FastReward_Box": 4
+      "RewardGold": 12600,
+      "RewardExp": 5040,
+      "FastRewardScroll": 7,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 34,
-      "Reward_Gold": 12900,
-      "Reward_Exp": 5160,
-      "FastReward_Scroll": 7,
-      "FastReward_Box": 4
+      "RewardGold": 12900,
+      "RewardExp": 5160,
+      "FastRewardScroll": 7,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 35,
-      "Reward_Gold": 13200,
-      "Reward_Exp": 5280,
-      "FastReward_Scroll": 7,
-      "FastReward_Box": 4
+      "RewardGold": 13200,
+      "RewardExp": 5280,
+      "FastRewardScroll": 7,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 36,
-      "Reward_Gold": 13500,
-      "Reward_Exp": 5400,
-      "FastReward_Scroll": 8,
-      "FastReward_Box": 4
+      "RewardGold": 13500,
+      "RewardExp": 5400,
+      "FastRewardScroll": 8,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 37,
-      "Reward_Gold": 13800,
-      "Reward_Exp": 5520,
-      "FastReward_Scroll": 8,
-      "FastReward_Box": 4
+      "RewardGold": 13800,
+      "RewardExp": 5520,
+      "FastRewardScroll": 8,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 38,
-      "Reward_Gold": 14100,
-      "Reward_Exp": 5640,
-      "FastReward_Scroll": 8,
-      "FastReward_Box": 4
+      "RewardGold": 14100,
+      "RewardExp": 5640,
+      "FastRewardScroll": 8,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 39,
-      "Reward_Gold": 14400,
-      "Reward_Exp": 5760,
-      "FastReward_Scroll": 8,
-      "FastReward_Box": 4
+      "RewardGold": 14400,
+      "RewardExp": 5760,
+      "FastRewardScroll": 8,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 40,
-      "Reward_Gold": 14700,
-      "Reward_Exp": 5880,
-      "FastReward_Scroll": 8,
-      "FastReward_Box": 4
+      "RewardGold": 14700,
+      "RewardExp": 5880,
+      "FastRewardScroll": 8,
+      "FastRewardBox": 4
     },
     {
       "StageIndex": 41,
-      "Reward_Gold": 15000,
-      "Reward_Exp": 6000,
-      "FastReward_Scroll": 9,
-      "FastReward_Box": 5
+      "RewardGold": 15000,
+      "RewardExp": 6000,
+      "FastRewardScroll": 9,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 42,
-      "Reward_Gold": 15300,
-      "Reward_Exp": 6120,
-      "FastReward_Scroll": 9,
-      "FastReward_Box": 5
+      "RewardGold": 15300,
+      "RewardExp": 6120,
+      "FastRewardScroll": 9,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 43,
-      "Reward_Gold": 15600,
-      "Reward_Exp": 6240,
-      "FastReward_Scroll": 9,
-      "FastReward_Box": 5
+      "RewardGold": 15600,
+      "RewardExp": 6240,
+      "FastRewardScroll": 9,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 44,
-      "Reward_Gold": 15900,
-      "Reward_Exp": 6360,
-      "FastReward_Scroll": 9,
-      "FastReward_Box": 5
+      "RewardGold": 15900,
+      "RewardExp": 6360,
+      "FastRewardScroll": 9,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 45,
-      "Reward_Gold": 16200,
-      "Reward_Exp": 6480,
-      "FastReward_Scroll": 9,
-      "FastReward_Box": 5
+      "RewardGold": 16200,
+      "RewardExp": 6480,
+      "FastRewardScroll": 9,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 46,
-      "Reward_Gold": 16500,
-      "Reward_Exp": 6600,
-      "FastReward_Scroll": 10,
-      "FastReward_Box": 5
+      "RewardGold": 16500,
+      "RewardExp": 6600,
+      "FastRewardScroll": 10,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 47,
-      "Reward_Gold": 16800,
-      "Reward_Exp": 6720,
-      "FastReward_Scroll": 10,
-      "FastReward_Box": 5
+      "RewardGold": 16800,
+      "RewardExp": 6720,
+      "FastRewardScroll": 10,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 48,
-      "Reward_Gold": 17100,
-      "Reward_Exp": 6840,
-      "FastReward_Scroll": 10,
-      "FastReward_Box": 5
+      "RewardGold": 17100,
+      "RewardExp": 6840,
+      "FastRewardScroll": 10,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 49,
-      "Reward_Gold": 17400,
-      "Reward_Exp": 6960,
-      "FastReward_Scroll": 10,
-      "FastReward_Box": 5
+      "RewardGold": 17400,
+      "RewardExp": 6960,
+      "FastRewardScroll": 10,
+      "FastRewardBox": 5
     },
     {
       "StageIndex": 50,
-      "Reward_Gold": 17700,
-      "Reward_Exp": 7080,
-      "FastReward_Scroll": 10,
-      "FastReward_Box": 5
+      "RewardGold": 17700,
+      "RewardExp": 7080,
+      "FastRewardScroll": 10,
+      "FastRewardBox": 5
     }
   ]
 }

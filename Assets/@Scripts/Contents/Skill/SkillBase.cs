@@ -74,7 +74,7 @@ public class SkillBase : BaseController
                 skillData.ProjRange += support.ProjRange;
                 skillData.RotateSpeed += support.RotateSpeed;
                 skillData.ScaleMultiplier += support.ScaleMultiplier;
-                skillData.NumPenetrations += support.NumPenerations;
+                skillData.NumPenetrations += support.NumPenetrations;
             }
         }
 

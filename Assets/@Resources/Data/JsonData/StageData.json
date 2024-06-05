@@ -15,8 +15,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 1000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 1000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_01.sprite",
       "AppearingMonsters": [
         202001,
@@ -31,7 +31,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -52,7 +52,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203001
           ],
           "BossId": [],
@@ -78,7 +78,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -99,7 +99,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203002
           ],
           "BossId": [],
@@ -125,7 +125,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -146,7 +146,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203001
           ],
           "BossId": [],
@@ -172,7 +172,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -193,7 +193,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203002
           ],
           "BossId": [],
@@ -219,7 +219,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -240,7 +240,7 @@
           "MonsterId": [
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204001
           ],
@@ -272,8 +272,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 7000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 7000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_02.sprite",
       "AppearingMonsters": [
         202002,
@@ -288,7 +288,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -309,7 +309,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [
+          "EliteId": [
             203003
           ],
           "BossId": [],
@@ -335,7 +335,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -356,7 +356,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [
+          "EliteId": [
             203004
           ],
           "BossId": [],
@@ -382,7 +382,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -403,7 +403,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [
+          "EliteId": [
             203003
           ],
           "BossId": [],
@@ -429,7 +429,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -450,7 +450,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [
+          "EliteId": [
             203004
           ],
           "BossId": [],
@@ -476,7 +476,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -497,7 +497,7 @@
           "MonsterId": [
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204002
           ],
@@ -529,8 +529,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 13000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 13000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_03.sprite",
       "AppearingMonsters": [
         202003,
@@ -545,7 +545,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -566,7 +566,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -592,7 +592,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -613,7 +613,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -639,7 +639,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -660,7 +660,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -686,7 +686,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -707,7 +707,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -733,7 +733,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -754,7 +754,7 @@
           "MonsterId": [
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204003
           ],
@@ -786,8 +786,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 18000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 18000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_04.sprite",
       "AppearingMonsters": [
         202001,
@@ -803,7 +803,7 @@
           "MonsterId": [
             202007
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -824,7 +824,7 @@
           "MonsterId": [
             202007
           ],
-          "EleteId": [
+          "EliteId": [
             203003
           ],
           "BossId": [],
@@ -851,7 +851,7 @@
             202007,
             202010
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -872,7 +872,7 @@
           "MonsterId": [
             202007
           ],
-          "EleteId": [
+          "EliteId": [
             203004
           ],
           "BossId": [],
@@ -899,7 +899,7 @@
             202007,
             202010
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -921,7 +921,7 @@
             202007,
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203003
           ],
           "BossId": [],
@@ -948,7 +948,7 @@
             202007,
             202010
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -970,7 +970,7 @@
             202007,
             202001
           ],
-          "EleteId": [
+          "EliteId": [
             203004
           ],
           "BossId": [],
@@ -997,7 +997,7 @@
             202007,
             202010
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -1019,7 +1019,7 @@
             202007,
             202001
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204004
           ],
@@ -1051,8 +1051,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 24000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 24000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_05.sprite",
       "AppearingMonsters": [
         202002,
@@ -1068,7 +1068,7 @@
           "MonsterId": [
             202008
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1089,7 +1089,7 @@
           "MonsterId": [
             202008
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -1116,7 +1116,7 @@
             202002,
             202011
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1137,7 +1137,7 @@
           "MonsterId": [
             202008
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -1164,7 +1164,7 @@
             202002,
             202011
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1185,7 +1185,7 @@
           "MonsterId": [
             202008
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -1212,7 +1212,7 @@
             202002,
             202011
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1234,7 +1234,7 @@
             202008,
             202002
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -1261,7 +1261,7 @@
             202002,
             202011
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1283,7 +1283,7 @@
             202008,
             202002
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204005
           ],
@@ -1315,8 +1315,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 29000,
-      "ClearReward_Exp": 10,
+      "ClearRewardGold": 29000,
+      "ClearRewardExp": 10,
       "StageImage": "MapIcon_06.sprite",
       "AppearingMonsters": [
         202003,
@@ -1332,7 +1332,7 @@
           "MonsterId": [
             202009
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -1354,7 +1354,7 @@
             202009,
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -1381,7 +1381,7 @@
             202003,
             202012
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -1402,7 +1402,7 @@
           "MonsterId": [
             202009
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -1429,7 +1429,7 @@
             202009,
             202012
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -1451,7 +1451,7 @@
             202009,
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -1478,7 +1478,7 @@
             202003,
             202012
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -1500,7 +1500,7 @@
             202009,
             202003
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -1527,7 +1527,7 @@
             202009,
             202012
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -1549,7 +1549,7 @@
             202009,
             202003
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204006
           ],
@@ -1581,8 +1581,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 35000,
-      "ClearReward_Exp": 10,
+      "ClearRewardGold": 35000,
+      "ClearRewardExp": 10,
       "StageImage": "MapIcon_07.sprite",
       "AppearingMonsters": [
         202007,
@@ -1598,7 +1598,7 @@
           "MonsterId": [
             202013
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -1619,7 +1619,7 @@
           "MonsterId": [
             202013
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -1646,7 +1646,7 @@
             202013,
             202016
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -1668,7 +1668,7 @@
             202013,
             202007
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -1695,7 +1695,7 @@
             202013,
             202016
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -1717,7 +1717,7 @@
             202013,
             202007
           ],
-          "EleteId": [
+          "EliteId": [
             203005
           ],
           "BossId": [],
@@ -1744,7 +1744,7 @@
             202013,
             202016
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -1766,7 +1766,7 @@
             202013,
             202007
           ],
-          "EleteId": [
+          "EliteId": [
             203006
           ],
           "BossId": [],
@@ -1793,7 +1793,7 @@
             202013,
             202016
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -1815,7 +1815,7 @@
             202013,
             202007
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204007
           ],
@@ -1847,8 +1847,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 40000,
-      "ClearReward_Exp": 10,
+      "ClearRewardGold": 40000,
+      "ClearRewardExp": 10,
       "StageImage": "MapIcon_08.sprite",
       "AppearingMonsters": [
         202008,
@@ -1864,7 +1864,7 @@
           "MonsterId": [
             202008
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -1886,7 +1886,7 @@
             202014,
             202008
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -1913,7 +1913,7 @@
             202014,
             202017
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -1934,7 +1934,7 @@
           "MonsterId": [
             202014
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -1961,7 +1961,7 @@
             202008,
             202017
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -1982,7 +1982,7 @@
           "MonsterId": [
             202014
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -2009,7 +2009,7 @@
             202008,
             202017
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2031,7 +2031,7 @@
             202014,
             202008
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -2058,7 +2058,7 @@
             202014,
             202017
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -2080,7 +2080,7 @@
             202014,
             202008
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204008
           ],
@@ -2112,8 +2112,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 46000,
-      "ClearReward_Exp": 10,
+      "ClearRewardGold": 46000,
+      "ClearRewardExp": 10,
       "StageImage": "MapIcon_09.sprite",
       "AppearingMonsters": [
         202009,
@@ -2129,7 +2129,7 @@
           "MonsterId": [
             202009
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2151,7 +2151,7 @@
             202015,
             202009
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -2178,7 +2178,7 @@
             202015,
             202018
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2199,7 +2199,7 @@
           "MonsterId": [
             202015
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -2226,7 +2226,7 @@
             202009,
             202018
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2247,7 +2247,7 @@
           "MonsterId": [
             202015
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -2274,7 +2274,7 @@
             202009,
             202018
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2296,7 +2296,7 @@
             202015,
             202009
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -2323,7 +2323,7 @@
             202015,
             202018
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -2345,7 +2345,7 @@
             202015,
             202009
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204009
           ],
@@ -2377,8 +2377,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 52000,
-      "ClearReward_Exp": 10,
+      "ClearRewardGold": 52000,
+      "ClearRewardExp": 10,
       "StageImage": "MapIcon_10.sprite",
       "AppearingMonsters": [
         202013,
@@ -2394,7 +2394,7 @@
           "MonsterId": [
             202019
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2415,7 +2415,7 @@
           "MonsterId": [
             202019
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -2442,7 +2442,7 @@
             202019,
             202022
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2463,7 +2463,7 @@
           "MonsterId": [
             202019
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -2490,7 +2490,7 @@
             202019,
             202022
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2512,7 +2512,7 @@
             202019,
             202013
           ],
-          "EleteId": [
+          "EliteId": [
             203007
           ],
           "BossId": [],
@@ -2539,7 +2539,7 @@
             202019,
             202022
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2561,7 +2561,7 @@
             202019,
             202013
           ],
-          "EleteId": [
+          "EliteId": [
             203008
           ],
           "BossId": [],
@@ -2588,7 +2588,7 @@
             202019,
             202022
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -2610,7 +2610,7 @@
             202019,
             202013
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204010
           ],
@@ -2642,8 +2642,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 57000,
-      "ClearReward_Exp": 15,
+      "ClearRewardGold": 57000,
+      "ClearRewardExp": 15,
       "StageImage": "MapIcon_11.sprite",
       "AppearingMonsters": [
         202014,
@@ -2659,7 +2659,7 @@
           "MonsterId": [
             202020
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -2680,7 +2680,7 @@
           "MonsterId": [
             202020
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -2707,7 +2707,7 @@
             202014,
             202023
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -2728,7 +2728,7 @@
           "MonsterId": [
             202020
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -2755,7 +2755,7 @@
             202014,
             202023
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -2776,7 +2776,7 @@
           "MonsterId": [
             202020
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -2803,7 +2803,7 @@
             202014,
             202023
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -2825,7 +2825,7 @@
             202020,
             202014
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -2852,7 +2852,7 @@
             202014,
             202023
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -2874,7 +2874,7 @@
             202020,
             202014
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204011
           ],
@@ -2906,8 +2906,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 63000,
-      "ClearReward_Exp": 15,
+      "ClearRewardGold": 63000,
+      "ClearRewardExp": 15,
       "StageImage": "MapIcon_12.sprite",
       "AppearingMonsters": [
         202015,
@@ -2923,7 +2923,7 @@
           "MonsterId": [
             202021
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2945,7 +2945,7 @@
             202021,
             202015
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -2972,7 +2972,7 @@
             202015,
             202024
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -2993,7 +2993,7 @@
           "MonsterId": [
             202021
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -3020,7 +3020,7 @@
             202021,
             202024
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3042,7 +3042,7 @@
             202021,
             202015
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -3069,7 +3069,7 @@
             202015,
             202024
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3091,7 +3091,7 @@
             202021,
             202015
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -3118,7 +3118,7 @@
             202021,
             202024
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3140,7 +3140,7 @@
             202021,
             202015
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204012
           ],
@@ -3172,8 +3172,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 68000,
-      "ClearReward_Exp": 15,
+      "ClearRewardGold": 68000,
+      "ClearRewardExp": 15,
       "StageImage": "MapIcon_13.sprite",
       "AppearingMonsters": [
         202019,
@@ -3189,7 +3189,7 @@
           "MonsterId": [
             202025
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -3210,7 +3210,7 @@
           "MonsterId": [
             202025
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -3237,7 +3237,7 @@
             202025,
             202028
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -3259,7 +3259,7 @@
             202025,
             202019
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -3286,7 +3286,7 @@
             202025,
             202028
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -3308,7 +3308,7 @@
             202025,
             202019
           ],
-          "EleteId": [
+          "EliteId": [
             203009
           ],
           "BossId": [],
@@ -3335,7 +3335,7 @@
             202025,
             202028
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -3357,7 +3357,7 @@
             202025,
             202019
           ],
-          "EleteId": [
+          "EliteId": [
             203010
           ],
           "BossId": [],
@@ -3384,7 +3384,7 @@
             202025,
             202028
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -3406,7 +3406,7 @@
             202025,
             202019
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204013
           ],
@@ -3438,8 +3438,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 74000,
-      "ClearReward_Exp": 15,
+      "ClearRewardGold": 74000,
+      "ClearRewardExp": 15,
       "StageImage": "MapIcon_14.sprite",
       "AppearingMonsters": [
         202020,
@@ -3455,7 +3455,7 @@
           "MonsterId": [
             202020
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -3477,7 +3477,7 @@
             202026,
             202020
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -3504,7 +3504,7 @@
             202026,
             202029
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -3525,7 +3525,7 @@
           "MonsterId": [
             202026
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -3552,7 +3552,7 @@
             202020,
             202029
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -3573,7 +3573,7 @@
           "MonsterId": [
             202026
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -3600,7 +3600,7 @@
             202020,
             202029
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3622,7 +3622,7 @@
             202026,
             202020
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -3649,7 +3649,7 @@
             202026,
             202029
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -3671,7 +3671,7 @@
             202026,
             202020
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204014
           ],
@@ -3703,8 +3703,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 79000,
-      "ClearReward_Exp": 15,
+      "ClearRewardGold": 79000,
+      "ClearRewardExp": 15,
       "StageImage": "MapIcon_15.sprite",
       "AppearingMonsters": [
         202021,
@@ -3720,7 +3720,7 @@
           "MonsterId": [
             202021
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3742,7 +3742,7 @@
             202027,
             202021
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -3769,7 +3769,7 @@
             202027,
             202030
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3790,7 +3790,7 @@
           "MonsterId": [
             202027
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -3817,7 +3817,7 @@
             202021,
             202030
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -3838,7 +3838,7 @@
           "MonsterId": [
             202027
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -3865,7 +3865,7 @@
             202021,
             202030
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -3887,7 +3887,7 @@
             202027,
             202021
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -3914,7 +3914,7 @@
             202027,
             202030
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -3936,7 +3936,7 @@
             202027,
             202021
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204015
           ],
@@ -3968,8 +3968,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 85000,
-      "ClearReward_Exp": 20,
+      "ClearRewardGold": 85000,
+      "ClearRewardExp": 20,
       "StageImage": "MapIcon_16.sprite",
       "AppearingMonsters": [
         202025,
@@ -3985,7 +3985,7 @@
           "MonsterId": [
             202031
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -4006,7 +4006,7 @@
           "MonsterId": [
             202031
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -4033,7 +4033,7 @@
             202031,
             202034
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -4054,7 +4054,7 @@
           "MonsterId": [
             202031
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -4081,7 +4081,7 @@
             202031,
             202034
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -4103,7 +4103,7 @@
             202031,
             202025
           ],
-          "EleteId": [
+          "EliteId": [
             203011
           ],
           "BossId": [],
@@ -4130,7 +4130,7 @@
             202031,
             202034
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -4152,7 +4152,7 @@
             202031,
             202025
           ],
-          "EleteId": [
+          "EliteId": [
             203012
           ],
           "BossId": [],
@@ -4179,7 +4179,7 @@
             202031,
             202034
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -4201,7 +4201,7 @@
             202031,
             202025
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204016
           ],
@@ -4233,8 +4233,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 90000,
-      "ClearReward_Exp": 20,
+      "ClearRewardGold": 90000,
+      "ClearRewardExp": 20,
       "StageImage": "MapIcon_17.sprite",
       "AppearingMonsters": [
         202026,
@@ -4250,7 +4250,7 @@
           "MonsterId": [
             202032
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -4271,7 +4271,7 @@
           "MonsterId": [
             202032
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -4298,7 +4298,7 @@
             202026,
             202035
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -4319,7 +4319,7 @@
           "MonsterId": [
             202032
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -4346,7 +4346,7 @@
             202026,
             202035
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -4367,7 +4367,7 @@
           "MonsterId": [
             202032
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -4394,7 +4394,7 @@
             202026,
             202035
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -4416,7 +4416,7 @@
             202032,
             202026
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -4443,7 +4443,7 @@
             202026,
             202035
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -4465,7 +4465,7 @@
             202032,
             202026
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204017
           ],
@@ -4497,8 +4497,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 96000,
-      "ClearReward_Exp": 20,
+      "ClearRewardGold": 96000,
+      "ClearRewardExp": 20,
       "StageImage": "MapIcon_18.sprite",
       "AppearingMonsters": [
         202027,
@@ -4514,7 +4514,7 @@
           "MonsterId": [
             202033
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -4536,7 +4536,7 @@
             202033,
             202027
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -4563,7 +4563,7 @@
             202027,
             202036
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -4584,7 +4584,7 @@
           "MonsterId": [
             202033
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -4611,7 +4611,7 @@
             202033,
             202036
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -4633,7 +4633,7 @@
             202033,
             202027
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -4660,7 +4660,7 @@
             202027,
             202036
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -4682,7 +4682,7 @@
             202033,
             202027
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -4709,7 +4709,7 @@
             202033,
             202036
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -4731,7 +4731,7 @@
             202033,
             202027
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204018
           ],
@@ -4763,8 +4763,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 102000,
-      "ClearReward_Exp": 20,
+      "ClearRewardGold": 102000,
+      "ClearRewardExp": 20,
       "StageImage": "MapIcon_19.sprite",
       "AppearingMonsters": [
         202031,
@@ -4780,7 +4780,7 @@
           "MonsterId": [
             202037
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -4801,7 +4801,7 @@
           "MonsterId": [
             202037
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -4828,7 +4828,7 @@
             202037,
             202040
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -4850,7 +4850,7 @@
             202037,
             202031
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -4877,7 +4877,7 @@
             202037,
             202040
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -4899,7 +4899,7 @@
             202037,
             202031
           ],
-          "EleteId": [
+          "EliteId": [
             203013
           ],
           "BossId": [],
@@ -4926,7 +4926,7 @@
             202037,
             202040
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -4948,7 +4948,7 @@
             202037,
             202031
           ],
-          "EleteId": [
+          "EliteId": [
             203014
           ],
           "BossId": [],
@@ -4975,7 +4975,7 @@
             202037,
             202040
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -4997,7 +4997,7 @@
             202037,
             202031
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204019
           ],
@@ -5029,8 +5029,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 107000,
-      "ClearReward_Exp": 20,
+      "ClearRewardGold": 107000,
+      "ClearRewardExp": 20,
       "StageImage": "MapIcon_20.sprite",
       "AppearingMonsters": [
         202032,
@@ -5046,7 +5046,7 @@
           "MonsterId": [
             202032
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -5068,7 +5068,7 @@
             202038,
             202032
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -5095,7 +5095,7 @@
             202038,
             202041
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5116,7 +5116,7 @@
           "MonsterId": [
             202038
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -5143,7 +5143,7 @@
             202032,
             202041
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -5164,7 +5164,7 @@
           "MonsterId": [
             202038
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -5191,7 +5191,7 @@
             202032,
             202041
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -5213,7 +5213,7 @@
             202038,
             202032
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -5240,7 +5240,7 @@
             202038,
             202041
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -5262,7 +5262,7 @@
             202038,
             202032
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204020
           ],
@@ -5294,8 +5294,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 113000,
-      "ClearReward_Exp": 25,
+      "ClearRewardGold": 113000,
+      "ClearRewardExp": 25,
       "StageImage": "MapIcon_21.sprite",
       "AppearingMonsters": [
         202033,
@@ -5311,7 +5311,7 @@
           "MonsterId": [
             202033
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -5333,7 +5333,7 @@
             202039,
             202033
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -5360,7 +5360,7 @@
             202039,
             202042
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -5381,7 +5381,7 @@
           "MonsterId": [
             202039
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -5408,7 +5408,7 @@
             202033,
             202042
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5429,7 +5429,7 @@
           "MonsterId": [
             202039
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -5456,7 +5456,7 @@
             202033,
             202042
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -5478,7 +5478,7 @@
             202039,
             202033
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -5505,7 +5505,7 @@
             202039,
             202042
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -5527,7 +5527,7 @@
             202039,
             202033
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204021
           ],
@@ -5559,8 +5559,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 118000,
-      "ClearReward_Exp": 25,
+      "ClearRewardGold": 118000,
+      "ClearRewardExp": 25,
       "StageImage": "MapIcon_22.sprite",
       "AppearingMonsters": [
         202037,
@@ -5576,7 +5576,7 @@
           "MonsterId": [
             202043
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5597,7 +5597,7 @@
           "MonsterId": [
             202043
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -5624,7 +5624,7 @@
             202043,
             202046
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5645,7 +5645,7 @@
           "MonsterId": [
             202043
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -5672,7 +5672,7 @@
             202043,
             202046
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5694,7 +5694,7 @@
             202043,
             202037
           ],
-          "EleteId": [
+          "EliteId": [
             203015
           ],
           "BossId": [],
@@ -5721,7 +5721,7 @@
             202043,
             202046
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5743,7 +5743,7 @@
             202043,
             202037
           ],
-          "EleteId": [
+          "EliteId": [
             203016
           ],
           "BossId": [],
@@ -5770,7 +5770,7 @@
             202043,
             202046
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -5792,7 +5792,7 @@
             202043,
             202037
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204022
           ],
@@ -5824,8 +5824,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 124000,
-      "ClearReward_Exp": 25,
+      "ClearRewardGold": 124000,
+      "ClearRewardExp": 25,
       "StageImage": "MapIcon_23.sprite",
       "AppearingMonsters": [
         202038,
@@ -5841,7 +5841,7 @@
           "MonsterId": [
             202044
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -5862,7 +5862,7 @@
           "MonsterId": [
             202044
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -5889,7 +5889,7 @@
             202038,
             202047
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -5910,7 +5910,7 @@
           "MonsterId": [
             202044
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -5937,7 +5937,7 @@
             202038,
             202047
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -5958,7 +5958,7 @@
           "MonsterId": [
             202044
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -5985,7 +5985,7 @@
             202038,
             202047
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -6007,7 +6007,7 @@
             202044,
             202038
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -6034,7 +6034,7 @@
             202038,
             202047
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -6056,7 +6056,7 @@
             202044,
             202038
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204023
           ],
@@ -6088,8 +6088,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 129000,
-      "ClearReward_Exp": 25,
+      "ClearRewardGold": 129000,
+      "ClearRewardExp": 25,
       "StageImage": "MapIcon_24.sprite",
       "AppearingMonsters": [
         202039,
@@ -6105,7 +6105,7 @@
           "MonsterId": [
             202045
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6127,7 +6127,7 @@
             202045,
             202039
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -6154,7 +6154,7 @@
             202039,
             202048
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6175,7 +6175,7 @@
           "MonsterId": [
             202045
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -6202,7 +6202,7 @@
             202045,
             202048
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6224,7 +6224,7 @@
             202045,
             202039
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -6251,7 +6251,7 @@
             202039,
             202048
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6273,7 +6273,7 @@
             202045,
             202039
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -6300,7 +6300,7 @@
             202045,
             202048
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6322,7 +6322,7 @@
             202045,
             202039
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204024
           ],
@@ -6354,8 +6354,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 135000,
-      "ClearReward_Exp": 25,
+      "ClearRewardGold": 135000,
+      "ClearRewardExp": 25,
       "StageImage": "MapIcon_25.sprite",
       "AppearingMonsters": [
         202043,
@@ -6371,7 +6371,7 @@
           "MonsterId": [
             202049
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -6392,7 +6392,7 @@
           "MonsterId": [
             202049
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -6419,7 +6419,7 @@
             202049,
             202052
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -6441,7 +6441,7 @@
             202049,
             202043
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -6468,7 +6468,7 @@
             202049,
             202052
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -6490,7 +6490,7 @@
             202049,
             202043
           ],
-          "EleteId": [
+          "EliteId": [
             203017
           ],
           "BossId": [],
@@ -6517,7 +6517,7 @@
             202049,
             202052
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -6539,7 +6539,7 @@
             202049,
             202043
           ],
-          "EleteId": [
+          "EliteId": [
             203018
           ],
           "BossId": [],
@@ -6566,7 +6566,7 @@
             202049,
             202052
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -6588,7 +6588,7 @@
             202049,
             202043
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204025
           ],
@@ -6620,8 +6620,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 141000,
-      "ClearReward_Exp": 30,
+      "ClearRewardGold": 141000,
+      "ClearRewardExp": 30,
       "StageImage": "MapIcon_26.sprite",
       "AppearingMonsters": [
         202044,
@@ -6637,7 +6637,7 @@
           "MonsterId": [
             202044
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -6659,7 +6659,7 @@
             202050,
             202044
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -6686,7 +6686,7 @@
             202050,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -6707,7 +6707,7 @@
           "MonsterId": [
             202050
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -6734,7 +6734,7 @@
             202044,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -6755,7 +6755,7 @@
           "MonsterId": [
             202050
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -6782,7 +6782,7 @@
             202044,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6804,7 +6804,7 @@
             202050,
             202044
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -6831,7 +6831,7 @@
             202050,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -6853,7 +6853,7 @@
             202050,
             202044
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204026
           ],
@@ -6885,8 +6885,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 146000,
-      "ClearReward_Exp": 30,
+      "ClearRewardGold": 146000,
+      "ClearRewardExp": 30,
       "StageImage": "MapIcon_27.sprite",
       "AppearingMonsters": [
         202045,
@@ -6902,7 +6902,7 @@
           "MonsterId": [
             202045
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6924,7 +6924,7 @@
             202051,
             202045
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -6951,7 +6951,7 @@
             202051,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -6972,7 +6972,7 @@
           "MonsterId": [
             202051
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -6999,7 +6999,7 @@
             202045,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7020,7 +7020,7 @@
           "MonsterId": [
             202051
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -7047,7 +7047,7 @@
             202045,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7069,7 +7069,7 @@
             202051,
             202045
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -7096,7 +7096,7 @@
             202051,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -7118,7 +7118,7 @@
             202051,
             202045
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204027
           ],
@@ -7150,8 +7150,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 152000,
-      "ClearReward_Exp": 30,
+      "ClearRewardGold": 152000,
+      "ClearRewardExp": 30,
       "StageImage": "MapIcon_28.sprite",
       "AppearingMonsters": [
         202049,
@@ -7167,7 +7167,7 @@
           "MonsterId": [
             202055
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7188,7 +7188,7 @@
           "MonsterId": [
             202055
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -7215,7 +7215,7 @@
             202055,
             202058
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7236,7 +7236,7 @@
           "MonsterId": [
             202055
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -7263,7 +7263,7 @@
             202055,
             202058
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7285,7 +7285,7 @@
             202055,
             202049
           ],
-          "EleteId": [
+          "EliteId": [
             203019
           ],
           "BossId": [],
@@ -7312,7 +7312,7 @@
             202055,
             202058
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7334,7 +7334,7 @@
             202055,
             202049
           ],
-          "EleteId": [
+          "EliteId": [
             203020
           ],
           "BossId": [],
@@ -7361,7 +7361,7 @@
             202055,
             202058
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -7383,7 +7383,7 @@
             202055,
             202049
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204028
           ],
@@ -7415,8 +7415,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 157000,
-      "ClearReward_Exp": 30,
+      "ClearRewardGold": 157000,
+      "ClearRewardExp": 30,
       "StageImage": "MapIcon_29.sprite",
       "AppearingMonsters": [
         202050,
@@ -7432,7 +7432,7 @@
           "MonsterId": [
             202056
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -7453,7 +7453,7 @@
           "MonsterId": [
             202056
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -7480,7 +7480,7 @@
             202050,
             202059
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -7501,7 +7501,7 @@
           "MonsterId": [
             202056
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -7528,7 +7528,7 @@
             202050,
             202059
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -7549,7 +7549,7 @@
           "MonsterId": [
             202056
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -7576,7 +7576,7 @@
             202050,
             202059
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -7598,7 +7598,7 @@
             202056,
             202050
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -7625,7 +7625,7 @@
             202050,
             202059
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -7647,7 +7647,7 @@
             202056,
             202050
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204029
           ],
@@ -7679,8 +7679,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 163000,
-      "ClearReward_Exp": 30,
+      "ClearRewardGold": 163000,
+      "ClearRewardExp": 30,
       "StageImage": "MapIcon_30.sprite",
       "AppearingMonsters": [
         202051,
@@ -7696,7 +7696,7 @@
           "MonsterId": [
             202057
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7718,7 +7718,7 @@
             202057,
             202051
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -7745,7 +7745,7 @@
             202051,
             202060
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7766,7 +7766,7 @@
           "MonsterId": [
             202057
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -7793,7 +7793,7 @@
             202057,
             202060
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7815,7 +7815,7 @@
             202057,
             202051
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -7842,7 +7842,7 @@
             202051,
             202060
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7864,7 +7864,7 @@
             202057,
             202051
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -7891,7 +7891,7 @@
             202057,
             202060
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -7913,7 +7913,7 @@
             202057,
             202051
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204030
           ],
@@ -7945,8 +7945,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 168000,
-      "ClearReward_Exp": 35,
+      "ClearRewardGold": 168000,
+      "ClearRewardExp": 35,
       "StageImage": "MapIcon_31.sprite",
       "AppearingMonsters": [
         202055,
@@ -7962,7 +7962,7 @@
           "MonsterId": [
             202061
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -7983,7 +7983,7 @@
           "MonsterId": [
             202061
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -8010,7 +8010,7 @@
             202061,
             202064
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -8032,7 +8032,7 @@
             202061,
             202055
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -8059,7 +8059,7 @@
             202061,
             202064
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -8081,7 +8081,7 @@
             202061,
             202055
           ],
-          "EleteId": [
+          "EliteId": [
             203021
           ],
           "BossId": [],
@@ -8108,7 +8108,7 @@
             202061,
             202064
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -8130,7 +8130,7 @@
             202061,
             202055
           ],
-          "EleteId": [
+          "EliteId": [
             203022
           ],
           "BossId": [],
@@ -8157,7 +8157,7 @@
             202061,
             202064
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -8179,7 +8179,7 @@
             202061,
             202055
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204031
           ],
@@ -8211,8 +8211,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 174000,
-      "ClearReward_Exp": 35,
+      "ClearRewardGold": 174000,
+      "ClearRewardExp": 35,
       "StageImage": "MapIcon_32.sprite",
       "AppearingMonsters": [
         202056,
@@ -8228,7 +8228,7 @@
           "MonsterId": [
             202056
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -8250,7 +8250,7 @@
             202062,
             202056
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -8277,7 +8277,7 @@
             202062,
             202065
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8298,7 +8298,7 @@
           "MonsterId": [
             202062
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -8325,7 +8325,7 @@
             202056,
             202065
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -8346,7 +8346,7 @@
           "MonsterId": [
             202062
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -8373,7 +8373,7 @@
             202056,
             202065
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -8395,7 +8395,7 @@
             202062,
             202056
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -8422,7 +8422,7 @@
             202062,
             202065
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -8444,7 +8444,7 @@
             202062,
             202056
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204032
           ],
@@ -8476,8 +8476,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 179000,
-      "ClearReward_Exp": 35,
+      "ClearRewardGold": 179000,
+      "ClearRewardExp": 35,
       "StageImage": "MapIcon_33.sprite",
       "AppearingMonsters": [
         202057,
@@ -8493,7 +8493,7 @@
           "MonsterId": [
             202057
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -8515,7 +8515,7 @@
             202063,
             202057
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -8542,7 +8542,7 @@
             202063,
             202066
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -8563,7 +8563,7 @@
           "MonsterId": [
             202063
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -8590,7 +8590,7 @@
             202057,
             202066
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8611,7 +8611,7 @@
           "MonsterId": [
             202063
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -8638,7 +8638,7 @@
             202057,
             202066
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -8660,7 +8660,7 @@
             202063,
             202057
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -8687,7 +8687,7 @@
             202063,
             202066
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -8709,7 +8709,7 @@
             202063,
             202057
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204033
           ],
@@ -8741,8 +8741,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 185000,
-      "ClearReward_Exp": 35,
+      "ClearRewardGold": 185000,
+      "ClearRewardExp": 35,
       "StageImage": "MapIcon_34.sprite",
       "AppearingMonsters": [
         202061,
@@ -8758,7 +8758,7 @@
           "MonsterId": [
             202067
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8779,7 +8779,7 @@
           "MonsterId": [
             202067
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -8806,7 +8806,7 @@
             202067,
             202070
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8827,7 +8827,7 @@
           "MonsterId": [
             202067
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -8854,7 +8854,7 @@
             202067,
             202070
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8876,7 +8876,7 @@
             202067,
             202061
           ],
-          "EleteId": [
+          "EliteId": [
             203023
           ],
           "BossId": [],
@@ -8903,7 +8903,7 @@
             202067,
             202070
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8925,7 +8925,7 @@
             202067,
             202061
           ],
-          "EleteId": [
+          "EliteId": [
             203024
           ],
           "BossId": [],
@@ -8952,7 +8952,7 @@
             202067,
             202070
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -8974,7 +8974,7 @@
             202067,
             202061
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204034
           ],
@@ -9006,8 +9006,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 191000,
-      "ClearReward_Exp": 35,
+      "ClearRewardGold": 191000,
+      "ClearRewardExp": 35,
       "StageImage": "MapIcon_35.sprite",
       "AppearingMonsters": [
         202062,
@@ -9023,7 +9023,7 @@
           "MonsterId": [
             202068
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9044,7 +9044,7 @@
           "MonsterId": [
             202068
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -9071,7 +9071,7 @@
             202062,
             202071
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9092,7 +9092,7 @@
           "MonsterId": [
             202068
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -9119,7 +9119,7 @@
             202062,
             202071
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9140,7 +9140,7 @@
           "MonsterId": [
             202068
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -9167,7 +9167,7 @@
             202062,
             202071
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9189,7 +9189,7 @@
             202068,
             202062
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -9216,7 +9216,7 @@
             202062,
             202071
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9238,7 +9238,7 @@
             202068,
             202062
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204035
           ],
@@ -9270,8 +9270,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 196000,
-      "ClearReward_Exp": 40,
+      "ClearRewardGold": 196000,
+      "ClearRewardExp": 40,
       "StageImage": "MapIcon_36.sprite",
       "AppearingMonsters": [
         202063,
@@ -9287,7 +9287,7 @@
           "MonsterId": [
             202069
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9309,7 +9309,7 @@
             202069,
             202063
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -9336,7 +9336,7 @@
             202063,
             202072
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9357,7 +9357,7 @@
           "MonsterId": [
             202069
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -9384,7 +9384,7 @@
             202069,
             202072
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9406,7 +9406,7 @@
             202069,
             202063
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -9433,7 +9433,7 @@
             202063,
             202072
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9455,7 +9455,7 @@
             202069,
             202063
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -9482,7 +9482,7 @@
             202069,
             202072
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9504,7 +9504,7 @@
             202069,
             202063
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204036
           ],
@@ -9536,8 +9536,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 202000,
-      "ClearReward_Exp": 40,
+      "ClearRewardGold": 202000,
+      "ClearRewardExp": 40,
       "StageImage": "MapIcon_37.sprite",
       "AppearingMonsters": [
         202067,
@@ -9553,7 +9553,7 @@
           "MonsterId": [
             202073
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -9574,7 +9574,7 @@
           "MonsterId": [
             202073
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -9601,7 +9601,7 @@
             202073,
             202076
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -9623,7 +9623,7 @@
             202073,
             202067
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -9650,7 +9650,7 @@
             202073,
             202076
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -9672,7 +9672,7 @@
             202073,
             202067
           ],
-          "EleteId": [
+          "EliteId": [
             203025
           ],
           "BossId": [],
@@ -9699,7 +9699,7 @@
             202073,
             202076
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -9721,7 +9721,7 @@
             202073,
             202067
           ],
-          "EleteId": [
+          "EliteId": [
             203026
           ],
           "BossId": [],
@@ -9748,7 +9748,7 @@
             202073,
             202076
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -9770,7 +9770,7 @@
             202073,
             202067
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204037
           ],
@@ -9802,8 +9802,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 207000,
-      "ClearReward_Exp": 40,
+      "ClearRewardGold": 207000,
+      "ClearRewardExp": 40,
       "StageImage": "MapIcon_38.sprite",
       "AppearingMonsters": [
         202068,
@@ -9819,7 +9819,7 @@
           "MonsterId": [
             202068
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -9841,7 +9841,7 @@
             202074,
             202068
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -9868,7 +9868,7 @@
             202074,
             202077
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -9889,7 +9889,7 @@
           "MonsterId": [
             202074
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -9916,7 +9916,7 @@
             202068,
             202077
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -9937,7 +9937,7 @@
           "MonsterId": [
             202074
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -9964,7 +9964,7 @@
             202068,
             202077
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -9986,7 +9986,7 @@
             202074,
             202068
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -10013,7 +10013,7 @@
             202074,
             202077
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -10035,7 +10035,7 @@
             202074,
             202068
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204038
           ],
@@ -10067,8 +10067,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 213000,
-      "ClearReward_Exp": 40,
+      "ClearRewardGold": 213000,
+      "ClearRewardExp": 40,
       "StageImage": "MapIcon_39.sprite",
       "AppearingMonsters": [
         202069,
@@ -10084,7 +10084,7 @@
           "MonsterId": [
             202069
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10106,7 +10106,7 @@
             202075,
             202069
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -10133,7 +10133,7 @@
             202075,
             202078
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10154,7 +10154,7 @@
           "MonsterId": [
             202075
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -10181,7 +10181,7 @@
             202069,
             202078
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10202,7 +10202,7 @@
           "MonsterId": [
             202075
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -10229,7 +10229,7 @@
             202069,
             202078
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10251,7 +10251,7 @@
             202075,
             202069
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -10278,7 +10278,7 @@
             202075,
             202078
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -10300,7 +10300,7 @@
             202075,
             202069
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204039
           ],
@@ -10332,8 +10332,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 218000,
-      "ClearReward_Exp": 40,
+      "ClearRewardGold": 218000,
+      "ClearRewardExp": 40,
       "StageImage": "MapIcon_40.sprite",
       "AppearingMonsters": [
         202073,
@@ -10349,7 +10349,7 @@
           "MonsterId": [
             202079
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10370,7 +10370,7 @@
           "MonsterId": [
             202079
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -10397,7 +10397,7 @@
             202079,
             202082
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10418,7 +10418,7 @@
           "MonsterId": [
             202079
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -10445,7 +10445,7 @@
             202079,
             202082
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10467,7 +10467,7 @@
             202079,
             202073
           ],
-          "EleteId": [
+          "EliteId": [
             203027
           ],
           "BossId": [],
@@ -10494,7 +10494,7 @@
             202079,
             202082
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10516,7 +10516,7 @@
             202079,
             202073
           ],
-          "EleteId": [
+          "EliteId": [
             203028
           ],
           "BossId": [],
@@ -10543,7 +10543,7 @@
             202079,
             202082
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -10565,7 +10565,7 @@
             202079,
             202073
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204040
           ],
@@ -10597,8 +10597,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 224000,
-      "ClearReward_Exp": 45,
+      "ClearRewardGold": 224000,
+      "ClearRewardExp": 45,
       "StageImage": "MapIcon_41.sprite",
       "AppearingMonsters": [
         202074,
@@ -10614,7 +10614,7 @@
           "MonsterId": [
             202080
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -10635,7 +10635,7 @@
           "MonsterId": [
             202080
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -10662,7 +10662,7 @@
             202074,
             202083
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -10683,7 +10683,7 @@
           "MonsterId": [
             202080
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -10710,7 +10710,7 @@
             202074,
             202083
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -10731,7 +10731,7 @@
           "MonsterId": [
             202080
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -10758,7 +10758,7 @@
             202074,
             202083
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -10780,7 +10780,7 @@
             202080,
             202074
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -10807,7 +10807,7 @@
             202074,
             202083
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -10829,7 +10829,7 @@
             202080,
             202074
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204041
           ],
@@ -10861,8 +10861,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 229000,
-      "ClearReward_Exp": 45,
+      "ClearRewardGold": 229000,
+      "ClearRewardExp": 45,
       "StageImage": "MapIcon_42.sprite",
       "AppearingMonsters": [
         202075,
@@ -10878,7 +10878,7 @@
           "MonsterId": [
             202081
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10900,7 +10900,7 @@
             202081,
             202075
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -10927,7 +10927,7 @@
             202075,
             202084
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10948,7 +10948,7 @@
           "MonsterId": [
             202081
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -10975,7 +10975,7 @@
             202081,
             202084
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -10997,7 +10997,7 @@
             202081,
             202075
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -11024,7 +11024,7 @@
             202075,
             202084
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11046,7 +11046,7 @@
             202081,
             202075
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -11073,7 +11073,7 @@
             202081,
             202084
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11095,7 +11095,7 @@
             202081,
             202075
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204042
           ],
@@ -11127,8 +11127,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 235000,
-      "ClearReward_Exp": 45,
+      "ClearRewardGold": 235000,
+      "ClearRewardExp": 45,
       "StageImage": "MapIcon_43.sprite",
       "AppearingMonsters": [
         202079,
@@ -11144,7 +11144,7 @@
           "MonsterId": [
             202085
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -11165,7 +11165,7 @@
           "MonsterId": [
             202085
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -11192,7 +11192,7 @@
             202085,
             202088
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -11214,7 +11214,7 @@
             202085,
             202079
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -11241,7 +11241,7 @@
             202085,
             202088
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -11263,7 +11263,7 @@
             202085,
             202079
           ],
-          "EleteId": [
+          "EliteId": [
             203029
           ],
           "BossId": [],
@@ -11290,7 +11290,7 @@
             202085,
             202088
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -11312,7 +11312,7 @@
             202085,
             202079
           ],
-          "EleteId": [
+          "EliteId": [
             203030
           ],
           "BossId": [],
@@ -11339,7 +11339,7 @@
             202085,
             202088
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -11361,7 +11361,7 @@
             202085,
             202079
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204043
           ],
@@ -11393,8 +11393,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 241000,
-      "ClearReward_Exp": 45,
+      "ClearRewardGold": 241000,
+      "ClearRewardExp": 45,
       "StageImage": "MapIcon_44.sprite",
       "AppearingMonsters": [
         202086,
@@ -11410,7 +11410,7 @@
           "MonsterId": [
             202080
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -11432,7 +11432,7 @@
             202086,
             202080
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -11459,7 +11459,7 @@
             202086,
             202089
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -11480,7 +11480,7 @@
           "MonsterId": [
             202086
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -11507,7 +11507,7 @@
             202080,
             202089
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -11528,7 +11528,7 @@
           "MonsterId": [
             202086
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -11555,7 +11555,7 @@
             202080,
             202089
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11577,7 +11577,7 @@
             202086,
             202080
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -11604,7 +11604,7 @@
             202086,
             202089
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -11626,7 +11626,7 @@
             202086,
             202080
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204044
           ],
@@ -11658,8 +11658,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 246000,
-      "ClearReward_Exp": 45,
+      "ClearRewardGold": 246000,
+      "ClearRewardExp": 45,
       "StageImage": "MapIcon_45.sprite",
       "AppearingMonsters": [
         202081,
@@ -11675,7 +11675,7 @@
           "MonsterId": [
             202081
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11697,7 +11697,7 @@
             202087,
             202081
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -11724,7 +11724,7 @@
             202087,
             202090
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11745,7 +11745,7 @@
           "MonsterId": [
             202087
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -11772,7 +11772,7 @@
             202081,
             202090
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -11793,7 +11793,7 @@
           "MonsterId": [
             202087
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -11820,7 +11820,7 @@
             202081,
             202090
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -11842,7 +11842,7 @@
             202087,
             202081
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -11869,7 +11869,7 @@
             202087,
             202090
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -11891,7 +11891,7 @@
             202087,
             202081
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204045
           ],
@@ -11923,8 +11923,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 252000,
-      "ClearReward_Exp": 50,
+      "ClearRewardGold": 252000,
+      "ClearRewardExp": 50,
       "StageImage": "MapIcon_46.sprite",
       "AppearingMonsters": [
         202085,
@@ -11940,7 +11940,7 @@
           "MonsterId": [
             202091
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -11961,7 +11961,7 @@
           "MonsterId": [
             202091
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -11988,7 +11988,7 @@
             202091,
             202094
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -12009,7 +12009,7 @@
           "MonsterId": [
             202091
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -12036,7 +12036,7 @@
             202091,
             202094
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -12058,7 +12058,7 @@
             202091,
             202085
           ],
-          "EleteId": [
+          "EliteId": [
             203031
           ],
           "BossId": [],
@@ -12085,7 +12085,7 @@
             202091,
             202094
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -12107,7 +12107,7 @@
             202091,
             202085
           ],
-          "EleteId": [
+          "EliteId": [
             203032
           ],
           "BossId": [],
@@ -12134,7 +12134,7 @@
             202091,
             202094
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -12156,7 +12156,7 @@
             202091,
             202085
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204046
           ],
@@ -12188,8 +12188,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 257000,
-      "ClearReward_Exp": 50,
+      "ClearRewardGold": 257000,
+      "ClearRewardExp": 50,
       "StageImage": "MapIcon_47.sprite",
       "AppearingMonsters": [
         202086,
@@ -12205,7 +12205,7 @@
           "MonsterId": [
             202092
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -12226,7 +12226,7 @@
           "MonsterId": [
             202092
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -12253,7 +12253,7 @@
             202086,
             202095
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -12274,7 +12274,7 @@
           "MonsterId": [
             202092
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -12301,7 +12301,7 @@
             202086,
             202095
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -12322,7 +12322,7 @@
           "MonsterId": [
             202092
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -12349,7 +12349,7 @@
             202086,
             202095
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -12371,7 +12371,7 @@
             202092,
             202086
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -12398,7 +12398,7 @@
             202086,
             202095
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -12420,7 +12420,7 @@
             202092,
             202086
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204047
           ],
@@ -12452,8 +12452,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 263000,
-      "ClearReward_Exp": 5,
+      "ClearRewardGold": 263000,
+      "ClearRewardExp": 5,
       "StageImage": "MapIcon_48.sprite",
       "AppearingMonsters": [
         202087,
@@ -12469,7 +12469,7 @@
           "MonsterId": [
             202093
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -12491,7 +12491,7 @@
             202093,
             202087
           ],
-          "EleteId": [
+          "EliteId": [
             203035
           ],
           "BossId": [],
@@ -12518,7 +12518,7 @@
             202087,
             202096
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -12539,7 +12539,7 @@
           "MonsterId": [
             202093
           ],
-          "EleteId": [
+          "EliteId": [
             203036
           ],
           "BossId": [],
@@ -12566,7 +12566,7 @@
             202093,
             202096
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -12588,7 +12588,7 @@
             202093,
             202087
           ],
-          "EleteId": [
+          "EliteId": [
             203035
           ],
           "BossId": [],
@@ -12615,7 +12615,7 @@
             202087,
             202096
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -12637,7 +12637,7 @@
             202093,
             202087
           ],
-          "EleteId": [
+          "EliteId": [
             203036
           ],
           "BossId": [],
@@ -12664,7 +12664,7 @@
             202093,
             202096
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -12686,7 +12686,7 @@
             202093,
             202087
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204048
           ],
@@ -12718,8 +12718,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 268000,
-      "ClearReward_Exp": 50,
+      "ClearRewardGold": 268000,
+      "ClearRewardExp": 50,
       "StageImage": "MapIcon_49.sprite",
       "AppearingMonsters": [
         202091,
@@ -12735,7 +12735,7 @@
           "MonsterId": [
             202097
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -12756,7 +12756,7 @@
           "MonsterId": [
             202097
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -12783,7 +12783,7 @@
             202097,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -12805,7 +12805,7 @@
             202097,
             202091
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -12832,7 +12832,7 @@
             202097,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -12854,7 +12854,7 @@
             202097,
             202091
           ],
-          "EleteId": [
+          "EliteId": [
             203033
           ],
           "BossId": [],
@@ -12881,7 +12881,7 @@
             202097,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -12903,7 +12903,7 @@
             202097,
             202091
           ],
-          "EleteId": [
+          "EliteId": [
             203034
           ],
           "BossId": [],
@@ -12930,7 +12930,7 @@
             202097,
             202053
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 30.0,
           "WaveType": 0,
@@ -12952,7 +12952,7 @@
             202097,
             202091
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204049
           ],
@@ -12984,8 +12984,8 @@
       "ThirdWaveCountValue": 10,
       "ThirdWaveClearRewardItemId": 50002,
       "ThirdWaveClearRewardItemValue": 50,
-      "ClearReward_Gold": 274000,
-      "ClearReward_Exp": 50,
+      "ClearRewardGold": 274000,
+      "ClearRewardExp": 50,
       "StageImage": "MapIcon_50.sprite",
       "AppearingMonsters": [
         202092,
@@ -13001,7 +13001,7 @@
           "MonsterId": [
             202092
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 40.0,
           "WaveType": 0,
@@ -13023,7 +13023,7 @@
             202098,
             202092
           ],
-          "EleteId": [
+          "EliteId": [
             203035
           ],
           "BossId": [],
@@ -13050,7 +13050,7 @@
             202098,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 60.0,
           "WaveType": 0,
@@ -13071,7 +13071,7 @@
           "MonsterId": [
             202098
           ],
-          "EleteId": [
+          "EliteId": [
             203036
           ],
           "BossId": [],
@@ -13098,7 +13098,7 @@
             202092,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 80.0,
           "WaveType": 0,
@@ -13119,7 +13119,7 @@
           "MonsterId": [
             202098
           ],
-          "EleteId": [
+          "EliteId": [
             203035
           ],
           "BossId": [],
@@ -13146,7 +13146,7 @@
             202092,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 50.0,
           "WaveType": 0,
@@ -13168,7 +13168,7 @@
             202098,
             202092
           ],
-          "EleteId": [
+          "EliteId": [
             203036
           ],
           "BossId": [],
@@ -13195,7 +13195,7 @@
             202098,
             202054
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [],
           "RemainsTime": 70.0,
           "WaveType": 0,
@@ -13217,7 +13217,7 @@
             202098,
             202092
           ],
-          "EleteId": [],
+          "EliteId": [],
           "BossId": [
             204050
           ],

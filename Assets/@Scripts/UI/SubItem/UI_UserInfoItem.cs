@@ -69,7 +69,7 @@ public class UI_UserInfoItem : UI_Base
     void OnClickDiaButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_DiaChargePopup>();
+        Managers.UI.ShowPopupUI<UI_DiaChargePopup>();
     }
     
     void OnClickGoldButton()
