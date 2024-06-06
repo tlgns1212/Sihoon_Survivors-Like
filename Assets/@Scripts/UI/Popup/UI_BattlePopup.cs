@@ -435,7 +435,7 @@ public class UI_BattlePopup : UI_Popup
     void OnClickOfflineRewardButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_OfflineRewardPopup>();
+        Managers.UI.ShowPopupUI<UI_OfflineRewardPopup>();
     }
     
     void OnClickSettingButton()
@@ -448,20 +448,20 @@ public class UI_BattlePopup : UI_Popup
     {
         Managers.Sound.PlayButtonClick();
         // // Managers.Ads.RequestAndLoadRewardedAd();
-        // Managers.UI.ShowPopupUI<UI_MissionPopup>();
+        Managers.UI.ShowPopupUI<UI_MissionPopup>();
     }
     
     void OnClickAchievementButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_AchievementPopup>();
+        Managers.UI.ShowPopupUI<UI_AchievementPopup>();
     }
     
     void OnClickAttendanceCheckButton()
     {
         Managers.Sound.PlayButtonClick();
-        // UI_CheckOutPopup popup = Managers.UI.ShowPopupUI<UI_CheckOutPopup>();
-        // popup.SetInfo(Managers.Time.AttendanceDay);
+        UI_CheckOutPopup popup = Managers.UI.ShowPopupUI<UI_CheckOutPopup>();
+        popup.SetInfo(Managers.Time.AttendanceDay);
     }
 
     void OnClickFirstClearRewardButton()

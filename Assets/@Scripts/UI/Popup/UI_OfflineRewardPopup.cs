@@ -8,8 +8,6 @@ using UnityEngine.UI;
 
 public class UI_OfflineRewardPopup : UI_Popup
 {
-    // TODO : 여기까지, 여기부터, Canvas에서 UI 작업해야 함
-
     #region Enum
 
     enum GameObjects
