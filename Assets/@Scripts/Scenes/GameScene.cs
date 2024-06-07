@@ -208,16 +208,16 @@ public class GameScene : BaseScene
         }
 
         Managers.Game.IsGameEnd = true;
-        // UI_GameResultPopup popup = Managers.UI.ShowPopupUI<UI_GameResultPopup>();
-        // popup.SetInfo();
+        UI_GameResultPopup popup = Managers.UI.ShowPopupUI<UI_GameResultPopup>();
+        popup.SetInfo();
     }
 
     void OnPlayerDead()
     {
         if (Managers.Game.IsGameEnd == false)
         {
-            // UI_ContinuePopup cp = Managers.UI.ShowPopupUI<UI_ContinuePopup>();
-            // cp.SetInfo();
+            UI_ContinuePopup cp = Managers.UI.ShowPopupUI<UI_ContinuePopup>();
+            cp.SetInfo();
         }
     }
 

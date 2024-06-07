@@ -75,6 +75,6 @@ public class UI_UserInfoItem : UI_Base
     void OnClickGoldButton()
     {
         Managers.Sound.PlayButtonClick();
-        // Managers.UI.ShowPopupUI<UI_GoldChargePopup>();
+        // TODO : Managers.UI.ShowPopupUI<UI_GoldChargePopup>();
     }
 }

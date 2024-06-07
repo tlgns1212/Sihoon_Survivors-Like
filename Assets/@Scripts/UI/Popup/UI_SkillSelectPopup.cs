@@ -139,11 +139,11 @@ public class UI_SkillSelectPopup : UI_Popup
         Managers.Sound.PlayButtonClick();
         if (_game.SkillRefreshCountAds > 0)
         {
-            // Managers.Ads.ShowRewardedAd(() =>
-            // {
-            //     _game.SkillRefreshCountAds--;
-            //     SetRecommendSkills();
-            // });
+            Managers.Ads.ShowRewardedAd(() =>
+            {
+                _game.SkillRefreshCountAds--;
+                SetRecommendSkills();
+            });
         }
         else
         {

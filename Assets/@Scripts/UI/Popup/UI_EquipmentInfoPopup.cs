@@ -379,9 +379,9 @@ public class UI_EquipmentInfoPopup : UI_Popup
     void OnClickEquipmentResetButton()
     {
         Managers.Sound.PlayButtonClick();
-        // UI_EquipmentResetPopup resetPopup = (Managers.UI.SceneUI as UI_LobbyScene).EquipmentResetPopupUI;
-        // resetPopup.SetInfo(Equipment);
-        // resetPopup.gameObject.SetActive(true);
+        UI_EquipmentResetPopup resetPopup = (Managers.UI.SceneUI as UI_LobbyScene).EquipmentResetPopupUI;
+        resetPopup.SetInfo(Equipment);
+        resetPopup.gameObject.SetActive(true);
     }
     void OnClickEquipButton()
     {
@@ -447,8 +447,8 @@ public class UI_EquipmentInfoPopup : UI_Popup
     {
         Managers.Sound.PlayButtonClick();
         if (Equipment.IsEquipped) return;
-        // UI_MergePopup mergePopupUI = (Managers.UI.SceneUI as UI_LobbyScene).MergePopupUI;
-        // mergePopupUI.SetInfo(Equipment);
-        // mergePopupUI.gameObject.SetActive(true);
+        UI_MergePopup mergePopupUI = (Managers.UI.SceneUI as UI_LobbyScene).MergePopupUI;
+        mergePopupUI.SetInfo(Equipment);
+        mergePopupUI.gameObject.SetActive(true);
     }
 }

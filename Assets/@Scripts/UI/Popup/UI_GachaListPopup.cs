@@ -102,25 +102,25 @@ public class UI_GachaListPopup : UI_Popup
                     commonRate += item.GachaRate;
                     UI_GachaRateItem commonItem = Managers.Resource.Instantiate("UI_GachaRateItem", pooling: true).GetOrAddComponent<UI_GachaRateItem>();
                     commonItem.transform.SetParent(GetObject((int)GameObjects.CommonGachaRateListObject).transform);
-                    // commonItem.SetInfo(item);
+                    commonItem.SetInfo(item);
                     break;
                 case Define.EquipmentGrade.Uncommon:
                     uncommonRate += item.GachaRate;
                     UI_GachaRateItem uncommonItem = Managers.Resource.Instantiate("UI_GachaRateItem", pooling: true).GetOrAddComponent<UI_GachaRateItem>();
                     uncommonItem.transform.SetParent(GetObject((int)GameObjects.CommonGachaRateListObject).transform);
-                    // uncommonItem.SetInfo(item);
+                    uncommonItem.SetInfo(item);
                     break;
                 case Define.EquipmentGrade.Rare:
                     rareRate += item.GachaRate;
                     UI_GachaRateItem rareItem = Managers.Resource.Instantiate("UI_GachaRateItem", pooling: true).GetOrAddComponent<UI_GachaRateItem>();
                     rareItem.transform.SetParent(GetObject((int)GameObjects.CommonGachaRateListObject).transform);
-                    // rareItem.SetInfo(item);
+                    rareItem.SetInfo(item);
                     break;
                 case Define.EquipmentGrade.Epic:
                     epicRate += item.GachaRate;
                     UI_GachaRateItem epicItem = Managers.Resource.Instantiate("UI_GachaRateItem", pooling: true).GetOrAddComponent<UI_GachaRateItem>();
                     epicItem.transform.SetParent(GetObject((int)GameObjects.CommonGachaRateListObject).transform);
-                    // epicItem.SetInfo(item);
+                    epicItem.SetInfo(item);
                     break;
                 default:
                     break;

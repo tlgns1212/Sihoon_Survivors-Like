@@ -135,8 +135,8 @@ public class UI_OfflineRewardPopup : UI_Popup
         // 빠른 보상 팝업 호출
         if (Managers.Data.OfflineRewardDataDic.TryGetValue(Managers.Game.GetMaxStageIndex(), out OfflineRewardData offlineReward))
         {
-            // UI_FastRewardPopup popup = Managers.UI.ShowPopupUI<UI_FastRewardPopup>();
-            // popup.SetInfo(offlineReward);
+            UI_FastRewardPopup popup = Managers.UI.ShowPopupUI<UI_FastRewardPopup>();
+            popup.SetInfo(offlineReward);
         }
     }
 

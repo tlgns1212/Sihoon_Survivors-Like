@@ -879,10 +879,10 @@ public class UI_MergePopup : UI_Popup
 
         Equipment newItem = Managers.Game.MergeEquipment(_equipment, _mergeEquipment1, _mergeEquipment2);
 
-        // UI_MergeResultPopup resultPopup = (Managers.UI.SceneUI as UI_LobbyScene).MergeResultPopupUI;
-        // resultPopup.SetInfo(beforeEquipment, newItem, OnClosedMergeResultPopup);
-        // resultPopup.gameObject.SetActive(true);
-        //
+        UI_MergeResultPopup resultPopup = (Managers.UI.SceneUI as UI_LobbyScene).MergeResultPopupUI;
+        resultPopup.SetInfo(beforeEquipment, newItem, OnClosedMergeResultPopup);
+        resultPopup.gameObject.SetActive(true);
+        
         SortEquipments();
     }
 

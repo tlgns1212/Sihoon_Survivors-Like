@@ -107,12 +107,12 @@ public class UI_StaminaChargePopup : UI_Popup
             spriteNames[0] = Managers.Data.MaterialDic[Define.ID_STAMINA].SpriteName;
             counts[0] = 15;
 
-            // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-            // rewardPopup.gameObject.SetActive(true);
+            UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+            rewardPopup.gameObject.SetActive(true);
             Managers.Game.RemainsStaminaByDia--;
             Managers.Game.Dia -= 100;
             Managers.Game.Stamina += 15;
-            // rewardPopup.SetInfo(spriteNames, counts);
+            rewardPopup.SetInfo(spriteNames, counts);
         }
     }
     
@@ -129,11 +129,11 @@ public class UI_StaminaChargePopup : UI_Popup
                 spriteNames[0] = Managers.Data.MaterialDic[Define.ID_STAMINA].SpriteName;
                 counts[0] = 5;
 
-                // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-                // rewardPopup.gameObject.SetActive(true);
+                UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+                rewardPopup.gameObject.SetActive(true);
                 Managers.Game.StaminaCountAds--;
                 Managers.Game.Stamina += 5;
-                // rewardPopup.SetInfo(spriteNames, counts);    
+                rewardPopup.SetInfo(spriteNames, counts);    
             });
         }
     }

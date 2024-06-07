@@ -183,12 +183,12 @@ public class UI_EquipItem : UI_Popup
             Managers.Game.SaveGame();
             
             // 해당 장비의 장비 정보 팝업을 호출
-            // UI_EquipmentInfoPopup infoPopup = (Managers.UI.SceneUI as UI_LobbyScene).EquipmentPopupUI;
-            // if (infoPopup != null)
-            // {
-            //     infoPopup.SetInfo(Equipment);
-            //     infoPopup.gameObject.SetActive(true);
-            // }
+            UI_EquipmentInfoPopup infoPopup = (Managers.UI.SceneUI as UI_LobbyScene).EquipmentInfoPopupUI;
+            if (infoPopup != null)
+            {
+                infoPopup.SetInfo(Equipment);
+                infoPopup.gameObject.SetActive(true);
+            }
         }
     }
 
