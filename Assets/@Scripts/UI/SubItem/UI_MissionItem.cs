@@ -128,6 +128,7 @@ public class UI_MissionItem : UI_Base
                 objRewarded.SetActive(false);
                 objComplete.SetActive(false);
                 objProgress.SetActive(true);
+                GetText((int)Texts.ProgressText).text = "진행중";
                 break;
             case MissionState.Complete:
                 objRewarded.SetActive(false);

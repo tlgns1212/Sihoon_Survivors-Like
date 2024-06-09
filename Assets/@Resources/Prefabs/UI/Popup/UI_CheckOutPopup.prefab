@@ -1018,6 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ddbe57a5765f0547aaf7b5cf3d8718a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UserCheckOutDay: 0
 --- !u!1 &2006142840393359693
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,7 +3271,7 @@ GameObject:
   - component: {fileID: 7384917031393084774}
   - component: {fileID: 4953384753054606748}
   m_Layer: 5
-  m_Name: ThirdClearRewardCompleteImage
+  m_Name: ThirdClearRewardCompleteObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3496,7 +3497,7 @@ GameObject:
   - component: {fileID: 5773477188639727097}
   - component: {fileID: 8585032721997362050}
   m_Layer: 5
-  m_Name: SecondClearRewardCompleteImage
+  m_Name: SecondClearRewardCompleteObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4176,7 +4177,7 @@ GameObject:
   - component: {fileID: 2538337973013088974}
   - component: {fileID: 7188217935084469426}
   m_Layer: 5
-  m_Name: FirstClearRewardCompleteImage
+  m_Name: FirstClearRewardCompleteObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

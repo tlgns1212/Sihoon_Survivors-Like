@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 9083749369550219796}
   - component: {fileID: 1311731583305016159}
   m_Layer: 5
-  m_Name: ClearRewardCompleteImage
+  m_Name: ClearRewardCompleteObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

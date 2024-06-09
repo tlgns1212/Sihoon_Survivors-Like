@@ -95,7 +95,7 @@ public class AchievementManager
         {
             case Define.MissionTarget.DailyComplete:
             case Define.MissionTarget.WeeklyComplete:
-            case Define.MissionTarget.MonthlyComplete:
+            // case Define.MissionTarget.MonthlyComplete:
                 return 0;
             case Define.MissionTarget.StageEnter:
                 return Managers.Game.DicMission[missionTarget].Progress;

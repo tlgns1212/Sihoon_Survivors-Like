@@ -110,6 +110,8 @@ public class UI_MaterialItem : UI_Base
 
     void OnClickMaterialInfoButton()
     {
+        if (_makeSubItemParents == null)
+            return;
         Managers.Sound.PlayButtonClick();
         UI_ToolTipItem item = Managers.UI.MakeSubItem<UI_ToolTipItem>(_makeSubItemParents);
         item.transform.localScale = Vector3.one;

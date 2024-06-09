@@ -419,7 +419,7 @@ public class Define
     {
         DailyComplete,
         WeeklyComplete,
-        MonthlyComplete,
+        // MonthlyComplete,
         StageEnter,
         StageClear,
         EquipmentLevelUp,

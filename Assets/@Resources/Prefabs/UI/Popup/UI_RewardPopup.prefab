@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 5104721242597828786}
   - component: {fileID: 904035528312362595}
   m_Layer: 5
-  m_Name: MergeAllPopupTitleText
+  m_Name: RewardPopupTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
