@@ -64,15 +64,6 @@ public class UI_AchievementPopup : UI_Popup
 
         foreach (AchievementData data in Managers.Achievement.GetProceedingAchievements())
         {
-            Debug.Log(data.AchievementId);
-            Debug.Log(data.DescriptionTextId);
-            Debug.Log(data.MissionTarget);
-            Debug.Log(data.MissionTargetValue);
-            Debug.Log(data.ClearRewardItemId);
-            Debug.Log(data.RewardValue);
-            Debug.Log(data.IsCompleted);
-            Debug.Log(data.IsRewarded);
-            Debug.Log(data.ProgressValue);
             UI_AchievementItem item = Managers.UI.MakeSubItem<UI_AchievementItem>(GetObject((int)GameObjects.AchievementScrollObject).transform);
             item.SetInfo(data);
         }

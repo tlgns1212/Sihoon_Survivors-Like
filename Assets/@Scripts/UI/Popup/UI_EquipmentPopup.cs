@@ -136,23 +136,23 @@ public class UI_EquipmentPopup : UI_Popup
                         weapon.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     case Define.EquipmentType.Gloves:
-                        UI_EquipItem gloves = Managers.UI.MakeSubItem<UI_EquipItem>(WeaponContainer.transform);
+                        UI_EquipItem gloves = Managers.UI.MakeSubItem<UI_EquipItem>(GlovesContainer.transform);
                         gloves.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     case Define.EquipmentType.Ring:
-                        UI_EquipItem ring = Managers.UI.MakeSubItem<UI_EquipItem>(WeaponContainer.transform);
+                        UI_EquipItem ring = Managers.UI.MakeSubItem<UI_EquipItem>(RingContainer.transform);
                         ring.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     case Define.EquipmentType.Belt:
-                        UI_EquipItem belt = Managers.UI.MakeSubItem<UI_EquipItem>(WeaponContainer.transform);
+                        UI_EquipItem belt = Managers.UI.MakeSubItem<UI_EquipItem>(BeltContainer.transform);
                         belt.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     case Define.EquipmentType.Armor:
-                        UI_EquipItem armor = Managers.UI.MakeSubItem<UI_EquipItem>(WeaponContainer.transform);
+                        UI_EquipItem armor = Managers.UI.MakeSubItem<UI_EquipItem>(ArmorContainer.transform);
                         armor.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     case Define.EquipmentType.Boots:
-                        UI_EquipItem boots = Managers.UI.MakeSubItem<UI_EquipItem>(WeaponContainer.transform);
+                        UI_EquipItem boots = Managers.UI.MakeSubItem<UI_EquipItem>(BootsContainer.transform);
                         boots.SetInfo(item, Define.UI_ItemParentType.CharacterEquipmentGroup, ScrollRect);
                         break;
                     default:
