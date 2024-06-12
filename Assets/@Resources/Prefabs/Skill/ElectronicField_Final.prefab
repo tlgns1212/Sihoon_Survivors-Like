@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 842897349685328451}
   - component: {fileID: 6653268172209292060}
   - component: {fileID: 910153932519035085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectronicField_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4903,7 +4903,7 @@ GameObject:
   - component: {fileID: 4260341328010620257}
   - component: {fileID: 6983608085168799116}
   - component: {fileID: 4214294604340959894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_incircle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9791,7 +9791,7 @@ GameObject:
   - component: {fileID: 5765491996684208282}
   - component: {fileID: 4943899238131573033}
   - component: {fileID: 5750226767966059494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectronicField_Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14683,7 +14683,7 @@ GameObject:
   - component: {fileID: 5565598228741234971}
   - component: {fileID: 4145265620035024946}
   - component: {fileID: 5158147298136172723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_incircle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19572,7 +19572,7 @@ GameObject:
   - component: {fileID: 2987140381843971545}
   - component: {fileID: 5155970264761448746}
   - component: {fileID: 5891240539244431660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectronicField_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19740,7 +19740,7 @@ GameObject:
   - component: {fileID: 1522485699722653001}
   - component: {fileID: 3328676132295151266}
   - component: {fileID: 8633711833114549885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_spark1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24637,7 +24637,7 @@ GameObject:
   - component: {fileID: 5423527917821093123}
   - component: {fileID: 7991066742254273512}
   - component: {fileID: 9133493120706496188}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_02_electro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29525,7 +29525,7 @@ GameObject:
   - component: {fileID: 4325826096406909041}
   - component: {fileID: 7835824772495451372}
   - component: {fileID: 3018611201088155377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_spark1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34422,7 +34422,7 @@ GameObject:
   - component: {fileID: 1719769428134142810}
   - component: {fileID: 5434804594435374166}
   - component: {fileID: 2564406974019396693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_incircle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39310,7 +39310,7 @@ GameObject:
   - component: {fileID: 5407975372125670835}
   - component: {fileID: 7829671056203467950}
   - component: {fileID: 3597769814287395342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_02_electro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44198,7 +44198,7 @@ GameObject:
   - component: {fileID: 4670907758506586966}
   - component: {fileID: 1312407835424450474}
   - component: {fileID: 6721243188378686444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ElectroAOE_03_incircle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 2987140381843971545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PhotonStrike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,6 +104,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955727196376559883}
     m_Modifications:
+    - target: {fileID: 164869949552317023, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1851934274805015626, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: playOnAwake
       value: 1
@@ -127,6 +131,10 @@ PrefabInstance:
     - target: {fileID: 1851934274805015626, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932379938423639288, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4586158498728436584, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: playOnAwake
@@ -160,6 +168,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 59760a2b6867e3e4e9364c9552dc0b5c, type: 2}
+    - target: {fileID: 5357657486912458396, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5808893388645769424, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: lengthInSec
       value: 1
@@ -247,6 +259,10 @@ PrefabInstance:
     - target: {fileID: 6295340194888517069, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: m_Name
       value: PhotonStrikeProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295340194888517069, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6436895839843869635, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: prewarm

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorProjectile_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 1302826357087155806}
   - component: {fileID: 4129651009782692785}
   - component: {fileID: 1891932263904066446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorProjectile_aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4901,7 +4901,7 @@ GameObject:
   - component: {fileID: 5925683421422708625}
   - component: {fileID: 3684118291532716731}
   - component: {fileID: 3301843954423960913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorProjectile_circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9736,6 +9736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeteorProjectile
       objectReference: {fileID: 0}
+    - target: {fileID: 4239967737977899070, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5576624721965781081, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
       propertyPath: SizeModule.z.maxCurve.m_Curve.Array.data[0].value
       value: 1
@@ -9779,6 +9783,14 @@ PrefabInstance:
     - target: {fileID: 5754064487122744454, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.g
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125593990492109348, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8056746284016701012, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8827925629599838463, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
       propertyPath: m_LocalPosition.x

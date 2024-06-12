@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 5271128779317054323}
   - component: {fileID: 452888387463077018}
   - component: {fileID: 501642159725870097}
-  - component: {fileID: 7377609226627991573}
+  - component: {fileID: 7484872926746641996}
   m_Layer: 5
   m_Name: UI_CoolTimeBar
   m_TagString: Untagged
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7377609226627991573
+--- !u!114 &7484872926746641996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4730467987311858410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bea834064ab952f429237cd2a646fc02, type: 3}
+  m_Script: {fileID: 11500000, guid: ca7778915c1258c48bd484871bf9aafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5391443919814595598

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6168703307326438350}
   - component: {fileID: 7206329967008052869}
   - component: {fileID: 1279166529336437907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IceArrow_circle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4841,7 +4841,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 8507462352233539735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IcicleArrow_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4937,7 +4937,7 @@ GameObject:
   - component: {fileID: 4217941830449558399}
   - component: {fileID: 679413015843851576}
   - component: {fileID: 4233695328434301012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IceArrow_circle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9764,9 +9764,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955727196376559883}
     m_Modifications:
+    - target: {fileID: 1483440108384985609, guid: 8b28e7b1a034e934398206cb1023f254, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3143818366854189000, guid: 8b28e7b1a034e934398206cb1023f254, type: 3}
       propertyPath: m_Name
       value: IceProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143818366854189000, guid: 8b28e7b1a034e934398206cb1023f254, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5036192703778772177, guid: 8b28e7b1a034e934398206cb1023f254, type: 3}
       propertyPath: m_LocalPosition.x

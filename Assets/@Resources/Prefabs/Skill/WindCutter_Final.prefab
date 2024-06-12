@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4955364833374485990}
   - component: {fileID: 2666700085843994122}
   - component: {fileID: 606747780491724162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WindCutter_01_air
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 3963459410816828260}
   - component: {fileID: 2480917680013072658}
   - component: {fileID: 8493431156883879647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WindCutter_01_blade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9789,7 +9789,7 @@ GameObject:
   - component: {fileID: 2987140381843971545}
   - component: {fileID: 7219715343918581799}
   - component: {fileID: 9165124056566076114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WindCutter_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14742,7 +14742,7 @@ GameObject:
   - component: {fileID: 5842706087456501359}
   - component: {fileID: 8748135360471385899}
   - component: {fileID: 4985584031766084764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WindCutter_01_wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}

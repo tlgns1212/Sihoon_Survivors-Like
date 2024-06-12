@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,6 +71,18 @@ PrefabInstance:
     - target: {fileID: 4239967737977899070, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
       propertyPath: m_Name
       value: MeteorProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239967737977899070, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125593990492109348, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8056746284016701012, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8827925629599838463, guid: f18599b3e2a27d24f803d41d9155fc5d, type: 3}
       propertyPath: m_LocalPosition.x

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6777811147583953842}
   - component: {fileID: 2637328485320496868}
   - component: {fileID: 7015417442100863596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorProjectile_trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4850,7 +4850,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 6451097324338706535}
   - component: {fileID: 1506015153547661499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PoisonFieldProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9767,7 +9767,7 @@ GameObject:
   - component: {fileID: 7552679778192493971}
   - component: {fileID: 4115720257986311519}
   - component: {fileID: 2921321680704078336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PoisonFieldProjectile_circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

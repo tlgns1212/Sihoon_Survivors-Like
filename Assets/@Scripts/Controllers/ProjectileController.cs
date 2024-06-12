@@ -54,21 +54,52 @@ public class ProjectileController : SkillBase
         switch (skill.SkillType)
         {
             case Define.SkillType.ChainLightning:
+                StartCoroutine(CoChainLightning(_spawnPos, _target, true));
                 break;
             case Define.SkillType.PhotonStrike:
+                StartCoroutine(CoPhotonStrike());
                 break;
             case Define.SkillType.Shuriken:
+                _bounceCount = Skill.SkillData.NumBounce;
+                _rigid.velocity = _dir * Skill.SkillData.ProjSpeed;
                 break;
             case Define.SkillType.ComboShot:
+                LaunchComboShot();
                 break;
             case Define.SkillType.WindCutter:
+                if (gameObject.activeInHierarchy)
+                {
+                    StartCoroutine(CoWindCutter());
+                }
                 break;
             case Define.SkillType.Meteor:
+                dir = (_target - transform.position).normalized;
+                transform.rotation = Quaternion.FromToRotation(Vector3.up, _dir);
+                _rigid.velocity = _dir * Skill.SkillData.ProjSpeed;
+                _meteorShadow = Managers.Resource.Instantiate("MeteorShadow", pooling: true);
+                _meteorShadow.transform.position = target;
+                if (gameObject.activeInHierarchy)
+                {
+                    StartCoroutine(CoMeteor());
+                }
                 break;
             case Define.SkillType.PoisonField:
+                if (gameObject.activeInHierarchy)
+                {
+                    StartCoroutine(CoPoisonField(skill));
+                }
                 break;
             case Define.SkillType.EgoSword:
             case Define.SkillType.StormBlade:
+                StartCoroutine(CoDestroy());
+                transform.rotation = Quaternion.FromToRotation(Vector3.up, _dir);
+                _numPenetrations = Skill.SkillData.NumPenetrations;
+                _rigid.velocity = dir * Skill.SkillData.ProjSpeed;
+                break;
+            default:
+                transform.rotation = Quaternion.FromToRotation(Vector3.up, _dir);
+                _numPenetrations = Skill.SkillData.NumPenetrations;
+                _rigid.velocity = dir * Skill.SkillData.ProjSpeed;
                 break;
         }
         if (gameObject.activeInHierarchy)
@@ -340,7 +371,7 @@ public class ProjectileController : SkillBase
 
         switch (Skill.SkillType)
         {
-            case Define.SkillType.IcycleArrow:
+            case Define.SkillType.IcicleArrow:
             case Define.SkillType.MonsterSkill_01:
             case Define.SkillType.SpinShot:
             case Define.SkillType.CircleShot:
@@ -363,7 +394,7 @@ public class ProjectileController : SkillBase
                 }
                 break;
             case Define.SkillType.WindCutter:
-                _enteredColliderList.Add(creature); ;
+                _enteredColliderList.Add(creature);
                 if (_coDotDamage == null)
                 {
                     _coDotDamage = StartCoroutine(CoStartDotDamage());

@@ -6,7 +6,7 @@ public class IcicleArrow : RepeatSkill
 {
     private void Awake()
     {
-        SkillType = Define.SkillType.IcycleArrow;
+        SkillType = Define.SkillType.IcicleArrow;
     }
 
     public override void OnChangedSkillData()

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 2987140381843971545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PhotonStrike_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,9 +104,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955727196376559883}
     m_Modifications:
+    - target: {fileID: 164869949552317023, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932379938423639288, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357657486912458396, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6295340194888517069, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: m_Name
       value: PhotonStrikeProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295340194888517069, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7479649658558829333, guid: 2174a76640606fb4791eba9df4fb4e39, type: 3}
       propertyPath: m_LocalPosition.x

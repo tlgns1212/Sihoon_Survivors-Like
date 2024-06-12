@@ -11,7 +11,7 @@ public class SpawningPool : MonoBehaviour
     public void StartSpawn()
     {
         _game = Managers.Game;
-        if (_coUpdateSpawningPool != null)
+        if (_coUpdateSpawningPool == null)
         {
             _coUpdateSpawningPool = StartCoroutine(CoUpdateSpawningPool());
         }

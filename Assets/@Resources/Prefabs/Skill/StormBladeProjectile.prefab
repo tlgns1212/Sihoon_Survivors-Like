@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6789856200567132740}
   - component: {fileID: 7156973276557916625}
   - component: {fileID: 1572956284481546276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StormBladeProjectile_wind2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,7 +4852,7 @@ GameObject:
   - component: {fileID: 8470188885600833782}
   - component: {fileID: 863239409381680797}
   - component: {fileID: 8482088991832306032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StormBladeProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9814,7 +9814,7 @@ GameObject:
   - component: {fileID: 1540709206350390385}
   - component: {fileID: 330006187789665672}
   - component: {fileID: 292139804453215366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StormBladeProjectile_trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14711,7 +14711,7 @@ GameObject:
   - component: {fileID: 4234149069301831700}
   - component: {fileID: 1842279163232433328}
   - component: {fileID: 8268095130823349004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StormBladeProjectile_wind1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

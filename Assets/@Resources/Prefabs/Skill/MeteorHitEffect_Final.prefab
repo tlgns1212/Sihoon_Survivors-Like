@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3834849714486293580}
   - component: {fileID: 6374347426954463819}
   - component: {fileID: 4593081742063726829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteroHitEffect_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4908,7 +4908,7 @@ GameObject:
   - component: {fileID: 5570859523681430388}
   - component: {fileID: 6980410258644557597}
   - component: {fileID: 5595210088468203173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteroHitEffect_particle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9796,7 +9796,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 864561997063240787}
   - component: {fileID: 6067575076797152538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorHitEffect_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14697,7 +14697,7 @@ GameObject:
   - component: {fileID: 4288965295159726282}
   - component: {fileID: 106139061612076615}
   - component: {fileID: 1730126298085382265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteroHitEffect_spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19594,7 +19594,7 @@ GameObject:
   - component: {fileID: 556695198981987546}
   - component: {fileID: 785137271079660891}
   - component: {fileID: 7482032258079280862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteroHitEffect_lightcircle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

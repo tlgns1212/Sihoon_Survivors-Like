@@ -1539,7 +1539,7 @@ GameObject:
   - component: {fileID: 180402993791816867}
   - component: {fileID: 1709676433019581825}
   m_Layer: 5
-  m_Name: ContinueTitleText
+  m_Name: ContinuePopupTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

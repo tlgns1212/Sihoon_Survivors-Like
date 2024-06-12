@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 2987140381843971545}
   - component: {fileID: 7294068973253287309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PoisonFieldEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,6 +93,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoisonField_AOE_01
       objectReference: {fileID: 0}
+    - target: {fileID: 514771833397572459, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750592720153378691, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832790437829734073, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8728256246105668534, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -132,6 +144,10 @@ PrefabInstance:
     - target: {fileID: 8728256246105668534, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8989775736708996718, guid: ade047d6f60968d42a5541b2b52d99b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

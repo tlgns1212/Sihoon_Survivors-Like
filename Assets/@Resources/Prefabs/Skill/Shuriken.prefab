@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1989898778612628783}
   - component: {fileID: 6474441084688878688}
   - component: {fileID: 8874942458855613034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShurikenProjectile_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 3641068525124518111}
   - component: {fileID: 3606124777442907494}
   - component: {fileID: 2073538280080663823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shuriken
   m_TagString: Untagged
   m_Icon: {fileID: 0}

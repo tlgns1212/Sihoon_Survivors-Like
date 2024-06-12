@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1858727320031088883}
   - component: {fileID: 6487547892822464390}
   - component: {fileID: 6190589092538319786}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BossPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 5212425939283613588}
   - component: {fileID: 6524089367960734459}
   - component: {fileID: 7334681959998868147}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 7059058885483701738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SavageSmash_Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,6 +175,10 @@ PrefabInstance:
       value: SavageSmash_Final_04
       objectReference: {fileID: 0}
     - target: {fileID: 7694800311744120701, guid: 3feff7c2087d67347af9452158a733cb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694800311744120701, guid: 3feff7c2087d67347af9452158a733cb, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -204,6 +208,10 @@ PrefabInstance:
     - target: {fileID: 6174386591748752462, guid: 098de7ab98dfdad4795deecab8f3e5b4, type: 3}
       propertyPath: m_Name
       value: SavageSmash_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174386591748752462, guid: 098de7ab98dfdad4795deecab8f3e5b4, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6174386591748752462, guid: 098de7ab98dfdad4795deecab8f3e5b4, type: 3}
       propertyPath: m_IsActive
@@ -272,6 +280,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955727196376559883}
     m_Modifications:
+    - target: {fileID: 319176564692427944, guid: 5865a5512020e9349a017bd45340beaa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8097108182298340672, guid: 5865a5512020e9349a017bd45340beaa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -317,6 +329,10 @@ PrefabInstance:
       value: SavageSmash_Final_01
       objectReference: {fileID: 0}
     - target: {fileID: 8687420340470436965, guid: 5865a5512020e9349a017bd45340beaa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687420340470436965, guid: 5865a5512020e9349a017bd45340beaa, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -346,6 +362,10 @@ PrefabInstance:
     - target: {fileID: 4578902559709102113, guid: 7723965c20e7429419f106ac8980893e, type: 3}
       propertyPath: m_Name
       value: SavageSmash_Final_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578902559709102113, guid: 7723965c20e7429419f106ac8980893e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4578902559709102113, guid: 7723965c20e7429419f106ac8980893e, type: 3}
       propertyPath: m_IsActive
@@ -459,6 +479,10 @@ PrefabInstance:
       value: SavageSmash_02
       objectReference: {fileID: 0}
     - target: {fileID: 5436334111944601253, guid: e07d7762adef69749a1373781318d88b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436334111944601253, guid: e07d7762adef69749a1373781318d88b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -485,6 +509,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955727196376559883}
     m_Modifications:
+    - target: {fileID: 7239658597806326933, guid: b9c6f572200f85642b12ea9ce664fb42, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7350948936371141863, guid: b9c6f572200f85642b12ea9ce664fb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -528,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 8019851082851306443, guid: b9c6f572200f85642b12ea9ce664fb42, type: 3}
       propertyPath: m_Name
       value: SavageSmash_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019851082851306443, guid: b9c6f572200f85642b12ea9ce664fb42, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8019851082851306443, guid: b9c6f572200f85642b12ea9ce664fb42, type: 3}
       propertyPath: m_IsActive
@@ -601,6 +633,10 @@ PrefabInstance:
       value: SavageSmash_04
       objectReference: {fileID: 0}
     - target: {fileID: 5109885625551040558, guid: ae4bbc9329e641b459744ebb3312ce4e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109885625551040558, guid: ae4bbc9329e641b459744ebb3312ce4e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -630,6 +666,10 @@ PrefabInstance:
     - target: {fileID: 160212744548282749, guid: a835136799b030d40837631bdeb4aba6, type: 3}
       propertyPath: m_Name
       value: SavageSmash_Final_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 160212744548282749, guid: a835136799b030d40837631bdeb4aba6, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 160212744548282749, guid: a835136799b030d40837631bdeb4aba6, type: 3}
       propertyPath: m_IsActive

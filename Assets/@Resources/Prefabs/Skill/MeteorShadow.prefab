@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 8935182400407680555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorShadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

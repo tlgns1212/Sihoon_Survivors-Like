@@ -11,15 +11,15 @@ TagManager:
   - 
   - Water
   - UI
+  - Monster
   - Player
+  - PlayerSkill
+  - Boss
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ExpGem
+  - MonsterSkill
+  - Soul
+  - SafeZone
   - 
   - 
   - 

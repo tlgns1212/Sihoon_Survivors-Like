@@ -50,7 +50,7 @@ public class SkillBook : MonoBehaviour
     {
         string className = skillType.ToString();
 
-        if (skillType == SkillType.FrozenHeart || skillType == SkillType.SavageSmash || skillType == SkillType.EletronicField)
+        if (skillType == SkillType.FrozenHeart || skillType == SkillType.SavageSmash || skillType == SkillType.ElectronicField)
         {
             GameObject go = Managers.Resource.Instantiate(skillType.ToString(), gameObject.transform);
             if (go != null)

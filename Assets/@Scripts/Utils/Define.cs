@@ -310,9 +310,9 @@ public class Define
     {
         None = 0,
         EnergyBolt = 10001, // 10001 ~ 10005
-        IcycleArrow = 10011,
+        IcicleArrow = 10011,
         PoisonField = 10021,
-        EletronicField = 10031,
+        ElectronicField = 10031,
         Meteor = 10041,
         FrozenHeart = 10051,
         WindCutter = 10061,

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1849705188585767076}
   - component: {fileID: 6252488548137621325}
   - component: {fileID: 6231722124042827718}
-  - component: {fileID: 3958450917604082626}
+  - component: {fileID: 7931919000211669345}
   m_Layer: 5
   m_Name: UI_HPBar
   m_TagString: Untagged
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3958450917604082626
+--- !u!114 &7931919000211669345
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

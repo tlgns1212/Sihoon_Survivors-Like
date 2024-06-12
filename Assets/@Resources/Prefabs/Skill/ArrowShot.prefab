@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8478331889088611973}
   - component: {fileID: 2661268111712860461}
   - component: {fileID: 6379917231149547804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4973,7 +4973,7 @@ GameObject:
   - component: {fileID: 8603063661183992152}
   - component: {fileID: 7802207201178219974}
   - component: {fileID: 4921578836985595760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShotProjectile_wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2568100950466473791}
   - component: {fileID: 5804621434036241798}
   - component: {fileID: 1843433818378729744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EgoSwordProjectile_trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 5283739530750649513}
   - component: {fileID: 3598279114727514724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EgoSwordProjectile_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9871,7 +9871,7 @@ GameObject:
   - component: {fileID: 4345159155068922746}
   - component: {fileID: 3010882842031351889}
   - component: {fileID: 5141058895823320825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EgoSwordProjectile_circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 7388820829363539549}
   - component: {fileID: 167147960168604423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeteorMagicCircle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4909,7 +4909,7 @@ GameObject:
   - component: {fileID: 4063058280175181115}
   - component: {fileID: 8790389165321107643}
   - component: {fileID: 8875028050752159846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}

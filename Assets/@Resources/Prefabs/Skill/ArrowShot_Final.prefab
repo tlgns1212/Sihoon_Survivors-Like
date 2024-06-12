@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2233693380597752405}
   - component: {fileID: 5304844237441451867}
   - component: {fileID: 3064602565810590148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShotProjectile_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4901,7 +4901,7 @@ GameObject:
   - component: {fileID: 8478331889088611973}
   - component: {fileID: 2661268111712860461}
   - component: {fileID: 6379917231149547804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShot_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9863,7 +9863,7 @@ GameObject:
   - component: {fileID: 8883264926347294028}
   - component: {fileID: 3263014654431788453}
   - component: {fileID: 8673524605325554046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShotProjectile_wave (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14702,7 +14702,7 @@ GameObject:
   - component: {fileID: 8603063661183992152}
   - component: {fileID: 7802207201178219974}
   - component: {fileID: 4921578836985595760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowShotProjectile_wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}

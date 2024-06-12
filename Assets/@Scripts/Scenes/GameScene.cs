@@ -151,7 +151,7 @@ public class GameScene : BaseScene
         _game.CurrentMap.ChangeMapSize(Define.MAPSIZE_REDUCTION_VALUE);
 
         Vector2 spawnPos = Util.GenerateMonsterSpawnPosition(_game.Player.PlayerCenterPos);
-
+        
         _spawningPool.StartSpawn();
         _game.SaveGame();
 

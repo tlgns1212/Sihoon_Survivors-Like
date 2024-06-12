@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1955727196376559883}
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 8138131037816784052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnergyBolt_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 274007751157450144}
   - component: {fileID: 2070875397828521761}
   - component: {fileID: 2723428442527384097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FireProjectile_glow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5068,9 +5068,21 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 115
       objectReference: {fileID: 0}
+    - target: {fileID: 6054155283141301792, guid: a1705d651de21184abe5c6dd6931d38a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6110236786320148625, guid: a1705d651de21184abe5c6dd6931d38a, type: 3}
       propertyPath: m_Name
       value: FireProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6110236786320148625, guid: a1705d651de21184abe5c6dd6931d38a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347241449770306137, guid: a1705d651de21184abe5c6dd6931d38a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6495161449613972492, guid: a1705d651de21184abe5c6dd6931d38a, type: 3}
       propertyPath: prewarm

@@ -239,6 +239,78 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 239789bbd3091d140bc2df613bf079ef
+    m_Address: Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13bbf88568b97da49b7b478f4ab32cf2
+    m_Address: Bomb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c446f7edacd92cd4eb2adab0d8b6e637
+    m_Address: DropBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a55332fc214b73499a6e7f6481473ba
+    m_Address: ExpGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae2a660d420a09c42aeb23446317f84c
+    m_Address: Magnet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4650b463644cede4c9334cf2875a3a7f
+    m_Address: Potion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d0c1abb18f0ebb44943b8e52d6b6086
+    m_Address: CriticalDamageFont
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ef93401a097fc84ab30ae2d81d7120a
+    m_Address: DamageFont
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94bb2f68d59a3674484acfadb43ff555
+    m_Address: Revival
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e6df63af88c84047b2aa2fcfcbc0537
+    m_Address: HealEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1300a29e93561ef4784eb53375b23b3c
+    m_Address: ChainLightning
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5885fb6ad8eb804498ec031c9bf655dd
+    m_Address: BossSmashHitEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d3342fb809a5d7e41ac4b85470cb01e5, type: 2}
   m_SchemaSet:

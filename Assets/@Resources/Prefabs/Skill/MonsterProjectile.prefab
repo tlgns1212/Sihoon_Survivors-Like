@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3912532773821609903}
   - component: {fileID: 2987140381843971545}
   - component: {fileID: 4434433616907994183}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MonsterProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7115776446698507996}
   - component: {fileID: 5781140233004771064}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: EnemyProjectile_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
