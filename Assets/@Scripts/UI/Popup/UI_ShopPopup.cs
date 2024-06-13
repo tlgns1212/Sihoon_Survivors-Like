@@ -178,10 +178,12 @@ public class UI_ShopPopup : UI_Popup
     {
         if (Input.GetKeyDown(KeyCode.F1))
         {
+            Debug.Log("ShopPopUp F1");
             Managers.Game.Dia += 300;
         }
         else if (Input.GetKeyDown(KeyCode.F2))
         {
+            Debug.Log("ShopPopUp F2");
             Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_GOLD_KEY], 10);
             Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_BRONZE_KEY], 10);
             Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_SILVER_KEY], 10);
@@ -196,6 +198,7 @@ public class UI_ShopPopup : UI_Popup
         }
         else if (Input.GetKeyDown(KeyCode.F3))
         {
+            Debug.Log("ShopPopUp F3");
             Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_STAMINA], 10);
             Refresh();
         }

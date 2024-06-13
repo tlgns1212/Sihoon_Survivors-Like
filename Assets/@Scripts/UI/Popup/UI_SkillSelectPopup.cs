@@ -80,6 +80,7 @@ public class UI_SkillSelectPopup : UI_Popup
     {
         if (Input.GetKeyDown(KeyCode.F5))
         {
+            Debug.Log("SkillSelectPopup F5");
             SetRecommendSkills();
         }
     }

@@ -183,7 +183,7 @@ public class MonsterController : CreatureController
         if (_coDotDamage != null)
         {
             StopCoroutine(_coDotDamage);
-        }
+        };
         _coDotDamage = StartCoroutine(CoStartDotDamage(target));
     }
 

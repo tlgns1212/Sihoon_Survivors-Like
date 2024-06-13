@@ -57,8 +57,7 @@ public class Managers : MonoBehaviour
             s_instance._sound.Init();
             s_instance._time = go.AddComponent<TimeManager>();
 
-            // Ads.Init();
-
+            Ads.Init();
         }
     }
 

@@ -73,7 +73,7 @@ public class ProjectileController : SkillBase
                 }
                 break;
             case Define.SkillType.Meteor:
-                dir = (_target - transform.position).normalized;
+                _dir = (_target - transform.position).normalized;
                 transform.rotation = Quaternion.FromToRotation(Vector3.up, _dir);
                 _rigid.velocity = _dir * Skill.SkillData.ProjSpeed;
                 _meteorShadow = Managers.Resource.Instantiate("MeteorShadow", pooling: true);

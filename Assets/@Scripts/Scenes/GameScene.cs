@@ -68,22 +68,26 @@ public class GameScene : BaseScene
         Managers.Sound.Play(Define.Sound.Bgm, "Bgm_Game");
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F1))
         {
+            Debug.Log("GameScene F1");
             Managers.Game.Player.SoulCount += 100;
         }
-        else if (Input.GetKeyDown(KeyCode.F2))
+        if (Input.GetKey(KeyCode.F2))
         {
+            Debug.Log("GameScene F2");
             Managers.Game.Player.Exp += 5;
         }
-        else if (Input.GetKeyDown(KeyCode.F3))
+        if (Input.GetKeyDown(KeyCode.F3))
         {
+            Debug.Log("GameScene F3");
             Managers.Object.KillAllMonsters();
         }
-        else if (Input.GetKeyDown(KeyCode.F4))
+        if (Input.GetKeyDown(KeyCode.F4))
         {
+            Debug.Log("GameScene F4");
             WaveEnd();
         }
 
@@ -243,13 +247,13 @@ public class GameScene : BaseScene
             case eDropType.Magnet:
                 if (Managers.Data.DropItemDataDic.TryGetValue(Define.ID_MAGNET, out dropItem) == true)
                 {
-                    Managers.Object.Spawn<PotionController>(spawnPos).SetInfo(dropItem);
+                    Managers.Object.Spawn<MagnetController>(spawnPos).SetInfo(dropItem);
                 }
                 break;
             case eDropType.Bomb:
                 if (Managers.Data.DropItemDataDic.TryGetValue(Define.ID_BOMB, out dropItem) == true)
                 {
-                    Managers.Object.Spawn<PotionController>(spawnPos).SetInfo(dropItem);
+                    Managers.Object.Spawn<BombController>(spawnPos).SetInfo(dropItem);
                 }
                 break;
         }

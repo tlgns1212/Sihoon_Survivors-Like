@@ -170,7 +170,6 @@ public abstract class CreatureController : BaseController
             Define.SkillType type = Util.GetSkillTypeFromInt(skillId);
             if (type != Define.SkillType.None)
             {
-                Debug.Log($"InitSkill Type = {type}");
                 Skills.AddSkill(type, skillId);
             }
         }
@@ -197,7 +196,7 @@ public abstract class CreatureController : BaseController
         if (isPlayDamagedAnim == false)
         {
             isPlayDamagedAnim = true;
-            DefaultMat = Managers.Resource.Load<Material>("CreatureDefaulMat");
+            DefaultMat = Managers.Resource.Load<Material>("CreatureDefaultMat");
             HitEffectMat = Managers.Resource.Load<Material>("PaintWhite");
             // Damaged Animation
             CreatureSprite.material = HitEffectMat;
