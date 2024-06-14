@@ -75,6 +75,7 @@ public class UI_TitleScene : UI_Scene
     {
         if (Input.GetKeyUp(KeyCode.F1))
         {
+            Debug.Log("Test");
             Managers.UI.ShowToast("test");
         }
     }

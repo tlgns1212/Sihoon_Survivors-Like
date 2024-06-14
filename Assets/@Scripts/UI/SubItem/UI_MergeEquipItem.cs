@@ -160,7 +160,7 @@ public class UI_MergeEquipItem : UI_Base
             OnClickEquipItem?.Invoke();
         }
 
-        // (Managers.UI.SceneUI as UI_LobbyScene).MergePopupUI.SetMergeItem(Equipment);
+        (Managers.UI.SceneUI as UI_LobbyScene).MergePopupUI.SetMergeItem(Equipment);
         // // 해당 장비의 장비 정보 팝업을 호출
         // // UI_EquipmentInfoPopup infoPopup = Managers.UI.ShowPopupUI<UI_EquipmentInfoPopup>();
         // // if (infoPopup != null)

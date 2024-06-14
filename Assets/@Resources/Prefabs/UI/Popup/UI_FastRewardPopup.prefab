@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 1727905098317186225}
   - component: {fileID: 5360269433481622498}
   - component: {fileID: 1923325711782257824}
-  - component: {fileID: 5372418228600611300}
+  - component: {fileID: 8428847269642534704}
   m_Layer: 5
   m_Name: UI_FastRewardPopup
   m_TagString: Untagged
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5372418228600611300
+--- !u!114 &8428847269642534704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1984766992157842883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0820352593b29fc44b55e298bf9dde44, type: 3}
+  m_Script: {fileID: 11500000, guid: ad4420da583b47f48a844587aa980ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2520603045643969522

@@ -34,7 +34,7 @@ public class UIManager
     public void SetCanvas(GameObject go, bool sort = true, int sortOrder = 0, bool isToast = false)
     {
         Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
-        if (canvas == null)
+        if (canvas != null)
         {
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
             canvas.overrideSorting = true;

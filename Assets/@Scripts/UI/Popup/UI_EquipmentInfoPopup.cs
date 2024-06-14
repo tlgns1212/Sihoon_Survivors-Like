@@ -127,11 +127,11 @@ public class UI_EquipmentInfoPopup : UI_Popup
         // 장착하고 있지 않는 장비라면 UnequipButton을 비활성화
         if (Equipment.IsEquipped == true)
         {
-            GetButton((int)Buttons.UnequipButton).gameObject.SetActive(false);
+            GetButton((int)Buttons.EquipButton).gameObject.SetActive(false);
         }
         else
         {
-            GetButton((int)Buttons.EquipButton).gameObject.SetActive(false);
+            GetButton((int)Buttons.UnequipButton).gameObject.SetActive(false);
         }
         
         // 장비 레벨이 1이라면 리셋 버튼 비활성화
@@ -251,6 +251,10 @@ public class UI_EquipmentInfoPopup : UI_Popup
             if (Managers.Game.Gold < levelData.UpgradeCost)
             {
                 GetText((int)Texts.CostGoldValueText).color = Util.HexToColor("F3614D");
+            }
+            else
+            {
+                GetText((int)Texts.CostGoldValueText).color = Util.HexToColor("FFFFFF");
             }
 
             GetText((int)Texts.CostMaterialValueText).text = $"{levelData.UpgradeRequiredItems}";

@@ -38,6 +38,7 @@ public class UI_Toast : UI_Base
 
         #endregion
 
+        Managers.UI.SetCanvas(gameObject, false, isToast:true);
         Refresh();
         return true;
     }
