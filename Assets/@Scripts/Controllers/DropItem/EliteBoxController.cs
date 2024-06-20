@@ -28,10 +28,8 @@ public class EliteBoxController : DropItemController
 
     public override void CompleteGetItem()
     {
-        // 스킬 습득
-        // TODO : UI
-        // UI_LearnSkillPopup popup = Managers.UI.ShowPopupUI<UI_LearnSkillPopupUI>();
-        // popup.SetInfo();
+        UI_LearnSkillPopup popup = Managers.UI.ShowPopupUI<UI_LearnSkillPopup>();
+        popup.SetInfo();
 
         Managers.Object.Despawn(this);
     }

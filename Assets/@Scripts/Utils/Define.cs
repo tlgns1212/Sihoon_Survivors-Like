@@ -57,7 +57,7 @@ public class Define
     #endregion
 
     public static int MAX_STAMINA = 50;
-    public static int GAME_PER_STAMINA = 5;
+    public static int GAME_PER_STAMINA = 3;
 
     #region 스테이지 관련 데이터
     public static readonly int STAGE_SOULCOUNT = 10;

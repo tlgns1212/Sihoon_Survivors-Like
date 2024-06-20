@@ -246,10 +246,9 @@ public class TimeManager : MonoBehaviour
         }
         Managers.Game.OfflineRewardCount++;
 
-        // TODO : UI
-        // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-        // rewardPopup.gameObject.SetActive(true);
-        // rewardPopup.SetInfo(spriteName, count);
+        UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+        rewardPopup.gameObject.SetActive(true);
+        rewardPopup.SetInfo(spriteName, count);
     }
 
     public void GiveFastOfflineReward(OfflineRewardData data)
@@ -267,9 +266,9 @@ public class TimeManager : MonoBehaviour
         spriteName[2] = Managers.Data.MaterialDic[Define.ID_SILVER_KEY].SpriteName;
         count[2] = data.FastRewardScroll;
 
-        // TODO : UI
-        // UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
-        // rewardPopup.gameObject.SetActive(true);
+        
+        UI_RewardPopup rewardPopup = (Managers.UI.SceneUI as UI_LobbyScene).RewardPopupUI;
+        rewardPopup.gameObject.SetActive(true);
 
         if (Managers.Game.DicMission.TryGetValue(MissionTarget.FastOfflineRewardGet, out MissionInfo mission))
         {
@@ -281,8 +280,8 @@ public class TimeManager : MonoBehaviour
         Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_SILVER_KEY], data.FastRewardScroll);
         Managers.Game.ExchangeMaterial(Managers.Data.MaterialDic[Define.ID_GOLD], gold);
 
-        // TODO : UI
-        // rewardPopup.SetInfo(spriteName, count);
+        
+        rewardPopup.SetInfo(spriteName, count);
     }
 
     public float CalculateGoldPerMinute(float goldPerHour)
